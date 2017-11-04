@@ -6,7 +6,7 @@ body{background-color: #F9F9F9;}
 body * { box-sizing: border-box;}
 body h1,body h2,body h3,body p {margin: 0px;}
 a{text-decoration: none !important; color: #c2c2c2; }
-body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
+body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
 
 /* start: customfonts */
 @font-face {
@@ -198,11 +198,13 @@ src: url("/fonts/archive.otf") format("opentype"),
     .sidemenu a{text-align: center;}
     .connect_m{justify-content: center}
     .connect p{width: 100%;}
+    body{padding-bottom: 100px;}
 }
 @media screen and (min-width:590px){
     .s_menu{width: 30%;}
     .sidemenu{width: 20%;padding-left: 0px;}
     .sidemenu a{text-align: center;width: 20%; margin: 3px auto;}
+    
 }
 @media screen and (min-width:950px){
     .copyright p{width: 60%;font-size: 16px;}
