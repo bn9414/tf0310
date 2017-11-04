@@ -38,7 +38,7 @@ margin-left: -20px;}
 /* end: slider area*/
 
 .home_con h1{font-size: 20px; padding-top: 10px; padding-left: 10px}
-.home_con h3{padding-left: 10px; margin-top: 10px; color:#094074 }
+.home_con h3{padding-left: 10px; margin-top: 10px;    color:#2274A5 }
 
 
 .pricebutton{font-size: 18px; color: #f9f9f9; font-family: sans-serif; font-weight: 600; display: block; margin-top: 10px; margin-left: 10px; border-radius: 30px;width: 170px; padding: 10px 0px 10px 20px; background-color:#ED6A5A; background-image: url(common/images/right.png); background-repeat: no-repeat; background-position:140px; background-size: 25px 30px;transition: width 0.5s, background-position 0.5s, padding 0.5s;}
@@ -48,5 +48,5 @@ margin-left: -20px;}
 
 #test{z-index: 10;font-size: 50px;}
 
-.home_con{background-color: #f9f9f9; color: #343434;height: 500px;background-image: url(images/1.png);}
+.home_con{background-color: #f9f9f9; color: #343434;height: 500px;background-image: url(images/1.png); background-repeat: no-repeat; background-size:110%}
 
