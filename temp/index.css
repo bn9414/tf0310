@@ -28,7 +28,7 @@
 /* end: Price detials*/
 
 /* start: process*/
-.seven_h{width: 100%; height: 90px; background-color: white; color: #454545;font-size: 20px;}
+.seven_h{width: 100%; height: 50px; background-color: white; color: #454545;font-size: 20px;}
 .seven_h span{color:#ED6A5A; }
 .seven_h h1{font-size: 23px; text-align: center;padding-top: 10px}
 .seven_con *{border: 1px olid black;}
@@ -38,8 +38,8 @@
 .selection #suma{color: white;background-color: #ED6A5A; border-bottom: px solid #ED6A5A; border-radius: 0px 10px 0px 0px;}
 .selection .sumi{border-radius: 0px 0px 10px 0px;}
 .area{width: 90%;height: 100vh;}
-.aream{width: 100%; height: 30%;}
-.aream img{width: 200px;position: relative; left: 20px; top: -30px}
+.aream{width: 100%; height: 30%;display: flex}
+.aream img{width: 70%;position: relative; margin: auto;}
 .areap{width: 100%; height: 70%;padding: 10px;; color: #454545}
 .areap h1{font-size: 20px;text-align: center;}
 .areap p{text-align: justify;font-size: 17px}
