@@ -1,65 +1,46 @@
-body h1,body h2,body h3,body p, {margin: 0px;}
+
 @font-face {
     font-family: archive;
     src: url(images/archive.otf);
 }
+/* start: 1st layer*/
 .what img{ width: 150px; margin: auto;display: block;}
 .what h1{font-family: archive; font-size: 30px;text-align: center;color: #f9f9f9}
 .what p{font-size: 25px; text-align: center; color: #f9f9f9;margin-top: 20px;font-family: sans-serif;font-weight: 600; padding: 0px 10px}
 .what{width: 100%; height: 100vh;background-color: black;padding-top: 110px}
 
-/* start: slider area
+/* end: 1st layer*/
 
-.hidden {
-  display: none;
-}
-.container {
-  margin: 0;
-  width: 100%;
-   height: 400px;
-  border: 1px olid yellow;position: relative;
-    
-    
-}
-.container > div {
- 
-}
-#slideshow {
-  margin: 0;
-	position: relative;
-	width: 100%;
-height: 400px;;
-     border: 1px olid red;
-}
-#slideshow > div {
-	position: absolute;
-	top: 0; 
-	left: 0; 
-	right: 0; 
-	bottom: 0;
-    overflow: hidden;
-    
-}
-
-.slidel,.slider {width: 30px; height: 30px; border-radius: 50%; background-color: #f9f9f9; border: 2px solid #ED6A5A; display: block;margin: auto; z-index: 1;
-margin-left: -20px;display: flex; }
-.slidel p,.slider p {font-size: 35px; color: #ED6A5A;}
-.slidel{position: absolute; left: 43%;background-image: url(images/arrowl.svg); background-repeat: no-repeat;;background-size: 100%; background-position: -2px;bottom: 00%;}
-.slider{position: absolute; left: 57%;bottom: 00%;background-image: url(images/arrowr.svg); background-repeat: no-repeat;background-size: 100%; background-position: 2px;}
-/* end: slider area*/
+/* start: Price detials*/
 
 .s1 h1{font-size: 25px; padding-top: 10px; padding-left: 10px;color:#454545 ;}
 .s1 h3{padding-left: 10px; margin-top: 15px;margin-left: 5px; padding-right: 10px;   color:#388697; font-size: 22px;border-left: 5px solid #388697; }
 
-
 .pricebutton{font-size: 18px; color: #f9f9f9; font-family: sans-serif; font-weight: 600; display: block; margin-top: 10px; margin-left: 10px; border-radius: 30px;width: 170px; padding: 10px 0px 10px 20px; background-color:#ED6A5A; background-image: url(common/images/right.png); background-repeat: no-repeat; background-position:140px; background-size: 25px 30px;transition: width 0.5s, background-position 0.5s, padding 0.5s;}
 
 .pricebutton:hover{background-position: 145px;padding-left:15px; }
-
-
 
 .s1{color: #343434;height: 100vh;border: 1px olid black;background-color: #f9f9f9;}
 .s1{padding-top: 80px; }
 
 .s1m{position: relative;}
 .s1m img{width: 150px;height: 120px; margin: auto;position: relative; display: block;top: -20px;}
+/* end: Price detials*/
+
+/* start: process*/
+.seven_h{width: 100%; height: 90px; background-color: white; color: #454545;font-size: 20px;}
+.seven_h span{color:#ED6A5A; }
+.seven_h h1{font-size: 23px; text-align: center;padding-top: 10px}
+.seven_con *{border: 1px olid black;}
+.seven_con{width: 100%; height: 100vh;background-color: white; display: flex}
+.selection{min-width: 40px; height: 340px;display: flex;flex-direction: column; justify-content: space-around;position: relative; top:70px; left: 5px }
+.selection p{width: 100%;border: 3px solid #ED6A5A; height: 40px;background-color: white;border-radius: 50%;text-align: center;padding-top: 6px; font-size: 20px; font-weight: 600; color: #ED6A5A}
+.area{width: 90%;height: 100vh;}
+.aream{width: 100%; height: 30%;}
+.aream img{width: 200px;position: relative; left: 20px; top: -30px}
+.areap{width: 100%; height: 70%;padding: 10px;; color: #454545}
+.areap h1{font-size: 20px;text-align: center;}
+.areap p{text-align: justify;font-size: 17px}
+
+
+/* end: process*/
