@@ -1,3 +1,7 @@
+@font-face {
+    font-family: archive;
+    src: url(images/archive.otf);
+}
 .what img{ width: 150px;margin: auto;display: block;}
 .what p{font-size: 30px; text-align: center; color: black;margin-top: 20px;font-family: sans-serif;font-weight: 600}
 .what{width: 100%; height: 400px;background-color: white;padding-top: 70px}
