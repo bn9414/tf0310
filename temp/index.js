@@ -1,3 +1,6 @@
+
+
+/*
 var main = function() {
 
 	var paused = false
@@ -39,3 +42,4 @@ var main = function() {
 };
 
 $(document).ready(main);
+*/
