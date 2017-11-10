@@ -38,7 +38,7 @@ body{background-color: #f9f9f9;}
     
     #faqheaddown h1{font-size: 50px; text-align: left; margin-bottom: 20px;padding-top: 10px }
     #faqheaddown p{font-size: 18px}
-    #faqheaddown{height: 380px; padding-top: 70px}
+    #faqheaddown{height: 380px; padding-top: 90px}
     
 }
 
@@ -46,6 +46,8 @@ body{background-color: #f9f9f9;}
 
 
 #faqbox{width: 70%; margin: auto;  height: auto; display: flex; justify-content:space-between; margin-top: 30px; padding-top: 10px; justify-content: center;flex-wrap: wrap; }
+#faqbox span{font-weight: 600;}
+#faqbox #inr{width: 14px; height: 14px;position: relative; top:2px;}
 /* section title*/
 .lefthead *{border: 1px olid black;}
 .lefthead {border: 1px olid black;box-sizing: border-box;}
