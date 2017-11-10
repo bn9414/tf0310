@@ -1,45 +1,17 @@
+var area=document.getElementsByClassName('area');
+var click=document.getElementsByClassName('click');
+
+function first()
+{
+    area[0].style.display='none';
+    area[1].style.display='none';
+    area[2].style.display='none';
+    
+    area[1].style.display='block';
+    
+}
+
+click[1].addEventListener('click', first, false);
 
 
-/*
-var main = function() {
 
-	var paused = false
-
-	$('.slider').click(function() {
-		paused = true;
-		$('#slideshow > div:first')
-		.fadeOut(1000)
-		.next()
-		.fadeIn(1000)
-		.end()
-		.appendTo('#slideshow');
-	});
-		
-	$('.slidel').click(function() {
-		paused = true;
-		$('#slideshow > div:last')
-		.fadeIn(1000)
-		.prependTo('#slideshow')
-		.next()
-		.fadeOut(1000)
-		.end();
-	});
-
-
-	
-	setInterval(function() {
-		if (paused === false) { 
-			$('#slideshow > div:first')
-			.fadeOut(1000)
-			.next()
-			.fadeIn(1000)
-			.end()
-			.appendTo('#slideshow');
-		};
-	},  5000);
-   
-	
-};
-
-$(document).ready(main);
-*/
