@@ -1,5 +1,6 @@
 var x=document.getElementsByClassName('quest');
 var y=document.getElementsByClassName('qopen');
+var z=document.getElementById('close');
 var tick=0;
 function open(){
 if(tick==0){    
@@ -11,5 +12,6 @@ if(tick==0){
 tick=!tick;
 }
 x[0].addEventListener("click",open, false);
+z.addEventListener("click",open, false);
 
 
