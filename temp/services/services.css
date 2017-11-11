@@ -1,4 +1,4 @@
-.s1m{width: 90%; height: 250px;margin: auto;border: 1px olid black;position: relative; }
+.s1m{width: 90%; height: 250px;margin: auto;border: 1px olid black;position: relative; margin-bottom: 20px;}
 .c1,.c2,.c3,.c4,.c5,.c6{width: 100%;position: absolute;opacity: 0.0; }
 .c1js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;}
 .c2js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;animation-delay: 0.2s;}
@@ -14,7 +14,7 @@
 .s1t h1{font-size: 25px; color: #454545; text-align: center; font-family: sans-serif}
 .s1t h1 span{color: #388697;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
 .s1t p{padding: 10px 10px; text-align: justify; color: #343434;font-size: 18px;}
-.s1_short{display: flex; justify-content: center; align-items: center;position: relative;}
+.s1_short{display: flex; justify-content: center; align-items: center;position: relative;width: auto;display: inline-flex;}
 #bullet{width: 15px; height: 15px; background-color: #388697;border-radius: 50%;}
 .s1_short p{font-size: 20px;}
 
