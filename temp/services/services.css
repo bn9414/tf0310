@@ -1,3 +1,4 @@
+.ser1_con{margin-bottom: 20px;}
 .s1m{width: 90%; height: 250px;margin: auto;border: 1px olid black;position: relative; margin-bottom: 20px;}
 .c1,.c2,.c3,.c4,.c5,.c6{width: 100%;position: absolute;opacity: 0.0; }
 .c1js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;}
@@ -20,6 +21,6 @@
 
  .qopen{position: absolute; width:200px; background-color: #fcfcfc;font-size: 17px;bottom: 0px;left: 40px; box-shadow: 2px 1px 2px 1px hsla(0, 0%, 0%, 0.1); display: none;padding: 0px 7px;padding-top: 25px;}
 #close{position: absolute;width: 20px; height: 20px; right: 15px; top: 5px; background-color: #717171;border-radius: 50%;display: flex;}
-#close span{font-family: sans-serif;margin: auto;color: #fcfcfc;}
+#close span{font-family: sans-serif;margin: auto;color: #fcfcfc;display: block;}
 .quest{width: 20px; height: 20px;border-radius: 50%;display: flex; background-color: #717171;display: flex;}
 .quest p{font-family: sans-serif;margin: auto;color: #fcfcfc;position: relative; }
