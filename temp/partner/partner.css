@@ -1,4 +1,4 @@
-#faqheaddown{ display: flex; width: 100%; height: 600px;background-color: #fcfcfc;flex-direction: column;padding-left: 20px; padding-top: 220px; }
+#faqheaddown{ display: flex; width: 100%; height: 600px;background-color: #fcfcfc;flex-direction: column;padding-left: 20px; padding-top: 230px; }
 
 
 #faqheaddown h1{color: #454545; position: elative; top: 100px;left: 50px; font-size: 75px;text-align: center; font-family:sans-serif;
@@ -11,7 +11,7 @@ text-shadow: -1px 0 #454545, 0 1px #454545, 1px 0 #454545, 0 -1px #454545;}
     
     #faqheaddown h1{font-size: 50px; text-align: left; margin-bottom: 20px;padding-top: 10px }
     #faqheaddown p{font-size: 18px}
-    #faqheaddown{height: 450px; padding-top: 90px}
+    #faqheaddown{height: 450px; padding-top: 70px}
     
 }
 
