@@ -2,7 +2,7 @@
 /*  ----------------- start:general things------------------*/
 
 html{ height: 100%;}
-body{background-color: #F9F9F9;}
+body{background-color: #fcfcfc;}
 body * { box-sizing: border-box;}
 body h1,body h2,body h3,body p {margin: 0px;}
 a{text-decoration: none !important; color: #c2c2c2; }
