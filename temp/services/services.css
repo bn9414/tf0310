@@ -13,10 +13,13 @@
 .s1t{}
 .s1t h1{font-size: 25px; color: #454545; text-align: center; font-family: sans-serif}
 .s1t h1 span{color: #388697;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
-.s1t p{padding: 10px 10px; text-align: justify; color: #343434;font-size: 18px;}
-.s1_short{display: flex; justify-content: center; align-items: center;position: relative;width: auto;display: inline-flex;}
+.s1tpara{padding: 10px 10px; text-align: justify; color: #343434;font-size: 18px;}
+.s1_short{display: flex; justify-content: space-around; align-items: center;position: relative;width: auto;display: flex;width: 230px; margin: left;padding-left:10px}
 #bullet{width: 15px; height: 15px; background-color: #388697;border-radius: 50%;}
-.s1_short p{font-size: 20px;}
+.shortp{font-size: 20px;color: #343434;font-size: 18px;}
 
- .s1t .qopen{position: absolute; width:200px; background-color: #fcfcfc;font-size: 17px;bottom: 10px;left: 10px; box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.1);padding-top: 25px; display: block;}
-#close{position: absolute; right: 5px; top: 5px}
+ .qopen{position: absolute; width:200px; background-color: #fcfcfc;font-size: 17px;bottom: 0px;left: 40px; box-shadow: 2px 1px 2px 1px hsla(0, 0%, 0%, 0.1); display: none;padding: 0px 7px;padding-top: 25px;}
+#close{position: absolute;width: 20px; height: 20px; right: 15px; top: 5px; background-color: #717171;border-radius: 50%;display: flex;}
+#close span{font-family: sans-serif;margin: auto;color: #fcfcfc;}
+.quest{width: 20px; height: 20px;border-radius: 50%;display: flex; background-color: #717171;display: flex;}
+.quest p{font-family: sans-serif;margin: auto;color: #fcfcfc;position: relative; }
