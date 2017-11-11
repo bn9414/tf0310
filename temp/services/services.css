@@ -1,0 +1,21 @@
+.s1m{width: 90%; height: 250px;margin: auto;border: 1px olid black;position: relative; }
+.c1,.c2,.c3,.c4,.c5,.c6{width: 100%;position: absolute;opacity: 0.0; }
+.c1js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;}
+.c2js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;animation-delay: 0.2s;}
+.c3js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;animation-delay: 0.4s;}
+.c4js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;animation-delay: 0.6s;}
+.c5js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;animation-delay: 0.8s;}
+.c6js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;animation-delay: 1.0s;}
+@keyframes s1{
+    0%{width: 95%; opacity: 0.0;}
+    100%{width: 100%; opacity: 1;}
+    }
+.s1t{}
+.s1t h1{font-size: 25px; color: #454545; text-align: center; font-family: sans-serif}
+.s1t h1 span{color: #388697;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
+.s1t p{padding: 10px 10px; text-align: justify; color: #343434;font-size: 18px;}
+.s1_short{display: flex; justify-content: center; align-items: center;position: relative;}
+#bullet{width: 15px; height: 15px; background-color: #388697;border-radius: 50%;}
+.s1_short p{font-size: 20px;}
+
+ .s1t .qopen{position: absolute; width:200px; background-color: #fcfcfc;font-size: 17px;bottom: 10px; box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.1);padding-top: 20px; }
