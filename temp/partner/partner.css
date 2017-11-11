@@ -1,11 +1,11 @@
-#faqheaddown{ display: flex; width: 100%; height: 500px;background-color: #19191e;flex-direction: column;padding-left: 20px; padding-top: 190px; }
+#faqheaddown{ display: flex; width: 100%; height: 500px;background-color: #fcfcfc;flex-direction: column;padding-left: 20px; padding-top: 190px; }
 
 
-#faqheaddown h1{color: #f9f9f9; position: elative; top: 100px;left: 50px; font-size: 75px;text-align: center; font-family:sans-serif;
+#faqheaddown h1{color: #454545; position: elative; top: 100px;left: 50px; font-size: 75px;text-align: center; font-family:sans-serif;
    
 }
 #faqheaddown span{
- color: #19191e;
+ color: #fcfcfc;
 text-shadow: -1px 0 #f9f9f9, 0 1px #f9f9f9, 1px 0 #f9f9f9, 0 -1px #f9f9f9;}
 @media screen and (min-width:300px) and (max-width:480px){
     
