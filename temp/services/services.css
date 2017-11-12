@@ -70,11 +70,11 @@
 @media screen and (max-width:480px){
     .price_cont{flex-direction: column; height: 2500px; align-content: flex-end; align-items: flex-end; justify-content: flex-end; padding-top: 00px;}
     .ps1, .ps2, .ps3, .ps4{width: 90%; margin: auto; height:850px;}
- .ps1_h{height: 260px}
+ .ps1_h{height: 250px}
     .ps3_h{height: 350px}
     .ps4_h{height: 400px}
     .ps3{height: 800px;}
-    .ps1{height: 700px;}
+    .ps1{height: 720px;}
 }
 #start_ex{font-family: sans-serif;font-size: 50px; position: relative; left: 5px}
 #p_h1_2 img{width: 22px;margin-right: 5px}
