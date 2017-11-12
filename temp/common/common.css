@@ -27,7 +27,7 @@ src: url("/fonts/archive.otf") format("opentype"),
 
 
 
-#nav_line{ width: 35px; height: 35px; margin: 0px; padding: 0px; position: absolute; right: 20px; top: 13px; }
+#nav_line{ width: 35px; height: 35px; margin: 0px; padding: 0px; position: absolute; right: 20px; top: 13px;z-index: 6; }
 .line{list-style: none; border: 2px solid #2d2d2d; margin: 5px 0px; position: relative; transition:  rotate 1s, top 1s, bottom 1s, opacity 0.4s; }
 /*
 .l1{transform: rotate(15deg);top: 9px;}
