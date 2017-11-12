@@ -22,6 +22,6 @@
 
  .qopen{position: absolute; width:200px; background-color: #343434;font-size: 17px;bottom: 0px;left: 40px; box-shadow: 2px 1px 2px 1px hsla(0, 0%, 0%, 0.1); display: none;padding: 3px 7px;padding-top: 25px;color: #fcfcfc;border-radius: 5px;z-index: 1;}
 .close{position: absolute;width: 20px; height: 20px; right: 10px; top: 5px; background-color: #fcfcfc;border-radius: 50%;display: flex;justify-content: center; align-items: center;}
-.close span{font-family: sans-serif;color: #343434;padding: 0px 0px;padding-bottom: 2px;}
+.close span{font-family: sans-serif;color: #343434;padding: 0px 0px;padding-bottom: 20px;}
 .quest{width: 20px; height: 20px;border-radius: 50%;display: flex; background-color: #717171;display: flex;}
 .quest p{font-family: sans-serif;margin: auto;color: #fcfcfc;position: relative; }
