@@ -52,7 +52,7 @@
 .ps1_h{margin: 0px; height: 400px; background-color: #FFE66D; border-radius: 10px 10px 0px 0px; display: flex; justify-content: space-between;flex-direction: column;align-items: center;overflow: hidden;}
 .ps2_h{background-color: ;}
 .ps3_h{background-color: #41CAB1;}
-.ps4_h{background-color: #76ccf7;
+.ps4_h{background-color: #5db5e9;
 
 
 
@@ -60,7 +60,7 @@
 }
 #p_h1_2{  margin:0px; margin-top: 0px; color: #717171; text-align: center;font-size: 35px;position: relative; padding-left: 160px;height: 50px; display: flex; justify-content: center; align-items: center; width: 100%;}
 .ps1_t{ width: 100%;height: 100px; background-color: #fce685; position: relative; top:0px;box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  }
-.ps4_t{background-color:#8cd2f2}
+.ps4_t{background-color:#7dc0e8}
 .ps3_t{background-color: #77d1c0;}
 .ps2_t{background-color: #86c4ce;}
 #first_ex,#second_ex{position: absolute; font-size: 20px;left:10px;top: 5px;margin: 0px; }
