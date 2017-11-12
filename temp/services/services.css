@@ -58,7 +58,7 @@
 
 
 }
-#p_h1_2{  margin:0px; margin-top: 0px; color: #717171; text-align: center;font-size: 35px;position: relative; padding-left: 160px;height: 50px; display: flex; justify-content: center; align-items: center; width: 100%;}
+#p_h1_2{  margin:0px; margin-top: 0px; color: #717171; text-align: center;font-size: 45px;position: relative; padding-left: 0px;height: 100%; display: flex; justify-content: center; align-items: center; width: 100%;}
 .ps1_t{ width: 100%;height: 100px; background-color: #fce685; position: relative; top:0px;box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  }
 .ps4_t{background-color:#7dc0e8}
 .ps3_t{background-color: #77d1c0;}
