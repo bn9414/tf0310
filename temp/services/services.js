@@ -71,11 +71,12 @@ x[0].addEventListener("click",function(){open(0);}, false);
 x[1].addEventListener("click",function(){open(1);}, false);
 x[2].addEventListener("click",function(){open(2);}, false);
 x[3].addEventListener("click",function(){open(3);}, false);
-x[4].addEventListener("click",function(){open(3);}, false);
+x[4].addEventListener("click",function(){open(4);}, false);
 z[0].addEventListener("click",function(){open(5);}, false);
 z[1].addEventListener("click",function(){open(5);}, false);
 z[2].addEventListener("click",function(){open(5);}, false);
 z[3].addEventListener("click",function(){open(5);}, false);
+z[4].addEventListener("click",function(){open(5);}, false);
 
 
 expand[0].addEventListener("click",suitopen, false);
