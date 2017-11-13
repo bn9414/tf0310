@@ -1,5 +1,5 @@
 
-.ser1_con{margin-bottom: 20px;background-color: #f9f9f9;}
+.ser1_con{margin-bottom: 0px;background-color: #f9f9f9;padding-bottom: 20px;}
 .s1m{width: 90%; height: 250px;margin: auto;border: 1px olid black;position: relative; margin-bottom: 0px;}
 .c1,.c2,.c3,.c4,.c5,.c6{height: 100%;position: absolute;opacity: 0.0; }
 .c1js{animation-name: s1;animation-duration: 0.3s;animation-fill-mode: forwards;}
@@ -13,8 +13,8 @@
     100%{width: 100%; opacity: 1;}
     }
 .s1t{margin-bottom: px}
-.s1t h1{font-size: 25px; color: #454545; text-align: center; font-family: sans-serif}
-.s1t h1 span{color: #388697;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
+.serv1_head{font-size: 25px; color: #454545; text-align: center; font-family: sans-serif;padding-top: 10px}
+.serv1_head span{color: #388697;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
 .s1tpara{padding: 10px 10px; text-align: justify; color: #343434;font-size: 18px;}
 .s1_short{display: flex; justify-content: space-around; align-items: flex-start;position: relative;width: auto;display: flex;width: 230px; margin: left;padding-left:10px;margin-bottom: 10px}
 #bullet{width: 15px; height: 15px; background-color: #388697;border-radius: 50%;position: relative;top: 3px}
@@ -98,7 +98,7 @@
 
 
 /* start: revamp */
-.revamp_con{background-color: white;width: 100%; height: 600px;}
+.revamp_con{background-color: white ;width: 100%; height: 600px;}
 .revamp_m{ background-color: white; width: 100%;height: 480px;border: 1px olid black; display: flex; flex-direction: column; justify-content: space-around; padding-top: 20px}
 .rm1,.rm2,.rm3,.rm4{width: 95%; height: 90px; border: olid 1px black;padding-left: 10px; display: flex; justify-content: space-between; align-items: center;margin: auto;box-shadow: 3px 6px 30px 0px rgba(20, 20, 20, 0.2);}
 .rm1 img,.rm2 img,.rm3 img,.rm4 img{width: 60px;}
@@ -108,5 +108,79 @@
 .revamp_head span{ color: #388697;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
 .revampt p{color: #343434;font-size: 18px; text-align: justify; padding: 10px 10px}
 .report h1{font-size: 20px; color: #343434;text-align: center;}
+
+
+
+
+
+/* Start: l2 form*/
+.form_cont{ 
+    width: 100%; margin: auto; margin-top: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px olid black;
+    background-color: #41cab1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+background-image: url(images/smoke.png); background-size: 300px 300px; background-repeat: no-repeat; background-position: -50px -45px;}
+
+#form_message{ 
+    color: #fcfcfc;
+    margin-bottom: 30px; width: 65%; text-align: center;margin: 0px;
+}
+.fields{ width: 100%; height: 60px; display: flex; justify-content: center; padding-left: 200px; }
+
+#cletf1, #cletf2, #cletf3{display: flex; justify-content: center; align-items: center; width: 70%; margin: 10px;}
+#cletf3{width:90%; }
+
+#cletf1 input, #cletf2 input, #cletf3 input, #cletf5 textarea{ width: 95%; height: 50px;  padding-left: 40px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 100%; color: #2B2D42;
+transition: width 0.3s, box-shadow 0.3s;
+}
+input::placeholder{color: #717171; font-size: 18px; }
+#cletf2{ border-top-right-radius: 10px;}
+/* inter */
+#cletf1 input{background-image: url(images/user24.png);}
+#cletf2 input{background-image: url(images/phone24.png);}
+#cletf3 input{background-image: url(images/mail24.png);}
+#clet5 textarea{background-image: url(images/com24.png); background-position: 3px 65px; padding-left: 60px; }
+
+/* inter */
+#cletf1 input:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 98%;}
+#cletf2 input:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 98%;}
+#cletf3 input:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 98%;}
+
+#cletf6{  display: flex; justify-content: center; align-items: center;}
+#cletf6{ width: 90%; margin-top:5px;padding-left: 25px; position: relative; left: -40px;
+}
+
+
+#ffsubmit{ border-style: none; border-radius: 5px;  color:white;background-image: url(images/mailsend.png); font-size: 22px;  height: 40px; background-color:#41cab1;  background-repeat: no-repeat; background-position: 93px 10px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s; height: 50px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#ffsubmit:hover{ padding-right: 43px; background-position: 97px 10px;}
+
+@media screen and (max-width:480px){ 
+    .form_cont *{border: 1px olid black}
+    .form_cont{height: 440px;background-position: -50px 160px;background-image: none;}
+.fields{flex-direction: column;   height: 380px;padding-left: 5px;}
+    
+    #cletf1, #cletf2, #cletf3{display: flex; justify-content: center; align-items: center; width: 90%; margin: 10px;}
+    #form_message{ margin: 0px; font-size: 23px; padding-left: 10px; padding-top: 0px;width: 100%;position: relative; top: 25px;}
+    
+#cletf6{  position: relative; left: 0px;
+}
+}
+
+
+/* end: l2 form*/
+
+
+
+
+
 
 /* end: revamp */
