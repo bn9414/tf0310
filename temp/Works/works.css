@@ -1,3 +1,5 @@
-.port_head{width: auto;display: flex;margin: auto;justify-content: c; border-bottom: 2px solid #717171; enter;align-items: center;margin: 10px 5px; display: inline-flex;margin: auto;le}
-.port_head h1{color: #717171; font-size: 18px;text-align: center;margin: 0px 5px; border-right: 2px solid #717171; }
-.port_head h1 span{font-size: 16px;font-weight: 500;}
+.port_head{width: auto;display: flex;margin: auto;justify-content: center;align-items: center;margin: 10px 5px; margin: auto;padding-bottom: 5px;margin-top: 10px}
+.port_head a{color: #717171; font-size: 18px;text-align: center;margin: 0px 10px;position: relative;}
+.port_head a span{font-size: 16px;font-weight: 500;}
+.port_head i{display: block; width: 2px; height: 30px; background-color: #717171;}
+.h1{color: #ed6a5a;}
