@@ -32,7 +32,7 @@
 .seven_h span{color:#ED6A5A; }
 .seven_h h1{font-size: 23px; text-align: center;padding-top: 10px}
 .seven_con *{border: 1px olid black;}
-.seven_con{width: 100%; height: 500px;background-color: white; display: flex}
+.seven_con{width: 100%; height: 900px;background-color: white; display: flex}
 .selection{min-width: 35px; display: flex;flex-direction: column; justify-content: center;position: relative; height: 420px;border: 1px solid grey;border-radius: 10px;right: 1px;box-sizing: border-box;}
 .selection p{display: block; width: 100%;  text-align: center;padding-top: 0px; font-size: 20px; font-weight: 600; color: grey; background-color: white;height: 60px;box-sizing: border-box;}
 .selection #suma{color: white;background-color: #ED6A5A; border-bottom: px solid #ED6A5A; border-radius: 0px 10px 0px 0px;}
@@ -46,3 +46,26 @@
 
 
 /* end: process*/
+
+
+/* start: process*/
+
+/* start: benefits*/
+
+.ben1 *{border: 1px olid black;}
+
+#sn{ text-align: center; color:#66aab7; font-family:sans-serif; font-size: 20px;}
+#s1{color: #388697;font-size: 40px; text-decoration: underline}
+.ben1{border:1px olid #717171;margin: 10px;box-shadow: 5px 5px 20px 0px rgba(20, 20, 20, 0.2);margin-bottom: 30px}
+.ben1h{display: flex;justify-content: center;align-items: center;}
+.ben1h img{width: 20%;height: 20%;padding-left: 5px}
+.ben1h h1{font-size: 18px;color: #717171;padding-left: 20px;width: 80%;}
+.ben1p p{color: #717171;padding: 5px 10px}
+.ben1p{display: none;}
+.ben1o{position: relative;width: 100%; height: 30px;display: flex;justify-content: center;align-items: center}
+.ben1o div{width:120px;height: 30px;margin: auto;padding-top: 0px}
+.ben1o p{color: #66aab7;font-size: 18px; font-weight: 600; position: absolute}
+.ben1o span{border: 2px solid #66aab7; border-radius: 50%;width: 20px; height: 20px; display: inline-flex;padding-left: px;justify-content: center;align-items: center;font-size: 22px;}
+.minus{padding-bottom: 3px}
+.less{display: none;}
+
