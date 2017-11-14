@@ -42,6 +42,7 @@ function what(){
     
     
 }
+who();
 
 x[0].addEventListener('click', who,false);
 y[0].addEventListener('click', why,false);
