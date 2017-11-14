@@ -1,8 +1,13 @@
-.sec1 p{color: #388697;font-family: sans-serif;margin:  25px 0px;font-size: 38px}
-.sec1{width: 100%;height: 350px; background-color: #fcfcfc;padding-top: 20px}
+body {border: 1px solid black;}
 
-.www_con *{border: 1px olid black;}
-.www_con{width: 100%; height: 400px;}
+/* start: sec1*/
+.sec1 p{color: #fcfcfc;font-family: sans-serif;margin:  25px 0px;font-size: 38px}
+.sec1{width: 100%;height: 350px; background-color: #41CAB1;padding-top: 20px}
+/* end: sec1*/
+
+/* start: www*/
+
+.www_con{width: 100%; height: auto;padding: 20px 5px;}
 .www1{width: 100%; height: 50px;display: flex;justify-content: center;align-items: center}
 .www1 div{width: 2px; height: 50%; background-color: #717171;}
 .www1 p{font-size: 23px; font-family: sans-serif;margin: 5px}
@@ -13,7 +18,7 @@
 .whath{color: #717171;}
 .whathc{color: #41CAB1;}
 
-.www2 p{font-size: 18px;padding: 10px 5px;color: #454545}
+.www2 p{font-size: 18px;padding: 10px 5px;color: #454545;text-align: justify;}
 .www2{width: 100%; height: auto;position: relative;}
 .www2 p span{font-size: 150px; position: absolute;left:6%;font-family: sans-serif;z-index: -1; opacity: 0.6;}
 .whop{display: non;}
@@ -23,3 +28,15 @@
 .whop span{ color: #f9de70;}
     .whyp span{color: #ed9784;top: 80px}
     .www2 .whatp  span{color: #a1dddd;font-size: 100px;left: 40px}
+
+/* end: www*/
+
+/* start: m and v*/
+
+.mv_con{width: 100%;;padding: 15px 5px;display: flex;flex-direction: column; color: #454545;}
+.mv_con h1{text-align: center;font-size: 70px;font-family: sans-serif;color: #343434;}
+.mv_con p{font-size: 20px; color: #388697}
+.mv_con div{margin: 20px 0px}
+
+
+/* end: m and v*/
