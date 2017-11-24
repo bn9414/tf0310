@@ -7,6 +7,7 @@ var d=document.getElementsByClassName('l3')[0];
 var e=document.getElementsByClassName('menu_con')[0];
 var main_menu=document.getElementsByClassName('main_menu')[0];
 var sub_menu=document.getElementsByClassName('sub_menu')[0];
+var menu7=document.getElementsByClassName('menu7')[0];
 
 var allmenu=e.getElementsByTagName('a');
 var nav= document.getElementById('nav_bar');
@@ -60,6 +61,7 @@ function zoomin(){
     e.className='menu_con a';
   main_menu.style.opacity="0";
      sub_menu.style.opacity="0";
+     menu7.style.opacity="0";
 }
 allmenu[0].addEventListener('click',zoomin,false);
 allmenu[1].addEventListener('click',zoomin,false);
