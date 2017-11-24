@@ -215,5 +215,5 @@ src: url("/fonts/archive.otf") format("opentype"),
     
 }
 /*  ----------------- end:footer section------------------*/
-.a{transform: scale(1.05);opacity: 0;}
+.a{transform: scale(1.05);}
 .menu_con a{transition: opacity 0.5;}
