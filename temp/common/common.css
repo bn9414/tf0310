@@ -23,11 +23,11 @@ src: url("/fonts/archive.otf") format("opentype"),
 
 /*  ----------------- start:navigation bar------------------*/
 
-#nav_bar{width: 100%; height: 55px; background-color: white; box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.1);  z-index: 6; position: relative;transition: box-shadow 0.5s;}
+#nav_bar{width: 100%; height: 55px; background-color: white; box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.1);  z-index: 8; position: relative;transition: box-shadow 0.5s;}
 
 
 
-#nav_line{ width: 35px; height: 35px; margin: 0px; padding: 0px; position: absolute; right: 20px; top: 13px;z-index: 6; }
+#nav_line{ width: 35px; height: 35px; margin: 0px; padding: 0px; position: absolute; right: 20px; top: 13px;z-index: 8; }
 .line{list-style: none; border: 2px solid #2d2d2d; margin: 5px 0px; position: relative; transition:  rotate 1s, top 1s, bottom 1s, opacity 0.4s; }
 /*
 .l1{transform: rotate(15deg);top: 9px;}
