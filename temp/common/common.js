@@ -56,7 +56,21 @@ a.addEventListener('click', test, false );
 function zoomin(){
     
     e.className='menu_con a';
+    allmenu[0].style.opacity='0';
+     allmenu[1].style.opacity='0';
+     allmenu[2].style.opacity='0';
+     allmenu[3].style.opacity='0';
+     allmenu[4].style.opacity='0';
+     allmenu[5].style.opacity='0';
+     allmenu[6].style.opacity='0';
 }
 allmenu[0].addEventListener('click',zoomin,false);
+allmenu[1].addEventListener('click',zoomin,false);
+allmenu[2].addEventListener('click',zoomin,false);
+allmenu[3].addEventListener('click',zoomin,false);
+allmenu[4].addEventListener('click',zoomin,false);
+allmenu[5].addEventListener('click',zoomin,false);
+allmenu[6].addEventListener('click',zoomin,false);
+
 
 /* end:menu zoom out */
