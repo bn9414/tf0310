@@ -62,6 +62,7 @@ function zoomin(){
   main_menu.style.opacity="0";
      sub_menu.style.opacity="0";
      menu7.style.opacity="0";
+     menu7.className="menu7 b";
 }
 allmenu[0].addEventListener('click',zoomin,false);
 allmenu[1].addEventListener('click',zoomin,false);

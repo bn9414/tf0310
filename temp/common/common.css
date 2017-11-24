@@ -94,6 +94,9 @@ src: url("/fonts/archive.otf") format("opentype"),
 .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{color: #ed6a5a;}
 
 .menu_con a{color: #454545;}
+.a{transform: scale(1.05);}
+.menu_con div{transition: opacity 0.5s;}
+
 
 
 /* end: menu listing */
@@ -123,6 +126,8 @@ src: url("/fonts/archive.otf") format("opentype"),
 }
 
 .menu7,.menu7_up{font-size: 20px; color: #f9f9f9; font-family: sans-serif; font-weight: 600; display: block; margin-top: 20px; margin-left: 20px; border-radius: 30px;width: 175px; padding: 10px 0px 10px 20px; background-color:#ED6A5A; background-image: url(images/right.png); background-repeat: no-repeat; background-position:142px; background-size: 30px 30px;transition: width 0.5s, background-position 0.5s, padding 0.5s;}
+.menu7{transition: opacity 0.5s, scale 0.5s;}
+.b{transform: scale(1.05);}
 
 .menu7:hover{background-position: 146px;padding-left:15px; }
 
@@ -222,5 +227,3 @@ src: url("/fonts/archive.otf") format("opentype"),
     
 }
 /*  ----------------- end:footer section------------------*/
-.a{transform: scale(1.05);}
-.menu_con div{transition: opacity 0.5s;}
