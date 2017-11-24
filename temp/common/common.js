@@ -62,7 +62,7 @@ function zoomin(){
      allmenu[3].style.opacity='0';
      allmenu[4].style.opacity='0';
      allmenu[5].style.opacity='0';
-     allmenu[6].style.opacity='0';
+     
 }
 allmenu[0].addEventListener('click',zoomin,false);
 allmenu[1].addEventListener('click',zoomin,false);
