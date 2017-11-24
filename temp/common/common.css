@@ -168,7 +168,7 @@ src: url("/fonts/archive.otf") format("opentype"),
 .s_menu{ border: 1px olid black; height: 70px;display: flex;flex-direction: column;padding-right: 10px;border-right: 2px solid #f9f9f9;}
 
 .connect{text-align: center;color: #f9f9f9;display: flex;flex-direction: column;}
-.connect p{width: 140px;padding-left: 20px}
+.connect p{width: 100%;padding-left: 0px;position: relative;left: 10px;}
 .connect_m{display: flex;padding-left: 17px;}
 .connect_m a{display: block; width: 32px; height: 32px; border: 1px olid black;margin: 5px;}
 
