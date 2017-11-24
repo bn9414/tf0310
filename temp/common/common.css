@@ -91,6 +91,10 @@ src: url("/fonts/archive.otf") format("opentype"),
 .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{color: #ed6a5a;-webkit-perspective: 1000;
 -webkit-backface-visibility: hidden;}
 
+.menu_con a{color: green;-webkit-perspective: 1000;
+-webkit-backface-visibility: hidden;}
+
+
 /* end: menu listing */
 .menu5,.menu6{font-size: 18px;margin-right: 10px;margin-left: 20px; color: #2d2d2d;font-family: sans-serif;font-weight: 600;margin-top: 15px;display: block;transition: color 0.3s;}
 .sub_menu{display: flex;}
