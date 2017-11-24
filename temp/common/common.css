@@ -86,8 +86,10 @@ src: url("/fonts/archive.otf") format("opentype"),
 /* start: menu listing */
 .menu_con{width: 100%; height:100vh; background-color: white;display: none;padding-top: 70px;position: fixed;z-index: 5;transition: transform 0.5s, opacity 0.5s;}
 
-.menu1,.menu2,.menu3,.menu4{font-size: 34px;color: #2d2d2d;font-family: sans-serif;display: block; margin-bottom: 20px;margin-left: 20px;letter-spacing: 2px;font-weight: 600; opacity: 0;position: relative;transition: color 0.3s;}
-.menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{color: #ed6a5a;}
+.menu1,.menu2,.menu3,.menu4{font-size: 34px;color: #2d2d2d;font-family: sans-serif;display: block; margin-bottom: 20px;margin-left: 20px;letter-spacing: 2px;font-weight: 600; opacity: 0;position: relative;transition: color 0.3s;-webkit-perspective: 1000;
+-webkit-backface-visibility: hidden;}
+.menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{color: #ed6a5a;-webkit-perspective: 1000;
+-webkit-backface-visibility: hidden;}
 
 /* end: menu listing */
 .menu5,.menu6{font-size: 18px;margin-right: 10px;margin-left: 20px; color: #2d2d2d;font-family: sans-serif;font-weight: 600;margin-top: 15px;display: block;transition: color 0.3s;}
