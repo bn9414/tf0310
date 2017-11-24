@@ -5,6 +5,8 @@ var b =document.getElementsByClassName('l1')[0];
 var c =document.getElementsByClassName('l2')[0];
 var d=document.getElementsByClassName('l3')[0];
 var e=document.getElementsByClassName('menu_con')[0];
+
+var allmenu=e.getElementsByTagName('a');
 var nav= document.getElementById('nav_bar');
 
 var menu1=document.getElementsByClassName('menu1')[0];
@@ -48,3 +50,13 @@ n=!n;
 }
 
 a.addEventListener('click', test, false );
+
+
+/* start:menu zoom out */
+function zoomin(){
+    
+    e.className='menu_con a';
+}
+allmenu[0].addEventListener('click',zoomin,false);
+
+/* end:menu zoom out */
