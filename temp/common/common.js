@@ -63,6 +63,11 @@ function zoomin(){
      sub_menu.style.opacity="0";
      menu7.style.opacity="0";
      menu7.className="menu7 b";
+      b.className='line l1 lclose1';
+  
+     c.className='line l2 lclose2';
+      d.className='line l3 lclose3';
+    
 }
 allmenu[0].addEventListener('click',zoomin,false);
 allmenu[1].addEventListener('click',zoomin,false);
