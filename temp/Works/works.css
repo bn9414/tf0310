@@ -1,5 +1,5 @@
 
-.port_head{width: auto;display: flex;margin: auto;justify-content: center;align-items: center;margin: 10px 5px; margin: auto;padding-bottom: 5px;margin-top: 10px}
+.port_head{width: auto;display: flex;margin: auto;justify-content: center;align-items: center;margin: 10px 5px; margin: auto;padding-bottom: 5px;padding-top: 10px;}
 .port_head a{color: #717171; font-size: 18px;text-align: center;margin: 0px 10px;position: relative;}
 .port_head a span{font-size: 16px;font-weight: 500;}
 .port_head i{display: block; width: 2px; height: 30px; background-color: #717171;}
