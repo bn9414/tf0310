@@ -8,7 +8,7 @@ var e=document.getElementsByClassName('menu_con')[0];
 var main_menu=document.getElementsByClassName('main_menu')[0];
 var sub_menu=document.getElementsByClassName('sub_menu')[0];
 var menu7=document.getElementsByClassName('menu7')[0];
-
+var inlogo=document.getElementById('inlogo')
 var allmenu=e.getElementsByTagName('a');
 var nav= document.getElementById('nav_bar');
 
@@ -76,6 +76,7 @@ allmenu[3].addEventListener('click',zoomin,false);
 allmenu[4].addEventListener('click',zoomin,false);
 allmenu[5].addEventListener('click',zoomin,false);
 allmenu[6].addEventListener('click',zoomin,false);
+inlogo.addEventListener('click',zoomin,false);
 
 
 /* end:menu zoom out */
