@@ -14,8 +14,8 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
 
 /* start: customfonts */
 @font-face {
-font-family: "archive";
-src: url("/fonts/archive.otf") format("opentype"),
+    font-family: archive;
+    src: url(fonts/archive.otf);
 }
 
 /* end: customfonts */
@@ -94,6 +94,8 @@ src: url("/fonts/archive.otf") format("opentype"),
 .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{color: #ed6a5a;}
 
 
+#ser_price{ font-size: 18px;color: #717171;position: relative;bottom: 7px}
+
 .a{transform: scale(1.05);}
 .menu_con div{transition: opacity 0.5s;}
 
@@ -145,6 +147,7 @@ src: url("/fonts/archive.otf") format("opentype"),
 
 }
 @media screen and (min-width:830px){
+    #ser_price{padding-left: 45px;padding-top: 5px; display: block;font-size: 22px}
        .menu1,.menu2,.menu3,.menu4{font-size: 34px;margin-left: 30px;}
     .main_menu{padding-right: 20px;} 
    .menu7_up{font-size: 20px;padding: 8px 0px 8px 20px;position: relative; top: 8px;background-position: 145px; background-size: 26px; margin-left: 5px;width: 175px;margin-top: 0px;}

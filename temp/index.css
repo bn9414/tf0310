@@ -3,6 +3,8 @@
     font-family: archive;
     src: url(images/archive.otf);
 }
+
+
 /* start: 1st layer*/
 .what img{ width: 150px; margin: auto;display: block;}
 .what h1{font-family: archive; font-size: 30px;text-align: center;color: #f9f9f9}
