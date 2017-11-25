@@ -4,17 +4,7 @@ var more=document.getElementsByClassName('more');
 var less=document.getElementsByClassName('less');
 var benp=document.getElementsByClassName('ben1p');
 
-function first()
-{
-    area[0].style.display='none';
-    area[1].style.display='none';
-    area[2].style.display='none';
-    
-    area[1].style.display='block';
-    
-}
 
-click[1].addEventListener('click', first, false);
 
 function benvis(n){
             benp[n].style.display="block";
