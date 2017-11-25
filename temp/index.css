@@ -23,6 +23,8 @@
 .l_slide{width: 70%;height: 250px; position: absolute;border-color: green;margin-top: -125px;top: 50%;left: 3px;z-index: 1}
 .r_slide{width: 70%;height: 250px; position: absolute;border-color: yellow;margin-top: -125px;top: 50%;right: 3px;z-index: 1}
 
+.slide1,.slide1,.slide1,{width: 90%; height: 90%;background-color: violet;}
+
 
 /* end: 2nd layer*/
 
