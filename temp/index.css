@@ -6,15 +6,31 @@
 
 
 /* start: 1st layer*/
-.what img{ width: 150px; margin: auto;display: block;}
-.what h1{font-family: archive; font-size: 30px;text-align: center;color: #f9f9f9}
-.what p{font-size: 25px; text-align: center; color: #f9f9f9;margin-top: 20px;font-family: sans-serif;font-weight: 600; padding: 0px 10px}
-.what{width: 100%; height: 100vh;background-color: black;padding-top: 110px}
+.what img{ width: 150px; margin: auto;display: block;transition: transform 0.5s, color 0.5s, opacity 0.5s,width 0.5s;}
+.what h1{font-family: archive; font-size: 30px;text-align: center;color: #f9f9f9;font-weight: 100;tra}
+.what p{font-size: 27px; text-align: center; color: #f9f9f9;margin-top: 20px;font-family: sans-serif;font-weight: 600; padding: 0px 10px}
+.what{width: 100%; height: 100vh;background-color: black;padding-top: 110px;transition: padding-top 0.5s;}
 
+
+.img_mob_move{transform: translate(-125px, -130px);color: black; opacity: 0;width: 50px;}
+.what_mob_move{padding-top: 30px;}
 /* end: 1st layer*/
+/* start: 2nd layer*/
+
+.slide_con{margin-bottom: 20px;display: flex;width: 100%;position: relative;bottom: 0px; transition: bottom 0.5s; }
+.c_slide,.l_slide,.r_slide{border: 2px solid red;border-radius: 10px; margin: auto;box-shadow: 5px 5px 20px 0px rgba(20, 20, 20, 0.2);background-color: white;}
+.c_slide{width:80%;height: 300px;z-index: 2}
+.l_slide{width: 70%;height: 250px; position: absolute;border-color: green;margin-top: -125px;top: 50%;left: 3px;z-index: 1}
+.r_slide{width: 70%;height: 250px; position: absolute;border-color: yellow;margin-top: -125px;top: 50%;right: 3px;z-index: 1}
+
+
+/* end: 2nd layer*/
+
+
+
 
 /* start: Price detials*/
-
+/*
 .s1 h1{font-size: 25px; padding-top: 10px; padding-left: 10px;color:#454545 ;}
 .s1 h3{padding-left: 10px; margin-top: 15px; padding-right: 10px;   color:#388697; font-size: 22px;border-left: 5px solid #388697; }
 
