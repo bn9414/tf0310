@@ -52,7 +52,7 @@
 /* start: benefits*/
 
 .ben1 *{border: 1px olid black;}
-.ben{box-shadow: 0px -2px 35px 5px rgba(20, 20, 20, 0.2);}}
+.ben{box-shadow: 0px -2px 35px 5px rgba(20, 20, 20, 0.2);padding-top: 20px}
 #sn{ text-align: center; color:#66aab7; font-family:sans-serif; font-size: 20px;}
 #s1{color: #388697;font-size: 40px; text-decoration: underline}
 .ben1{border:1px olid #717171;margin: 10px;box-shadow: 5px 5px 20px 0px rgba(20, 20, 20, 0.2);margin-bottom: 30px}
