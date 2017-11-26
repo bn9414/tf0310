@@ -49,6 +49,13 @@ function scrollani() {
 var c1=document.getElementsByClassName('c1');
 var sl1=document.getElementsByClassName('sl1');
 var sr1=document.getElementsByClassName('sr1');
+var txt1=document.getElementsByClassName('txt1');
+var sleft=document.getElementsByClassName('sleft');
+var sright=document.getElementsByClassName('sright');
+var stepa=0;
+var limagea=5;
+var rimagea=1;
+
 
 function cimage(n){
     c1[0].style.display="none";
@@ -81,12 +88,51 @@ function rimage(n){
     sr1[n].style.display="block";
 }
 
+function steptext(n){
+    txt1[0].style.display="none";
+     txt1[1].style.display="none";
+     txt1[2].style.display="none";
+     txt1[3].style.display="none";
+     txt1[4].style.display="none";
+     txt1[5].style.display="none";
+    txt1[n].style.display="block";
+}
 
 
 
+steptext(0);
 cimage(0);
 limage(5);
 rimage(1);
+
+function incr(n){
+    stepa=n+stepa;
+    limagea=n+limagea;
+    rimagea=n+rimagea;
+    if(rimagea==6)
+        {rimagea=0}
+    if(rimagea==-1)
+        {rimagea=5}
+    if(limagea==6)
+        {limagea=0}
+    if(limagea==-1)
+        {limagea=5}
+    
+    if(stepa==6)
+        {stepa=0}
+      if(stepa==-1)
+        {stepa=5}
+    steptext(stepa);
+    cimage(stepa);
+    rimage(rimagea);
+    limage(limagea);
+    
+}
+
+
+sleft[0].addEventListener('click',function(){incr(-1);},false);
+sright[0].addEventListener('click',function(){incr(+1);},false);
+
 
 /* end:steps */
 
