@@ -57,7 +57,7 @@ var limagea=5;
 var rimagea=1;
 
 
-function cimage(n){
+function cimage(n,y){
 
     c1[0].style.display="none";
      c1[1].style.display="none";
@@ -66,14 +66,19 @@ function cimage(n){
      c1[4].style.display="none";
      c1[5].style.display="none";
     c1[n].style.display="block";
+    if(y==3){
 c1[n].className="c1 appear";
-    
+    }
+      if(y==2){
+          
+       c1[n].className="c1 appearleft";   
+      }
     
     
 
 }
 
-function limage(n){
+function limage(n,y){
     sl1[0].style.display="none";
      sl1[1].style.display="none";
      sl1[2].style.display="none";
@@ -81,11 +86,19 @@ function limage(n){
      sl1[4].style.display="none";
      sl1[5].style.display="none";
       sl1[n].style.display="block";
+        if(y==3){
      sl1[n].className="sl1 appear";
- 
+        }
+    
+      if(y==2){
+          
+         sl1[n].className="sl1 appearleft";  
+      }
+    
+    
 }
 
-function rimage(n){
+function rimage(n,y){
     sr1[0].style.display="none";
      sr1[1].style.display="none";
      sr1[2].style.display="none";
@@ -93,7 +106,13 @@ function rimage(n){
      sr1[4].style.display="none";
      sr1[5].style.display="none";
     sr1[n].style.display="block";
+    
+      if(y==3){
      sr1[n].className="sr1 appear";
+      }
+    if(y==2){
+         sr1[n].className="sr1 appearleft";
+    }
 }
 
 function steptext(n){
@@ -113,14 +132,33 @@ cimage(0);
 limage(5);
 rimage(1);
 
-function incr(n){
-    var stepav;
-    stepa=n+stepa;
-stepav=stepa-1;
-    if(stepav==6)
-        {stepav==5;}
+function incr(n,z){
+ 
+    var creset;
+  
+    var rreset;
+        var lreset;
+    
+    
+     stepa=n+stepa; 
+    if(stepa==-1)
+        {stepa=5}
+    if(stepa==6)
+        {stepa=0}
+
+
+
+    
     limagea=n+limagea;
+
+    if(lreset==-1)
+        {lreset==5;}
+ 
     rimagea=n+rimagea;
+
+    if(rreset==6)
+        {rreset=5;}
+    
     if(rimagea==6)
         {rimagea=0}
     if(rimagea==-1)
@@ -130,27 +168,85 @@ stepav=stepa-1;
     if(limagea==-1)
         {limagea=5}
     
-    if(stepa==6)
-        {stepa=0}
-      if(stepa==-1)
-        {stepa=5}
-    steptext(stepa);
-c1[stepav].className="c1 vanish";
-    window.setTimeout(function(){cimage(stepa);},400);
-    
-    sr1[rimagea-1].className="sr1 vanish";
-        window.setTimeout(function(){  rimage(rimagea);},400);
+   
   
-    sl1[limagea-1].className="sl1 vanish";
-       window.setTimeout(function(){   limage(limagea);},400);
+    steptext(stepa);
+   
+    
+   /* if(z==3){
+    
+c1[creset].className="c1 vanish";
+    window.setTimeout(function(){cimage(stepa,3);},400);
+    
+    sr1[rreset].className="sr1 vanish";
+        window.setTimeout(function(){  rimage(rimagea,3);},400);
+  
+    sl1[lreset].className="sl1 vanish";
+       window.setTimeout(function(){   limage(limagea,3);},400);
+   
+   }*/
+    
+    
+    
+      if(z==3){
+          
+creset=stepa-1;
+          
+          if(creset==-1){creset=5;}
+          
+            c1[creset].className="c1 vanish";
+
+                window.setTimeout(function(){cimage(stepa,3);},400);
+rreset=rimagea-1;
+          if(rreset==-1){rreset=5;}
+           sr1[rreset].className="sr1 vanish";
+           window.setTimeout(function(){  rimage(rimagea,3);},400);
+          
+  lreset=limagea-1;  
+            if(lreset==-1){lreset=5;}
+           sl1[lreset].className="sl1 vanish";
+           window.setTimeout(function(){  limage(limagea,3);},400);
+          
+          
+          
+    }
+       if(z==2){
+creset=stepa+1;
+                  if(creset==6){creset=0;}
+           
+              c1[creset].className="c1 vanishleft";
+
+                window.setTimeout(function(){cimage(stepa,2);},400);
+           
+ rreset=rimagea+1;
+          if(rreset==6){rreset=0;}
+           sr1[rreset].className="sr1 vanishleft";
+           window.setTimeout(function(){  rimage(rimagea,2);},400);
+           
+         lreset=limagea+1;  
+            if(lreset==6){lreset=0;}
+           sl1[lreset].className="sl1 vanishleft";
+           window.setTimeout(function(){  limage(limagea,2);},400);
+           
+           
+       }
    
    
+    
+    
+           
+    
+        
+        
+      
+
+    
     
 }
 
 
-sleft[0].addEventListener('click',function(){incr(-1);},false);
-sright[0].addEventListener('click',function(){incr(+1);},false);
+sleft[0].addEventListener('click',function(){incr(-1,2);},false);
+sright[0].addEventListener('click',function(){incr(+1,3);},false);
 
 
 /* end:steps */

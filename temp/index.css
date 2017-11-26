@@ -64,12 +64,29 @@
     100%{display: none;right:120px;opacity: 0.0;}   
 }
 
+
+.vanishleft{animation-name: vanishleft_m; animation-duration: .4s;animation-fill-mode:forwards;}
+@keyframes vanishleft_m{
+    0%{left:0px;}
+    99.9%{left:100px;opacity: 0.5;}
+    100%{display: none;right:120px;opacity: 0.0;}   
+}
+
+
 .appear{animation-name: appear_m; animation-duration: 0.3s;animation-fill-mode: forwards;}
 @keyframes appear_m{
     0%{left:100px;opacity: 0.5;display: block;}
     100%{left:0px;opacity: 1;}
      
 }
+
+.appearleft{animation-name: appearleft_m; animation-duration: 0.3s;animation-fill-mode: forwards;}
+@keyframes appearleft_m{
+    0%{right:100px;opacity: 0.5;display: block;}
+    100%{right:0px;opacity: 1;}
+     
+}
+
 
 
 /* end: steps*/
