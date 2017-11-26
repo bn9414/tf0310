@@ -114,8 +114,11 @@ limage(5);
 rimage(1);
 
 function incr(n){
+    var stepav;
     stepa=n+stepa;
-
+stepav=stepa-1;
+    if(stepav==6)
+        {stepav==5;}
     limagea=n+limagea;
     rimagea=n+rimagea;
     if(rimagea==6)
@@ -132,7 +135,7 @@ function incr(n){
       if(stepa==-1)
         {stepa=5}
     steptext(stepa);
-c1[stepa-1].className="c1 vanish";
+c1[stepav].className="c1 vanish";
     window.setTimeout(function(){cimage(stepa);},400);
     
     sr1[rimagea-1].className="sr1 vanish";
