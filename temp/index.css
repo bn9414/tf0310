@@ -31,6 +31,16 @@
 
 /* start: steps*/
 .step{padding-top: 30px; padding-bottom: 30px; 
+
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17ead9+1,6078ea+100 */
+background: #17ead9; /* Old browsers */
+background: -moz-linear-gradient(45deg, #17ead9 1%, #6078ea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #17ead9 1%,#6078ea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #17ead9 1%,#6078ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17ead9', endColorstr='#6078ea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 }
 #shd{ text-align: center; color:#66aab7; font-family:sans-serif; font-size: 20px;}
 #shd1{color: #388697;font-size: 40px; text-decoration: underline}
