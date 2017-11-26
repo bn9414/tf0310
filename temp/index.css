@@ -46,12 +46,32 @@
 .lmg,.rmg{width: 80px; height: 80px;margin: auto; border-radius: 50%;box-shadow: 1px 2px 5px 0px rgba(20, 20, 20, 0.1);position:absolute;border: 2px #41CAB1 solid;background-color: #fcfcfc;z-index: 1;display: flex;justify-content: center;align-items: center;opacity: 0.5;overflow: hidden;}
 .lmg{left: 15%;margin-top: -40px;top: 50%;}
 .rmg{right: 15%;margin-top: -40px;top: 50%;}
-.c1{width: 80%;}
-.sl1,.sr1{width: 50%;}
+.c1{width: 80%;position: relative;}
+
+.sl1,.sr1{width: 50%;position: relative;}
 .c1_codeex{width: 64%;}
 
 .s_text h2{font-size: 20px;color: #717171;text-align: center;padding: 0px 10px;}
-.s_text p{padding: 10px 10px;color: #717171;text-align: justify;font-size: 19px;font-family: }
+.s_text p{padding: 10px 10px;color: #717171;text-align: justify;font-size: 19px;}
+
+
+
+
+.vanish{animation-name: vanish_m; animation-duration: .4s;animation-fill-mode:forwards;}
+@keyframes vanish_m{
+    0%{right:0px;}
+    99.9%{right:100px;opacity: 0.5;}
+    100%{display: none;right:120px;opacity: 0.0;}   
+}
+
+.appear{animation-name: appear_m; animation-duration: 0.3s;animation-fill-mode: forwards;}
+@keyframes appear_m{
+    0%{left:100px;opacity: 0.5;display: block;}
+    100%{left:0px;opacity: 1;}
+     
+}
+
+
 /* end: steps*/
 
 /* start: benefits*/

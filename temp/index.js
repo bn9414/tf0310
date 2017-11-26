@@ -58,6 +58,7 @@ var rimagea=1;
 
 
 function cimage(n){
+
     c1[0].style.display="none";
      c1[1].style.display="none";
      c1[2].style.display="none";
@@ -65,6 +66,11 @@ function cimage(n){
      c1[4].style.display="none";
      c1[5].style.display="none";
     c1[n].style.display="block";
+c1[n].className="c1 appear";
+    
+    
+    
+
 }
 
 function limage(n){
@@ -75,6 +81,7 @@ function limage(n){
      sl1[4].style.display="none";
      sl1[5].style.display="none";
       sl1[n].style.display="block";
+     sl1[n].className="sl1 appear";
  
 }
 
@@ -86,6 +93,7 @@ function rimage(n){
      sr1[4].style.display="none";
      sr1[5].style.display="none";
     sr1[n].style.display="block";
+     sr1[n].className="sr1 appear";
 }
 
 function steptext(n){
@@ -107,6 +115,7 @@ rimage(1);
 
 function incr(n){
     stepa=n+stepa;
+
     limagea=n+limagea;
     rimagea=n+rimagea;
     if(rimagea==6)
@@ -123,9 +132,16 @@ function incr(n){
       if(stepa==-1)
         {stepa=5}
     steptext(stepa);
-    cimage(stepa);
-    rimage(rimagea);
-    limage(limagea);
+c1[stepa-1].className="c1 vanish";
+    window.setTimeout(function(){cimage(stepa);},400);
+    
+    sr1[rimagea-1].className="sr1 vanish";
+        window.setTimeout(function(){  rimage(rimagea);},400);
+  
+    sl1[limagea-1].className="sl1 vanish";
+       window.setTimeout(function(){   limage(limagea);},400);
+   
+   
     
 }
 
