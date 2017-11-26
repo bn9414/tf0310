@@ -41,21 +41,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#388697', end
 
 
 }
-#shd{ text-align: center; color:#66aab7; font-family:sans-serif; font-size: 20px;}
-#shd1{color: #388697;font-size: 40px; text-decoration: underline}
+#shd{ text-align: center; color:#95e0d2; font-family:sans-serif; font-size: 20px;}
+#shd1{color: #41CAB1;font-size: 40px; text-decoration: underline}
 .s_number{font-size: 40px;font-family: archive;text-align: center;color: #41CAB1;margin-top: 5px;}
 .s_number span{font-size: 40px;}
 .s_image{position: relative;display: flex; width: 100%; height: 150px;justify-content: center;align-items: center;}
-.cmg{width: 120px; height: 120px;margin: auto; border-radius: 50%;box-shadow: 3px 2px 10px 0px rgba(20, 20, 20, 0.2);border: 2px #41CAB1 solid;background-color: #fcfcfc;z-index: 2;display: flex;justify-content: center;align-items: center;}
-.lmg,.rmg{width: 80px; height: 80px;margin: auto; border-radius: 50%;box-shadow: 1px 2px 5px 0px rgba(20, 20, 20, 0.1);position:absolute;border: 2px #41CAB1 solid;background-color: #fcfcfc;z-index: 1;display: flex;justify-content: center;align-items: center;opacity: 0.5;}
+.cmg{width: 120px; height: 120px;margin: auto; border-radius: 50%;box-shadow: 3px 2px 10px 0px rgba(20, 20, 20, 0.2);border: 2px #388697 olid;background-color: #fcfcfc;z-index: 2;display: flex;justify-content: center;align-items: center;}
+.lmg,.rmg{width: 80px; height: 80px;margin: auto; border-radius: 50%;box-shadow: 1px 2px 5px 0px rgba(20, 20, 20, 0.1);position:absolute;border: 2px #41CAB1 olid;background-color: #fcfcfc;z-index: 1;display: flex;justify-content: center;align-items: center;opacity: 0.5;}
 .lmg{left: 15%;margin-top: -40px;top: 50%;}
 .rmg{right: 15%;margin-top: -40px;top: 50%;}
 .c1{width: 80%;}
 .sl1,.sr1{width: 50%;}
 .c1_codeex{width: 64%;}
 
-.s_text h2{font-size: 20px;color: #fcfcfc;text-align: center}
-.s_text p{padding: 10px 5px;color: #fcfcfc;text-align: justify;font-size: 18px;}
+.s_text h2{font-size: 20px;color: #fcfcfc;text-align: center;padding: 0px 20px;}
+.s_text p{padding: 10px 10px;color: #c6e7ee;text-align: justify;font-size: 18px;}
 /* end: steps*/
 
 /* start: benefits*/
