@@ -227,20 +227,11 @@ creset=stepa+1;
             if(lreset==6){lreset=0;}
            sl1[lreset].className="sl1 vanishleft";
            window.setTimeout(function(){  limage(limagea,2);},400);
-           
+       
            
        }
    
-   
-    
-    
-           
-    
-        
-        
-      
-
-    
+  
     
 }
 
