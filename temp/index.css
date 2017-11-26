@@ -9,7 +9,7 @@
 .what img{ width: 150px; margin: auto;display: block;transition: transform 0.5s, color 0.5s, opacity 0.5s,width 0.5s;}
 .what h1{font-family: archive; font-size: 30px;text-align: center;color: #f9f9f9;font-weight: 100;tra}
 .what p{font-size: 27px; text-align: center; color: #f9f9f9;margin-top: 20px;font-family: sans-serif;font-weight: 600; padding: 0px 10px}
-.what{width: 100%; height: 100vh;background-color: black;padding-top: 110px;transition: padding-top 0.5s;}
+.what{width: 100%; height: 100vh;background-color: black;padding-top: 110px;transition: padding-top 0.5s;box-shadow: 0px 2px 15px 2px rgba(20, 20, 20, 0.2);}
 
 
 .img_mob_move{transform: translate(-125px, -130px);color: black; opacity: 0;width: 50px;}
@@ -30,19 +30,29 @@
 /* end: 2nd layer*/
 
 /* start: steps*/
-
+.step{padding-top: 10px; padding-bottom: 10px; 
+}
 #shd{ text-align: center; color:#66aab7; font-family:sans-serif; font-size: 20px;}
 #shd1{color: #388697;font-size: 40px; text-decoration: underline}
+.s_number{font-size: 40px;font-family: archive;text-align: center;color: #41CAB1;margin-top: 5px;}
+.s_number span{font-size: 40px;}
+.s_image{position: relative;display: flex; width: 100%; height: 150px;justify-content: center;align-items: center;}
+.cmg{width: 120px; height: 120px;margin: auto; border-radius: 50%;box-shadow: 3px 2px 10px 0px rgba(20, 20, 20, 0.2);border: 2px #41CAB1 solid;background-color: #fcfcfc;z-index: 2;display: flex;justify-content: center;align-items: center;}
+.lmg,.rmg{width: 80px; height: 80px;margin: auto; border-radius: 50%;box-shadow: 1px 2px 5px 0px rgba(20, 20, 20, 0.1);position:absolute;border: 2px #41CAB1 solid;background-color: #fcfcfc;z-index: 1;display: flex;justify-content: center;align-items: center;opacity: 0.5;}
+.lmg{left: 15%;margin-top: -40px;top: 50%;}
+.rmg{right: 15%;margin-top: -40px;top: 50%;}
+.c1{width: 80%;}
+.sl1,.sr1{width: 50%;}
+.c1_codeex{width: 64%;}
 
-
-
-
+.s_text h2{font-size: 20px;color: #41CAB1;text-align: center}
+.s_text p{padding: 10px 5px;color: #717171;text-align: justify;font-size: 18px;}
 /* end: steps*/
 
 /* start: benefits*/
 
 .ben1 *{border: 1px olid black;}
-
+.ben{box-shadow: 0px -2px 15px 2px rgba(20, 20, 20, 0.2);}}
 #sn{ text-align: center; color:#66aab7; font-family:sans-serif; font-size: 20px;}
 #s1{color: #388697;font-size: 40px; text-decoration: underline}
 .ben1{border:1px olid #717171;margin: 10px;box-shadow: 5px 5px 20px 0px rgba(20, 20, 20, 0.2);margin-bottom: 30px}

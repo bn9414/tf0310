@@ -43,7 +43,51 @@ function scrollani() {
     }
         
 }
-
-
-
 /* end:section 1*/
+/* start:steps*/
+
+var c1=document.getElementsByClassName('c1');
+var sl1=document.getElementsByClassName('sl1');
+var sr1=document.getElementsByClassName('sr1');
+
+function cimage(n){
+    c1[0].style.display="none";
+     c1[1].style.display="none";
+     c1[2].style.display="none";
+     c1[3].style.display="none";
+     c1[4].style.display="none";
+     c1[5].style.display="none";
+    c1[n].style.display="block";
+}
+
+function limage(n){
+    sl1[0].style.display="none";
+     sl1[1].style.display="none";
+     sl1[2].style.display="none";
+     sl1[3].style.display="none";
+     sl1[4].style.display="none";
+     sl1[5].style.display="none";
+      sl1[n].style.display="block";
+ 
+}
+
+function rimage(n){
+    sr1[0].style.display="none";
+     sr1[1].style.display="none";
+     sr1[2].style.display="none";
+     sr1[3].style.display="none";
+     sr1[4].style.display="none";
+     sr1[5].style.display="none";
+    sr1[n].style.display="block";
+}
+
+
+
+
+cimage(0);
+limage(5);
+rimage(1);
+
+/* end:steps */
+
+
