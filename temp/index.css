@@ -32,21 +32,22 @@
 /* start: steps*/
 .step{padding-top: 30px; padding-bottom: 30px; 
 
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#388697+2,0f3841+100 */
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#388697+2,0f3841+100 */
 background: #388697; /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover, #388697 2%, #0f3841 100%); /* FF3.6-15 */
 background: -webkit-radial-gradient(center, ellipse cover, #388697 2%,#0f3841 100%); /* Chrome10-25,Safari5.1-6 */
 background: radial-gradient(ellipse at center, #388697 2%,#0f3841 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#388697', endColorstr='#0f3841',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#388697', endColorstr='#0f3841',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */  
 
 
 }
-#shd{ text-align: center; color:#95e0d2; font-family:sans-serif; font-size: 20px;}
-#shd1{color: #41CAB1;font-size: 40px; text-decoration: underline}
-.s_number{font-size: 40px;font-family: archive;text-align: center;color: #41CAB1;margin-top: 5px;}
+#shd{ text-align: center; color:#47A8BD; font-family:sans-serif; font-size: 20px;}
+#shd1{color: #47A8BD;font-size: 40px; text-decoration: underline}
+.s_number{font-size: 40px;font-family: archive;text-align: center;color: #47A8BD;margin-top: 5px;}
 .s_number span{font-size: 40px;}
 .s_image{position: relative;display: flex; width: 100%; height: 150px;justify-content: center;align-items: center;}
-.cmg{width: 120px; height: 120px;margin: auto; border-radius: 50%;box-shadow: 3px 2px 10px 0px rgba(20, 20, 20, 0.2);border: 2px #388697 olid;background-color: #fcfcfc;z-index: 2;display: flex;justify-content: center;align-items: center;}
+.cmg{width: 120px; height: 120px;margin: auto; border-radius: 50%;box-shadow: 3px 2px 10px 0px rgba(20, 20, 20, 0.2);border: 2px #41CAB1 olid;background-color: #fcfcfc;z-index: 2;display: flex;justify-content: center;align-items: center;}
 .lmg,.rmg{width: 80px; height: 80px;margin: auto; border-radius: 50%;box-shadow: 1px 2px 5px 0px rgba(20, 20, 20, 0.1);position:absolute;border: 2px #41CAB1 olid;background-color: #fcfcfc;z-index: 1;display: flex;justify-content: center;align-items: center;opacity: 0.5;}
 .lmg{left: 15%;margin-top: -40px;top: 50%;}
 .rmg{right: 15%;margin-top: -40px;top: 50%;}
@@ -54,8 +55,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#388697', end
 .sl1,.sr1{width: 50%;}
 .c1_codeex{width: 64%;}
 
-.s_text h2{font-size: 20px;color: #fcfcfc;text-align: center;padding: 0px 20px;}
-.s_text p{padding: 10px 10px;color: #c6e7ee;text-align: justify;font-size: 18px;}
+.s_text h2{font-size: 20px;color: #fcfcfc;text-align: center;padding: 0px 10px;}
+.s_text p{padding: 10px 10px;color: #dae9ec;text-align: justify;font-size: 19px;font-family: }
 /* end: steps*/
 
 /* start: benefits*/
