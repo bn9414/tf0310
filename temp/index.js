@@ -196,16 +196,16 @@ creset=stepa-1;
           
             c1[creset].className="c1 vanish";
 
-                window.setTimeout(function(){cimage(stepa,3);},400);
+                window.setTimeout(function(){cimage(stepa,3);},200);
 rreset=rimagea-1;
           if(rreset==-1){rreset=5;}
            sr1[rreset].className="sr1 vanish";
-           window.setTimeout(function(){  rimage(rimagea,3);},400);
+           window.setTimeout(function(){  rimage(rimagea,3);},200);
           
   lreset=limagea-1;  
             if(lreset==-1){lreset=5;}
            sl1[lreset].className="sl1 vanish";
-           window.setTimeout(function(){  limage(limagea,3);},400);
+           window.setTimeout(function(){  limage(limagea,3);},200);
           
           
           
