@@ -34,7 +34,7 @@
 .headtext{overflow: hidden;}
 
 .what span{position: relative; top: 10px;padding-top: 60px; display:inline-block;border: 1px olid;height: 80px;overflow: hidden;opacity:0;  transition: padding-top 1s, opacity 1s;}
-.hd1{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;color: green;}
+.hd1{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;color: red;}
 .hd2{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.2s;}
 .hd3{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.4s;}
 .hd4{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.6s;}
