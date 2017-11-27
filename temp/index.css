@@ -63,6 +63,8 @@ body{background-color: white;}
 /* start: 2nd layer*/
 
 .price{width: 100%; height: 300px;font-family: 'Ubuntu', sans-serif;color: #343434;display: flex;justify-content: center;align-items: center;background-color: white;border: 1px olid;opacity: 0;padding: 150px 0px 0px 0px; transition: opacity 1s,padding 1s; }
+.price_ani{opacity: 1;padding: 0px 0px 0px 0px;}
+
 
 .submitfs{width: 25%; height: 200px;border: 1px olid;display: flex;align-items: center;justify-content: center;}
 .price p{text-align: center;font-size: 30px;color: #b5b5b5;margin-bottom: 0px;width: 25%;text-align: center;border: 1px olid}
@@ -80,7 +82,7 @@ body{background-color: white;}
     .price p{width: 100%;}
     .price h1{width: 100%;}
     .submitfs{width: 100%;padding-top: 20px}
-    
+    .pricemob_ani{opacity: 1;padding: 0px 0px 0px 0px;}
 }
 
 /* end: 2nd layer*/

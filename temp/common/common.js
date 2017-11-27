@@ -76,7 +76,7 @@ allmenu[3].addEventListener('click',zoomin,false);
 allmenu[4].addEventListener('click',zoomin,false);
 allmenu[5].addEventListener('click',zoomin,false);
 allmenu[6].addEventListener('click',zoomin,false);
-inlogo.addEventListener('click',zoomin,false);
+
 
 
 /* end:menu zoom out */

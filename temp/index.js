@@ -38,9 +38,15 @@ var price=document.getElementsByClassName('price');
 window.onscroll = function() {scrollani()};
 
 function scrollani() {
-    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-        price[0].style.opacity="1"; 
-         price[0].style.padding="0px"; 
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        price[0].className="price pricemob_ani" 
+       
+      
+    }
+    
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        price[0].className="price price_ani" 
+       
       
     }
         
