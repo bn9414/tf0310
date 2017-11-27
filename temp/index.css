@@ -4,28 +4,44 @@
     src: url(images/archive.otf);
 }
 
-
+#nav_bar{box-shadow: none;}
 /* start: 1st layer*/
 .what img{ width: 150px; margin: auto;display: block;transition: transform 0.5s, color 0.5s, opacity 0.5s,width 0.5s;}
-.what h1{font-family: archive; font-size: 30px;text-align: center;color: #f9f9f9;font-weight: 100;tra}
-.what p{font-size: 27px; text-align: center; color: #f9f9f9;margin-top: 20px;font-family: sans-serif;font-weight: 600; padding: 0px 10px}
-.what{width: 100%; height: 100vh;background-color: black;padding-top: 110px;transition: padding-top 0.5s;box-shadow: 0px 2px 35px 5px rgba(20, 20, 20, 0.2);}
+.what h1{font-family: archive; font-size: 70px;text-align: center;color: #343434;font-weight: 100;font-family: 'Ubuntu', sans-serif;position: relative;overflow: hidden;border: 1px olid}
 
+.what{width: 100%; height: 100vh;background-color: white;padding-top: 180px;transition: padding-top 0.5s;ox-shadow: 0px 2px 35px 5px rgba(20, 20, 20, 0.2);}
+.headtext{overflow: hidden;}
 
-.img_mob_move{transform: translate(-125px, -130px);color: black; opacity: 0;width: 50px;}
-.what_mob_move{padding-top: 30px;}
+.what span{position: relative; top: 10px;padding-top: 60px; display:inline-block;border: 1px olid;height: 80px;overflow: hidden;opacity:0;  transition: padding-top 1s, opacity 1s;}
+.hd1{animation-name: hdt1;animation-duration: 0.7s; animation-fill-mode: forwards;}
+.hd2{animation-name: hdt1;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.2s;}
+.hd3{animation-name: hdt1;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.4s;}
+.hd4{animation-name: hdt1;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.6s;}
+.hd5{animation-name: hdt1;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.8s;}
+.hd6{animation-name: hdt1;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 1s;}
+.hd7{animation-name: hdt1;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 1.2s;}
+
+@keyframes hdt1{
+    from{}
+    to{padding-top: 0px;opacity: 1;}
+}
+.what .buildm{ width: 100px; height: 80px; background-image: url(images/build.svg);background-repeat: no-repeat;background-size: 90%;;padding-top: 0px;opacity: 1;}
+
+@media screen and (max-width:480px)
+{
+    .what h1{font-size: 50px;text-align: left}
+    
+    .what{padding-top: 80px}    
+}
+
 /* end: 1st layer*/
+
 /* start: 2nd layer*/
 
-.slide_con{margin-bottom: 20px;display: flex;width: 100%;position: relative;bottom: 0px; transition: bottom 0.5s; }
-.c_slide,.l_slide,.r_slide{border: 2px solid red;border-radius: 10px; margin: auto;box-shadow: 5px 5px 20px 0px rgba(20, 20, 20, 0.2);background-color: white;}
-.c_slide{width:80%;height: 300px;z-index: 2}
-.l_slide{width: 70%;height: 250px; position: absolute;border-color: green;margin-top: -125px;top: 50%;left: 3px;z-index: 1}
-.r_slide{width: 70%;height: 250px; position: absolute;border-color: yellow;margin-top: -125px;top: 50%;right: 3px;z-index: 1}
+.price{width: 100%; height: 100vh;font-family: 'Ubuntu', sans-serif;color: #343434;background-color: white;}
+.price p{text-align: center;font-size: 30px;color: #b5b5b5;margin-bottom: 50px}
+.price h1{text-align: left;padding-top: 50px;padding-left: 10px;color: #FA684B;font-size: 65px;}
 
-.slide1,.slide2,.slide3{width: 90%; height: 90%;background-color: violet;margin: auto;}
-.slide2{background-color: red;display: none;}
-.slide3{background-color: green;display: none;}
 
 /* end: 2nd layer*/
 
@@ -60,7 +76,7 @@
 .vanish{animation-name: vanish_m; animation-duration: .4s;animation-fill-mode:forwards;}
 @keyframes vanish_m{
     0%{right:0px;}
-    99.9%{right:100px;opacity: 0.5;width: 30%;}
+    99.9%{right:100px;opacity: 0;width: 30%;}
     100%{display: none;right:120px;opacity: 0.0;}   
 }
 
@@ -75,7 +91,7 @@
 
 .appear{animation-name: appear_m; animation-duration: 0.3s;animation-fill-mode: forwards;}
 @keyframes appear_m{
-    0%{left:100px;opacity: 0.5;display: block;width: 30%}
+    0%{left:100px;opacity: 0;display: block;width: 30%}
     100%{left:0px;opacity: 1;width: 80%;}
      
 }
