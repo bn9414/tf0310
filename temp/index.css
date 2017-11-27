@@ -71,10 +71,10 @@ body{background-color: white;}
 .price h1{text-align: left;padding-top: 30px;padding-left: 10px;color: #343434;font-size: 45px;width: 25%;text-align: center;}
 .price h1 span{color: #FA684B;}
 .price h1 img{width: 20px;}
-.menu7 p{width: 100%;color: white;font-size: 25px} 
-.menu7{ color: #f9f9f9; font-family: 'Ubuntu', sans-serif; font-weight: 300; display: block; margin-top: 0px; margin-left: 20px; border-radius: 30px;width: 260px; padding: 10px 0px 10px 0px; background-color: #FA684B; background-image: url(images/right.png); background-repeat: no-repeat; background-position:222px; background-size: 30px 30px;transition: width 0.5s, background-position 0.5s, padding 0.5s,opacity 0.5s, transform 0.5s;height: 50px;margin: auto;}
+.price_button p{width: 100%;color: white;font-size: 25px} 
+.price_button{ color: #f9f9f9; font-family: 'Ubuntu', sans-serif; font-weight: 300; display: block; margin-top: 0px; margin-left: 20px; border-radius: 30px;width: 260px; padding: 10px 0px 10px 0px; background-color: #FA684B; background-image: url(images/right.png); background-repeat: no-repeat; background-position:222px; background-size: 30px 30px;transition: width 0.5s, background-position 0.5s, padding 0.5s,opacity 0.5s, transform 0.5s;height: 50px;margin: auto;}
 
-.menu7:hover{background-position: 230px;padding: 10px 20px 10px 0px; }
+.price_button:hover{background-position: 230px;padding: 10px 20px 10px 0px; }
 
 @media screen and (max-width:480px)
 {
