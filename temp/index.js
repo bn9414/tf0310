@@ -29,6 +29,24 @@ homeani();
         
 	});
 
+/* start: second layer*/
+
+
+/* start:section 1*/
+var price=document.getElementsByClassName('price');
+
+window.onscroll = function() {scrollani()};
+
+function scrollani() {
+    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        price[0].style.opacity="1"; 
+         price[0].style.padding="0px"; 
+      
+    }
+        
+}
+
+/* end:section 1*/
 
 
 
