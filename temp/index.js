@@ -51,7 +51,7 @@ function homeani()
     hd1[0].className=('hd1 homeani');
     
 }
-index.onload=setTimeout(homeani,500);
+index.onload=setTimeout(homeani,1500);
     
     
 
