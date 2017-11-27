@@ -5,6 +5,14 @@
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
         
+        var hd1=document.getElementsByClassName('hd1');
+
+function homeani()
+{
+    hd1[0].className=('hd1 homeani');
+    
+}
+homeani();
         
 	});
 
@@ -44,14 +52,7 @@ less[3].addEventListener('click',function(){benvisc(3);},false);
 /* start:section 1*/
 
 var index=document.getElementById('index');
-var hd1=document.getElementsByClassName('hd1');
 
-function homeani()
-{
-    hd1[0].className=('hd1 homeani');
-    
-}
-window.onload=setTimeout(homeani,1000);
     
     
 
