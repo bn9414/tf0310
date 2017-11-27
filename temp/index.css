@@ -31,14 +31,14 @@
 {
     .what h1{font-size: 50px;text-align: left}
     
-    .what{padding-top: 80px}    
+    .what{padding-top: 30px}    
 }
 
 /* end: 1st layer*/
 
 /* start: 2nd layer*/
 
-.price{width: 100%; height: 100vh;font-family: 'Ubuntu', sans-serif;color: #343434;background-color: white;}
+.price{width: 100%; height: 100vh;font-family: 'Ubuntu', sans-serif;color: #343434;background-image: url(images/pricebg.svg);background-repeat: no-repeat;background-position: right;display: none;}
 .price p{text-align: center;font-size: 30px;color: #b5b5b5;margin-bottom: 50px}
 .price h1{text-align: left;padding-top: 50px;padding-left: 10px;color: #FA684B;font-size: 65px;}
 
