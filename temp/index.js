@@ -45,7 +45,7 @@ function scrollani() {
     }
     
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        price[0].className="price price_ani" 
+        price[0].className="price price_ani pricemob_ani" 
        
       
     }
