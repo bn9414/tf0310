@@ -47,3 +47,41 @@ who();
 x[0].addEventListener('click', who,false);
 y[0].addEventListener('click', why,false);
 z[0].addEventListener('click', what,false);
+
+/* sec 1*/
+
+var secv= document.getElementsByClassName('sec_v');
+var sect= document.getElementsByClassName('sec_t');
+var sechd= document.getElementsByClassName('shd');
+var outline= document.getElementsByClassName('outline');
+
+function sec1(n){
+    
+    secv[0].style.display="none";
+    secv[1].style.display="none";
+    secv[2].style.display="none";
+    secv[3].style.display="none";
+    
+    sect[0].style.display="none";
+    sect[1].style.display="none";
+    sect[2].style.display="none";
+    sect[3].style.display="none";
+    
+    sechd[0].style.display="none";
+    sechd[1].style.display="none";
+    sechd[2].style.display="none";
+    sechd[3].style.display="none";
+    
+    
+    secv[n].style.display="flex";
+    sect[n].style.display="flex";
+     sechd[n].style.display="block";
+    
+}
+sec1(0);
+outline[0].addEventListener('click',function(){sec1(0);},false);
+outline[1].addEventListener('click',function(){sec1(1);},false);
+outline[2].addEventListener('click',function(){sec1(2);},false);
+outline[3].addEventListener('click',function(){sec1(3);},false);
+
+/* sec 1*/
