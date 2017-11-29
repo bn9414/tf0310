@@ -54,6 +54,7 @@ var secv= document.getElementsByClassName('sec_v');
 var sect= document.getElementsByClassName('sec_t');
 var sechd= document.getElementsByClassName('shd');
 var outline= document.getElementsByClassName('outline');
+var solid= document.getElementsByClassName('solid');
 
 function sec1(n){
     
@@ -72,11 +73,17 @@ function sec1(n){
     sechd[2].style.display="none";
     sechd[3].style.display="none";
     
+        solid[0].style.display="none";
+    solid[1].style.display="none";
+    solid[2].style.display="none";
+    solid[3].style.display="none";
+    
+    
     
     secv[n].style.display="flex";
     sect[n].style.display="flex";
      sechd[n].style.display="block";
-    
+        solid[n].style.display="block";
 }
 sec1(0);
 outline[0].addEventListener('click',function(){sec1(0);},false);

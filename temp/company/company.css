@@ -13,10 +13,9 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 
 .select{width: 80%;position: relative;display: flex;margin: auto;}
 .stick{height: 2px;background-color: white;margin: auto;margin-top: 20px;width: 95%;display: flex;justify-content: space-between;position: relative;top: 10px}
-.outline{border: 2px solid white; width: 25px; height: 25px; border-radius: 50%;display: flex;position: relative;top: -10px;cursor: pointer;}
+.outline{border: 2px solid white; width: 25px; height: 25px; border-radius: 50%;display: flex;position: relative;top: -10px;cursor: pointer;background-color: black;}
 .solid{width: 15px;height: 15px;margin: auto;background-color: white;border-radius: 50%;position: relative;}
-.sc1{position: relative;left: -10px;}
-.sc4{position: relative; right: -10px;}
+
 @media screen and (min-width:800px){
    
     
