@@ -1,16 +1,37 @@
-body {border: 1px olid black;}
+body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 
 /* start: sec1*/
-.sec1 p{color: #fcfcfc;font-family: sans-serif;margin:  25px 0px;font-size: 38px}
-.sec1{width: 100%;height: 350px; background-color: #41CAB1;padding-top: 20px}
+.sec1 *{border: 1px olid black;}
+.sec1{width: 100%;height: 600px; background-color: black;padding-top: 20px;color: white}
+.vr{text-align: center;font-size: 40px;color:#FA684B }
+.sec_hd h1{text-align: center;}
+
+.sec_v,.sec_t{display: flex;justify-content: center;align-items: center;}
+.sec_v img{width: 200px;padding: 10px 0px;}
+.sec_l{width: 90%; height: 1px;margin: auto;background-color: white;}
+.sec_t p{padding:10px 25px ;font-size: 18px}
+
+.select{width: 80%;position: relative;display: flex;margin: auto;}
+.stick{height: 2px;background-color: white;margin: auto;margin-top: 20px;width: 95%;display: flex;justify-content: space-between;position: relative;top: 10px}
+.outline{border: 2px solid white; width: 25px; height: 25px; border-radius: 50%;display: flex;position: relative;top: -10px}
+.solid{width: 15px;height: 15px;margin: auto;background-color: white;border-radius: 50%;position: relative;}
+.sc1{position: relative;left: -10px;}
+.sc4{position: relative; right: -10px;}
+@media screen and (min-width:800px){
+   
+    
+}
+
 /* end: sec1*/
 
 /* start: www*/
-
+.www_con *{border: 1px olid} 
 .www_con{width: 100%; height: auto;padding: 20px 5px;}
+
 .www1{width: 100%; height: 50px;display: flex;justify-content: center;align-items: center}
+
 .www1 div{width: 2px; height: 50%; background-color: #717171;}
-.www1 p{font-size: 23px; font-family: sans-serif;margin: 5px}
+.www1 p{font-size: 23px; font-family: sans-serif;margin: 5px;cursor: pointer;}
 .whoh{color: #717171;}
 .whohc{color: #f9d63c;}
 .whyh{color: #717171;}
@@ -19,31 +40,61 @@ body {border: 1px olid black;}
 .whathc{color: #41CAB1;}
 
 .www2 p{font-size: 18px;padding: 10px 5px;color: #454545;text-align: justify;}
-.www2{width: 100%; height: auto;position: relative;}
-.www2 p span{font-size: 150px; position: absolute;left:6%;font-family: sans-serif;z-index: -1; opacity: 0.6;}
+.www2{width: 100%; height: auto;position: relative;display: flex;justify-content: center;align-items: center;}
+.www2 p span{font-size: 150px; position: absolute;left:16%;top: 10px; font-family: sans-serif;z-index: -1; opacity: 0.6;}
 .whop{display: non;}
 .whyp{display: none;}
 .whatp{display: none;}
 
 .whop span{ color: #f9de70;}
     .whyp span{color: #ed9784;top: 80px}
-    .www2 .whatp  span{color: #a1dddd;font-size: 100px;left: 40px}
+    .www2 .whatp  span{color: #a1dddd;font-size: 100px;left: 20%;}
+
 
 /* end: www*/
 
 /* start: m and v*/
 
-.mv_con{width: 100%;;padding: 15px 5px;display: flex;flex-direction: column; color: #454545;}
+.mv_con{width: 100%;;padding: 15px 5px;display: flex;flex-direction: column; color: #454545;overflow: hidden;position: relative;}
 .mv_con h1{text-align: center;font-size: 70px;font-family: sans-serif;color: #343434;}
 .mv_con p{font-size: 20px; color: #388697}
 .mv_con div{margin: 20px 0px}
+.mv_con div{margin: auto;display: flex;justify-content: center;flex-direction: column; align-items: center;padding: 30px 10px;}
+ .vission img{position: absolute;z-index: -1;left: -90px;width: 200px;bottom: -20px}
+    .mission img{position: absolute;z-index: -1;left: -70px;width: 250px;bottom: 250px}
+/* mobile */
+@media screen and (min-width:800px){
+
+    .mv_con *{border: 1px olid}
+.mv_con{flex-direction: row;padding:50px 0px;position: relative;overflow: hidden;}
+.mv_con div{width: 40%;margin: auto;display: flex;justify-content: flex-start;flex-direction: column; align-items: center;padding: 50px 0px;}
+    .mv_con p{font-size: 30px;}
+    .mission{position: relative; top: -15px; }
+    .vission img{position: absolute;z-index: -1;right: -90px;width: 250px;bottom: -40px}
+    .mission img{position: absolute;z-index: -1;left: -250px;width: 450px;bottom: -250px}
+}
+/* mobile */
 
 
 /* end: m and v*/
 
+@media screen and (min-width:800px){
+/* mobile*/
+.www1{flex-direction: column;width: 40%; height:280px;position: relative; top: 20px}
+.www_con{display: flex;width: 80%;margin: auto;padding: 100px 0px;}
+.www1 p{font-size: 70px;}
+.www1 div{width: 50%; height: 2px;}
+.www2 p{font-size: 30px;}
+  .www2 .whatp  span{color: #a1dddd;font-size: 200px;left: 40px;top: 10px}
+.www2 p span{font-size: 200px;left: 20%;}
+    
+/* mobile*/
+}
+
 /*start: core values*/
 
 .core{width: 100%; height: auto;display: flex;flex-direction: column;}
+
 .core h1{font-family: sans-serif}
 .core div{width: 100%; height: auto; }
 .core_h{ text-align: center; color:#66aab7; font-family:sans-serif; font-size: 30px;margin-bottom: 10px;margin-top: 30px}
@@ -67,12 +118,21 @@ body {border: 1px olid black;}
 #c32{margin-right: 190px}
 #c12{margin-right: 170px}
 #c13{margin-right: 190px}
-
+@media screen and (min-width:800px){
+    
+/* mobile */
+.core_resd{display: flex; flex-direction: row;}
+.c1 p,.c2 p,.c3 p{padding: 20px 100px 5px 10px;}
+.c1{padding: 40px 0px; }
+.c2{padding: 40px 0px; }
+.c3{padding: 40px 0px; }
+/* mobile */
+}
 /*end: core values*/
 
 /*start: found*/
 
-.found{width: 100%; height: 600px;position: relative;overflow: hidden;}
+.found{width: 100%; height: 600px;position: relative;overflow: hidden;display: none;}
 .pic{width: 100%; height: 400px;}
 .found .pic img{width: 100%;position: relative; bottom: 50px}
 .lay{width: 100%; height: 190px; position: absolute; top: 0px;left: 0px;top: 320px}

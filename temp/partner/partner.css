@@ -1,3 +1,5 @@
+body{font-family: 'Ubuntu', sans-serif;}
+
 #faqheaddown{ display: flex; width: 100%; height: 600px;background-color: #fcfcfc;flex-direction: column;padding-left: 20px; padding-top: 230px; }
 
 
@@ -22,21 +24,21 @@ text-shadow: -1px 0 #454545, 0 1px #454545, 1px 0 #454545, 0 -1px #454545;}
 
 
 .sell h2,.refer h2{margin:20px 0px 5px 0px;}
-.sellh,.referh{font-size: 22px;color: #388697;padding-top: 20px;margin-bottom: 10px;}
+.sellh,.referh{font-size: 20px;color: #388697;padding-top: 20px;margin-bottom: 10px;}
 .sell p,.refer p{text-align: justify;font-size: 18px;}
-.sell ul,.refer ul{margin: 0px;margin-left: 10px; padding:0px 0px 0px 10px; font-size: 20px}
+.sell ul,.refer ul{margin: 0px;margin-left: 10px; padding:0px 0px 0px 10px; font-size: 18px}
 .sell ul li,.refer ul li{margin: 10px 0px; }
 .circle{width: 35px; height: 35px; border-radius: 50%; border: 2px solid #388697;color: #388697;padding-left: 11px;padding-top: 5px;margin-bottom: 5px; }
 .sell .circle,.refer .circle{font-size: 20px; font-weight: 600;}
 .sellhowp div,.referhowp div{display: flex;justify-content: center; align-items: center;flex-direction: column; margin:  20px 0px;}
-.sellh span,.referh span{display: ;}
+.sellh span,.referh span{}
 
 /*end: sell */
 
 
 /*start:bottom */
  .partbottom{display: flex;width: 100%; height: 300px;margin: auto;background-color:white; flex-direction: column;justify-content: center; align-items: center;box-sizing: border-box;}
-    .sellh span,.referh span{display: block;}
+    .sellh span,.referh span{display:;}
     .bottomm{width: 100%;position: relative; top: 20px; opacity: 0;transition: opacity 1s, top 1s;}
  
     .partbottom div{width: 90%;overflow: hidden; margin: 0px 0px;border-bottom: 3px solid #343434; display: flex;justify-content: center;align-items: center;}

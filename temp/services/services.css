@@ -24,7 +24,7 @@
 
  .qopen{position: absolute; width:200px; background-color: #343434;font-size: 17px;bottom: 0px;right: 0px; box-shadow: 2px 1px 2px 1px hsla(0, 0%, 0%, 0.1); display: none;padding: 3px 7px;padding-top: 25px;color: #fcfcfc;border-radius: 5px;z-index: 1;}
 
-.close{position: absolute;width: 20px; height: 20px; right: 10px; top: 5px; background-color: #717171;border-radius: 50%;display: flex;justify-content: center; align-items: center;}
+.close{position: absolute;width: 20px; height: 20px; right: 10px; top: 5px; background-color: #717171;border-radius: 50%;display: flex;justify-content: center; align-items: center;cursor: pointer;}
 .close span{font-family: sans-serif;color: #f9f9f9;padding: 0px 0px;padding-bottom: 2px;}
 .quest{width: 20px; height: 20px;border-radius: 50%;display: flex; background-color: #717171;display: flex;}
 .quest p{font-family: sans-serif;margin: auto;color: #fcfcfc;position: relative; }
@@ -92,7 +92,7 @@
 #second_ex{width: 150px; left:10px;top: 5px; text-align: left; }
 .emp{font-weight: 600;}
 .suit{back }
-.expand{width: 20px; height: 20px; background-color: #717171;border-radius: 50%;display: inline-block; margin-left: 10px;display: inline-flex; justify-content: center; align-items: center;position: absolute;right: 5px}
+.expand{width: 20px; height: 20px; background-color: #717171;border-radius: 50%;display: inline-block; margin-left: 10px;display: inline-flex; justify-content: center; align-items: center;position: absolute;right: 5px;cursor: pointer;}
 .expand span{color: #fcfcfc;font-weight: 800 }
 .suit_open{display: none;padding: 5px 10px;font-size: 17px; text-align: justify}
 .exoffer{display: none;background-color: #b5b5b5;}
@@ -166,10 +166,10 @@
 
 
 /* Start: l2 form*/
-.revamp_con{height: 700px}
+.revamp_con{height: auto}
 
 .form_cont{ 
-    width: 100%; margin: auto; margin-top: 60px;
+    width: 95%; margin: auto; margin-top: 60px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -178,7 +178,7 @@
     border: 1px olid black;
     background-color: #41cab1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+border-radius: 10px;margin-bottom: 20px;
 background-image: url(images/smoke.png); background-size: 300px 300px; background-repeat: no-repeat; background-position: -50px -45px;}
 
 #form_message{ 
@@ -226,9 +226,9 @@ input::placeholder{color: #717171; font-size: 18px; }
 .fields{flex-direction: column;   height: 380px;padding-left: 5px;}
     
     #cletf1, #cletf2, #cletf3{display: flex; justify-content: center; align-items: center; width: 90%; margin: 10px;}
-    #form_message{ margin: 0px; font-size: 23px; padding-left: 10px; padding-top: 0px;width: 100%;position: relative; top: 25px;}
+    #form_message{ margin: 0px; font-size: 23px; padding-left: 10px; padding-top: 0px;width: 100%;position: relative; top: 5px;}
     
-#cletf6{  position: relative; left: 0px;
+#cletf6{  position: relative; left: -30px;top: 10px
 }
 }
 

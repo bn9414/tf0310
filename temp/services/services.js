@@ -61,13 +61,12 @@ if(n==0||n==1||n==2||n==3||n==4||n==5||n==6||n==7||n==8||n==9||n==10||n==11||n==
 tick=!tick;
 }
 
-function suitopen(){
+function suitopen(n){
     if(suit_tick==0)
         {
-            suit[0].style.display="block";
-             suit[1].style.display="block";
-            suit[2].style.display="block";
-            document.getElementsByClassName('suit')[0].style.height='130px';
+            suit[n].style.display="block";
+            
+       
                
         }
     
@@ -76,7 +75,7 @@ function suitopen(){
             suit[0].style.display="none";
              suit[1].style.display="none";
               suit[2].style.display="none";
-              document.getElementsByClassName('suit')[0].style.height='50px';
+              
         }
     
     suit_tick=!suit_tick;
@@ -156,9 +155,9 @@ z[19].addEventListener("click",function(){open('a')}, false);
 
 
 
-expand[0].addEventListener("click",suitopen, false);
-proexpand[0].addEventListener("click",suitopen, false);
-proexpand[1].addEventListener("click",suitopen, false);
+expand[0].addEventListener("click",function(){suitopen(0);}, false);
+proexpand[0].addEventListener("click",function(){suitopen(1);}, false);
+proexpand[1].addEventListener("click",function(){suitopen(2);}, false);
 expand[1].addEventListener("click",offeropen, false);
 
 
