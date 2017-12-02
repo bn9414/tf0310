@@ -115,14 +115,19 @@ body{font-family: 'Ubuntu', sans-serif;}
 .less{display: none;}
 
 /*start: steps*/
+.step_hd *{border: 1px olid}
+.step_hd div{text-align:center;padding-left: 0px;}
+#stephd7{font-size: 170px;color:#41CAB1;display: inline-block}
+#stephdtxt{font-size: 50px;position: relative; color: #454545;top: -20px;left: -70px;display: inline-block}
+
 .step *{border: 1px olid;}
 .step_left,.step_right{width: 48%; height: auto;border: 1px olid}
 .step{width: 100%; height: auto; background-color: #f2fcfa;}
-.step_hd{height: 200px;}
-.step_cont{width: 100%; height: auto;position: relative;display: flex;justify-content: center;}
+.step_hd{height: auto;}
+.step_cont{width: 100%; height: auto;position: relative;display: flex;justify-content: center;padding-top: 100px}
 .stick_c{width: 5px; height: auto;background-color: #41cab1;overflow: hidden;opacity: 0; transition: opacity 1s; }
 .stick{width: 5px; height: auto;background-color: #f2fcfa;margin: auto; position: relative;top: 2000px;transition: top 1s;z-index: 2;}
-.round{width: 80px;height: 80px; border-radius: 50%;background-color: #41CAB1;position: absolute;display: flex;top: -80px;left: 50%;margin-left: -40px; }
+.round{width: 80px;height: 80px; border-radius: 50%;background-color: #41CAB1;position: absolute;display: flex;top: 20px;left: 50%;margin-left: -40px; }
 .scust{display: flex;justify-content: center;align-items: center;flex-direction: column; width: 100%;margin: 50px 0px;}
 .number_con{width: 100%;display: flex; justify-content: flex-end;align-items: flex-end;padding-right: 0px;opacity: 0; transition: padding-right 1s,opacity 1s;}
 .s1{width: 50px;opacity: 1; height: 50px;position: relative;top: 0px;left: 0px;margin-left: 0px; }
@@ -170,6 +175,10 @@ body{font-family: 'Ubuntu', sans-serif;}
     
     .step_right{width: 98%;}
     .step_cont{margin-left: 5px;}
+    #stephdtxt{border: 1px olid; font-size: 25px;display: inline-block;position: absolute;left: 0px;top: 0px;font-weight: 600;top: 100px;left: 50px}
+      #stephd6{border: 1px olid; font-size: 0px;display: inline-block}
+    .step_hd div{border: 1px olid;position: relative;text-align: left;padding-left: 30px}
+    .step_hd {  position: relative;padding: 0px;}
  
   
   
