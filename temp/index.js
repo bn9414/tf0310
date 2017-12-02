@@ -374,13 +374,16 @@ var click=document.getElementsByClassName('click');
 var more=document.getElementsByClassName('more');
 var less=document.getElementsByClassName('less');
 var benp=document.getElementsByClassName('ben1p');
+var b_para=document.getElementsByClassName('b_para');
 
 
 
 function benvis(n){
             benp[n].style.display="block";
             more[n].style.display="none";
-            less[n].style.display="block";    
+            less[n].style.display="block";
+    b_para[n].className='b_para b_paraani';
+  
 }
 
 function benvisc(n){
@@ -388,16 +391,22 @@ function benvisc(n){
             more[n].style.display="block";
             less[n].style.display="none";
 }
+function benclose(n){
+  b_para[n].className='b_para b_paraanid';
+    setTimeout(function(){benvisc(n);},400);
+    
+}
+
 more[0].addEventListener('click',function(){benvis(0);},false);
 more[1].addEventListener('click',function(){benvis(1);},false);
 more[2].addEventListener('click',function(){benvis(2);},false);
 more[3].addEventListener('click',function(){benvis(3);},false);
 
 
-less[0].addEventListener('click',function(){benvisc(0);},false);
-less[1].addEventListener('click',function(){benvisc(1);},false);
-less[2].addEventListener('click',function(){benvisc(2);},false);
-less[3].addEventListener('click',function(){benvisc(3);},false);
+less[0].addEventListener('click',function(){benclose(0);},false);
+less[1].addEventListener('click',function(){benclose(1);},false);
+less[2].addEventListener('click',function(){benclose(2);},false);
+less[3].addEventListener('click',function(){benclose(3);},false);
 
 /* start:section 1*/
 
