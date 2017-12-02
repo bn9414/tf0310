@@ -135,6 +135,7 @@ body{font-family: 'Ubuntu', sans-serif;}
 
 .s_mg{position: relative;overflow: hidden;border: 1px olid;position: relative; }
 .circle1{width: 160px; height: 160px; background-color: red;position: absolute;border-radius: 50%;z-index: 1;background-color:#f2fcfa; transition: width 1.5s,height 1.5s;top: -5px;left: -5px;background-clor:yellow;}
+.code_cx{width: 280px;height: 260px;left: -65px;}
 
 .circle2{width: 100px; height: 100px; background-color: red;position: absolute;border-radius: 50%;z-index: 1;background-color:#f2fcfa;top: 80px; left: 10px; transition: width 1.5s,height 1.5s;background-colr:green;}
 
@@ -148,14 +149,15 @@ body{font-family: 'Ubuntu', sans-serif;}
 
 .step_right .number_con{justify-content: flex-start;align-items: flex-start;padding-left: 0px;opacity: 0; transition: opacity 1s,padding-left 1s;}
 
-.ls{}
+
 
 .step_right .inv2{visibility: hidden;}
 .step_right .inv4{visibility: hidden;}
 .step_right .inv6{visibility: hidden;}
+
 .step_left .inv1{visibility: hidden;}
-.step_left .inv3{visibility: visible;}
-.step_left .inv5{visibility: visible;}
+.step_left .inv3{visibility: hidden;}
+.step_left .inv5{visibility: hidden;}
 .step_left .inv2{visibility: visible;}
 .step_left .inv4{visibility: visible;}
 .step_left .inv6{visibility: visible;}
