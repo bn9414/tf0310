@@ -154,7 +154,13 @@ body{font-family: 'Ubuntu', sans-serif;}
 
 .step_right .number_con{justify-content: flex-start;align-items: flex-start;padding-left: 0px;opacity: 0; transition: opacity 1s,padding-left 1s;}
 
+.step_left .inv2{position: relative;top: -200px;}
+.step_left .inv4{position: relative;top: -500px;}
+.step_left .inv6{position: relative;top: -800px;}
 
+
+.step_right .inv3{position: relative;top: -400px;}
+.step_right .inv5{position: relative;top: -700px;}
 
 .step_right .inv2{visibility: hidden;}
 .step_right .inv4{visibility: hidden;}
@@ -180,7 +186,13 @@ body{font-family: 'Ubuntu', sans-serif;}
     .step_hd div{border: 1px olid;position: relative;text-align: left;padding-left: 30px}
     .step_hd {  position: relative;padding: 0px;}
  
-  
+  .step_left .inv2{position: relative;top: 00px;}
+.step_left .inv4{position: relative;top: 00px;}
+.step_left .inv6{position: relative;top: 00px;}
+
+
+.step_right .inv3{position: relative;top: 00px;}
+.step_right .inv5{position: relative;top: 00px;}
   
 
 /*end: steps*/
