@@ -219,7 +219,7 @@ function scrollani() {
     
     if(w<500){
     
-     if (document.body.scrollTop > 1150 || document.documentElement.scrollTop > 1150) {
+     if (document.body.scrollTop > 1050 || document.documentElement.scrollTop > 1050) {
        
          stick_c[0].style.opacity="1";
          ncr[0].style.paddingLeft="30px";
