@@ -124,7 +124,7 @@ body{font-family: 'Ubuntu', sans-serif;}
 .step_left,.step_right{width: 48%; height: auto;border: 1px olid}
 .step{width: 100%; height: auto; background-color: #f2fcfa;}
 .step_hd{height: auto;}
-.step_cont{width: 100%; height: auto;position: relative;display: flex;justify-content: center;padding-top: 100px}
+.step_cont{width: 100%; height: auto;;position: relative;display: flex;justify-content: center;padding-top: 100px}
 .stick_c{width: 5px; height: auto;background-color: #41cab1;overflow: hidden;opacity: 0; transition: opacity 1s; }
 .stick{width: 5px; height: auto;background-color: #f2fcfa;margin: auto; position: relative;top: 2000px;transition: top 1s;z-index: 2;}
 .round{width: 80px;height: 80px; border-radius: 50%;background-color: #41CAB1;position: absolute;display: flex;top: 20px;left: 50%;margin-left: -40px; }
@@ -154,30 +154,30 @@ body{font-family: 'Ubuntu', sans-serif;}
 
 .step_right .number_con{justify-content: flex-start;align-items: flex-start;padding-left: 0px;opacity: 0; transition: opacity 1s,padding-left 1s;}
 
-.step_left .inv2{position: relative;top: -200px;}
-.step_left .inv4{position: relative;top: -500px;}
-.step_left .inv6{position: relative;top: -800px;}
+.step_left .inv2{position: relativ;top: -200px;padding-top: 250px}
+.step_left .inv4{position: relativ;top: -500px;padding-top: 100px}
+.step_left .inv6{position: relativ;top: -800px;padding-top: 100px}
 
 
-.step_right .inv3{position: relative;top: -400px;}
-.step_right .inv5{position: relative;top: -700px;}
+.step_right .inv3{position: relativ;top: -400px;padding-top: 100px}
+.step_right .inv5{position: relativ;top: -700px;padding-top: 100px}
 
-.step_right .inv2{visibility: hidden;}
-.step_right .inv4{visibility: hidden;}
-.step_right .inv6{visibility: hidden;}
+.step_right .inv2{visibility: hidden;display: none;}
+.step_right .inv4{visibility: hidden;display: none;}
+.step_right .inv6{visibility: hidden;display: none;}
 
-.step_left .inv1{visibility: hidden;}
-.step_left .inv3{visibility: hidden;}
-.step_left .inv5{visibility: hidden;}
+.step_left .inv1{visibility: hidden;display: none;}
+.step_left .inv3{visibility: hidden;display: none;}
+.step_left .inv5{visibility: hidden;display: none;}
 .step_left .inv2{visibility: visible;}
 .step_left .inv4{visibility: visible;}
 .step_left .inv6{visibility: visible;}
 
 @media screen and (max-width:500px){
     .step_left{display: none;}
-    .step_right .inv2{visibility: visible;}
-     .step_right .inv4{visibility: visible;}
-     .step_right .inv6{visibility: visible;}
+    .step_right .inv2{visibility: visible;display: block;}
+     .step_right .inv4{visibility: visible;display: block;}
+     .step_right .inv6{visibility: visible;display: block;}
     
     .step_right{width: 98%;}
     .step_cont{margin-left: 5px;}
@@ -186,13 +186,13 @@ body{font-family: 'Ubuntu', sans-serif;}
     .step_hd div{border: 1px olid;position: relative;text-align: left;padding-left: 30px}
     .step_hd {  position: relative;padding: 0px;}
  
-  .step_left .inv2{position: relative;top: 00px;}
-.step_left .inv4{position: relative;top: 00px;}
-.step_left .inv6{position: relative;top: 00px;}
+.step_left .inv2{position: relativ;top: -200px;padding-top: 0px}
+.step_left .inv4{position: relativ;top: -500px;padding-top: 00px}
+.step_left .inv6{position: relativ;top: -800px;padding-top: 00px}
 
 
-.step_right .inv3{position: relative;top: 00px;}
-.step_right .inv5{position: relative;top: 00px;}
+.step_right .inv3{position: relativ;top: -400px;padding-top: 00px}
+.step_right .inv5{position: relativ;top: -700px;padding-top: 00px}
   
 
 /*end: steps*/
