@@ -36,12 +36,12 @@
  .s1t{width: 50%;}
 }
 @media screen and (min-width:800px){
-    .slm{width: 50%;}
+    .s1m{width: 50%;}
     .ser1_con{width: 100%; margin: auto}
      .s1t{width: 50%;margin-left: 50px}
     .s1tpara{font-size: 20px;color: #717171}
     .s1_short{font-size: 19px;}
-    
+    .s1m img{width: 1000px;height: 1000px;}
 }
 
 
