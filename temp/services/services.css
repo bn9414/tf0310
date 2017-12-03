@@ -1,5 +1,5 @@
 
-.ser1_con{margin-bottom: 0px;background-color: #fcfcfc;padding-bottom: 20px;}
+.ser1_con{margin-bottom: 0px;background-color: #fcfcfc;padding-bottom: 20px;background-image: url(images/s1bg.svg);background-repeat: no-repeat;background-size: contain}
 .s1m{width: 90%; height: 350px;margin: auto;border: 1px olid black;position: relative; margin-bottom: 0px;}
 
 
@@ -37,7 +37,7 @@
 }
 @media screen and (min-width:800px){
     .slm{width: 50%;}
-    .ser1_con{width: 90%; margin: auto}
+    .ser1_con{width: 100%; margin: auto}
      .s1t{width: 50%;margin-left: 50px}
     .s1tpara{font-size: 20px;color: #717171}
     .s1_short{font-size: 19px;}
