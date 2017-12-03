@@ -431,10 +431,7 @@ function scrollanib() {
 
   if (document.body.scrollTop > 2800 || document.documentElement.scrollTop > 2800) {
   
-      ben1[0].style.top='550px';
-        ben1[1].style.top='550px';
-        ben1[2].style.top='550px';
-        ben1[3].style.top='550px';
+    
       
            ben1[0].style.opacity='1';
         ben1[1].style.opacity='1';
