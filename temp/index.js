@@ -54,7 +54,7 @@ var testz=document.getElementsByClassName('testz');
 var s_prev=0;
 
 
-window.onscroll = function() {scrollani()};
+window.onscroll = function() {scrollani(),scrollanib()};
 
   var h = parseInt(window.innerHeight);
         var w = parseInt(window.innerWidth);
@@ -408,17 +408,103 @@ less[1].addEventListener('click',function(){benclose(1);},false);
 less[2].addEventListener('click',function(){benclose(2);},false);
 less[3].addEventListener('click',function(){benclose(3);},false);
 
-/* start:section 1*/
+
 
 var index=document.getElementById('index');
 
     
     
 
-/* end:section 1*/
-/* start:steps*/
+
+/* start:benefits_desk*/
+var benx=0;
+var bup=document.getElementsByClassName('benup');
+var bdown=document.getElementsByClassName('bendown');
+var ben1=document.getElementsByClassName('ben1');
 
 
-/* end:steps */
+
+
+
+
+function scrollanib() {
+
+  if (document.body.scrollTop > 2800 || document.documentElement.scrollTop > 2800) {
+  
+      ben1[0].style.top='550px';
+        ben1[1].style.top='550px';
+        ben1[2].style.top='550px';
+        ben1[3].style.top='550px';
+      
+           ben1[0].style.opacity='1';
+        ben1[1].style.opacity='1';
+        ben1[2].style.opacity='1';
+        ben1[3].style.opacity='1';
+  
+  }
+ 
+}
+
+function benmove(n){
+    if(n==0){
+    ben1[0].style.top='550px';
+        ben1[1].style.top='550px';
+        ben1[2].style.top='550px';
+        ben1[3].style.top='550px';
+    }
+    
+    if(n==1){
+    ben1[0].style.top='160px';
+        ben1[1].style.top='160px';
+        ben1[2].style.top='160px';
+        ben1[3].style.top='160px';
+    }
+    
+       if(n==2){
+    ben1[0].style.top='-200px';
+        ben1[1].style.top='-200px';
+        ben1[2].style.top='-200px';
+        ben1[3].style.top='-200px';
+    }
+    
+       if(n==3){
+    ben1[0].style.top='-550px';
+        ben1[1].style.top='-550px';
+        ben1[2].style.top='-550px';
+        ben1[3].style.top='-550px';
+    }
+   
+    
+}
+
+function benreset(){
+    
+   ben1[0].className="ben1";
+    ben1[3].className="ben1";
+}
+
+function incri(n)
+{benx=benx+n;
+ if(benx>3){benx=3;
+          
+             ben1[3].className="ben1 ben1_dani";
+            setTimeout(benreset,500);
+           }
+  if(benx<0){benx=0;  
+             ben1[0].className="ben1 ben1_uani";
+            setTimeout(benreset,500);
+            
+            }
+ benmove(benx);
+    
+    
+}
+
+bdown[0].addEventListener('click',function(){incri(+1);},false);
+bup[0].addEventListener('click',function(){incri(-1);},false);
+
+/* end:benefits_desk*/
+
+
 
 
