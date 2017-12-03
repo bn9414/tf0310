@@ -1,6 +1,7 @@
 
 .ser1_con{margin-bottom: 0px;background-color: #fcfcfc;padding-bottom: 20px;background-image: url(images/s1bg.svg);background-repeat: no-repeat;background-size: contain}
 .s1m{width: 90%; height: 350px;margin: auto;border: 1px olid black;position: relative; margin-bottom: 0px;}
+.s1m img{width: 300px;height: 300px;position: relative;left: -20px}
 
 
 .c1,.c2,.c3,.c4,.c5,.c6{height: 100%;position: absolute;opacity: 0.0; }
@@ -41,7 +42,7 @@
      .s1t{width: 50%;margin-left: 50px}
     .s1tpara{font-size: 20px;color: #717171}
     .s1_short{font-size: 19px;}
-    .s1m img{width: 1000px;height: 1000px;}
+    .s1m img{width: 400px;height: 400px;position: relative;left: 100px;}
 }
 
 
