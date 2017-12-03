@@ -182,12 +182,12 @@ body{font-family: 'Ubuntu', sans-serif;}
 
 .step *{border: 1px olid;}
 .step_left,.step_right{width: 48%; height: auto;border: 1px olid}
-.step{width: 100%; height: auto; background-color: #f2fcfa;box-shadow: 1px 1px 10px 0px rgba(20, 20, 20, 0.1);}
+.step{width: 100%; height: auto; background-color: #fcfcfc;box-shadow: 1px 1px 10px 0px rgba(20, 20, 20, 0.1);}
 .step_hd{height: auto;}
 .step_cont{width: 100%; height: auto;;position: relative;display: flex;justify-content: center;padding-top: 100px}
-.stick_c{width: 5px; height: auto;background-color: #41cab1;overflow: hidden;opacity: 0; transition: opacity 1s;border-radius: 15px;margin-bottom: 40px; }
-.stick{width: 5px; height: auto;background-color: #f2fcfa;margin: auto; position: relative;top: 2000px;transition: top 1s;z-index: 2;border-radius: 15px}
-.round{width: 80px;height: 80px; border-radius: 50%;background-color: #41CAB1;position: absolute;display: flex;top: 20px;left: 50%;margin-left: -40px; }
+.stick_c{width: 5px; height: auto;background-color: #ed6a5a;overflow: hidden;opacity: 0; transition: opacity 1s;border-radius: 15px;margin-bottom: 40px; }
+.stick{width: 5px; height: auto;background-color: #fcfcfc;margin: auto; position: relative;top: 2000px;transition: top 1s;z-index: 2;border-radius: 15px}
+.round{width: 80px;height: 80px; border-radius: 50%;background-color: #ed6a5a;position: absolute;display: flex;top: 20px;left: 50%;margin-left: -40px; }
 .scust{display: flex;justify-content: center;align-items: center;flex-direction: column; width: 100%;margin: 50px 0px;}
 .number_con{width: 100%;display: flex; justify-content: flex-end;align-items: flex-end;padding-right: 0px;opacity: 0; transition: padding-right 1s,opacity 1s;}
 .s1{width: 50px;opacity: 1; height: 50px;position: relative;top: 0px;left: 0px;margin-left: 0px; }
@@ -207,7 +207,7 @@ body{font-family: 'Ubuntu', sans-serif;}
 .circle3{width: 100px; height: 100px; background-color: red;position: absolute;border-radius: 50%;z-index: 1;background-color:#f2fcfa;top: 80px;left: 60px;transition: width 1.5s,height 1.5s;background-colr:red;}
 
 .s_mg img{width: 150px;height: 150px;margin-bottom: 10px;}
-.s_context{padding: 10px 10px; width: 100%; height: auto;display: flex;flex-direction: column;justify-content: center;align-items: center;opacity:;position: relative;}
+.s_context{padding: 10px 30px; width: 100%; height: auto;display: flex;flex-direction: column;justify-content: center;align-items: center;opacity:;position: relative;}
 .scust h1{color: #454545;text-align:center;font-size: 25px;padding-bottom: 20px;}
 .scust p{font-size: 18px; color: #454545;}
 .scleft,.scright{opacity:0;position: relative;top: 50px;transition: opacity 1s, top 1s;}

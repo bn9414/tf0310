@@ -10,23 +10,23 @@
 <g>
 	<title>Layer 1</title>
 	
-		<path id="svg_2" fill="#41CAB1" stroke="#919191" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-		M309.2,73.7c0,31.5-23.8,75.6-53.2,75.6c-29.398,0-53.2-44.1-53.2-75.6s23.802-57,53.2-57C285.4,16.7,309.2,42.2,309.2,73.7
+		<path id="svg_2" fill="#ED6A5A" stroke="#919191" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M309.2,73.7c0,31.5-23.8,75.6-53.2,75.6c-29.397,0-53.2-44.1-53.2-75.6s23.803-57,53.2-57C285.4,16.7,309.2,42.2,309.2,73.7
 		L309.2,73.7z"/>
 	
 		<path id="svg_3" fill="none" stroke="#919191" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-		M353.5,190c-8.898-8.398-61.7-24-61.7-24L256,206l0,0l0,0l-35.8-40c0,0-52.8,15.602-61.7,24c-13.7,13-14.8,61.9-14.8,61.9h224.7
+		M353.5,190c-8.897-8.397-61.7-24-61.7-24L256,206l0,0l0,0l-35.8-40c0,0-52.8,15.603-61.7,24c-13.7,13-14.8,61.9-14.8,61.9h224.7
 		C368.302,251.9,367.302,203,353.5,190L353.5,190z"/>
 	
 		<path id="svg_4" fill="none" stroke="#919191" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-		M85.8,268.5h36.5c23.7,50.8,75.2,86.102,135,86.102c57.7,0,107.802-38,132.502-86.102H425.7"/>
+		M85.8,268.5h36.5c23.7,50.8,75.2,86.103,135,86.103c57.7,0,107.803-38,132.503-86.103H425.7"/>
 	
 		<line id="svg_5" fill="none" stroke="#919191" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="257.2" y1="384.7" x2="257.2" y2="354.6"/>
 	
-		<circle id="svg_6" fill="none" stroke="#41CAB1" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="52.1" cy="268.5" r="33.6"/>
+		<circle id="svg_6" fill="none" stroke="#ED6A5A" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="52.1" cy="268.5" r="33.6"/>
 	
-		<circle id="svg_7" fill="none" stroke="#41CAB1" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="257.2" cy="445" r="56.5"/>
+		<circle id="svg_7" fill="none" stroke="#ED6A5A" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="257.2" cy="445" r="56.5"/>
 	
-		<circle id="svg_8" fill="none" stroke="#41CAB1" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="459.9" cy="268.5" r="33.6"/>
+		<circle id="svg_8" fill="none" stroke="#ED6A5A" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="459.9" cy="268.5" r="33.6"/>
 </g>
 </svg>
