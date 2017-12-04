@@ -109,20 +109,19 @@ body{font-family: 'Slabo 27px', serif;}
 
 
 
-.ps1_h{margin: 0px; height: auto; background-color: #FFE66D; border-radius: 10px 10px 0px 0px; display: flex; justify-content: space-between;flex-direction: column;align-items: center;overflow: hidden;}
+.ps1_h{margin: 0px; height: auto; background-color: #f289b7; border-radius: 10px 10px 0px 0px; display: flex; justify-content: space-between;flex-direction: column;align-items: center;overflow: hidden;}
 .ps2_h{background-color: ;}
-.ps3_h{background-color: #41CAB1;}
-.ps4_h{background-color: #ee62a2;
+.ps3_h{background-color: #FFE66D;}
+.ps4_h{background-color: #41CAB1;
 
 
 
 
 }
 #p_h1_2{  margin:0px; margin-top: 0px; color: #717171; text-align: center;font-size: 45px;position: relative; padding-left: 0px;height: auto; display: flex; justify-content: center; align-items: center; width: 100%;}
-.ps1_t{ width: 100%;height: auto; background-color: #fce685; position: relative; top:0px;box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 15px 0px; }
-.ps1_t{ width: 100%;height: auto; background-color: #fce685; position: relative; top:0px;box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 15px 0px; }
-.ps4_t{background-color:#f49abc}
-.ps3_t{background-color: #77d1c0;}
+.ps1_t{ width: 100%;height: auto; background-color:#f49abc ; position: relative; top:0px;box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 15px 0px; }
+.ps4_t{background-color:#77d1c0;}
+.ps3_t{background-color: #fce685;}
 .ps2_t{background-color: #86c4ce;}
 #first_ex,#second_ex{position: absolute; font-size: 20px;left:10px;top: 5px;margin: 0px; }
 #p_h1_1{margin: 0px; color: #717171;text-align: center;  height: auto; width: 100%;font-family: 'Ubuntu', sans-serif;}
@@ -252,11 +251,11 @@ input::placeholder{color: #717171; font-size: 18px; }
 }
 
 
-#ffsubmit{ border-style: none; border-radius: 5px;  color:white;background-image: url(images/mailsend.png); font-size: 22px;  height: 40px; background-color:#41cab1;  background-repeat: no-repeat; background-position: 93px 10px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s; height: 50px;
+#ffsubmit{ border-style: none; border-radius: 5px;  color:white;background-image: url(images/mailsend.svg); font-size: 22px;  height: 40px; background-color:#41cab1;  background-repeat: no-repeat; background-position: 95px 10px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s; height: 50px;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);position: relative;top: -5px;right: -30px;
 }
 
-#ffsubmit:hover{ padding-right: 43px; background-position: 97px 10px;}
+#ffsubmit:hover{ padding-right: 43px; background-position: 99px 10px;}
 
 @media screen and (max-width:550px){ 
     .form_cont *{border: 1px olid black}

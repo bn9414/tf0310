@@ -54,10 +54,10 @@ no_visit[0].addEventListener('click',function(){type(1);},false);
 
 
 function headmenu(n){
-    h1[0].style.color="#717171";
-    h1[1].style.color="#717171";
-    h1[2].style.color="#717171";    
-    h1[n].style.color="#FA684B"; 
+    h1[0].className="hmenu";
+    h1[1].className="hmenu";
+    h1[2].className="hmenu";    
+    h1[n].className="hmenu h1click";
     
     if(n==1){
         und[0].style.display='none';
