@@ -27,11 +27,13 @@
 .portfull h1{font-size: 120px; text-align: left; color:#1a9b83;}
 .portfull p{font-size: 40px; color: #97efde;}
 @media screen and (max-width:1000px){
-    
     .portfull h1{font-size: 80px}
-    .portfull p{font-size: 30px}
-    
-    
+    .portfull p{font-size: 30px}    
+}
+@media screen and (max-width:500px){
+    .portfull h1{font-size: 60px}
+    .portfull p{font-size: 25px}    
+    .portfull{height: 500px;}
 }
 
 

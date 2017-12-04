@@ -75,13 +75,13 @@ function scrollani() {
     }
     
     /* build*/
- 
+ if(w>600){
     if (document.body.scrollTop > 3200 || document.documentElement.scrollTop > 3200) {
           buildmg.style.opacity="1";
           buildmg.style.left="-50px";
            buildmg.style.top="-100px";
       }
-    
+    }
   
     
      /* build*/

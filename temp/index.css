@@ -289,7 +289,7 @@ body{font-family: 'Ubuntu', sans-serif;}
 .build_txt{width: 60%;border: 1px olid;display: flex;flex-direction: column;justify-content: center;align-items: center;}
 .build_con img{position: absolute;left: -150px;top: -0px;opacity: 0; transition: opacity 1s, left 1s,top 1s;}
 
-.build_co img{opacity: 1; left: -50px;}
+
 
 
 .build_con h1{text-align:center;font-size: 40px;color: #454545;}
@@ -305,8 +305,8 @@ body{font-family: 'Ubuntu', sans-serif;}
     .build_con img{position: absolute;left: -150px;top: -100px}
 }
 @media screen and (max-width:600px){
-      .build_con img{width: 500px; position: absolute;left: -100px;top: -10px;transform: rotate(90deg)}
-     .build_txt{padding-top: 350px;width: 100%;}
+      .build_con img{width: 500px; position: absolute;left: -100px;top: -10px;transform: rotate(90deg);opacity: 1;}
+     .build_txt{padding-top: 400px;width: 100%;}
     .build_con{height: auto;padding-bottom: 40px}
     
 }
