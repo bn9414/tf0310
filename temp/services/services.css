@@ -60,7 +60,7 @@ body{font-family: 'Slabo 27px', serif;}
 
 .close{position: absolute;width: 20px; height: 20px; right: 10px; top: 5px; background-color: #fcfcfc;border-radius: 50%;display: flex;justify-content: center; align-items: center;cursor: pointer;}
 .close span{color: #717171;padding: 0px 0px;padding-bottom: 2px;}
-.quest{width: 20px; height: 20px;border-radius: 50%;display: flex; background-color: #fcfcfc;display: flex;cursor: pointer;}
+.quest{width: 25px; height: 25px;border-radius: 50%;display: flex; background-color: #fcfcfc;display: flex;cursor: pointer;}
 .quest p{margin: auto;color: #717171;position: relative;font-size: 14px;font-weight: 600;font-family: 'Ubuntu', sans-serif; }
 
 
@@ -128,14 +128,14 @@ body{font-family: 'Slabo 27px', serif;}
 #second_ex{width: 150px; left:10px;top: 5px; text-align: left; }
 .emp{font-weight: 600;}
 .suit{}
-.expand{width: 20px; height: 20px; background-color: #717171;border-radius: 50%;display: inline-block; margin-left: 10px;display: inline-flex; justify-content: center; align-items: center;position: absolute;right: 5px;cursor: pointer;}
+.expand{width: 25px; height: 25px; background-color: #717171;border-radius: 50%;display: inline-block; margin-left: 10px;display: inline-flex; justify-content: center; align-items: center;position: absolute;right: 5px;cursor: pointer;}
 .expand span{color: #fcfcfc;margin: auto;position: relative;font-size: 17px;font-weight: 600;font-family: 'Ubuntu', sans-serif; }
 
 .suit_open{display: none;padding: 5px 10px;font-size: 17px; text-align: justify}
 .exoffer{display: none;background-color: #b5b5b5;}
 .offer{height: auto}
 .resp_ex{height: auto;padding: 10px }
-.expand_res{top: 20px}
+.expand_res{top: 10px}
 .quest span{margin: auto;position: relative;font-size: 14px;font-weight: 600;font-family: 'Ubuntu', sans-serif;}
 .res_long{padding: 0 25px;display: block;}
 
