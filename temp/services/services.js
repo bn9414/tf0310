@@ -161,4 +161,33 @@ proexpand[1].addEventListener("click",function(){suitopen(2);}, false);
 expand[1].addEventListener("click",offeropen, false);
 
 
+/* start:build */
+var buildmg=document.getElementById('buildmg');
+window.onscroll = function() {scrollani(),scrollanib()};
+  var h = parseInt(window.innerHeight);
+        var w = parseInt(window.innerWidth);
+function scrollani() {
+    /* build*/
+ if(w>500){
+    if (document.body.scrollTop > 1750 || document.documentElement.scrollTop > 1750) {
+          buildmg.style.opacity="1";
+          buildmg.style.left="-50px";
+           buildmg.style.top="-100px";
+      }
+    }
+    
+    if(w<500){
+    if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
+          buildmg.style.opacity="1";
+          buildmg.style.left="-70px";
+           buildmg.style.top="-20px";
+      }
+    }
+    
+    
+}
+    
+     /* build*/
+    /* end:build */
+    
 
