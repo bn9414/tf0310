@@ -143,7 +143,7 @@ body{font-family: 'Slabo 27px', serif;}
 .p_same a{color:#2274A5; }
 #star{padding: 0px 10px; text-align: center; color: #454545; font-size: 16px;}
 
-.plusadj{position: relative;bottom: 2px}
+.plusadj{position: relative;bottom: 0px}
 @media screen and (max-width:650px){
 
     .price_cont{flex-direction: column; height: auto; align-content: flex-end; align-items: flex-end; justify-content: flex-end; padding-top: 00px;}
