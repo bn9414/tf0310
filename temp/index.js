@@ -50,6 +50,7 @@ var scleft=document.getElementsByClassName('scleft');
 
 var scright=document.getElementsByClassName('scright');
 var testz=document.getElementsByClassName('testz');
+var buildmg=document.getElementById('buildmg');
 
 var s_prev=0;
 
@@ -71,6 +72,18 @@ function scrollani() {
        
       
     }
+    
+    /* build*/
+ 
+    if (document.body.scrollTop > 3200 || document.documentElement.scrollTop > 3200) {
+          buildmg.style.opacity="1";
+          buildmg.style.left="-50px";
+           buildmg.style.top="-100px";
+      }
+    
+  
+    
+     /* build*/
     
     
      if(w>500){
@@ -184,7 +197,7 @@ function scrollani() {
     }
     
     
-     if (document.body.scrollTop > 24000 || document.documentElement.scrollTop > 2400) {
+     if (document.body.scrollTop > 2400 || document.documentElement.scrollTop > 2400) {
      
         ncl[5].style.paddingRight="30px";
          ncl[5].style.opacity="1";
