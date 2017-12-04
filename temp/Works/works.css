@@ -1,3 +1,41 @@
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;background-color: white;
+    
+}
+.se-pre-con img{width: 250px;;margin: auto;display: block;margin-top: 165px}
+@media screen and (max-width:480px)
+    {
+      .se-pre-con img{width: 200px;;margin: auto;display: block;margin-top: 100px}
+        .se-pre-con {background-size: 60px;background-position: 50% 200px;}    
+        
+}
+/* end pre-load screen*/
+
+
+
+
+
+.portfull{width: 100%; height: 600px; background-color: #41cab1;display: flex;justify-content: center;flex-direction: column;padding-left: 20px;padding-top: 150px; transition: padding 1s; }
+.portfull h1{font-size: 120px; text-align: left; color:#1a9b83;}
+.portfull p{font-size: 40px; color: #97efde;}
+@media screen and (max-width:1000px){
+    
+    .portfull h1{font-size: 80px}
+    .portfull p{font-size: 30px}
+    
+    
+}
+
+
+
 body{font-family: 'Ubuntu', sans-serif;}
 .port_head{width: auto;display: flex;margin: auto;justify-content: center;align-items: center;margin: 10px 5px; margin: auto;padding-bottom: 5px;padding-top: 10px;}
 .port_head a{color: #717171; font-size: 18px;text-align: center;margin: 0px 10px;position: relative;cursor: pointer;}

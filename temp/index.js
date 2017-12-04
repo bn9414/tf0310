@@ -1,10 +1,11 @@
+/* START: hl1 slide*/
 
 //paste this code under the head tag or in a separate js file.
 	// Wait for window load
 	$(window).load(function() {
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
-        
+	
         var hd1=document.getElementsByClassName('hd1');
          var hd2=document.getElementsByClassName('hd2');
          var hd3=document.getElementsByClassName('hd3');
