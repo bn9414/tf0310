@@ -23,7 +23,7 @@
 
 
 
-.portfull{width: 100%; height: 600px; background-color: #41cab1;display: flex;justify-content: center;flex-direction: column;padding-left: 20px;padding-top: 150px; transition: padding 1s; }
+.portfull{width: 100%; height: 600px; background-color: #41cab1;display: flex;justify-content: center;flex-direction: column;padding-left: 20px;opacity: 0; padding-top: 150px; transition: padding 1s,opacity 1s; }
 .portfull h1{font-size: 120px; text-align: left; color:#1a9b83;}
 .portfull p{font-size: 40px; color: #97efde;}
 @media screen and (max-width:1000px){

@@ -8,6 +8,7 @@
 
 function portfullf(){
     portfull[0].style.paddingTop='0px';
+     portfull[0].style.opacity='1';
     
 }
 
