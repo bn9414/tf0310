@@ -9,7 +9,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 .sec_v,.sec_t{display: flex;justify-content: center;align-items: center;}
 .sec_v img{width: 200px;padding: 10px 0px;}
 .sec_l{width: 90%; height: 1px;margin: auto;background-color: white;}
-.sec_t p{padding:10px 25px ;font-size: 17px}
+.sec_t p{padding:10px 25px ;font-size: 17px;font-family: 'Slabo 27px', serif;}
 
 .select{width: 80%;position: relative;display: flex;margin: auto;}
 .stick{height: 2px;background-color: white;margin: auto;margin-top: 20px;width: 95%;display: flex;justify-content: space-between;position: relative;top: 10px}
@@ -48,7 +48,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 .whath{color: #717171;}
 .whathc{color: #41CAB1;}
 
-.www2 p{font-size: 18px;padding: 10px 5px;color: #454545;text-align: justify;}
+.www2 p{font-size: 18px;padding: 10px 5px;color: #454545;text-align: justify;font-family: 'Slabo 27px', serif;}
 .www2{width: 100%; height: auto;position: relative;display: flex;justify-content: center;align-items: center;overflow: hidden;}
 .www2 p span{font-size: 150px; position: absolute;left:5%;top: 10px; font-family: sans-serif;z-index: -1; opacity: 0.6;}
 .whop{display: non;}
@@ -77,7 +77,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
     .mv_con *{border: 1px olid}
 .mv_con{flex-direction: row;padding:50px 0px;position: relative;overflow: hidden;}
 .mv_con div{width: 40%;margin: auto;display: flex;justify-content: flex-start;flex-direction: column; align-items: center;padding: 50px 0px;}
-    .mv_con p{font-size: 30px;}
+    .mv_con p{font-size: 30px;font-family: 'Slabo 27px', serif;}
     .mission{position: relative; top: -15px; }
     .vission img{position: absolute;z-index: -1;left: 1190px;width: 250px;bottom: -40px}
     .mission img{position: absolute;z-index: -1;left: -250px;width: 450px;bottom: -250px}
@@ -111,7 +111,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 .c1{background-color:#ED6A5A;padding: 20px 0px; }
 .c2{background-color:#FFE66D;padding: 20px 0px; }
 .c3{background-color:#41CAB1;padding: 20px 0px; }
-.c1 p,.c2 p,.c3 p{color: #fcfcfc;font-size: 20px;padding: 5px 5px;}
+.c1 p,.c2 p,.c3 p{color: #fcfcfc;font-size: 30px;padding: 5px 5px;font-family: 'Slabo 27px', serif;}
 .c2 p{color: #454545;}
 .c1 h1{background-color: #454545;  margin-right: 130px;padding-left: 10px; color: #fcfcfc;}
 .c2 h1{background-color: #fcfcfc;  margin-right: 130px;padding-left: 10px; color: #454545;}

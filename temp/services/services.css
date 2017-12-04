@@ -49,8 +49,8 @@ body{font-family: 'Slabo 27px', serif;}
     100%{width: 100%; opacity: 1;}
     }
 .s1t{}
-.serv1_head{font-size: 25px; color: #fcfcfc; text-align: center; font-family: sans-serif;padding-top: 10px;margin-bottom: 30px}
-.serv1_head span{color: #fcfcfc;font-size: 60px; text-decoration: underline; text-decoration-color: #fcfcfc;}
+.serv1_head{font-size: 25px; color: #fcfcfc; text-align: center; font-family: sans-serif;padding-top: 10px;margin-bottom: 30px;}
+.serv1_head span{color: #fcfcfc;font-size: 60px; text-decoration: underline; text-decoration-color: #fcfcfc;font-family: 'Ubuntu', sans-serif;}
 .s1tpara{padding: 10px 10px; text-align: justify; color: #fcfcfc;font-size: 18px;}
 .s1_short{display: flex; justify-content: space-around; align-items: flex-start;position: relative;width: auto;display: flex;width: 230px; margin: left;padding-left:10px;margin-bottom: 10px}
 #bullet{width: 15px; height: 15px; background-color: #fcfcfc;border-radius: 50%;position: relative;top: 3px}
@@ -59,9 +59,9 @@ body{font-family: 'Slabo 27px', serif;}
  .qopen{position: absolute; width:200px; background-color: #343434;font-size: 17px;bottom: 0px;right: 0px; box-shadow: 2px 1px 2px 1px hsla(0, 0%, 0%, 0.1); display: none;padding: 3px 7px;padding-top: 25px;color: #fcfcfc;border-radius: 5px;z-index: 1;}
 
 .close{position: absolute;width: 20px; height: 20px; right: 10px; top: 5px; background-color: #fcfcfc;border-radius: 50%;display: flex;justify-content: center; align-items: center;cursor: pointer;}
-.close span{font-family: sans-serif;color: #717171;padding: 0px 0px;padding-bottom: 2px;}
+.close span{color: #717171;padding: 0px 0px;padding-bottom: 2px;}
 .quest{width: 20px; height: 20px;border-radius: 50%;display: flex; background-color: #fcfcfc;display: flex;cursor: pointer;}
-.quest p{font-family: sans-serif;margin: auto;color: #717171;position: relative;font-size: 14px;font-weight: 600; }
+.quest p{margin: auto;color: #717171;position: relative;font-size: 14px;font-weight: 600;font-family: 'Ubuntu', sans-serif; }
 
 
 
@@ -87,7 +87,7 @@ body{font-family: 'Slabo 27px', serif;}
 .price_out{display: flex; flex-direction: column; align-items:center;
 
 }
-#p_headex1{margin: 0px; text-align: center;color: #717171; font-size: 45px;}
+#p_headex1{margin: 0px; text-align: center;color: #717171; font-size: 45px;font-family: 'Ubuntu', sans-serif;}
 #p_headex2{margin: 0px; text-align: center;}
 .price_cont{ 
     
@@ -124,24 +124,25 @@ body{font-family: 'Slabo 27px', serif;}
 .ps3_t{background-color: #77d1c0;}
 .ps2_t{background-color: #86c4ce;}
 #first_ex,#second_ex{position: absolute; font-size: 20px;left:10px;top: 5px;margin: 0px; }
-#p_h1_1{margin: 0px; color: #717171;text-align: center; font- height: auto; width: 100%;}
+#p_h1_1{margin: 0px; color: #717171;text-align: center;  height: auto; width: 100%;font-family: 'Ubuntu', sans-serif;}
 #second_ex{width: 150px; left:10px;top: 5px; text-align: left; }
 .emp{font-weight: 600;}
-.suit{back }
+.suit{}
 .expand{width: 20px; height: 20px; background-color: #717171;border-radius: 50%;display: inline-block; margin-left: 10px;display: inline-flex; justify-content: center; align-items: center;position: absolute;right: 5px;cursor: pointer;}
-.expand span{color: #fcfcfc;font-weight: 800 }
+.expand span{color: #fcfcfc;margin: auto;position: relative;font-size: 17px;font-weight: 600;font-family: 'Ubuntu', sans-serif; }
+
 .suit_open{display: none;padding: 5px 10px;font-size: 17px; text-align: justify}
 .exoffer{display: none;background-color: #b5b5b5;}
 .offer{height: auto}
 .resp_ex{height: auto;padding: 10px }
 .expand_res{top: 20px}
-.quest span{font-weight: 500;}
+.quest span{margin: auto;position: relative;font-size: 14px;font-weight: 600;font-family: 'Ubuntu', sans-serif;}
 .res_long{padding: 0 25px;display: block;}
 
 .p_same a{color:#2274A5; }
-#star{padding: 0px 10px; text-align: center; color: #454545; font-size: 16px}
+#star{padding: 0px 10px; text-align: center; color: #454545; font-size: 16px;}
 
-
+.plusadj{position: relative;bottom: 2px}
 @media screen and (max-width:650px){
 
     .price_cont{flex-direction: column; height: auto; align-content: flex-end; align-items: flex-end; justify-content: flex-end; padding-top: 00px;}
@@ -164,7 +165,7 @@ body{font-family: 'Slabo 27px', serif;}
     
 }
 
-   #start_ex{font-family: sans-serif;font-size: 50px; position: relative; left: 5px}
+   #start_ex{font-size: 50px; position: relative; left: 5px}
 #p_h1_2 img{width: 22px;margin-right: 5px} 
 
 /* end: l4  pricing package */
@@ -180,9 +181,9 @@ body{font-family: 'Slabo 27px', serif;}
 
 
 .rm1 img,.rm2 img,.rm3 img,.rm4 img{width: 60px;}
-.rm1 h1,.rm2 h1,.rm3 h1,.rm4 h1{font-size: 20px;text-align: left;width: 150px;color: #717171}
+.rm1 h1,.rm2 h1,.rm3 h1,.rm4 h1{font-size: 20px;text-align: left;width: 150px;color: #717171;}
 .revampt{background-color: white}
-.revamp_head{background-color: white;color: #343434; text-align: center;}
+.revamp_head{background-color: white;color: #343434; text-align: center;font-family: 'Ubuntu', sans-serif;}
 .revamp_head span{ color: #388697;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
 .revampt p{color: #717171;font-size: 18px; text-align: justify; padding: 10px 10px}
 .report h1{font-size: 20px; color: #343434;text-align: center;}
@@ -219,7 +220,7 @@ background-image: url(images/smoke.png); background-size: 300px 300px; backgroun
 
 #form_message{ 
     color: #fcfcfc;
-    margin-bottom: 30px; width: 65%; text-align: center;margin: 0px;font-size: 35px;position: relative; top: -25px
+    margin-bottom: 30px; width: 65%; text-align: center;margin: 0px;font-size: 35px;position: relative; top: -25px;font-family: 'Ubuntu', sans-serif;
 }
 .fields{ width: 100%; height: 60px; display: flex; justify-content: center;  }
 

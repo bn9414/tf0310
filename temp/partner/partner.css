@@ -1,9 +1,9 @@
-body{font-family: 'Ubuntu', sans-serif;}
+body{font-family: 'Slabo 27px', serif;}
 
 #faqheaddown{ display: flex; width: 100%; height: 600px;background-color: #fcfcfc;flex-direction: column;padding-left: 20px; padding-top: 230px; }
 
 
-#faqheaddown h1{color: #454545; position: elative; top: 100px;left: 50px; font-size: 75px;text-align: center; font-family:sans-serif;
+#faqheaddown h1{color: #454545; position: elative; top: 100px;left: 50px; font-size: 75px;text-align: center; font-family: 'Ubuntu', sans-serif;
    
 }
 #faqheaddown span{
@@ -23,8 +23,8 @@ text-shadow: -1px 0 #454545, 0 1px #454545, 1px 0 #454545, 0 -1px #454545;}
 .sell,.refer{width: 95%;margin: 0px auto; color: #343434;margin-bottom: 30px; border: 1px olid  black;}
 
 
-.sell h2,.refer h2{margin:20px 0px 5px 0px;}
-.sellh,.referh{font-size: 20px;color: #388697;padding-top: 20px;margin-bottom: 10px;}
+.sell h2,.refer h2{margin:20px 0px 5px 0px;font-family: 'Ubuntu', sans-serif;}
+.sellh,.referh{font-size: 20px;color: #388697;padding-top: 20px;margin-bottom: 10px;font-family: 'Ubuntu', sans-serif;}
 .sell p,.refer p{text-align: justify;font-size: 18px;}
 .sell ul,.refer ul{margin: 0px;margin-left: 10px; padding:0px 0px 0px 10px; font-size: 18px}
 .sell ul li,.refer ul li{margin: 10px 0px; }
@@ -64,7 +64,7 @@ text-shadow: -1px 0 #454545, 0 1px #454545, 1px 0 #454545, 0 -1px #454545;}
     .partbottom a{color:#2274A5; }
   .partbottom p{font-size: 22px;width: 70%;text-align: center;padding-top: 10px;}
     
-    .partbottom h1{text-align: center; color: #343434; font-size: 25px; padding-top: 10px;}
+    .partbottom h1{text-align: center; color: #343434; font-size: 25px; padding-top: 10px;font-family: 'Ubuntu', sans-serif;}
     .bottommjs{opacity: 1; top: 0px;}
 }
   

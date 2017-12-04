@@ -1,4 +1,4 @@
-body{font-family: 'Ubuntu', sans-serif;background-color: white; }
+body{font-family: 'Slabo 27px', serif;background-color: white; }
 .cam{width: 100%;height: 300px; position: relative;display: block;background-image: url(images/cam.jpg);background-repeat: no-repeat;background-size: cover;background-position: 0px -50px;margin-bottom: 50px;}
 
 @media screen and (min-width:490px){
@@ -7,13 +7,13 @@ body{font-family: 'Ubuntu', sans-serif;background-color: white; }
 @media screen and (min-width:700px){
 .cam{background-position: 0px -250px;height: 500px;background-image: url(images/camdesk.jpg);background-position: 0px 0px;}
 }
-
+b{font-family: 'Ubuntu', sans-serif;}
 .board{width: 250px; height: 200px;box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2),-15px 20px 50px 0px rgba(20, 20, 20, 0.2);margin: auto;position: relative; bottom: 100px;z-index: 1px;background-color: #fcfcfc;padding-top: 25px;}
 .board img{width: 200px;margin: auto;display: block;}
 .board p{font-size: 20px;color: #454545;padding: 0px 5px;margin-top: 10px;text-align: center;}
 .hpset{margin-bottom: 20px;}
-.hpset h1{padding: 0px 10px;color: #343434; display: inline;}
-.hpset p{padding: 10px 10px;color: #454545}
+.hpset h1{padding: 0px 10px;color: #343434; display: inline;font-family: 'Ubuntu', sans-serif;}
+.hpset p{padding: 10px 10px;color: #454545;font-size: 20px}
 .hset{width: 100px;border: 1px olid}
 .hset div{width: 100%; height: 2px; background-color: #343434;}
 .hset_req{width: 250px;}

@@ -85,20 +85,20 @@ body p{font-family: 'Ubuntu', sans-serif;}
 .lefthead{width: 25%;  height: 50px;  display: flex; flex-direction: column; justify-content: center;align-items: center;border-top:3px solid #343434; }
 
 .lefthead h1{font-size: 22px;box-sizing: border-box;}
-#faqbox h1{border: 1px olid black;  color: #343434;  margin-top: -0px; height: 30px;  } 
+#faqbox h1{border: 1px olid black;  color: #343434;  margin-top: -0px; height: 30px;font-family: 'Ubuntu', sans-serif;  } 
 /* START:contains queston of sec 1*/
 #qabox{border: 1px olid black;width: 70%; height: auto; margin: auto; }
 .down{width: 32px; height: 32px; position: absolute; right: 1%; top:50%; margin-top: -16px;background-image: url(images/down2b.png); background-repeat: no-repeat; transition: transform 0.5s, right 0.5s; }
 .quest1{  width: 95%; margin: 0px 5px 10px 15px; margin: 0px auto 10px auto ;  height: auto;  padding: 10px; border-top:3px #19191e solid;  border-radius: 0px; background-color: #fcfcfc; position: relative; z-index: 2;  transform: scale(1.00); transition: box-shadow 0.5s, width 0.5s,border-left 0.5s;box-sizing: border-box; }
 
-.quest1 p{margin: 0px 40px 0px 7px; font-size: 20px;font-weight: 600; color: #343434;}
+.quest1 p{margin: 0px 40px 0px 7px; font-size: 20px;font-weight: 00; color: #343434;font-family: 'Ubuntu', sans-serif;}
 .ans1box{width: 95%;margin: 0px 0px 7px 15px;  position: relative; top:-20px; display: block; height: 0px; overflow: hidden;  border: 1px olid black;opacity: 0.0;
 transition: opacity 1s; padding: 5px 0px;
 }
 
 #ans1{display: block; width: 98%; margin: auto;  background-color: #fcfcfc; box-sizing: border-box; position: relative; top: -900px; padding: 5px 10px; border-radius: 0px 0px 20px 20px;border: 1px olid black;height:auto;}
 
-#ans1 p{  color: #343434; font-size: 19px;}
+#ans1 p{  color: #343434; font-size: 19px;font-family: 'Slabo 27px', serif;}
 
 /* START:java classes*/
 
@@ -117,13 +117,14 @@ transition: opacity 1s; padding: 5px 0px;
 /* END: java classes*/
 /*START:responsive*/
 @media screen and (min-width:300px) and (max-width:480px){
+    #faqheaddown h1{font-family: 'Slabo 27px', serif;font-weight: 600}
     #faq_cont{width: 95%;}
     #faqbox{flex-direction: column; width:100%; margin-top: 0px;}
     #ans1 p{font-size: 17px;text-align: justify;}
   
     #qabox{width: 100%;}
     .quest1{ width: 100%;padding: 3px}
-    .quest1 p{ font-size: 17px;; color: #343434;margin: 0px 40px 0px 7px;font-weight: 600; text-align: justify;}
+    .quest1 p{ font-size: 17px;; color: #343434;margin: 0px 40px 0px 7px;font-weight: 00; text-align: justify;}
     
     #faqimg h1{font-size: 180%;}
     .ans1box{width: 100%; margin: 0px 0px 7px 0px;}
