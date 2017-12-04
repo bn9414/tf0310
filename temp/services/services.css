@@ -10,7 +10,8 @@ body{font-family: 'Slabo 27px', serif;}
 }
 @media screen and (max-width:600px){
     .ser1_con{background-size: 400%;background-position: -600px 0px;  }
-
+.ser1_con{
+    background-image: url(images/s1bg2.svg);}
    
 }
 @media screen and (max-width:510px){
