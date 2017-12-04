@@ -458,31 +458,31 @@ function scrollanib() {
 
 function benmove(n){
     if(n==0){
-    ben1[0].style.top='550px';
-        ben1[1].style.top='550px';
-        ben1[2].style.top='550px';
-        ben1[3].style.top='550px';
+    ben1[0].style.top='520px';
+        ben1[1].style.top='520px';
+        ben1[2].style.top='520px';
+        ben1[3].style.top='520px';
     }
     
     if(n==1){
-    ben1[0].style.top='160px';
-        ben1[1].style.top='160px';
-        ben1[2].style.top='160px';
-        ben1[3].style.top='160px';
+    ben1[0].style.top='170px';
+        ben1[1].style.top='170px';
+        ben1[2].style.top='170px';
+        ben1[3].style.top='170px';
     }
     
        if(n==2){
-    ben1[0].style.top='-200px';
-        ben1[1].style.top='-200px';
-        ben1[2].style.top='-200px';
-        ben1[3].style.top='-200px';
+    ben1[0].style.top='-170px';
+        ben1[1].style.top='-170px';
+        ben1[2].style.top='-170px';
+        ben1[3].style.top='-170px';
     }
     
        if(n==3){
-    ben1[0].style.top='-550px';
-        ben1[1].style.top='-550px';
-        ben1[2].style.top='-550px';
-        ben1[3].style.top='-550px';
+    ben1[0].style.top='-520px';
+        ben1[1].style.top='-520px';
+        ben1[2].style.top='-520px';
+        ben1[3].style.top='-520px';
     }
    
     

@@ -140,19 +140,19 @@ body{font-family: 'Ubuntu', sans-serif;}
     .mob_benhd img{width: 80px;}
     .b_para{display: block;opacity: 1;top: 0px;;}
     .ben{display: flex;justify-content: space-between;align-items: center;width: 100%;padding-bottom: 0px}
-    .ben1{width: 500px;position: relative;transition: top 1s,bottom 1s,opacity 1s;top: 550px;opacity: 0; background-color: white;padding-bottom: 10px}
+    .ben1{width: 480px;position: relative;transition: top 1s,bottom 1s,opacity 1s;top: 520px;opacity: 0; background-color: white;padding-bottom: 10px}
     .ben1_uani{animation-name: benuani;animation-duration: 0.5s;}
     @keyframes benuani{
-        0%{top:550px}
-        80%{top:580px}
-        100%{top:550px}
+        0%{top:520px}
+        80%{top:550px}
+        100%{top:520px}
     }
     
      .ben1_dani{animation-name: bendani;animation-duration: 0.5s;}
     @keyframes bendani{
-        0%{top:-550px}
-        80%{top:-580px}
-        100%{top:-550px}
+        0%{top:-520px}
+        80%{top:-550px}
+        100%{top:-520px}
     }
     
     .ben1{margin: 40px 0px}
