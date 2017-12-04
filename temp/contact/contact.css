@@ -40,23 +40,23 @@
 
 .you *{}
 body{font-family: 'Slabo 27px', serif;}
-.you{width: 100%; height: 450px; background-color: #343434;padding-top: 5px}
-.you div{width: 100%; height: 120px;display: flex;justify-content: center;align-items: center;flex-direction: column}
+.you{width: 100%; height: auto; background-color: #343434;padding-top: 5px}
+.cinfo{display: flex;flex-direction: column;}
+.cinfo1 div,.cinfo2 div{width: 100%; height: auto;display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 20px 2px;}
 .you div img{width: 60px;margin-bottom: 10px} 
-.you div p{color: #fcfcfc;font-size: 20px;}
-.you h1,
-.you h3{color: #fcfcfc; text-align: center;font-family: 'Ubuntu', sans-serif;}
+.you div p{color: #fcfcfc;font-size: 20px;text-align: center;padding: 0px 2px}
+.you h1,.you h3{color: #fcfcfc; text-align: center;font-family: 'Ubuntu', sans-serif;}
 
-.we {border: 1px solid black;}
+.we {border: 1px olid black;}
 .we{width: 100%; height: auto;background-color: #fcfcfc;}
 
 .simonm{width: 150px; height: 150px;border-radius: 50%;margin: auto;overflow: hidden;box-shadow: 0 4px 8px 0 rgba(164, 164, 164, 0.3), 0 3px 20px 0 rgba(164, 164, 164, 0.49);margin-top: 5px; }
 .simonm img{width: 108%;position: relative; left: -10px;top: px}
 .simon{width: 100%;height: auto;}
-.simon h2{text-align: center;color: #66aab7;font-family: 'Ubuntu', sans-serif;}
+.simon h2{text-align: center;color: #60e7ce;font-family: 'Ubuntu', sans-serif;}
 .simon p{font-size: 22px; text-align: center;color: #454545;font-family: 'Ubuntu', sans-serif;}
-#sn{ text-align: center; color:#66aab7; font-family:sans-serif; font-size: 25px;}
-#s1{color: #388697;font-size: 40px; text-decoration: underline}
+#sn{ text-align: center; color:#60e7ce;  font-size: 25px;}
+#s1{color: #41CAB1;font-size: 40px; text-decoration: underline}
 /* start:form*/
 
 
@@ -68,33 +68,27 @@ body{font-family: 'Slabo 27px', serif;}
     align-items: center;
     flex-direction: column;
     border: 1px olid black;
-    background-color: #41cab1;
+    background-color: #fcfcfc;
     padding: 20px 0px;
 }
 
-
-.fields{ width: 100%; display: flex; justify-content: center;flex-direction: column;   height: auto;}
+.fields{ width: 100%; display: flex; justify-content: center; flex-direction: column;   height: auto;}
 
 
 #cletf1, #cletf2, #cletf3{display: flex; justify-content: center; align-items: center; width: 90%; margin: auto;margin: 10px;}
-#clet5 { width: 90%; height: 200px;display: flex; justify-content: center; align-items: center;}
+#clet5 { width: 90%; height: 200px;display: flex; justify-content: center; align-items: center;position: relative;left: 10px}
 
 #cletf1 input, #cletf2 input, #cletf3 input, #cletf5 textarea,#cletf2 select{ width: 95%; height: auto; padding: 13px 0px; padding-left: 10px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 18px; color: #2B2D42;
 transition: width 0.3s, box-shadow 0.3s;
 }
 input::placeholder{color: #717171; font-size: 18px; }
 
-#clet5 textarea{ width: 95%; height: 150px; margin-left: 20px;   border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); font-size: 20px; color: #717171;font-family: serif;
-transition: width 0.3s, box-shadow 0.3s;
+#clet5 textarea{ width: 95%; height: 150px;    border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); font-size: 20px; color: #717171;font-family: serif;
+transition: width 0.3s, box-shadow 0.3s;padding-top: 10px;
 }
 input::placeholder{color: #717171; font-size: 16px; }
 #want_ex option,#cletf2 select{color: #717171; font-size: 16px;}
 textarea::placeholder{color: #717171; font-size: 16px; }
-
-
-
-
-
 
 /* inter */
 #cletf1 input{background-image: url(images/user24.png);}
@@ -119,11 +113,23 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 #ffsubmit:hover{ padding-right: 43px; background-position: 97px 10px;}
 
-
-
-
-
-
-
-
 /* end:form*/
+.cont_con *{border: 1px olid}
+
+@media screen and (min-width:900px){
+    
+    .cont_con{display: flex;flex-direction: row;}
+    .you,.we{padding-top: 20px;padding-bottom: 20px}
+    .cinfo{padding-top: 80px; display: flex;flex-direction: row;}
+    .cinfo1{width: 50%;}
+    .cinfo1 div,.cinfo2 div{padding-bottom: 50px;}
+    .cinfo2{width: 50%;}
+    .form{}
+    .set12{display: flex;flex-direction: row;}
+    .set3{display: flex;width: 100%;position: relative;left: px}
+    #clet5 { height: 100px;width: 65%;}
+    #clet5 textarea{height: 100px;width: 95%}
+    #cletf6{width: 30%;position: relative;left: -20px;padding-left: 0px}
+    #clet5 textarea:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 98%;}
+    
+}

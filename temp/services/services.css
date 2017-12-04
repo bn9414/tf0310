@@ -111,7 +111,7 @@ body{font-family: 'Slabo 27px', serif;}
 .ps1_h{margin: 0px; height: auto; background-color: #FFE66D; border-radius: 10px 10px 0px 0px; display: flex; justify-content: space-between;flex-direction: column;align-items: center;overflow: hidden;}
 .ps2_h{background-color: ;}
 .ps3_h{background-color: #41CAB1;}
-.ps4_h{background-color: #cb5382;
+.ps4_h{background-color: #ee62a2;
 
 
 
@@ -228,7 +228,7 @@ background-image: url(images/smoke.png); background-size: 300px 300px; backgroun
 #cletf3{width:90%; }
 
 #cletf1 input, #cletf2 input, #cletf3 input, #cletf5 textarea{ width: 95%; height: 50px;  padding-left: 10px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 100%; color: #2B2D42;
-transition: width 0.3s, box-shadow 0.3s;
+transition: width 0.3s, box-shadow 0.3s;font-family: 'Slabo 27px', serif;font-size: 22px
 }
 input::placeholder{color: #717171; font-size: 18px; }
 
