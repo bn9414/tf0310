@@ -3,10 +3,8 @@
 	$(window).load(function() {
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
-        	});
-
-
-var portfull= document.getElementsByClassName('portfull');
+        	
+    var portfull= document.getElementsByClassName('portfull');
 
 function portfullf(){
     portfull[0].style.paddingTop='0px';
@@ -14,6 +12,13 @@ function portfullf(){
 }
 
 portfullf();
+    
+    
+    
+    });
+
+
+
 
 var t3=document.getElementsByClassName('t3');
 var t4=document.getElementsByClassName('t4');

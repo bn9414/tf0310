@@ -20,12 +20,19 @@
 /* end pre-load screen*/
 
 
+.portfull{width: 100%; height: 600px; background-color: #41cab1;display: flex;justify-content: center;flex-direction: column;padding-left: 20px;padding-top: 150px; transition: padding 1s; }
+.portfull h1{font-size: 100px; text-align: left; color:#1a9b83;}
+.portfull p{font-size: 40px; color: #97efde;}
+@media screen and (max-width:1000px){
+    
+    .portfull h1{font-size: 80px}
+    .portfull p{font-size: 30px}}
 
 
 
 
 .you *{}
-
+body{font-family: 'Ubuntu', sans-serif;}
 .you{width: 100%; height: 450px; background-color: #343434;padding-top: 5px}
 .you div{width: 100%; height: 120px;display: flex;justify-content: center;align-items: center;flex-direction: column}
 .you div img{width: 60px;margin-bottom: 10px} 
