@@ -51,8 +51,15 @@ z[0].addEventListener('click', what,false);
 /* sec 1*/
 
 var secv= document.getElementsByClassName('sec_v');
+var mg= document.getElementsByClassName('mg');
+
+
 var sect= document.getElementsByClassName('sec_t');
+var tx= document.getElementsByClassName('tx');
+
 var sechd= document.getElementsByClassName('shd');
+
+var wehd= document.getElementsByClassName('wehd');
 var outline= document.getElementsByClassName('outline');
 var solid= document.getElementsByClassName('solid');
 
@@ -78,12 +85,25 @@ function sec1(n){
     solid[2].style.display="none";
     solid[3].style.display="none";
     
+    wehd[0].className="wehd";
+    wehd[1].className="wehd";
+    wehd[2].className="wehd";
+    wehd[3].className="wehd";
+    wehd[n].className="wehd hd1";
+    
+    
+    
     
     
     secv[n].style.display="flex";
+       mg[n].className="mg mgon";
+   
     sect[n].style.display="flex";
+      tx[n].className="tx txon";
      sechd[n].style.display="block";
+     sechd[n].className="shd hdon";
         solid[n].style.display="block";
+     solid[n].className="solid solidon";
 }
 sec1(0);
 outline[0].addEventListener('click',function(){sec1(0);},false);

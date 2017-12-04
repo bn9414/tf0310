@@ -1,34 +1,68 @@
 body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 
 /* start: sec1*/
-.sec1 *{border: 1px solid white;}
+.sec1 *{border: 1px olid white;}
 .sec1{width: 100%;height: 600px; background-color: black;padding-top: 5px;color: white}
 .vr{text-align: center;font-size: 40px;color:#FA684B }
-.sec_hd h1{text-align: center;}
+.sec_hd h1{text-align: center;position: relative;}
 
-.sec_v,.sec_t{display: flex;justify-content: center;align-items: center;}
-.sec_v img{width: 200px;padding: 10px 0px;}
+.sec_v,.sec_t{display: flex;justify-content: center;align-items: center;overflow: hidden;}
+
+.sec_v img{position: relative;width: 180px;padding: 10px 0px;}
 .sec_l{width: 90%; height: 1px;margin: auto;background-color: white;}
-.sec_t p{padding:10px 25px ;font-size: 17px;font-family: 'Slabo 27px', serif;}
+.sec_t p{ position: relative;padding:10px 25px ;font-size: 17px;font-family: 'Slabo 27px', serif;}
 
-.select{width: 80%;position: relative;display: flex;margin: auto;}
-.stick{height: 2px;background-color: white;margin: auto;margin-top: 20px;width: 95%;display: flex;justify-content: space-between;position: relative;top: 10px}
+.select{width: 80%;position: relative;display: flex;margin: auto;margin-bottom: 30px;margin-top: 15px}
+.stick{height: 2px;background-color: white;margin: auto;margin-top: 0px;width: 95%;display: flex;justify-content: space-between;position: relative;top: 10px}
 .outline{border: 2px solid white; width: 25px; height: 25px; border-radius: 50%;display: flex;position: relative;top: -10px;cursor: pointer;background-color: black;}
 .solid{width: 15px;height: 15px;margin: auto;background-color: white;border-radius: 50%;position: relative;}
 .outline h1{display: none;}
 #vr_des{display: none;}
+
+.mgon{animation-name: smgon;animation-duration: 1s; animation-fill-mode: forwards;}
+.txon{animation-name: stxon;animation-duration: 1s; animation-fill-mode: forwards;}
+.hdon{animation-name: hdon;animation-duration: 1s; animation-fill-mode: forwards;}
+.solidon{animation-name: solidon;animation-duration: 0.5s; animation-fill-mode: forwards;}
+
+
+@keyframes solidon{
+     0%{width:0px;height: 0px; opacity: 0;}
+    100%{width:15px;height: 15px; opacity: 1;}    
+}
+
+@keyframes hdon{
+     0%{top: 20px;opacity: 0;}
+    100%{top: 0px;opacity: 1}    
+}
+
+
+@keyframes smgon{
+     0%{top: 30px;opacity: 0;}
+    100%{top: 0px;opacity: 1}    
+}
+
+@keyframes stxon{
+     0%{bottom: 30px;opacity: 0;}
+    100%{bottom: 0px;opacity: 1}
+    
+}
+
+
+
+
 @media screen and (min-width:800px){
     .sec1{display: flex;}
        .select{height: 400px;width: 30%; order: -1;}
-    .stick{width: 3px;height: 400px;flex-direction: column;margin-left: 30px;margin-top: 0px;}
+    .stick{width: 3px;height: 400px;flex-direction: column;margin-left: 30px;margin-top: 90px;}
     .outline{position: relative; left: -10px;top: 0px;}
     .sec_t p{font-size: 25px}
     .sec_respd{width: 50%;padding-top: 100px;padding-right: 100px;}
     
-    .outline h1{display: block;position: absolute;left: 40px;top: -5px;font-size: 40px;width: 400px}
+    .outline .wehd{display: block;position: absolute;left: 40px;top: -10px;font-size: 30px;width: 400px;color: #454545;transition: font-size 0.5s,color 0.5s;}
     .vr{display: none}
-    #vr_des{display: block;position: absolute;top: -60px;left: 60px;font-size: 55px;color:#FA684B;}
+    #vr_des{display: block;position: absolute;top: 0px;left: 60px;font-size: 55px;color:#FA684B;}
     .sec_hd{display: none;}
+    .outline .hd1{font-size: 40px;color: white}
 }
 
 /* end: sec1*/
@@ -111,7 +145,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 .c1{background-color:#ED6A5A;padding: 20px 0px; }
 .c2{background-color:#FFE66D;padding: 20px 0px; }
 .c3{background-color:#41CAB1;padding: 20px 0px; }
-.c1 p,.c2 p,.c3 p{color: #fcfcfc;font-size: 30px;padding: 5px 5px;font-family: 'Slabo 27px', serif;}
+.c1 p,.c2 p,.c3 p{color: #fcfcfc;font-size: 20px;padding: 5px 5px;font-family: 'Slabo 27px', serif;}
 .c2 p{color: #454545;}
 .c1 h1{background-color: #454545;  margin-right: 130px;padding-left: 10px; color: #fcfcfc;}
 .c2 h1{background-color: #fcfcfc;  margin-right: 130px;padding-left: 10px; color: #454545;}
@@ -131,7 +165,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
     
 /* mobile */
 .core_resd{display: flex; flex-direction: row;}
-.c1 p,.c2 p,.c3 p{padding: 20px 100px 5px 10px;}
+.c1 p,.c2 p,.c3 p{padding: 20px 100px 5px 10px;font-size: 30px;}
 .c1{padding: 40px 0px; }
 .c2{padding: 40px 0px; }
 .c3{padding: 40px 0px; }
