@@ -184,8 +184,8 @@ body{font-family: 'Slabo 27px', serif;}
 .rm1 img,.rm2 img,.rm3 img,.rm4 img{width: 60px;}
 .rm1 h1,.rm2 h1,.rm3 h1,.rm4 h1{font-size: 20px;text-align: left;width: 150px;color: #717171;}
 .revampt{background-color: white}
-.revamp_head{background-color: white;color: #343434; text-align: center;font-family: 'Ubuntu', sans-serif;}
-.revamp_head span{ color: #388697;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
+.revamp_head{background-color: white;color:#60e7ce; text-align: center;font-family: 'Ubuntu', sans-serif;}
+.revamp_head span{ color:#41CAB1 ;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
 .revampt p{color: #717171;font-size: 18px; text-align: justify; padding: 10px 10px}
 .report h1{font-size: 20px; color: #343434;text-align: center;}
 
@@ -258,7 +258,7 @@ input::placeholder{color: #717171; font-size: 18px; }
 
 #ffsubmit:hover{ padding-right: 43px; background-position: 97px 10px;}
 
-@media screen and (max-width:480px){ 
+@media screen and (max-width:550px){ 
     .form_cont *{border: 1px olid black}
     .form_cont{height: 440px;background-position: -50px 160px;background-image: none;}
 .fields{flex-direction: column;   height: 380px;padding-left: 5px;}
