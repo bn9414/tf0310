@@ -1,2 +1,5 @@
-body p{font-family: 'Slabo 27px', serif;}
-body h1{font-family: 'Ubuntu', sans-serif;}
+#sitemap a{font-family: 'Slabo 27px', serif;color:#2274a5 }
+#sitemap h3{font-family: 'Ubuntu', sans-serif;}
+.cont{padding: 50px 10px;}
+.boly{font-size: 18px;font-weight: 600;font-family: 'Ubuntu', sans-serif;}
+.pri_cont{padding: 50px 10px;font-family: 'Slabo 27px', serif;font-size: 18px}

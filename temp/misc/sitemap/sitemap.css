@@ -1,2 +1,18 @@
-body p{font-family: 'Slabo 27px', serif;}
-body h1{font-family: 'Ubuntu', sans-serif;}
+#sitemap a{font-family: 'Slabo 27px', serif;color:#2274a5 }
+#sitemap h3{font-family: 'Ubuntu', sans-serif;}
+
+#sitemap{padding: 50px 10px;display: flex;width: 100%;margin: auto;justify-content: center;ali}
+.links{padding-left: 50px;font-size: 20px}
+.logohd p{font-size: 18px;color:#454545}
+
+@font-face {
+    font-family: archive;
+    src: url(../../common/fonts/archive.otf);
+}
+.logohd h1{font-family: archive;color: }
+
+@media screen and (max-width:500px){
+    #sitemap{flex-direction: column}
+    .logohd{padding-bottom: 30px}
+    
+}

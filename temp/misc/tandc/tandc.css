@@ -1,2 +1,3 @@
-body p{font-family: 'Slabo 27px', serif;}
-body h1{font-family: 'Ubuntu', sans-serif;}
+.tc p{font-family: 'Slabo 27px', serif;color:#343434;font-size: 20px}
+.tc h1{font-family: 'Ubuntu', sans-serif;font-size: 25px}
+.tc{padding: 20px 10px;}
