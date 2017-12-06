@@ -41,13 +41,14 @@
 body{font-family: 'Ubuntu', sans-serif;}
 .port_head{width: auto;height: 80px; border: 1px olid; display: flex;margin: auto;justify-content: center;align-items: center;margin: 10px 5px; margin: auto;padding-bottom: px;margin: 60px auto;}
 .hmenu{color: white; font-size: 19px;text-align: center;display: flx; justify-content: center;position: relative;cursor: pointer;height: 80px;padding-top: 15px;background-color: #41cab1}
+
 .port_head a span{font-size: 21px;font-weight: 500;}
 
 #h1{width:70px; }
 #h2{width:50px; width: 110px;}
 #h3{width:50px; width: 130px;}
-.h1click{background-color:white;width: 60px;box-shadow: 5px 5px 10px 0px rgba(20, 20, 20, 0.1),-5px -5px 10px 0px rgba(20, 20, 20, 0.1); z-index: 1;color: #41cab1;transition: box-shadow 0.5s;}
-.h1click{box-shadow: 5px 5px 10px 0px rgba(20, 20, 20, 0.1),-5px -5px 10px 0px rgba(20, 20, 20, .1);}
+.h1click{width: 60px;box-shadow: 5px 5px 10px 0px rgba(20, 20, 20, 0.1),-5px -5px 10px 0px rgba(20, 20, 20, 0.1); z-index: 1;color: #41cab1;transition: box-shadow 0.5s,background-color 0.5s,color 0.5s,height 0.5s;}
+.h1click{box-shadow: 5px 5px 20px 0px rgba(20, 20, 20, 0.1);background-color:white;height: 85px}
 
 .portbox{width: 94%; height: 550px;border: 1px olid black;margin: auto; margin-top: 20px; border-radius: 5px;box-shadow: 15px 20px 50px -10px rgba(20, 20, 20, 0.1),-15px 20px 50px -10px rgba(20, 20, 20, 0.1);margin-bottom: 40px;display: flex;flex-direction: column;}
 
