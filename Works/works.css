@@ -97,10 +97,10 @@ body{font-family: 'Ubuntu', sans-serif;}
     .bclogo img{width:100px;position: relative;top: 10px}
     .bclogo{margin-bottom: 5px}
     .cglogo img{width:95px;}
-    .t4 .current{position: relative; bottom: 20px;color: #717171;}
-    .portt{height: 150px;}
-.portbox{height: 500px;}
-.tbox1,.tbox2{height: 150px;}
+    .t4 .current{position: relative; bottom: 0px;color: #717171;}
+    .portt{height: 250px;}
+.portbox{height: 600px;}
+.tbox1,.tbox2{height: 250px;}
     .portm .portm1{padding-top: 180px;}
        .portm div img{display: block;height: 116%;}
       .portm div {overflow-x: auto;overflow-y: auto; background-image:none;}
@@ -147,6 +147,7 @@ body{font-family: 'Ubuntu', sans-serif;}
 }
 
 @media screen and (min-width:800px){
+    .t4 .current{position: relative; bottom: 20px;color: #717171;}
     .portm div img{display: block;}
     .portbox{display: flex;flex-direction: row;}
     .portm{width: 80%;}
@@ -157,7 +158,9 @@ body{font-family: 'Ubuntu', sans-serif;}
     .t4 a{margin: auto;}
     .portm div img{height: 107%;}
     .portm div {overflow-x: auto;overflow-y: hidden; background-image:none;}
-  
+   
+.portbox{height: 500px;}
+
     
     
     .scrollbar

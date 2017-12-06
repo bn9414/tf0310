@@ -112,7 +112,7 @@ window.onscroll = function() {scrollani(),scrollanib()};
 function scrollani() {
     /* build*/
  if(w>500){
-    if (document.body.scrollTop > 2550 || document.documentElement.scrollTop > 3750) {
+    if (document.body.scrollTop > 3750 || document.documentElement.scrollTop > 3750) {
           buildmg.style.opacity="1";
           buildmg.style.left="-50px";
            buildmg.style.top="-100px";
@@ -120,7 +120,7 @@ function scrollani() {
     }
     
     if(w<500){
-    if (document.body.scrollTop > 2800 || document.documentElement.scrollTop > 4000) {
+    if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
           buildmg.style.opacity="1";
           buildmg.style.left="-70px";
            buildmg.style.top="-20px";
