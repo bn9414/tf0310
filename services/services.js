@@ -162,7 +162,22 @@ expand[1].addEventListener("click",offeropen, false);
 
 
 /* start:build */
+var pm1=document.getElementsByClassName('pricem1');
+var pm2=document.getElementsByClassName('pricem2');
+var pm3=document.getElementsByClassName('pricem3');
+var ro1=document.getElementsByClassName('rimage');
+var ro2=document.getElementsByClassName('rhead');
 var buildmg=document.getElementById('buildmg');
+
+
+function hello(){
+   
+    
+}
+    
+hello();
+ 
+
 window.onscroll = function() {scrollani(),scrollanib()};
   var h = parseInt(window.innerHeight);
         var w = parseInt(window.innerWidth);
@@ -183,6 +198,85 @@ function scrollani() {
            buildmg.style.top="-20px";
       }
     }
+    
+    
+    if(w>650){
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            pm1[0].className="pricem1 pm1";
+        pm2[0].className="pricem2 pm1";
+        pm3[0].className="pricem3 pm1";
+ 
+      }
+    }
+       if(w<650){
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            pm1[0].className="pricem1 pm1";
+       
+    }
+           
+           if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
+               pm2[0].className="pricem2 pm1";
+       
+    }
+           
+       if (document.body.scrollTop > 1900 || document.documentElement.scrollTop > 1900) {
+              pm3[0].className="pricem3 pm1";
+    }
+   
+       }
+    
+        if(w<600){
+    if (document.body.scrollTop > 2800 || document.documentElement.scrollTop > 2800) {
+         ro1[0].style.right='0px';
+          ro1[1].style.right='0px';
+          ro1[2].style.right='0px';
+          ro1[3].style.right='0px';
+       ro1[0].style.opacity='1';
+        ro1[1].style.opacity='1';
+        ro1[2].style.opacity='1';
+        ro1[3].style.opacity='1';
+        
+         ro2[0].style.left='0px';
+          ro2[1].style.left='0px';
+          ro2[2].style.left='0px';
+          ro2[3].style.left='0px';
+       ro2[0].style.opacity='1';
+        ro2[1].style.opacity='1';
+        ro2[2].style.opacity='1';
+        ro2[3].style.opacity='1';
+        
+    }
+        
+        }
+    
+         if(w>600){
+    if (document.body.scrollTop > 1100 || document.documentElement.scrollTop > 1100) {
+         ro1[0].style.right='0px';
+          ro1[1].style.right='0px';
+          ro1[2].style.right='0px';
+          ro1[3].style.right='0px';
+       ro1[0].style.opacity='1';
+        ro1[1].style.opacity='1';
+        ro1[2].style.opacity='1';
+        ro1[3].style.opacity='1';
+        
+         ro2[0].style.left='0px';
+          ro2[1].style.left='0px';
+          ro2[2].style.left='0px';
+          ro2[3].style.left='0px';
+       ro2[0].style.opacity='1';
+        ro2[1].style.opacity='1';
+        ro2[2].style.opacity='1';
+        ro2[3].style.opacity='1';
+        
+    }
+        
+        }
+    
+    
+   
+    
+    
     
     
 }

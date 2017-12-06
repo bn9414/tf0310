@@ -106,6 +106,7 @@ h1[2].addEventListener('click',function(){headmenu(2);},false);
 
 /* start:build */
 var buildmg=document.getElementById('buildmg');
+var pboxani=document.getElementsByClassName('portbox');
 window.onscroll = function() {scrollani(),scrollanib()};
   var h = parseInt(window.innerHeight);
         var w = parseInt(window.innerWidth);
@@ -126,6 +127,10 @@ function scrollani() {
            buildmg.style.top="-20px";
       }
     }
+    
+    
+  
+    
     
     
 }

@@ -2,7 +2,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 
 /* start: sec1*/
 .sec1 *{border: 1px olid white;}
-.sec1{width: 100%;height: 600px; background-color: black;padding-top: 5px;color: white}
+.sec1{width: 100%;height: auto; background-color: black;padding-top: 5px;color: white}
 .vr{text-align: center;font-size: 40px;color:#FA684B }
 .sec_hd h1{text-align: center;position: relative;}
 
@@ -51,7 +51,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 
 
 @media screen and (min-width:800px){
-    .sec1{display: flex;}
+    .sec1{display: flex;height: 600px;}
        .select{height: 400px;width: 30%; order: -1;}
     .stick{width: 3px;height: 400px;flex-direction: column;margin-left: 30px;margin-top: 90px;}
     .outline{position: relative; left: -10px;top: 0px;}
@@ -83,17 +83,36 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 .whathc{color: #41CAB1;}
 
 .www2 p{font-size: 18px;padding: 10px 5px;color: #454545;text-align: justify;font-family: 'Slabo 27px', serif;}
+
 .www2{width: 100%; height: auto;position: relative;display: flex;justify-content: center;align-items: center;overflow: hidden;}
 .www2 p span{font-size: 150px; position: absolute;left:5%;top: 10px; font-family: sans-serif;z-index: -1; opacity: 0.6;}
+
+.wwwani{animation-name: wwwani;animation-duration: 1s;animation-fill-mode: forwards;}
+@keyframes wwwani{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
 .whop{display: non;}
 .whyp{display: none;}
 .whatp{display: none;}
 
 .whop span{ color: #f9de70;}
     .whyp span{color: #ed9784;top: 80px}
-    .www2 .whatp  span{color: #a1dddd;font-size: 100px;left: 20%;}
+    .www2 .whatp  span{color: #a1dddd;font-size: 100px;top: 50px; left: 15%;}
+   
+@media screen and (min-width:800px){
+/* mobile*/
+.www1{flex-direction: column;width: 40%; height:280px;position: relative; top: 20px}
+.www_con{display: flex;width: 80%;margin: auto;padding: 100px 0px;}
+.www1 p{font-size: 70px;}
+.www1 div{width: 50%; height: 2px;}
+.www2 p{font-size: 30px;}
+  .www2 .whatp  span{color: #a1dddd;font-size: 200px;left: 100px;top: 10px}
+.www2 p span{font-size: 200px;left: 20%;}
 
-
+/* mobile*/
+}
 /* end: www*/
 
 /* start: m and v*/
@@ -104,7 +123,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 .mv_con div{margin: 20px 0px}
 .mv_con div{margin: auto;display: flex;justify-content: center;flex-direction: column; align-items: center;padding: 30px 10px;}
  .vission img{position: absolute;z-index: -1;left: -90px;width: 200px;bottom: -20px}
-    .mission img{position: absolute;z-index: -1;left: -70px;width: 250px;bottom: 250px}
+    .mission img{position: absolute;z-index: -1;left: -70px;width: 250px;bottom: 290px}
 /* mobile */
 @media screen and (min-width:800px){
 
@@ -121,18 +140,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 
 /* end: m and v*/
 
-@media screen and (min-width:800px){
-/* mobile*/
-.www1{flex-direction: column;width: 40%; height:280px;position: relative; top: 20px}
-.www_con{display: flex;width: 80%;margin: auto;padding: 100px 0px;}
-.www1 p{font-size: 70px;}
-.www1 div{width: 50%; height: 2px;}
-.www2 p{font-size: 30px;}
-  .www2 .whatp  span{color: #a1dddd;font-size: 200px;left: 40px;top: 10px}
-.www2 p span{font-size: 200px;left: 20%;}
-    
-/* mobile*/
-}
+
 
 /*start: core values*/
 
@@ -164,7 +172,7 @@ body {border: 1px olid black;font-family: 'Ubuntu', sans-serif;}
 @media screen and (min-width:800px){
     
 /* mobile */
-.core_resd{display: flex; flex-direction: row;}
+.core_resd{display: flex; flex-direction: row;overflow: hidden;}
 .c1 p,.c2 p,.c3 p{padding: 20px 100px 5px 10px;font-size: 30px;}
 .c1{padding: 40px 0px; }
 .c2{padding: 40px 0px; }

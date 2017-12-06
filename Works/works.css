@@ -50,7 +50,9 @@ body{font-family: 'Ubuntu', sans-serif;}
 .h1click{width: 60px;box-shadow: 5px 5px 10px 0px rgba(20, 20, 20, 0.1),-5px -5px 10px 0px rgba(20, 20, 20, 0.1); z-index: 1;color: #41cab1;transition: box-shadow 0.5s,background-color 0.5s,color 0.5s,height 0.5s;}
 .h1click{box-shadow: 5px 5px 20px 0px rgba(20, 20, 20, 0.1);background-color:white;height: 85px}
 
-.portbox{width: 94%; height: 550px;border: 1px olid black;margin: auto; margin-top: 20px; border-radius: 5px;box-shadow: 15px 20px 50px -10px rgba(20, 20, 20, 0.1),-15px 20px 50px -10px rgba(20, 20, 20, 0.1);margin-bottom: 40px;display: flex;flex-direction: column;}
+.portbox{width: 94%; height: 550px;border: 1px olid black;margin: auto; margin-top: 20px; border-radius: 5px;box-shadow: 15px 20px 50px -10px rgba(20, 20, 20, 0.1),-15px 20px 50px -10px rgba(20, 20, 20, 0.1);margin-bottom: 40px;display: flex;flex-direction: column;transition: box-shadow 0.5s;}
+.portbox{}
+
 
 .portm{width: 100%; height: 350px; }
 .portm div{ width: 97%;margin: auto;position: relative; top:5px;height: 340px; background-image: url(images/p1mob.jpg);background-repeat: no-repeat; background-size: cover;border-radius: 5px;}

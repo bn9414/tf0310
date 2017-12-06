@@ -10,7 +10,7 @@ function who(){
  x[0].className='whohc whoh';
     y[0].className='whyh';
     z[0].className='whath';
-    x1[0].style.display="block";
+    x1[0].style.display="block";    x1[0].className="whop wwwani";
     y1[0].style.display="none";
     z1[0].style.display="none";
     
@@ -23,9 +23,10 @@ function why(){
  
     z[0].className='whath';
     x1[0].style.display="none";
-    y1[0].style.display="block";
+   
     z1[0].style.display="none";
-    
+     y1[0].style.display="block";
+    y1[0].className="whyp wwwani";
     
 }
 
@@ -39,6 +40,7 @@ function what(){
     x1[0].style.display="none";
     y1[0].style.display="none";
     z1[0].style.display="block";
+ z1[0].className="whatp wwwani";
     
     
 }
@@ -122,7 +124,7 @@ window.onscroll = function() {scrollani(),scrollanib()};
 function scrollani() {
     /* build*/
  if(w>500){
-    if (document.body.scrollTop > 1150 || document.documentElement.scrollTop > 1150) {
+    if (document.body.scrollTop > 1750 || document.documentElement.scrollTop > 1750) {
           buildmg.style.opacity="1";
           buildmg.style.left="-50px";
            buildmg.style.top="-100px";
@@ -130,7 +132,7 @@ function scrollani() {
     }
     
     if(w<500){
-    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500) {
+    if (document.body.scrollTop > 1800 || document.documentElement.scrollTop > 1800) {
           buildmg.style.opacity="1";
           buildmg.style.left="-70px";
            buildmg.style.top="-20px";

@@ -106,12 +106,12 @@ body{font-family: 'Slabo 27px', serif;}
 .p_same{ width: 100%; height: auto; border-bottom: 1px #e9e9e9 solid; margin: 0px; text-align: center; padding: 10px 10px; font-size: 20px; color: #6B6B6B;position: relative;background-color: white;}
 
 .ps1_h div{width: 100%; height: auto;display: flex;justify-content: flex-end; align-items: center;flex-direction: column;padding-top: 0px}
-.ps1_h div img{ width:100px; height: 100px;position: relative; top: 1px;}
+.ps1_h div img{ width:100px; height: 100px;position: relative;opacity: 0; top: 70px; transition: opacity 1s,top 1s}
 .ps2_h div img{width: 150px; height: 150px;}
 .ps4_h div img{width: 220px; height: 252px;}
 .ps3_h div img{width: 160px; height: 200px;}
 
-
+.ps1_h div .pm1{opacity: 1; top:1px;}
 
 
 .ps1_h{margin: 0px; height: auto; background-color: #f289b7; border-radius: 10px 10px 0px 0px; display: flex; justify-content: space-between;flex-direction: column;align-items: center;overflow: hidden;}
@@ -185,10 +185,13 @@ body{font-family: 'Slabo 27px', serif;}
 .rm1,.rm2,.rm3,.rm4{width: 95%; height: 90px; border: olid 1px black;padding-left: 10px; display: flex; justify-content: space-between; align-items: center;margin: auto;box-shadow: 3px 6px 30px 0px rgba(20, 20, 20, 0.2);}
 
 
-.rm1 img,.rm2 img,.rm3 img,.rm4 img{width: 60px;}
-.rm1 h1,.rm2 h1,.rm3 h1,.rm4 h1{font-size: 20px;text-align: left;width: 150px;color: #717171;}
+.rm1 img,.rm2 img,.rm3 img,.rm4 img{width: 60px;opacity: 0; position: relative;right: -50px;transition: right 1s,opacity 1s;}
+.rimage{right: 100px;}
+
+.rm1 h1,.rm2 h1,.rm3 h1,.rm4 h1{font-size: 20px;text-align: left;width: 150px;color: #717171;opacity: 0; position: relative;left: -30px;transition: left 1s,opacity 1s;}
 .revampt{background-color: white}
 .revamp_head{background-color: white;color:#60e7ce; text-align: center;font-family: 'Ubuntu', sans-serif;}
+
 .revamp_head span{ color:#41CAB1 ;font-size: 40px; text-decoration: underline; text-decoration-color: rgba(56,134,151,0.5)}
 .revampt p{color: #717171;font-size: 18px; text-align: justify; padding: 10px 10px}
 .report h1{font-size: 20px; color: #343434;text-align: center;}
