@@ -1,3 +1,6 @@
 User-Agent: *
 
 Sitemap: http://www.tenfinish.com/sitemap.xml
+
+User-Agent: *
+Disallow: /miscten/
