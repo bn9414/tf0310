@@ -15,3 +15,4 @@ body{margin: 0px; background-color: #fedc45;}
 .twotitle span{font-size: 60px;}
 .twotitle{text-align: center;border:15px olid green;width: 40%;display:flex;justify-content: center;align-items: center;margin: auto;margin-bottom: 100px;}
 .bar{width: 100px; height: 200px;background-color: red;transform: skewX(-30deg)}
+.pm-button{position: relative; z-index: 10}
