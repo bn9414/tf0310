@@ -1,6 +1,6 @@
 
 body p{font-family: 'Slabo 27px', serif;}
-body h1{font-family: 'Ubuntu', sans-serif;}
+body h1{font-family: 'Roboto', sans-serif;}
 h1, p{margin: 0px;}
 body{margin: 0px; background-color: #fedc45;}
 
@@ -8,10 +8,17 @@ body{margin: 0px; background-color: #fedc45;}
 .mainclass{width: 100%; height: auto;display: flex;justify-content: flex-end;;align-items: flex-start}
 
 .mainclass *{border: 1px olid}
-.mone div{padding: 10px 0px;}
-.mone{width: 20%;height: 100vh; padding: 0px 0px 0px 5px;position: fixed;left: 0px;font-size: 22px;background-color: #343434;color: #fcfcfc;font-family: 'Ubuntu', sans-serif;}
+.menu{width: 100%;padding-left: 0px; height: 80px; background-color: #fcfcfc;border-bottom: 2px olid white;display: flex;justify-content: flex-start;align-items: center;padding-left: 20px;box-sizing: border-box;font-family: 'Roboto', sans-serif;color: #717171;overflow: hidden;cursor: pointer;transition: color 1s;}
+.mone{width: 20%;height: 100vh; padding: 0px 0px 0px 0px;position: fixed;left: 0px;font-size: 16px;background-color: #343434;font-family: 'Ubuntu', sans-serif;}
 .mtwo{width: 80%;}
-.mtwo div{padding-left: 10px}
+.toc{height: 50px;font-family: 'Roboto', sans-serif;color: #fcfcfc;text-align: center;font-size: 20px;display: flex;justify-content: center;align-items: center;}
+.mtwo div{padding-left: 10px;}
 .twotitle span{font-size: 60px;}
 .twotitle{text-align: center;border:15px olid green;width: 40%;display:flex;justify-content: center;align-items: center;margin: auto;margin-bottom: 100px;}
-.bar{width: 100px; height: 200px;background-color: red;transform: skewX(-30deg)}
+.bar{width: 100px; height: 200px;background-color: red;transform: skewX(-30deg);}
+.menu{display: flex;}
+.menu p{padding-left: 10px;}
+.oneline{width: 20px;height: 80px;}
+.line{width: 3px;background-color: #e0e4e7; height: 80px;transition: background-color 1s;}
+.outc{width: 20px;height: 20px; background-color: #fcfcfc;border: 2px solid #e0e4e7;border-radius: 50%;display: flex;justify-content: center;align-items: center;position: relative; top: 25px;left:-10px;transition: border-color 1s; }
+.inc{margin: auto; width: 10px;height: 10px; background-color: #e0e4e7;border-radius: 50%;transition: background-color 1s;}
