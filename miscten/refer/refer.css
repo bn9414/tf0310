@@ -32,7 +32,83 @@ text-shadow: -2px 0 #219ba0, 0 2px #219ba0, 2px 0 #219ba0, 0 -2px #219ba0;}
 .ben_h {color:  #219ba0;}
 .ben_h img{position: relative;left: 10px;width: 35px;}
 .webbox{width: 100%; height: auto;ox-shadow: 10px 5px 20px 0px rgba(20, 20, 20, 0.15);margin: auto;border-radius: 30px;padding: 10px;ackground-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);margin: 20px 0px}
+.pro_h img{width: 45px;position: relative; top:5px}
+.pro_h{margin-bottom: 20px;}
 .webbox h1{}
+
+/* start:form */
+form{width: 100%;height: auto; display: flex;flex-wrap: wrap;margin: auto;justify-content: space-around;align-items: center}
+.form1,.form2,.form3,.form4{width: 400px; height: auto;padding-top: 100px;padding-bottom: 20px;;  border: 1px olid;background-image: url(images/form.svg);border-radius: 10px; overflow: hidden;margin: 20px 0px;background-repeat: no-repeat;box-shadow: 5px 5px 20px 0px rgba(20, 20, 20, 0.15);display: flex;flex-direction: column; justify-content: flex-end;align-items:center;font-family: 'Roboto', sans-serif;}
+.form3{background-image: url(images/form3.svg);}
+.form2{background-image: url(images/form2.svg);}
+.form4{background-image: none;box-shadow: none;padding-top: 0px;}
+
+
+
+/* start:form*/
+
+
+.form_cont{ 
+    width: 100%; margin: auto; margin-top: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px olid black;
+    background-color: #fcfcfc;
+    padding: 20px 0px;
+}
+
+.fields{ width: 100%; display: flex; justify-content: center; flex-direction: column;   height: auto;}
+
+
+#cletf1, #cletf2, #cletf3{display: flex; justify-content: center; align-items: center; width: 90%; margin: auto;margin: 10px;}
+#clet5 { width: 90%; height: 200px;display: flex; justify-content: center; align-items: center;position: relative;left: 10px}
+
+#cletf1 input, #cletf2 input, #cletf3 input, #cletf5 textarea,#cletf2 select{ width: 70%; height: auto; padding: 13px 0px; padding-left: 10px;  border-style: none; border-radius: 10px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 18px; color: #2B2D42;
+transition: width 0.3s, box-shadow 0.3s;
+}
+input::placeholder{color: #717171; font-size: 18px; }
+
+#clet5 textarea{ width: 95%; height: 120px;    border-style: none; border-radius: 10px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); font-size: 20px; color: #717171;font-family: serif;
+transition: width 0.3s, box-shadow 0.3s;padding-top: 10px;
+}
+input::placeholder{color: #717171; font-size: 16px; }
+#want_ex option,#cletf2 select{color: #717171; font-size: 16px;}
+textarea::placeholder{color: #717171; font-size: 16px; }
+
+/* inter */
+#cletf1 input{background-image: url(images/user24.png);}
+#cletf2 input{background-image: url(images/phone24.png);}
+#cletf3 input{background-image: url(images/mail24.png);}
+#clet5 textarea{background-image: url(images/com24.png); background-position: 3px 65px; padding-left: 10px;font-family: 'Roboto', sans-serif; }
+
+/* inter */
+#cletf1 input:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 72%;}
+#cletf2 input:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 72%;}
+#cletf3 input:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 72%;}
+
+#cletf6{  display: flex; justify-content: center; align-items: center;}
+#cletf6{ width: 90%; margin-top:5px;padding-left: 25px; position: relative; left: -40px;
+}
+#clet5 textarea:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 98%;}
+
+
+#ffsubmit{ border-style: none; border-radius: 10px;  color:white;background-image: url(images/mailsend.png); font-size: 22px;  height: 40px; background-color:#96e6a1;  background-repeat: no-repeat; background-position: 290px 10px; width: 330px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s; height: 50px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);position: relative;top: -5px;right: -30px;
+}
+
+#ffsubmit:hover{ padding-right: 43px; background-position: 297px 10px;}
+
+/* end:form*/
+
+
+
+/* end:form */
+
+
+
 .menu{display: flex;}
 .menu p{padding-left: 10px;}
 .oneline{width: 20px;height: 80px;}
