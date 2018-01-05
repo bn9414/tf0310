@@ -118,5 +118,6 @@ textarea::placeholder{color: #717171; font-size: 16px; }
     .mtwo{width: 100%;}
     .mtwo div{padding: 5px;}
     .mtwo p,.mtwo p{font-size: 17px;}
+    .mtwo h1{font-size: 20px;}
     .mone{display: none;}
 }
