@@ -104,9 +104,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 /* end:form*/
 
 
-
 /* end:form */
-
 
 
 .menu{display: flex;}
@@ -115,3 +113,10 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 .line{width: 3px;background-color: #e0e4e7; height: 80px;transition: background-color 1s;}
 .outc{width: 20px;height: 20px; background-color: #fcfcfc;border: 2px solid #e0e4e7;border-radius: 50%;display: flex;justify-content: center;align-items: center;position: relative; top: 25px;left:-10px;transition: border-color 1s; }
 .inc{margin: auto; width: 10px;height: 10px; background-color: #e0e4e7;border-radius: 50%;transition: background-color 1s;}
+
+@media screen and (max-width:600px){
+    .mtwo{width: 100%;}
+    .mtwo div{padding: 5px;}
+    .mtwo p,.mtwo p{font-size: 17px;}
+    .mone{display: none;}
+}
