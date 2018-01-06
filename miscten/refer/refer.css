@@ -27,6 +27,9 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);}
 .refer {font-size: 35px;position: relative;left: 10px;}
 
 .bar{width: 10px; height: 150px;background-color: #4E878C;transform: skewX(-30deg);z-index: 1}
+
+
+
 .ben_h span{ font-size: 50px;text-align: left;color: #fcfcfc;
 text-shadow: -2px 0 #219ba0, 0 2px #219ba0, 2px 0 #219ba0, 0 -2px #219ba0;}
 .ben_h {color:  #219ba0;}
@@ -70,7 +73,7 @@ form{width: 100%;height: auto; display: flex;flex-wrap: wrap;margin: auto;justif
 transition: width 0.3s, box-shadow 0.3s;
 }
 input::placeholder{color: #717171; font-size: 18px; }
-
+#procedure img{width: 8px;position: relative;top: 1px;left: px;}
 #clet5 textarea{ width: 95%; height: 120px;    border-style: none; border-radius: 10px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); font-size: 20px; color: #717171;font-family: serif;
 transition: width 0.3s, box-shadow 0.3s;padding-top: 10px;
 }
@@ -115,7 +118,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 .inc{margin: auto; width: 10px;height: 10px; background-color: #e0e4e7;border-radius: 50%;transition: background-color 1s;}
 
 
-#nav_line{ visibility: hidden;width: 45px; height: 45x; margin: 0px; padding: 0px; position: absolute; left: 105%; top: 10px;  border-radius: 50%; background-color: #fcfcfc;box-shadow: 10px 0px 20px 0px rgba(20, 20, 20, 0.15);padding: 5px}
+#nav_line{ visibility: hidden;width: 45px; height: 45x; margin: 0px; padding: 0px; position: absolute; left: 105%; top: 10px;  border-radius: 50%; background-color: #fcfcfc;box-shadow: 10px 0px 20px 0px rgba(20, 20, 20, 0.15);padding: 5px;cursor: pointer;}
 .hline{list-style: none; border: 2px solid #c2c2c2; margin: 7px; position: relative; transition: top 0.3s, transform 0.5s, opacity 0.4s;top: 0px; transform: translate(0px 0px);backface-visibility: hidden;-webkit-backface-visibility: hidden; }
 /* START: menu lines trasform*/
 .lc2{
@@ -135,17 +138,23 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 
 @media screen and (max-width:600px){
-    .mtwo{width: 100%;}
+    
+    .mtwo{width: 100%;overflow: hidden;padding-right: 5px;}
     .mtwo div{padding: 5px;}
-    .mtwo p,.mtwo p{font-size: 17px;}
+    .mtwo p,.mtwo li{font-size: 17px;}
     .mtwo h1{font-size: 20px;}
+    .refer h1{font-size: 20px;}
     .mone{position: fixed;width: 250px;z-index: 2;left: -255px}
     #nav_line{visibility: visible;}
     .form2{height: 350px;}
     .form1{height: 350px;}
      .form3{height: 250px;}
-    #ffsubmit{font-size: 18px;background-position: 250px 12px;width: 290px;}
-    #ffsubmit:hover{ padding-right: 43px; background-position: 255px 10px;}
+    #ffsubmit{font-size: 16px;background-position: 200px 12px;width: 230px;}
+    #ffsubmit:hover{ padding-right: 43px; background-position: 205px 10px;}
+.bar{width: 1px;height: 100px}
+.invit{top: -20px;left: 10px}
+.refer{top: 20px;left: -10px}
+.refer h1{font-size: 18px;}
 }
 
 
