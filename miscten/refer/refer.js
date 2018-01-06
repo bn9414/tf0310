@@ -46,6 +46,17 @@ var outc=document.getElementsByClassName("outc");
 var inc=document.getElementsByClassName("inc");
 var line=document.getElementsByClassName("line");
 var menu=document.getElementsByClassName("menu");
+var e=document.getElementsByClassName('mone')[0];
+[0];
+var w = window.innerWidth;
+var n=true;
+var a =document.getElementById('nav_line');
+var b=document.getElementsByClassName('l1')[0];
+var c=document.getElementsByClassName('l2')[0];
+var d=document.getElementsByClassName('l3')[0];
+var e=document.getElementsByClassName('mone')[0];
+[0];
+
 
 function mens(n){
       
@@ -88,7 +99,12 @@ function mens(n){
     outc[n].style.borderColor="#219ba0";
     inc[n].style.backgroundColor="#219ba0";
     line[n].style.backgroundColor="#219ba0";
-
+if(w<600){
+      e.style.left="-255px";
+    b.className='hline l1';
+    d.className='hline l3';
+     c.className='hline l2';
+}
 }
                               
     mens(0);
@@ -114,13 +130,6 @@ document.getElementById('first').addEventListener("mouseover",function(){mens(0)
 
 
 
-var n=true;
-var a =document.getElementById('nav_line');
-var b=document.getElementsByClassName('l1')[0];
-var c=document.getElementsByClassName('l2')[0];
-var d=document.getElementsByClassName('l3')[0];
-var e=document.getElementsByClassName('mone')[0];
-[0];
 
 function test(){
     if(n==true){
