@@ -122,7 +122,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 
 #nav_line{ visibility: hidden;width: 45px; height: 45x; margin: 0px; padding: 0px; position: absolute; left: 105%; top: 10px;  border-radius: 50%; background-color: #fcfcfc;box-shadow: 10px 0px 20px 0px rgba(20, 20, 20, 0.15);padding: 5px;cursor: pointer;}
-.hline{list-style: none; border: 2px solid #c2c2c2; margin: 7px; position: relative; transition: top 0.3s, transform 0.5s, opacity 0.4s;top: 0px; transform: translate(0px 0px);backface-visibility: hidden;-webkit-backface-visibility: hidden; }
+.hline{list-style: none; border: 2px solid #717171; margin: 7px; position: relative; transition: top 0.3s, transform 0.5s, opacity 0.4s;top: 0px; transform: translate(0px 0px);backface-visibility: hidden;-webkit-backface-visibility: hidden; }
 /* START: menu lines trasform*/
 .lc2{
     opacity: 0.0;
