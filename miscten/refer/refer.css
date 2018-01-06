@@ -141,7 +141,11 @@ textarea::placeholder{color: #717171; font-size: 16px; }
     .mtwo h1{font-size: 20px;}
     .mone{position: fixed;width: 250px;z-index: 2;left: -255px}
     #nav_line{visibility: visible;}
-    
+    .form2{height: 350px;}
+    .form1{height: 350px;}
+     .form3{height: 250px;}
+    #ffsubmit{font-size: 18px;background-position: 250px 12px;width: 290px;}
+    #ffsubmit:hover{ padding-right: 43px; background-position: 255px 10px;}
 }
 
 

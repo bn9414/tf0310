@@ -1,5 +1,42 @@
+var menu=document.getElementsByClassName('menu');
 
 
+function move(a){
+    if(a==0){
+$('html, body').animate({
+    scrollTop: $("#intro").offset().top
+}, 1000);
+    }
+    if(a==1){
+$('html, body').animate({
+    scrollTop: $("#uniq").offset().top
+}, 1000);
+    }
+    if(a==2){
+$('html, body').animate({
+    scrollTop: $("#benefits").offset().top
+}, 1000);
+    }
+    if(a==3){
+$('html, body').animate({
+    scrollTop: $("#procedure").offset().top
+}, 1000);
+    }
+    if(a==4){
+$('html, body').animate({
+    scrollTop: $("#cletf6").offset().top
+}, 1000);
+    }
+    
+    
+    
+    }
+
+menu[0].addEventListener('click', function(){ move(0);}, false);
+menu[1].addEventListener('click', function(){ move(1);}, false);
+menu[2].addEventListener('click', function(){ move(2);}, false);
+menu[3].addEventListener('click', function(){ move(3);}, false);
+menu[4].addEventListener('click', function(){ move(4);}, false);
 
 
 
@@ -61,6 +98,21 @@ menu[2].addEventListener('click',function(){mens(2);},false);
 menu[3].addEventListener('click',function(){mens(3);},false);
 menu[4].addEventListener('click',function(){mens(4);},false);
 
+document.getElementById('ben1').addEventListener("mouseover",function(){mens(2);},false);
+
+
+
+document.getElementById('uniq').addEventListener("mouseover",function(){mens(1);},false);
+document.getElementById('procedure').addEventListener("mouseover",function(){mens(3);},false);
+document.getElementById('bottom').addEventListener("mouseover",function(){mens(4);},false);
+
+document.getElementById('bottom').addEventListener("mouseover",function(){mens(4);},false);
+
+document.getElementById('bottomr').addEventListener("mouseover",function(){mens(4);},false);
+document.getElementById('first').addEventListener("mouseover",function(){mens(0);},false);
+
+
+
 
 var n=true;
 var a =document.getElementById('nav_line');
@@ -89,8 +141,6 @@ n=!n;
 }
 
 a.addEventListener('click', test, false );
-
-
 
 
 
