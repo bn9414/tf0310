@@ -152,8 +152,8 @@ textarea::placeholder{color: #717171; font-size: 16px; }
     .form2{height: 350px;}
     .form1{height: 350px;}
      .form3{height: 250px;}
-    #ffsubmit{font-size: 16px;background-position: 200px 12px;width: 230px;}
-    #ffsubmit:hover{ padding-right: 43px; background-position: 205px 10px;}
+    #ffsubmit{font-size: 16px;background-position: 230px 12px;width: 260px;}
+    #ffsubmit:hover{ padding-right: 43px; background-position: 235px 10px;}
 .bar{width: 1px;height: 100px}
 .invit{top: -20px;left: 10px}
 .refer{top: 20px;left: -10px}
