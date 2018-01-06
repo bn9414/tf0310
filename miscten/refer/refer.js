@@ -83,12 +83,18 @@ if(n==false){
     b.className='hline l1';
     d.className='hline l3';
      c.className='hline l2';
-   e.style.left="-250px";
+   e.style.left="-255px";
     }
 n=!n;
 }
 
 a.addEventListener('click', test, false );
+
+
+
+
+
+
 
 
 

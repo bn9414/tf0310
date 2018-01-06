@@ -139,7 +139,9 @@ textarea::placeholder{color: #717171; font-size: 16px; }
     .mtwo div{padding: 5px;}
     .mtwo p,.mtwo p{font-size: 17px;}
     .mtwo h1{font-size: 20px;}
-    .mone{position: fixed;width: 250px;z-index: 2}
+    .mone{position: fixed;width: 250px;z-index: 2;left: -255px}
     #nav_line{visibility: visible;}
     
 }
+
+
