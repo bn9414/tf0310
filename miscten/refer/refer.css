@@ -9,7 +9,7 @@ body{margin: 0px; background-color: #fcfcfc;}
 
 .mainclass *{border: 1px olid}
 .menu{width: 100%;padding-left: 0px; height: 80px; background-color: #fcfcfc;border-bottom: 2px olid white;display: flex;justify-content: flex-start;align-items: center;padding-left: 20px;box-sizing: border-box;font-family: 'Roboto', sans-serif;color: #717171;overflow: hidden;cursor: pointer;transition: color 1s;}
-.mone{width: 20%;height: 100vh; padding: 0px 0px 0px 0px;position: fixed;left: 0px;font-size: 16px;background-color: #343434;font-family: 'Ubuntu', sans-serif;box-shadow: 10px 0px 20px 0px rgba(20, 20, 20, 0.15);}
+.mone{width: 20%;height: 100vh; padding: 0px 0px 0px 0px;position: fixed;left: 0px;font-size: 16px;background-color: #343434;font-family: 'Ubuntu', sans-serif;box-shadow: 10px 0px 20px 0px rgba(20, 20, 20, 0.15);transition: left 0.5s;}
 .mtwo{width: 80%;box-sizing: border-box;}
 .toc{height: 50px;font-family: 'Roboto', sans-serif;color: #fcfcfc;text-align: center;font-size: 20px;display: flex;justify-content: center;align-items: center;}
 
@@ -114,10 +114,32 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 .outc{width: 20px;height: 20px; background-color: #fcfcfc;border: 2px solid #e0e4e7;border-radius: 50%;display: flex;justify-content: center;align-items: center;position: relative; top: 25px;left:-10px;transition: border-color 1s; }
 .inc{margin: auto; width: 10px;height: 10px; background-color: #e0e4e7;border-radius: 50%;transition: background-color 1s;}
 
+
+#nav_line{ visibility: hidden;width: 45px; height: 45x; margin: 0px; padding: 0px; position: absolute; left: 105%; top: 10px;  border-radius: 50%; background-color: #fcfcfc;box-shadow: 10px 0px 20px 0px rgba(20, 20, 20, 0.15);padding: 5px}
+.hline{list-style: none; border: 2px solid #c2c2c2; margin: 7px; position: relative; transition: top 0.3s, transform 0.5s, opacity 0.4s;top: 0px; transform: translate(0px 0px);backface-visibility: hidden;-webkit-backface-visibility: hidden; }
+/* START: menu lines trasform*/
+.lc2{
+    opacity: 0.0;
+}
+.lc1{    
+ top: 11px;
+    transform: rotate(45deg); 
+}
+
+.lc3{
+    transform: rotate(-45deg);
+    top: -11px;
+}
+
+/* END: menu lines trasform*/
+
+
 @media screen and (max-width:600px){
     .mtwo{width: 100%;}
     .mtwo div{padding: 5px;}
     .mtwo p,.mtwo p{font-size: 17px;}
     .mtwo h1{font-size: 20px;}
-    .mone{display: none;}
+    .mone{position: fixed;width: 250px;z-index: 2}
+    #nav_line{visibility: visible;}
+    
 }
