@@ -3,7 +3,7 @@
      -webkit-tap-highlight-color: transparent; /* For some Androids */
 }
 body p{font-family: 'Slabo 27px', serif;}
-body h1{font-family: 'Roboto', sans-serif;color: #454545;}
+body h1,body h1{font-family: 'Roboto', sans-serif;color: #454545;}
 h1, p{margin: 0px;}
 body{margin: 0px; background-color: #fcfcfc;}
 .content h1{font-size: 20px;}
@@ -15,8 +15,16 @@ body{margin: 0px; background-color: #fcfcfc;}
     .front{flex-direction: column;}
     .front p{padding: 5px}
 }
-
+*{border: 1px olid black}
 .frontbox{border-bottom: 2px solid #219ba0;}
+.block{padding-top: 20px;}
+
+.block p{padding-top: 5px;}
+#website table td{border: 1px solid black; margin: 1px}
+.table{display: flex;width: 100%;border-bottom: 1px solid #fcfcfc}
+.sec{background-color: #219ba0;padding: 10px;width: 20%;}
+.detail{width: 80%;background-color: #8bd3d6;padding: 10px;}
+.block h1{border-bottom: 2px solid #219ba0;}
 .mainclass *{border: 1px olid}
 .menu{width: 100%;padding-left: 0px; height: 80px; background-color: #fcfcfc;border-bottom: 2px olid white;display: flex;justify-content: flex-start;align-items: center;padding-left: 20px;box-sizing: border-box;font-family: 'Roboto', sans-serif;color: #717171;overflow: hidden;cursor: pointer;transition: color 1s;}
 .mone{width: 20%;height: 100vh; padding: 0px 0px 0px 0px;position: fixed;left: 0px;font-size: 16px;background-color: #343434;font-family: 'Ubuntu', sans-serif;box-shadow: 10px 0px 20px 0px rgba(20, 20, 20, 0.15);transition: left 0.5s;}

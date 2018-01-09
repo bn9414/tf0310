@@ -89,6 +89,18 @@ function mens(n){
     outc[4].style.borderColor="#e0e4e7";
     inc[4].style.backgroundColor="#e0e4e7";
     line[4].style.backgroundColor="#e0e4e7";
+    
+        menu[5].style.color="#717171";
+  
+    outc[5].style.borderColor="#e0e4e7";
+    inc[5].style.backgroundColor="#e0e4e7";
+    line[5].style.backgroundColor="#e0e4e7";
+    
+        menu[6].style.color="#717171";
+  
+    outc[6].style.borderColor="#e0e4e7";
+    inc[6].style.backgroundColor="#e0e4e7";
+    line[6].style.backgroundColor="#e0e4e7";
 
 
     
@@ -113,19 +125,21 @@ menu[1].addEventListener('click',function(){mens(1);},false);
 menu[2].addEventListener('click',function(){mens(2);},false);
 menu[3].addEventListener('click',function(){mens(3);},false);
 menu[4].addEventListener('click',function(){mens(4);},false);
+menu[5].addEventListener('click',function(){mens(5);},false);
+menu[6].addEventListener('click',function(){mens(6);},false);
 
-document.getElementById('ben1').addEventListener("mouseover",function(){mens(2);},false);
+document.getElementById('website').addEventListener("mouseover",function(){mens(0);},false);
 
 
 
-document.getElementById('uniq').addEventListener("mouseover",function(){mens(1);},false);
-document.getElementById('procedure').addEventListener("mouseover",function(){mens(3);},false);
-document.getElementById('bottom').addEventListener("mouseover",function(){mens(4);},false);
+document.getElementById('tech').addEventListener("mouseover",function(){mens(1);},false);
+document.getElementById('resource').addEventListener("mouseover",function(){mens(2);},false);
+document.getElementById('time').addEventListener("mouseover",function(){mens(3);},false);
 
-document.getElementById('bottom').addEventListener("mouseover",function(){mens(4);},false);
+document.getElementById('client').addEventListener("mouseover",function(){mens(4);},false);
 
-document.getElementById('bottomr').addEventListener("mouseover",function(){mens(4);},false);
-document.getElementById('first').addEventListener("mouseover",function(){mens(0);},false);
+document.getElementById('fee').addEventListener("mouseover",function(){mens(5);},false);
+document.getElementById('lets').addEventListener("mouseover",function(){mens(6);},false);
 
 
 
