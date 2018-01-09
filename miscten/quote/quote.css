@@ -28,9 +28,14 @@ body{margin: 0px; background-color: #fcfcfc;}
 .block h1{border-bottom: 2px solid #219ba0;}
 
 .hr{width: 45%;margin: auto; height: auto;box-shadow: 2px 0px 45px 0px rgba(20, 20, 20, 0.10);margin-top: 20px;border-radius: 5px;padding: 10px;}
-.hr img{width: 100%;position: relative;left: 10px;}
+.hr img{width: 100%;}
+
 .hr1{display: flex}
 .hr1 .pic{width: 100px;border-radius: 50%;height: 100px;overflow: hidden;border: 3px solid #219ba0;}
+.picg{background-image: url(images/graph.jpg);background-repeat: no-repeat;background-size: cover;}
+.picba{background-image: url(images/ba.jpg);background-repeat: no-repeat;background-size: cover;}
+.picweb{background-image: url(images/web.jpg);background-repeat: no-repeat;background-size: cover;}
+
 .data{padding: 10px;}
 .hrbox{display: flex;flex-wrap: wrap}
 @media screen and (max-width:500px){
