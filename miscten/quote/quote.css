@@ -55,6 +55,8 @@ body{margin: 0px; background-color: #fcfcfc;}
     }
     .hr{width: 95%;}
 }
+
+.rupe{width: 10px;}
 .mainclass *{border: 1px olid}
 .menu{width: 100%;padding-left: 0px; height: 80px; background-color: #fcfcfc;border-bottom: 2px olid white;display: flex;justify-content: flex-start;align-items: center;padding-left: 20px;box-sizing: border-box;font-family: 'Roboto', sans-serif;color: #717171;overflow: hidden;cursor: pointer;transition: color 1s;}
 .mone{width: 20%;height: 100vh; padding: 0px 0px 0px 0px;position: fixed;left: 0px;font-size: 16px;background-color: #343434;font-family: 'Ubuntu', sans-serif;box-shadow: 10px 0px 20px 0px rgba(20, 20, 20, 0.15);transition: left 0.5s;}
