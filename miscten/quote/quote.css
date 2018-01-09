@@ -158,15 +158,14 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 @media screen and (max-width:600px){
     
     .mtwo{width: 100%;overflow: hidden;padding-right: 5px;}
-    .mtwo div{padding: 5px;}
+    .content{width: 100%;padding: 3px}
+    .table div{padding: 5px 2px;text-align: center;}
     .mtwo p,.mtwo li{font-size: 17px;}
     .mtwo h1{font-size: 20px;}
     .refer h1{font-size: 20px;}
     .mone{position: fixed;width: 250px;z-index: 2;left: -255px}
     #nav_line{visibility: visible;}
-    .form2{height: 350px;}
-    .form1{height: 350px;}
-     .form3{height: 250px;}
+  
     #ffsubmit{font-size: 16px;background-position: 230px 12px;width: 260px;}
     #ffsubmit:hover{ padding-right: 43px; background-position: 235px 10px;}
 .bar{width: 1px;height: 100px}
