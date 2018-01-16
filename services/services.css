@@ -126,7 +126,7 @@ body{font-family: 'Slabo 27px', serif;}
 .p_h1_2{  margin:0px; margin-top: 0px; color: #717171; text-align: center;font-size: 45px;position: relative; padding-left: 0px;height: auto; display: flex; justify-content: center; align-items: center; width: 100%;}
 .emi{font-size: 20px; }
 .emi #start_ex{font-size: 15px;color: white;text-decoration: underline}
-.emi #start_ex img{width: 8px;}
+.emi #start_ex img{width: 17px;position: relative;top: 4px;left: -5px}
 .ps1_t{ width: 100%;height: auto; background-color:#f49abc ; position: relative; top:0px;box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 15px 0px; }
 .ps4_t{background-color:#77d1c0;}
 .ps3_t{background-color: #fce685;}
@@ -162,7 +162,7 @@ body{font-family: 'Slabo 27px', serif;}
 
 .ps1_h .allemi,.p31_h .allemi,.ps4_h .allemi{border: 1px solid #b5b5b5;border-radius: 10px; width: 90%;margin: auto; height: auto;padding: px; background-color: white;padding-bottom: 10px; position: absolute;left: 10px;top: 10px;;z-index:1;box-shadow: 3px 6px 30px 0px rgba(20, 20, 20, 0.2);border: px solid black;justify-content: flex-start;display: none;}
     .emitar{cursor: pointer;}
-    .banks{background-color: #f3f3f3;box-sizing: border-box;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+    .banks{background-color: #f3f3f3;box-sizing: border-box;border-top-left-radius: 10px;border-top-right-radius: 10px;padding-right: 25px;}
     .banks p{display: inline-flex;font-family: 'Slabo 27px', serif;font-size: 22px;padding:5px;box-sizing: border-box;border-bottom: 2px solid #f3f3f3; padding-top: 10px;transition: color 0.5s,border-bottom-color 0.5s;}
     
     .banks p:hover{color:#ED6A5A; border-bottom-color: #ED6A5A;cursor: pointer;}
@@ -173,7 +173,7 @@ body{font-family: 'Slabo 27px', serif;}
     td{text-align: center;}
          th{height:30px;background-color: #f3f3f3;text-align: center;}
     
-    .closeemi{position:absolute;left: 93%;top: 2%; background-color: #454545;border-radius: 50%;width: 20px; height: 20px;display: flex;cursor: pointer;}
+    .closeemi{position:absolute;left: 90%;top: 2%; background-color: #454545;border-radius: 50%;width: 20px; height: 20px;display: flex;cursor: pointer;}
     .closeemi span{color: white;margin: auto;}
 
 
@@ -217,6 +217,7 @@ body{font-family: 'Slabo 27px', serif;}
 }
 
    #start_ex{font-size: 50px; position: relative; left: 5px}
+.emitar img{width: 10px;}
 .p_h1_2 img{width: 22px;margin-right: 5px} 
 .emi img{width: 12px;margin-right: 0px;margin-left: 4px;}
 /* end: l4  pricing package */
