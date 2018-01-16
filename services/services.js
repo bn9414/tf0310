@@ -273,15 +273,68 @@ function scrollani() {
         
         }
     
-    
-   
-    
-    
-    
+ 
     
 }
     
      /* build*/
     /* end:build */
     
+/* start:EMI*/
+var hdfc=document.getElementsByClassName('hdfc9');
+var bank=document.getElementsByClassName('bank_n');
+var allemi=document.getElementsByClassName('allemi');
+var emitar=document.getElementsByClassName('emitar');
+var closeemi=document.getElementsByClassName('closeemi');
+
+
+
+
+function emi(n){
+    hdfc[0].style.display="none";
+    hdfc[1].style.display="none";
+    hdfc[2].style.display="none";
+    hdfc[3].style.display="none";
+    hdfc[4].style.display="none";
+    hdfc[5].style.display="none";
+    hdfc[6].style.display="none";
+    hdfc[7].style.display="none";
+    hdfc[n].style.display="table";
+   
+     bank[0].style.color="#343434";
+    bank[0].style.borderBottomColor="#f3f3f3";
+    bank[1].style.color="#343434";
+    bank[1].style.borderBottomColor="#f3f3f3";
+    bank[2].style.color="#343434";
+    bank[2].style.borderBottomColor="#f3f3f3";
+    bank[3].style.color="#343434";
+    bank[3].style.borderBottomColor="#f3f3f3";
+     bank[4].style.color="#343434";
+    bank[4].style.borderBottomColor="#f3f3f3";
+    bank[5].style.color="#343434";
+    bank[5].style.borderBottomColor="#f3f3f3";
+    bank[6].style.color="#343434";
+    bank[6].style.borderBottomColor="#f3f3f3";
+    bank[7].style.color="#343434";
+    bank[7].style.borderBottomColor="#f3f3f3";
+    
+    
+    bank[n].style.color="#ED6A5A";
+    bank[n].style.borderBottomColor="#ED6A5A";
+
+}
+emi(0);
+bank[0].addEventListener('click', function(){ emi(0);}, false);
+bank[1].addEventListener('click', function(){ emi(1);}, false);
+bank[2].addEventListener('click', function(){ emi(2);}, false);
+bank[3].addEventListener('click', function(){ emi(3);}, false);
+bank[4].addEventListener('click', function(){ emi(4);}, false);
+bank[5].addEventListener('click', function(){ emi(5);}, false);
+bank[6].addEventListener('click', function(){ emi(6);}, false);
+bank[7].addEventListener('click', function(){ emi(7);}, false);
+
+emitar[0].addEventListener('click', function(){ allemi[0].style.display="block";}, false);
+closeemi[0].addEventListener('click', function(){ allemi[0].style.display="none";}, false);
+
+/* End:emi*/
 
