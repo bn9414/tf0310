@@ -6,64 +6,67 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://www.tenfinish.com/</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/index.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/contact/web-developer-designer.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/contact/contact.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/company/web-development-company.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/company/company.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/services/web-design-development-pricing.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/services/services.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/Works/web-design-portfolio.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/Works/work.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/partner/partnership-reseller-referral.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/partner/partner.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/faq/faq-web-development.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/faq/faq.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/misc/tandc/tandc.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/misc/tandc/tandc.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/misc/privacy/privacy.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/misc/privacy/privacy.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/misc/sitemap/sitemap.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.tenfinish.com/misc/sitemap/sitemap.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.tenfinish.com/Works/approach/approach.html</loc>
-  <lastmod>2017-12-05T10:10:57+00:00</lastmod>
+  <loc>https://www.tenfinish.com/Works/approach/approach.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://www.tenfinish.com/index.html</loc>
+  <lastmod>2018-01-17T05:16:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
