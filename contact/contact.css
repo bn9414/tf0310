@@ -10,6 +10,8 @@
 	background: url(images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;background-color: white;
     
 }
+body p{font-family: 'Roboto', sans-serif;}
+body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
 .se-pre-con img{width: 250px;;margin: auto;display: block;margin-top: 165px}
 @media screen and (max-width:480px)
     {
@@ -23,7 +25,7 @@ textarea:focus, input:focus,select:focus{
     outline: none;
 }
 
-.portfull{width: 100%; height: 600px; background-color: #41cab1;display: flex;justify-content: center;flex-direction: column;padding-left: 20px;opacity: 0; padding-top: 150px; transition: padding 1s,opacity 1s;font-family: 'Ubuntu', sans-serif; }
+.portfull{width: 100%; height: 600px; background-color: #41cab1;display: flex;justify-content: center;flex-direction: column;padding-left: 20px;opacity: 0; padding-top: 150px; transition: padding 1s,opacity 1s; }
 .portfull h1{font-size: 100px; text-align: left; color:#1a9b83;}
 .portfull p{font-size: 40px; color: #97efde;}
 @media screen and (max-width:1000px){
@@ -42,13 +44,13 @@ textarea:focus, input:focus,select:focus{
 
 
 .you *{}
-body{font-family: 'Slabo 27px', serif;}
+body{}
 .you{width: 100%; height: auto; background-color: #343434;padding-top: 5px}
 .cinfo{display: flex;flex-direction: column;}
 .cinfo1 div,.cinfo2 div{width: 100%; height: auto;display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 20px 2px;}
 .you div img{width: 60px;margin-bottom: 10px} 
 .you div p{color: #fcfcfc;font-size: 20px;text-align: center;padding: 0px 2px}
-.you h1,.you h3{color: #fcfcfc; text-align: center;font-family: 'Ubuntu', sans-serif;}
+.you h1,.you h3{color: #fcfcfc; text-align: center;}
 
 .we {border: 1px olid black;}
 .we{width: 100%; height: auto;background-color: #fcfcfc;}
@@ -56,8 +58,8 @@ body{font-family: 'Slabo 27px', serif;}
 .simonm{width: 150px; height: 150px;border-radius: 50%;margin: auto;overflow: hidden;box-shadow: 0 4px 8px 0 rgba(164, 164, 164, 0.3), 0 3px 20px 0 rgba(164, 164, 164, 0.49);margin-top: 5px; }
 .simonm img{width: 108%;position: relative; left: -10px;top: px}
 .simon{width: 100%;height: auto;}
-.simon h2{text-align: center;color: #60e7ce;font-family: 'Ubuntu', sans-serif;}
-.simon p{font-size: 22px; text-align: center;color: #454545;font-family: 'Ubuntu', sans-serif;}
+.simon h2{text-align: center;color: #60e7ce;}
+.simon p{font-size: 22px; text-align: center;color: #454545;}
 #sn{ text-align: center; color:#60e7ce;  font-size: 25px;}
 #s1{color: #41CAB1;font-size: 40px; text-decoration: underline}
 /* start:form*/
