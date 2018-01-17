@@ -2,7 +2,7 @@ textarea:focus, input:focus,select:focus{
     outline: none;
 }
 
-
+th img{width: 8px;}
 body{font-family: 'Slabo 27px', serif;}
 .ser1_con{margin-bottom: 0px;background-color: #fcfcfc;padding-bottom: 20px;background-image: url(images/s1bg.svg);background-repeat: no-repeat;background-size: 100%;overflow: hidden; }
 @media screen and (max-width:1100px){
@@ -219,7 +219,7 @@ body{font-family: 'Slabo 27px', serif;}
    #start_ex{font-size: 50px; position: relative; left: 5px}
 .emitar img{width: 10px;}
 .p_h1_2 img{width: 22px;margin-right: 5px} 
-.emi img{width: 12px;margin-right: 0px;margin-left: 4px;}
+.emi img{width: 12px;margin-right: 0px;margin-left: 14px;}
 /* end: l4  pricing package */
 
 
