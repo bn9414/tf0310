@@ -48,12 +48,12 @@ function type(n){
 
 t3[1].addEventListener('click',function(){type(0);},false);
 
-t3[2].addEventListener('click',function(){type(1);},false);
+/*t3[2].addEventListener('click',function(){type(1);},false);
 t3[3].addEventListener('click',function(){type(2);},false);
 t3[4].addEventListener('click',function(){type(3);},false);
 t3[5].addEventListener('click',function(){type(4);},false);
 no_visit[0].addEventListener('click',function(){type(1);},false);
-
+*/
 
 function headmenu(n){
     h1[0].className="hmenu";
@@ -63,10 +63,7 @@ function headmenu(n){
     
     if(n==1){
         und[0].style.display='none';
-        und[1].style.display='none';
-        und[2].style.display='none';
-         und[3].style.display='none';
-         und[4].style.display='none';
+     
         com[0].style.display='flex';
           buildmg.style.opacity="1";
           buildmg.style.left="-50px";
@@ -76,10 +73,7 @@ function headmenu(n){
      if(n==2){
         com[0].style.display='none';
               und[0].style.display='flex';
-        und[1].style.display='flex';
-        und[2].style.display='flex';
-            und[3].style.display='flex';
-            und[4].style.display='flex';
+        
            buildmg.style.opacity="1";
           buildmg.style.left="-50px";
            buildmg.style.top="-100px";
@@ -88,10 +82,7 @@ function headmenu(n){
        if(n==0){
         com[0].style.display='flex';
               und[0].style.display='flex';
-        und[1].style.display='flex';
-        und[2].style.display='flex';
-           und[3].style.display='flex';
-           und[4].style.display='flex';
+  
         
     }
     
@@ -113,7 +104,7 @@ window.onscroll = function() {scrollani(),scrollanib()};
 function scrollani() {
     /* build*/
  if(w>500){
-    if (document.body.scrollTop > 3750 || document.documentElement.scrollTop > 3750) {
+    if (document.body.scrollTop > 1480 || document.documentElement.scrollTop > 1480) {
           buildmg.style.opacity="1";
           buildmg.style.left="-50px";
            buildmg.style.top="-100px";
@@ -121,7 +112,7 @@ function scrollani() {
     }
     
     if(w<500){
-    if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
+    if (document.body.scrollTop > 1480 || document.documentElement.scrollTop > 1480) {
           buildmg.style.opacity="1";
           buildmg.style.left="-70px";
            buildmg.style.top="-20px";

@@ -81,7 +81,7 @@ body{font-family: 'Ubuntu', sans-serif;}
 .tbox2 div a{display: flex; flex-direction: column;justify-content: center; align-items: center;cursor: pointer;}
 .t1 img{width: 150px;margin: auto }
 .urbanlogo img{width: 150px;position: relative;left: 5px;bottom: 15px}
-.urbanlogo h3{color: #717171;font-size: 16px;}
+.urbanlogo h3{color: #343434;font-size: 21px;}
 .cglogo img{width:75px;}
 .bclogo img{width:80px;}
 .t2{}
