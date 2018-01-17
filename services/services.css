@@ -163,7 +163,7 @@ body{font-family: 'Slabo 27px', serif;}
 .ps1_h .allemi,.p31_h .allemi,.ps4_h .allemi{border: 1px solid #b5b5b5;border-radius: 10px; width: 90%;margin: auto; height: auto;padding: px; background-color: white;padding-bottom: 10px; position: absolute;left: 10px;top: 10px;;z-index:1;box-shadow: 3px 6px 30px 0px rgba(20, 20, 20, 0.2);border: px solid black;justify-content: flex-start;display: none;}
     .emitar{cursor: pointer;}
     .banks{background-color: #f3f3f3;box-sizing: border-box;border-top-left-radius: 10px;border-top-right-radius: 10px;padding-right: 25px;}
-    .banks p{display: inline-flex;font-family: 'Slabo 27px', serif;font-size: 22px;padding:5px;box-sizing: border-box;border-bottom: 2px solid #f3f3f3; padding-top: 10px;transition: color 0.5s,border-bottom-color 0.5s;}
+    .banks p{display: inline-flex;font-family: 'Slabo 27px', serif;font-size: 20px;padding:5px;box-sizing: border-box;border-bottom: 2px solid #f3f3f3; padding-top: 10px;transition: color 0.5s,border-bottom-color 0.5s;}
     
     .banks p:hover{color:#ED6A5A; border-bottom-color: #ED6A5A;cursor: pointer;}
     
