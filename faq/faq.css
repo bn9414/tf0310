@@ -91,14 +91,14 @@ body p{font-family: 'Ubuntu', sans-serif;}
 .down{width: 32px; height: 32px; position: absolute; right: 1%; top:50%; margin-top: -16px;background-image: url(images/down2b.png); background-repeat: no-repeat; transition: transform 0.5s, right 0.5s; }
 .quest1{  width: 95%; margin: 0px 5px 10px 15px; margin: 0px auto 10px auto ;  height: auto;  padding: 10px; border-top:3px #19191e solid;  border-radius: 0px; background-color: #fcfcfc; position: relative; z-index: 2;  transform: scale(1.00); transition: box-shadow 0.5s, width 0.5s,border-left 0.5s;box-sizing: border-box; }
 
-.quest1 p{margin: 0px 40px 0px 7px; font-size: 20px;font-weight: 00; color: #343434;font-family: 'Ubuntu', sans-serif;}
+.quest1 p{margin: 0px 40px 0px 7px; font-size: 20px;font-weight: 00; color: #343434;font-family: 'Roboto', sans-serif;}
 .ans1box{width: 95%;margin: 0px 0px 7px 15px;  position: relative; top:-20px; display: block; height: 0px; overflow: hidden;  border: 1px olid black;opacity: 0.0;
 transition: opacity 1s; padding: 5px 0px;
 }
 
 #ans1{display: block; width: 98%; margin: auto;  background-color: #fcfcfc; box-sizing: border-box; position: relative; top: -900px; padding: 5px 10px; border-radius: 0px 0px 20px 20px;border: 1px olid black;height:auto;}
 
-#ans1 p{  color: #343434; font-size: 19px;font-family: 'Slabo 27px', serif;}
+#ans1 p{  color: #343434; font-size: 19px;font-family: 'Roboto', sans-serif;}
 
 /* START:java classes*/
 
