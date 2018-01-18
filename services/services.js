@@ -290,7 +290,8 @@ var closeemi=document.getElementsByClassName('closeemi');
 
 
 
-function emi(n){
+function emi(n,a){
+    if(a==1){
     hdfc[0].style.display="none";
     hdfc[1].style.display="none";
     hdfc[2].style.display="none";
@@ -299,28 +300,9 @@ function emi(n){
     hdfc[5].style.display="none";
     hdfc[6].style.display="none";
     hdfc[7].style.display="none";
-        hdfc[8].style.display="none";
-    hdfc[9].style.display="none";
-    hdfc[10].style.display="none";
-    hdfc[11].style.display="none";
-    hdfc[12].style.display="none";
-    hdfc[13].style.display="none";
-    hdfc[14].style.display="none";
-    hdfc[15].style.display="none";
-    
-         hdfc[16].style.display="none";
-    hdfc[17].style.display="none";
-    hdfc[18].style.display="none";
-    hdfc[19].style.display="none";
-    hdfc[20].style.display="none";
-    hdfc[21].style.display="none";
-    hdfc[22].style.display="none";
-    hdfc[23].style.display="none";
-    
-    hdfc[n].style.display="table";
-    
-    
-     bank[0].style.color="#343434";
+        hdfc[n].style.display="table";
+        
+             bank[0].style.color="#343434";
     bank[0].style.borderBottomColor="#f3f3f3";
     bank[1].style.color="#343434";
     bank[1].style.borderBottomColor="#f3f3f3";
@@ -336,8 +318,22 @@ function emi(n){
     bank[6].style.borderBottomColor="#f3f3f3";
     bank[7].style.color="#343434";
     bank[7].style.borderBottomColor="#f3f3f3";
+        bank[n].style.color="#ED6A5A";
+    bank[n].style.borderBottomColor="#ED6A5A";  
         
-    bank[8].style.color="#343434";
+        
+    }
+     if(a==2){
+        hdfc[8].style.display="none";
+    hdfc[9].style.display="none";
+    hdfc[10].style.display="none";
+    hdfc[11].style.display="none";
+    hdfc[12].style.display="none";
+    hdfc[13].style.display="none";
+    hdfc[14].style.display="none";
+    hdfc[15].style.display="none";
+     hdfc[n].style.display="table";
+             bank[8].style.color="#343434";
     bank[8].style.borderBottomColor="#f3f3f3";
         bank[9].style.color="#343434";
     bank[9].style.borderBottomColor="#f3f3f3";
@@ -354,7 +350,25 @@ function emi(n){
         bank[15].style.color="#343434";
     bank[15].style.borderBottomColor="#f3f3f3";
     
+        bank[n].style.color="#ED6A5A";
+    bank[n].style.borderBottomColor="#ED6A5A";
+         
+         
+     }
+    if(a==3){
+         hdfc[16].style.display="none";
+    hdfc[17].style.display="none";
+    hdfc[18].style.display="none";
+    hdfc[19].style.display="none";
+    hdfc[20].style.display="none";
+    hdfc[21].style.display="none";
+    hdfc[22].style.display="none";
+    hdfc[23].style.display="none";
     
+    hdfc[n].style.display="table";
+        
+        
+            
      bank[16].style.color="#343434";
     bank[16].style.borderBottomColor="#f3f3f3";
         bank[17].style.color="#343434";
@@ -376,44 +390,54 @@ function emi(n){
     
     bank[n].style.color="#ED6A5A";
     bank[n].style.borderBottomColor="#ED6A5A";
+        
+        
+    }
+    
+  
+    
+    
+
+    
+
 
 }
 
 
-bank[0].addEventListener('click', function(){ emi(0);}, false);
-bank[1].addEventListener('click', function(){ emi(1);}, false);
-bank[2].addEventListener('click', function(){ emi(2);}, false);
-bank[3].addEventListener('click', function(){ emi(3);}, false);
-bank[4].addEventListener('click', function(){ emi(4);}, false);
-bank[5].addEventListener('click', function(){ emi(5);}, false);
-bank[6].addEventListener('click', function(){ emi(6);}, false);
-bank[7].addEventListener('click', function(){ emi(7);}, false);
+bank[0].addEventListener('click', function(){ emi(0,1);}, false);
+bank[1].addEventListener('click', function(){ emi(1,1);}, false);
+bank[2].addEventListener('click', function(){ emi(2,1);}, false);
+bank[3].addEventListener('click', function(){ emi(3,1);}, false);
+bank[4].addEventListener('click', function(){ emi(4,1);}, false);
+bank[5].addEventListener('click', function(){ emi(5,1);}, false);
+bank[6].addEventListener('click', function(){ emi(6,1);}, false);
+bank[7].addEventListener('click', function(){ emi(7,1);}, false);
 
-bank[8].addEventListener('click', function(){ emi(8);}, false);
-bank[9].addEventListener('click', function(){ emi(9);}, false);
-bank[10].addEventListener('click', function(){ emi(10);}, false);
-bank[11].addEventListener('click', function(){ emi(11);}, false);
-bank[12].addEventListener('click', function(){ emi(12);}, false);
-bank[13].addEventListener('click', function(){ emi(13);}, false);
-bank[14].addEventListener('click', function(){ emi(14);}, false);
-bank[15].addEventListener('click', function(){ emi(15);}, false);
+bank[8].addEventListener('click', function(){ emi(8,2);}, false);
+bank[9].addEventListener('click', function(){ emi(9,2);}, false);
+bank[10].addEventListener('click', function(){ emi(10,2);}, false);
+bank[11].addEventListener('click', function(){ emi(11,2);}, false);
+bank[12].addEventListener('click', function(){ emi(12,2);}, false);
+bank[13].addEventListener('click', function(){ emi(13,2);}, false);
+bank[14].addEventListener('click', function(){ emi(14,2);}, false);
+bank[15].addEventListener('click', function(){ emi(15,2);}, false);
 
-bank[16].addEventListener('click', function(){ emi(16);}, false);
-bank[17].addEventListener('click', function(){ emi(17);}, false);
-bank[18].addEventListener('click', function(){ emi(18);}, false);
-bank[19].addEventListener('click', function(){ emi(19);}, false);
-bank[20].addEventListener('click', function(){ emi(20);}, false);
-bank[21].addEventListener('click', function(){ emi(21);}, false);
-bank[22].addEventListener('click', function(){ emi(22);}, false);
-bank[23].addEventListener('click', function(){ emi(23);}, false);
+bank[16].addEventListener('click', function(){ emi(16,3);}, false);
+bank[17].addEventListener('click', function(){ emi(17,3);}, false);
+bank[18].addEventListener('click', function(){ emi(18,3);}, false);
+bank[19].addEventListener('click', function(){ emi(19,3);}, false);
+bank[20].addEventListener('click', function(){ emi(20,3);}, false);
+bank[21].addEventListener('click', function(){ emi(21,3);}, false);
+bank[22].addEventListener('click', function(){ emi(22,3);}, false);
+bank[23].addEventListener('click', function(){ emi(23,3);}, false);
 
-emitar[0].addEventListener('click', function(){ allemi[0].style.display="block";emi(0);}, false);
+emitar[0].addEventListener('click', function(){ allemi[0].style.display="block";emi(0,1);}, false);
 closeemi[0].addEventListener('click', function(){ allemi[0].style.display="none";}, false);
 
-emitar[1].addEventListener('click', function(){ allemi[1].style.display="block";emi(8);}, false);
+emitar[1].addEventListener('click', function(){ allemi[1].style.display="block";emi(8,2);}, false);
 closeemi[1].addEventListener('click', function(){ allemi[1].style.display="none";}, false);
 
-emitar[2].addEventListener('click', function(){ allemi[2].style.display="block";emi(16);}, false);
+emitar[2].addEventListener('click', function(){ allemi[2].style.display="block";emi(16,3);}, false);
 closeemi[2].addEventListener('click', function(){ allemi[2].style.display="none";}, false);
 
 
