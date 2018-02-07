@@ -81,23 +81,29 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
 /* end: menu lines tranform */
 
 /* start: menu listing */
-.menu_con{width: 100%; height:100vh; background-color: #fcfcfc;display: none;padding-top: 70px;position: fixed;z-index: 5;transition: transform 0.5s, opacity 0.5s;}
+.menu_con{width: 100%; height:100vh; background-color: #fcfcfc;display: none;padding-top: 70px;position: fixed;z-index: 5;transition: transform 0.5s, opacity 0.5s;position: relative;overflow: hidden;}
 
-.menu1,.menu2,.menu3,.menu4{font-size: 34px;color: #2d2d2d;font-family: sans-serif;display: block; margin-bottom: 20px;margin-left: 20px;letter-spacing: 2px;font-weight: 600; opacity: 0;position: relative;transition: color 0.3s;font-family: 'Ubuntu', sans-serif;}
+.menu1,.menu2,.menu3,.menu4,.menu5,.menu6{font-size: 34px;color: #2d2d2d;font-family: sans-serif;display: block; margin-bottom: 20px;margin-left: 20px;letter-spacing: 2px;font-weight: 600; opacity: 0;position: relative;transition: color 0.3s;font-family: 'Ubuntu', sans-serif;}
 .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{color: #ed6a5a;}
 
-
-#ser_price{ font-size: 18px;color: #717171;position: relative;bottom: 7px}
+.black_lay{width: 100%; height: 100%; background-color: #2d2d2d;left:100%;transition: left 1s;position: absolute;z-index: 6 }
 
 .a{transform: scale(1.05);}
-.menu_con div{transition: opacity 0.5s;}
+.menu_con .main_menu div{transition: opacity 0.5s,left 1s;;}
+
+
+
+
+
+
+.
+
 
 
 
 /* end: menu listing */
-.menu5,.menu6{font-size: 18px;margin-right: 10px;margin-left: 20px; color: #2d2d2d;font-family: sans-serif;font-weight: 600;margin-top: 15px;display: block;transition: color 0.3s;font-family: 'Ubuntu', sans-serif;}
-.sub_menu{display: flex;}
-.mjz1{animation-name: mjs1;animation-duration: 0.1s;animation-fill-mode: forwards;}
+
+
 .mjz2{animation-name: mjs2;animation-duration: 0.1s;animation-delay: 0.1s;animation-fill-mode: forwards;}
 .mjz3{animation-name: mjs3;animation-duration: 0.1s;animation-delay: 0.2s;animation-fill-mode: forwards;}
 .mjz4{animation-name: mjs4;animation-duration: 0.1s;animation-delay: 0.3s;animation-fill-mode: forwards;}
@@ -120,13 +126,10 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
     to{opacity: 1; }
 }
 
-.menu7,.menu7_up{font-size: 20px; color: #f9f9f9; font-family: sans-serif; font-weight: 600; display: block; margin-top: 20px; margin-left: 20px; border-radius: 30px;width: 175px; padding: 10px 0px 10px 20px; background-color:#ED6A5A; background-image: url(images/right.png); background-repeat: no-repeat; background-position:142px; background-size: 30px 30px;transition: width 0.5s, background-position 0.5s, padding 0.5s,opacity 0.5s, transform 0.5s;}
 
 .b{transform: scale(1.05);}
 
-.menu7:hover{background-position: 146px;padding-left:15px; }
 
-.menu7_up{display: none;}
 @media screen and (min-width:630px){
     .main_menu{display: flex;justify-content: center;padding-right: 15px}
     .menu_con{padding-top:250px; }

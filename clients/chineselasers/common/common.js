@@ -16,10 +16,16 @@ var menu1=document.getElementsByClassName('menu1')[0];
 var menu2=document.getElementsByClassName('menu2')[0];
 var menu3=document.getElementsByClassName('menu3')[0];
 var menu4=document.getElementsByClassName('menu4')[0];
+var menu5=document.getElementsByClassName('menu5')[0];
+var menu6=document.getElementsByClassName('menu6')[0];
+var blacklay=document.getElementsByClassName('black_lay')[0];
+
 var overflow =document.getElementById('nav_bar');
 
 
 function test(){
+
+    
     if(n==true){
     b.className='line l1 lopen1';
     c.className='line l2 lopen2';
@@ -30,6 +36,9 @@ menu1.className='menu1 mjz1';
         menu2.className='menu1 mjz2';
         menu3.className='menu1 mjz3';
         menu4.className='menu1 mjz4';
+        menu5.className='menu1 mjz4';
+        menu6.className='menu1 mjz4';
+            blacklay.style.left="-100%";
     overflow.style.position='fixed';
     }
     
@@ -46,6 +55,9 @@ menu1.className='menu1 mjz1';
         menu2.className='menu1 mjz2';
         menu3.className='menu1 mjz3';
         menu4.className='menu1 mjz4';
+     menu5.className='menu1 mjz4';
+     menu6.className='menu1 mjz4';
+    
  overflow.style.position='relative';
 
 }
@@ -55,7 +67,7 @@ n=!n;
 a.addEventListener('click', test, false );
 
 
-/* start:menu zoom out */
+/* start:menu zoom out 
 function zoomin(){
     
     e.className='menu_con a';
