@@ -20,15 +20,23 @@ var menu5=document.getElementsByClassName('menu5')[0];
 var menu6=document.getElementsByClassName('menu6')[0];
 var blacklay=document.getElementsByClassName('black_lay')[0];
 
+var pmenu4=document.getElementsByClassName('menu4')[0];
+
+
+var prod_menu=document.getElementsByClassName('prod_menu')[0];
+var phead=document.getElementsByClassName('phead')[0];
+
+
+
 var overflow =document.getElementById('nav_bar');
 
 
 
 
 
-function test(){
+function test(a){
 
-
+if(a==2){n=1;}
     
     
     
@@ -38,12 +46,14 @@ function test(){
         d.className='line l3 lopen3';
         e.style.display='block';
      nav.style.boxShadow='0px 0px 0px 0px hsla(0, 0%, 0%, 0.0)';
-menu1.className='menu1 mjz4';
-        menu2.className='menu1 mjz4';
-        menu3.className='menu1 mjz4';
-        menu4.className='menu1 mjz4';
-        menu5.className='menu1 mjz4';
-        menu6.className='menu1 mjz4';
+menu1.className='mn mjz4';
+            main_menu.style.display='block';
+    prod_menu.style.display="none";
+        menu2.className='mn mjz4';
+        menu3.className='mn mjz4';
+        menu4.className='mn mjz4';
+        menu5.className='mn mjz4';
+        menu6.className='mn mjz4';
           blacklay.className="black_lay blackani";
        // blacklay.style.backgroundColor="rgba(1,1,1,0.0)";
           
@@ -73,7 +83,15 @@ menu1.className='menu1 mjz4';
 n=!n;
 }
 
-a.addEventListener('click', test, false );
+function test1(){
+    
+    main_menu.style.display='none';
+    prod_menu.style.display="block";
+}
+
+a.addEventListener('click', function(){test(3);}, false );
+menu3.addEventListener('click', test1, false );
+phead.addEventListener('click', function(){test(2);}, false );
 
 
 /* start:menu zoom out 
