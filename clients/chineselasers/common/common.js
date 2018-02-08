@@ -23,8 +23,14 @@ var blacklay=document.getElementsByClassName('black_lay')[0];
 var overflow =document.getElementById('nav_bar');
 
 
+
+
+
 function test(){
 
+
+    
+    
     
     if(n==true){
     b.className='line l1 lopen1';
@@ -32,13 +38,15 @@ function test(){
         d.className='line l3 lopen3';
         e.style.display='block';
      nav.style.boxShadow='0px 0px 0px 0px hsla(0, 0%, 0%, 0.0)';
-menu1.className='menu1 mjz1';
-        menu2.className='menu1 mjz2';
-        menu3.className='menu1 mjz3';
+menu1.className='menu1 mjz4';
+        menu2.className='menu1 mjz4';
+        menu3.className='menu1 mjz4';
         menu4.className='menu1 mjz4';
         menu5.className='menu1 mjz4';
         menu6.className='menu1 mjz4';
-            blacklay.style.left="-100%";
+          blacklay.className="black_lay blackani";
+       // blacklay.style.backgroundColor="rgba(1,1,1,0.0)";
+          
     overflow.style.position='fixed';
     }
     
@@ -51,13 +59,14 @@ if(n==false){
  e.style.display='none';
     nav.style.boxShadow='0px 0px 2px 1px hsla(0, 0%, 0%, 0.1)';
     
-menu1.className='menu1 mjz1';
-        menu2.className='menu1 mjz2';
-        menu3.className='menu1 mjz3';
+menu1.className='menu1 mjz4';
+        menu2.className='menu1 mjz4';
+        menu3.className='menu1 mjz4';
         menu4.className='menu1 mjz4';
      menu5.className='menu1 mjz4';
      menu6.className='menu1 mjz4';
-    
+   // blacklay.style.backgroundColor="rgba(1,1,1,0.0)";
+    blacklay.style.left="100%";
  overflow.style.position='relative';
 
 }
