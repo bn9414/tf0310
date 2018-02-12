@@ -117,38 +117,44 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
     to{left: -130%; }
 }
 
-
-
-
-
+.dmn1,.dmn2,.dmn3,.dmn4,.dmn5,.dmn6{display: none;}
 
 .b{transform: scale(1.05);}
 
 
-@media screen and (min-width:630px){
-   
+@media screen and (min-width:640px){
+    .dmn1,.dmn2,.dmn3,.dmn4,.dmn5,.dmn6{display: flex;}
+    .hover_track{width: 120px; height:  40px; position: absolute;left: -0px;}
+    .d_pmenu{width: 200px; height: auto; border: 1px solid #b5b5b5;background-color: #fcfcfc;position: absolute;border-radius: 20px;left: -30px; top: 30px;display: none;flex-direction: column;justify-content: center;align-items: center;padding-top:10px;padding-bottom:10px;}
+
+     .dmn3:hover .d_pmenu{display: flex;}
+    .dpmn{width: inherit;height: auto;  }
+    .dpmn p{margin:3px auto;text-align: left;margin-left: 10px;}
+    
+    
     .dmenu_con{display: flex;justify-content: center;align-items: center;}
-    .dmenu{border: 1px olid black;  height:auto;margin: auto 15px;font-size: 20px;position: relative;display: flex;justify-content: center;}
+    .dmenu{border: 1px olid black;  height:auto;margin: auto 5px;font-size: 15px;position: relative;display: flex;justify-content: center;flex-direction: column;border: 1px olid black}
+    
       .dmenu span{border-bottom: solid 2px #25C485;width: 0px;margin: auto;transition: width 0.5s;display: ;}
-    .dmn1{width: 60px;}
-     .dmn1:hover span{width: 60px;}
-    .dmn2{width: 100px;}
-     .dmn2:hover span{width: 100px;}
-    .dmn3{width: 120px;}
-     .dmn3:hover span{width: 120px;}
+    .dmn1{width: 40px;}
+     .dmn1:hover span{width: 40px;}
+    .dmn2{width: 90px;}
+     .dmn2:hover span{width: 80px;}
+    .dmn3{width: 100px;}
+     .dmn3:hover span{width: 90px;}
     .dmn4{width: 90px;}
-     .dmn4:hover span{width: 90px;}
+     .dmn4:hover span{width: 80px;}
     .dmn5{width: 90px;}
-     .dmn5:hover span{width: 90px;}
+     .dmn5:hover span{width: 80px;}
     .dmn6{width: 120px;}
-     .dmn6:hover span{width: 120px;}
+     .dmn6:hover span{width: 110px;}
     .menu_con{display: none; }
-    .dmenu img{width: 23px;position: relative;left: 2px;top: 4px}
+    .dmenu img{width: 23px;border: 1px olid black; position: absolute;left: 82%;top: -3px}
     #inlogo{position: relative
     ;left:0%;top: 0px }
     #inlogo_m{  padding-top: 0px;  }
     #nav_line{display: none;}
-    .dmenu{display: flex;flex-direction: column;}
+   
     .dmenu div{margin: auto;}
   
    
@@ -160,6 +166,20 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
     #inlogo{top: -2px }
 #inlogo_m{width: 60px; height: 60px;padding-top: 0px}
     #nav_line{ top:16px}
+    .dmenu{font-size: 18px;}
+    .dmenu img{top: 0px;left: 85%;}
+    .dmn1{width: 60px;}
+     .dmn1:hover span{width: 60px;}
+    .dmn2{width: 100px;}
+     .dmn2:hover span{width: 100px;}
+    .dmn3{width: 120px;}
+     .dmn3:hover span{width: 110px;}
+    .dmn4{width: 90px;}
+     .dmn4:hover span{width: 90px;}
+    .dmn5{width: 90px;}
+     .dmn5:hover span{width: 90px;}
+    .dmn6{width: 120px;}
+     .dmn6:hover span{width: 120px;}
 }
 
 @media screen and (min-width:1030px){
@@ -175,61 +195,20 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
 /*  ----------------- start:footer section------------------*/
     
 
-.footer{width: 100%; height: 220px; position: absolute; bottom: 0px;border: px solid black;background-color:#454545; display: flex; }
-.com_logo{position: absolute; color: #f9f9f9;bottom: 120px;display: flex;flex-direction: column;width: 100%;cursor: pointer;}
-.com_logo h3,.com_logo img{text-align: center;}
-.com_logo h3{font-family: archive;}
-.com_logo p{font-size: 18px;}
+.footer{width: 100%; height: 50px; position: absolute; bottom: 0px;background-color:#454545; }
 
-.com_2nd{display: flex;position: absolute; bottom: 30px;justify-content: center;align-items: center;width: 100%;padding-right: 30px;}
-
-.s_menu{ border: 1px olid black; height: 70px;display: flex;flex-direction: column;padding-right: 10px;border-right: 2px solid #f9f9f9;}
-
-.connect{text-align: center;color: #f9f9f9;display: flex;flex-direction: column;}
-.connect p{width: 100%;padding-left: 0px;position: relative;left: 10px;}
-.connect_m{display: flex;padding-left: 17px;}
-.connect_m a{display: block; width: 32px; height: 32px; border: 1px olid black;margin: 5px;}
-
-#soc1 img{position: absolute;transition: opacity 0.3s;width:32px;}
-#soc2 img{position: absolute;transition: opacity 0.3s;width:32px;}
-#soc3 img{position: absolute;transition: opacity 0.3s;width:32px;}
-#fb_ex:hover{opacity: 0.0;}
-#tw_ex:hover{opacity: 0.0;}
-#in_ex:hover{opacity: 0.0;}
-.sidemenu{display: flex; flex-direction: column;  justify-content: center; align-items: flex-start;  padding-left: 15px; }
-.sidemenu a{color: #f9f9f9;margin: 2px; text-align: left;font-family: 'Ubuntu', sans-serif;}
 .copyright p{color: #f9f9f9; text-align: center;}
-.copyright{width: 100%; border: 1px olid black; position: absolute; bottom: 0px;width: 100%;padding-bottom: 3px}
+.copyright{width: 100%; border: 1px olid black; position: absolute; bottom: 12px;width: 100%;padding-bottom: 3px}
 
 
 @media screen and (min-width:500px){
-    .footer{display: flex;}
-    .com_logo{width: 25%;bottom: 5px;left: -5px;height: 80px;z-index: 1;}
-    .com_logo img{width: 70px;margin: auto}
-    .com_logo h3{font-size: 18px;}
-    .com_2nd{bottom: 5px}
-    .s_menu{border-left: 2px solid #f9f9f9;}
-    .sidemenu{border-right: 2px solid #f9f9f9;padding-left: 10px;padding-right: 5px}
-    .copyright{width:25%;right: 12px; bottom: 20px;}
-    .copyright p{width: 100%;; margin: auto;}
-    .footer{height: 100px}
-    .sidemenu a{text-align: center;}
-    .connect_m{justify-content: center}
-    .connect p{width: 100%;}
+    .
+    .copyright{width:25%;}
+    .copyright p{width: 100%; margin: auto;}
+ 
+   
     body{padding-bottom: 100px;}
 }
-@media screen and (min-width:590px){
-    .s_menu{width: 30%;}
-    .sidemenu{width: 20%;padding-left: 0px;}
-    .sidemenu a{text-align: center;width: 20%; margin: 3px auto;}
-    
-}
-@media screen and (min-width:950px){
-    .copyright p{width: 60%;font-size: 16px;}
-    .s_menu p{font-size: 16px}
-    .sidemenu{font-size: 16px;}
-        .com_logo{width: 10%;bottom: 5px;left: -5px;height: 80px;z-index: 1;left: 75px;}
-    
-    
-}
+
+
 /*  ----------------- end:footer section------------------*/
