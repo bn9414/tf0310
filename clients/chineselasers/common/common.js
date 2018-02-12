@@ -49,12 +49,12 @@ if(a==2){n=1;}
          
      nav.style.boxShadow='0px 0px 0px 0px hsla(0, 0%, 0%, 0.0)';
 
-         setTimeout(function(){prod_menu.style.display="none"; main_menu.style.display='block';  },320); 
+         setTimeout(function(){prod_menu.style.display="none"; main_menu.style.display='block';  },340); 
          
        
 
           blacklay.className="black_lay blackani";
-        setTimeout(function(){  blacklay.className="black_lay";},1000);
+        setTimeout(function(){  blacklay.className="black_lay";},1300);
        // blacklay.style.backgroundColor="rgba(1,1,1,0.0)";
           
     overflow.style.position='fixed';
@@ -79,13 +79,13 @@ n=!n;
 }
 
 function test1(){
-   setTimeout(function(){  main_menu.style.display='none';   prod_menu.style.display="block";},320); 
+   setTimeout(function(){  main_menu.style.display='none';   prod_menu.style.display="block";},340); 
     
  
     pmn[0].className='pmn mjz4 phead';
         
       blacklay.className="black_lay blackani";
-     setTimeout(function(){  blacklay.className="black_lay";},1000);
+     setTimeout(function(){  blacklay.className="black_lay";},1300);
 }
 
 a.addEventListener('click', function(){test(3);}, false );
