@@ -68,7 +68,7 @@ if(n==false){
       d.className='line l3 lclose3';
  e.style.display='none';
     nav.style.boxShadow='0px 0px 2px 1px hsla(0, 0%, 0%, 0.1)';
-    
+    main_menu.style.display='none'; 
 
    // blacklay.style.backgroundColor="rgba(1,1,1,0.0)";
     blacklay.style.left="100%";
