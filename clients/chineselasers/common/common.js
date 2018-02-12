@@ -49,7 +49,7 @@ if(a==2){n=1;}
          
      nav.style.boxShadow='0px 0px 0px 0px hsla(0, 0%, 0%, 0.0)';
 
-         setTimeout(function(){prod_menu.style.display="none"; main_menu.style.display='block';  },300); 
+         setTimeout(function(){prod_menu.style.display="none"; main_menu.style.display='block';  },320); 
          
        
 
@@ -79,7 +79,7 @@ n=!n;
 }
 
 function test1(){
-   setTimeout(function(){  main_menu.style.display='none';   prod_menu.style.display="block";},300); 
+   setTimeout(function(){  main_menu.style.display='none';   prod_menu.style.display="block";},320); 
     
  
     pmn[0].className='pmn mjz4 phead';
