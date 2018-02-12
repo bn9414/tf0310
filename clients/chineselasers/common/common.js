@@ -99,6 +99,7 @@ function test1(){
      pmn[5].className='pmn mjz4';
      pmn[6].className='pmn mjz4';
      pmn[7].className='pmn mjz4';
+     pmn[8].className='pmn mjz4';
       blacklay.className="black_lay blackani";
      setTimeout(function(){  blacklay.className="black_lay";},1000);
 }
