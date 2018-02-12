@@ -48,10 +48,10 @@ if(a==2){n=1;}
         e.style.display='block';
          
      nav.style.boxShadow='0px 0px 0px 0px hsla(0, 0%, 0%, 0.0)';
-mn[0].className='mn mjz4';
+
          setTimeout(function(){ main_menu.style.display='block';    prod_menu.style.display="none";},300); 
         
-  
+  mn[0].className='mn mjz4';
         mn[1].className='mn mjz4';
         mn[2].className='mn mjz4';
         mn[3].className='mn mjz4';
