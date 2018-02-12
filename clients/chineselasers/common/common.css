@@ -8,8 +8,11 @@
 html{ height: 100%;}
 body{background-color: #fcfcfc;}
 body * { box-sizing: border-box;}
-
-body h1,body h2,body h3,body p {margin: 0px;}
+* h1{
+font-family: 'Lato', sans-serif;}
+* p{
+    font-family: 'Roboto', sans-serif;}
+body h1,body h2,body h3,body p {margin: 0px;color: #454545;}
 a{text-decoration: none !important; color: #c2c2c2; }
 body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
 
@@ -97,7 +100,7 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
 .prodrow img{width: 25px;position: relative;top: 5px;left: -5px; }
 
 
-.menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{color: #ed6a5a;}
+.menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover,.menu5:hover,.menu6:hover{color: #25C485;}
 
 
 .a{transform: scale(1.05);}
@@ -123,35 +126,48 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
 
 
 @media screen and (min-width:630px){
-    .main_menu{display: flex;justify-content: center;padding-right: 15px}
-    .menu_con{padding-top:250px; }
-    .menu1,.menu2,.menu3,.menu4{font-size: 25px;}
-    .sub_menu{display: flex; justify-content: center}
-    .menu7{margin: 20px auto 0px auto;display: none;} 
-    #inlogo{margin-left: -27px;left: 50%; top: -10px}
-    .menu7_up{display: block;}
-.menu7_up{font-size: 21px;padding: 7px 0px 7px 15px;position: relative; top: 8px;background-position: 145px; background-size: 26px; margin-left: 5px;width: 175px;margin-top: 0px;}
-.menu7_up:hover{background-position: 148px;padding-left:10px; }
+   
+    .dmenu_con{display: flex;justify-content: center;align-items: center;}
+    .dmenu{border: 1px olid black;  height:auto;margin: auto 15px;font-size: 20px;position: relative;display: flex;justify-content: center;}
+      .dmenu span{border-bottom: solid 2px #25C485;width: 0px;margin: auto;transition: width 0.5s;display: ;}
+    .dmn1{width: 60px;}
+     .dmn1:hover span{width: 60px;}
+    .dmn2{width: 100px;}
+     .dmn2:hover span{width: 100px;}
+    .dmn3{width: 120px;}
+     .dmn3:hover span{width: 120px;}
+    .dmn4{width: 90px;}
+     .dmn4:hover span{width: 90px;}
+    .dmn5{width: 90px;}
+     .dmn5:hover span{width: 90px;}
+    .dmn6{width: 120px;}
+     .dmn6:hover span{width: 120px;}
+    .menu_con{display: none; }
+    .dmenu img{width: 23px;position: relative;left: 2px;top: 4px}
+    #inlogo{position: relative
+    ;left:0%;top: 0px }
+    #inlogo_m{  padding-top: 0px;  }
+    #nav_line{display: none;}
+    .dmenu{display: flex;flex-direction: column;}
+    .dmenu div{margin: auto;}
+  
+   
+
 
 }
 @media screen and (min-width:830px){
-    #ser_price{padding-left: 45px;padding-top: 5px; display: block;font-size: 22px}
-       .menu1,.menu2,.menu3,.menu4{font-size: 34px;margin-left: 30px;}
-    .main_menu{padding-right: 20px;} 
-   .menu7_up{font-size: 20px;padding: 8px 0px 8px 20px;position: relative; top: 8px;background-position: 145px; background-size: 26px; margin-left: 5px;width: 175px;margin-top: 0px;}
-.menu7_up:hover{background-position: 150px;padding-left:15px; }  
+  
     #inlogo{top: -2px }
 #inlogo_m{width: 60px; height: 60px;padding-top: 0px}
     #nav_line{ top:16px}
 }
 
 @media screen and (min-width:1030px){
-       .menu1,.menu2,.menu3,.menu4{font-size: 38px;margin-left: 35px;}
-    .main_menu{padding-right: 30px;} 
+       
     #nav_bar{height: 65px;}
         #inlogo{top: -4px }
 #inlogo_m{width: 70px; height: 70px;padding-top: 2px;}
-    .menu7_up{top: 12px}
+  
 }
 
 
