@@ -19,7 +19,8 @@ var menu4=document.getElementsByClassName('menu4')[0];
 var menu5=document.getElementsByClassName('menu5')[0];
 var menu6=document.getElementsByClassName('menu6')[0];
 var blacklay=document.getElementsByClassName('black_lay')[0];
-
+var mn=document.getElementsByClassName('mn');
+var pmn=document.getElementsByClassName('pmn');
 var pmenu4=document.getElementsByClassName('menu4')[0];
 
 
@@ -45,16 +46,19 @@ if(a==2){n=1;}
     c.className='line l2 lopen2';
         d.className='line l3 lopen3';
         e.style.display='block';
+         
      nav.style.boxShadow='0px 0px 0px 0px hsla(0, 0%, 0%, 0.0)';
-menu1.className='mn mjz4';
-            main_menu.style.display='block';
-    prod_menu.style.display="none";
-        menu2.className='mn mjz4';
-        menu3.className='mn mjz4';
-        menu4.className='mn mjz4';
-        menu5.className='mn mjz4';
-        menu6.className='mn mjz4';
+mn[0].className='mn mjz4';
+         setTimeout(function(){ main_menu.style.display='block';    prod_menu.style.display="none";},300); 
+        
+  
+        mn[1].className='mn mjz4';
+        mn[2].className='mn mjz4';
+        mn[3].className='mn mjz4';
+        mn[4].className='mn mjz4';
+        mn[5].className='mn mjz4';
           blacklay.className="black_lay blackani";
+        setTimeout(function(){  blacklay.className="black_lay";},1000);
        // blacklay.style.backgroundColor="rgba(1,1,1,0.0)";
           
     overflow.style.position='fixed';
@@ -69,12 +73,12 @@ if(n==false){
  e.style.display='none';
     nav.style.boxShadow='0px 0px 2px 1px hsla(0, 0%, 0%, 0.1)';
     
-menu1.className='menu1 mjz4';
-        menu2.className='menu1 mjz4';
-        menu3.className='menu1 mjz4';
-        menu4.className='menu1 mjz4';
-     menu5.className='menu1 mjz4';
-     menu6.className='menu1 mjz4';
+mn[0].className='mn mjz4';
+        mn[1].className='mn mjz4';
+        mn[2].className='mn mjz4';
+        mn[3].className='mn mjz4';
+    mn[4].className='mn mjz4';
+     mn[5].className='mn mjz4';
    // blacklay.style.backgroundColor="rgba(1,1,1,0.0)";
     blacklay.style.left="100%";
  overflow.style.position='relative';
@@ -84,14 +88,25 @@ n=!n;
 }
 
 function test1(){
+   setTimeout(function(){  main_menu.style.display='none';},300); 
     
-    main_menu.style.display='none';
     prod_menu.style.display="block";
+    pmn[0].className='pmn mjz4 phead';
+        pmn[1].className='pmn mjz4';
+        pmn[2].className='pmn mjz4';
+        pmn[3].className='pmn mjz4';
+    pmn[4].className='pmn mjz4';
+     pmn[5].className='pmn mjz4';
+     pmn[6].className='pmn mjz4';
+     pmn[7].className='pmn mjz4';
+      blacklay.className="black_lay blackani";
+     setTimeout(function(){  blacklay.className="black_lay";},1000);
 }
 
 a.addEventListener('click', function(){test(3);}, false );
 menu3.addEventListener('click', test1, false );
 phead.addEventListener('click', function(){test(2);}, false );
+
 
 
 /* start:menu zoom out 
