@@ -88,7 +88,7 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 220px;}
 
 
 .mn img{width: 30px;position: relative; left:-8px;top: 3px;}
-.mn,.pmn{font-size: 34px;color: #2d2d2d;font-family: sans-serif;display: block; margin-bottom: 20px;margin-left: 20px;letter-spacing: 2px;font-weight: 600; opacity: 1;position: relative;transition: color 0.3s;font-family: 'Ubuntu', sans-serif;}
+.mn,.pmn{font-size: 34px;color: #2d2d2d;font-family: sans-serif;display: block; margin-bottom: 20px;margin-left: 20px;letter-spacing: 2px;font-weight: 600; opacity: 0;position: relative;transition: color 0.3s;font-family: 'Ubuntu', sans-serif;}
 .prod_menu{display: none;}
 .pmn{font-size: 20px;font-weight: 500;margin-left: 40px;opacity: 0}
 .phead{font-size: 34px; font-weight: 600;margin-left: 12px;}
