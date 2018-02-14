@@ -16,6 +16,15 @@ body h1,body h2,body h3,body p {margin: 0px;color: #454545;}
 a{text-decoration: none !important; color: #c2c2c2; }
 body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 100px;}
 
+body.contact  .dmn6 span{width: 120px;}
+body.offers  .dmn5 span{width: 90px;}
+body.services  .dmn4 span{width: 90px;}
+body.product  .dmn3 span{width: 110px;}
+body.about-us  .dmn2 span{width: 100px;}
+body.home  .dmn1 span{width: 60px;}
+
+
+
 /*  ----------------- e:general things------------------*/
 
 
@@ -125,17 +134,20 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 100px;}
 
 @media screen and (min-width:640px){
     .dmn1,.dmn2,.dmn3,.dmn4,.dmn5,.dmn6{display: flex;}
-    .hover_track{width: 120px; height:  40px; position: absolute;left: -0px;}
    
    /* start:p_menu */
 
-.pmenu{width: 180px; height: auto; border: 1px solid;position: absolute;border-radius: 10px;background-color: #f9f9f9;top: 80px;left: 500px; display:none;z-index:1;}
-.pmenu a{padding-left: 10px;border-bottom: 1px grey solid; color: #343434;display: block;margin: 5px;padding: 5px 0px 5px 10px;color: #676C6F;font-family: 'Slabo 27px', serif;font-size: 18px}
-    .smenu a{display: block}
-    .smenu{display: none;} 
- .dmenu_con .dmn3:hover .smenu{display: block}
-
-    .test{width: 50px; height: 50px; position: absolute;background-color: red;display: none;}
+.pmenu{width: 220px; height: auto; border: 1px solid #25C485;position: absolute;border-radius: 10px;background-color: #f9f9f9;top: 60px;left: -20px; display:none;z-index:-1;}
+.pmenu a{padding-left: 10px;border-bottom: 1px #b5b5b5 solid; color: #343434;display: block;margin: 5px;padding: 5px 0px 5px 10px;color: #676C6F;font-family: 'Slabo 27px', serif;font-size: 18px;font-family: 'Roboto', sans-serif;transition: border-bottom 0.5s;}
+   .hover_track{width: 140px; height:  40px; position: absolute;left: -10px;top: 20px; }
+    .pmenu{animation-name: pmenuop;animation-duration: 1s;animation-fill-mode: forwards;}
+ .dmn3:hover .pmenu{display: block}
+    .pmenu a:hover {border-bottom: 1px solid #25C485;color: #25C485 }
+    @keyframes pmenuop {
+        from{opacity: 0;}
+        to{opacity: 1;}
+        
+    }
 
 #border_ex{border-bottom: 0px;}
 
@@ -219,3 +231,9 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 100px;}
 
 
 /*  ----------------- end:footer section------------------*/
+
+
+
+
+
+
