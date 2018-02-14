@@ -3,8 +3,18 @@
 	$(window).load(function() {
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
-	});
-//end preloads screen//
+        	
+    var hd= document.getElementsByClassName('s1hd');
+        var para= document.getElementById('jtarget');
+
+function portfullf(){
+   hd[0].style.left="0px";
+    para.style.left="0px";
+}
+
+portfullf();
+
+    });
 
 var build= document.getElementsByClassName('build');
 window.onscroll = function() {scrollani()};
