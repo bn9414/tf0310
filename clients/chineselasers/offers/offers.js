@@ -25,48 +25,16 @@ window.onscroll = function() {scrollani()};
 function scrollani() {
     /* build*/
  if(w>500){
-    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-          build[0].style.opacity="1";
-        build[0].style.top="10px";
-        setTimeout(function(){build[1].style.opacity="1";
-        build[1].style.top="10px";},300);
-        
-         setTimeout(function(){build[2].style.opacity="1";
-        build[2].style.top="10px";
-        },600);
-        
-        
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+
         
       }
     }
     
     if(w<650){
     if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-           build[0].style.opacity="1";
-        build[0].style.top="10px";
-      }
+    
         
-         if (document.body.scrollTop > 1020 || document.documentElement.scrollTop > 1020) {
-         build[1].style.opacity="1";
-        build[1].style.top="10px";
-      }
-        
-            if (document.body.scrollTop > 1650 || document.documentElement.scrollTop > 1650) {
-         build[2].style.opacity="1";
-        build[2].style.top="10px";
-      }
-        
-        
-        
-        
-    }
-    
-    
-    
-    
-    
-  
-    
-    
+    }   
     
 }
