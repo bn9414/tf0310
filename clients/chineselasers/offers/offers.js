@@ -10,6 +10,8 @@
 function portfullf(){
    hd[0].style.left="0px";
     para.style.left="0px";
+    hd[0].style.opacity="1";
+    para.style.opacity="1";
 }
 
 portfullf();
