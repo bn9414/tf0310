@@ -10,7 +10,7 @@
 	background: url(../common/images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;background-color: white;background-position: 50% 200px;
     
 }
-
+body{padding-bottom: 50px;}
 .se-pre-con img{width: 100px;;margin: auto;display: block;margin-top: 165px}
 @media screen and (max-width:480px)
     {
@@ -25,9 +25,11 @@ textarea:focus, input:focus,select:focus{
 }
 
 
-.main_con{width: 100%; height: auto; }
-.map,.info{width: 100%;height: 500px;border: 1px solid black; }
+.main_con{width: 100%; height: auto;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.map,.info{width: 100%;height: 500px;border: 1px olid black; }
 .info{height: auto;background-color: #e9f9f3;padding: 30px 5px;}
+.map{order: 1;border: 1px olid black;overflow: hidden}
+.map iframe{height: 100%;width: 100%;}
 .reach{ display: flex;flex-direction: column;justify-content: center;align-items: center}
 .reach img{width: 50px;padding-bottom: 10px}
 .reach .rbox{display: flex;flex-direction: column;justify-content: center;align-items: center;margin: 5px auto;}
@@ -95,6 +97,9 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 #ffsubmit{ border-style: none; border-radius: 5px;  color:white;background-image: url(images/mailsend.png); font-size: 22px;  height: 40px; background-color:#41cab1;  background-repeat: no-repeat; background-position: 93px 10px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s; height: 50px;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);position: relative;top: -5px;right: -30px;
+    
+  
+
 }
 
 #ffsubmit:hover{ padding-right: 43px; background-position: 97px 10px;}
@@ -106,7 +111,8 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 
 @media screen and (min-width:900px){
-    .main_con{display: flex;}
+    .main_con{display: flex;flex-direction: row}
+    .map{order: -1;height: 580px;}
 .reach{width: 100%;}
 .reachtxt{ display: flex;width: 100%;}
 .rbox{width: 140px;}
