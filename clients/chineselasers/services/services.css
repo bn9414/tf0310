@@ -23,6 +23,8 @@ body{padding-bottom: 50px;}
 
 
 .sec1{width: 100%; height: 800px; background-image:url(images/top.svg);background-repeat: no-repeat;background-size: 1800px 1000px;background-position: 0% 30%;border:1px olid black;}
+
+.sec1{background-position: 0% 0%;}
 .s1hd{display: flex;justify-content: center;align-items: center;}
 .s1,.s3{width: 100%;height: auto;padding: 20px 15px; border: 1px olid black;}
 .s1hd h1{font-size: 35px;color: #25C485;}
@@ -79,7 +81,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 .litinfo img{width: 12px;position: relative;top: 2px;}
 .ex_1{position: relative;top: 10px;}
 .exb_1{border-bottom: 0px solid black;}
-.price{border: 1px olid}
+.price{border: 1px solid}
 
  .sec2{background-image: url(images/bottom.svg);background-repeat: no-repeat;background-position: 0%  980px;padding-bottom: 00px;border: 1px olid }
 @media screen and (min-width:650px){

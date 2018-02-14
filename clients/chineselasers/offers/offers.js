@@ -24,17 +24,44 @@ window.onscroll = function() {scrollani()};
         var w = parseInt(window.innerWidth);
 function scrollani() {
     /* build*/
- if(w>500){
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+ if(w>650){
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+build[0].style.top="0px";     
+    build[0].style.opacity="1";
+        
+setTimeout(function(){       
+    build[1].style.top="0px";     
+build[1].style.opacity="1";},300);
+ 
+        
+               
+setTimeout(function(){               
+    build[2].style.top="0px";     
+build[2].style.opacity="1";},300);
+ 
 
         
       }
     }
     
     if(w<650){
-    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
     
-        
+        build[0].style.top="0px";     
+    build[0].style.opacity="1";
     }   
     
-}
+           if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+    
+        build[1].style.top="0px";     
+    build[1].style.opacity="1";
+    } 
+                 if (document.body.scrollTop > 1600 || document.documentElement.scrollTop > 1600) {
+    
+        build[2].style.top="0px";     
+    build[2].style.opacity="1";
+    } 
+    
+        
+        
+}}
