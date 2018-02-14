@@ -60,6 +60,11 @@ body{padding-bottom: 50px;}
 
 .oneday{width: 85%;margin:0px auto; height: auto; border: 1px olid black;border-radius: 20px;box-shadow: 5px 10px 50px 0px rgba(20, 20, 20, 0.2);}
 .onehd img{width: 200px;border: 1px soli}
+
+
+.build{position: relative;top: -40px;opacity: 0; transition: top 1.2s,opacity 1.2s;}
+
+
 .onehd h2,.onehd p{color: #25C485;text-align: center;}
 .onehd h2{margin: 10px 0px;padding: 0px 5px;}
 .onehd p{margin-bottom: 10px;}
