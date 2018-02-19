@@ -1,4 +1,4 @@
-.slide{border: 1px olid; width: 100%; height: 500px; background-image: url(images/slidebg.svg);background-repeat: no-repeat;background-size: cover;background-position: -0% -0px;border: 1px solid}
+.slide{border: 1px olid; width: 100%; height: 500px; background-image: url(images/slidebg.svg);background-repeat: no-repeat;background-size: cover;background-position: -0% -0px;border: 1px olid}
 .slide h1{color:#25C485; font-size: 35px;  padding-top: 30px;padding-left: 10px}
 
 .slide p{color:#454545; font-size: 20px;padding-left:10px;width: 90%;text-align: justify}
@@ -22,7 +22,7 @@
 }
 
 
-
+/* s: philosophy*/
 .uvp{display: flex;flex-direction: column;justify-content: center;align-items: center;border:1px olid}
 .uvp h1{margin-bottom: 50px;font-size: 22px;text-align: center;}
 .uvpm{width: 90%;border: 1px olid black;display: flex;justify-content: center;align-items: center;border: 1px olid}
@@ -42,6 +42,30 @@
 .uvpm{width: 600px;height: 600px;border: 1px olid black;display: flex;justify-content: center;align-items: center;margin-left: 50px;margin-bottom: 0px;border: 1px olid}
 
 .main img{width: 100%;;position: relative}
-.s2flux{display: flex;justify-content: space-around;align-items: center;}
+.s2flux{display: flex;justify-content: space-around;align-items: center;flex-direction: row;}
 .s2flux p{width: 40%;font-size: 25px;text-align: justify}
 }
+
+
+/* s: facts*/
+
+.facts{width: 100%;height: auto;}
+.facts h1{color: #25C485;font-size: 35px;text-align: center}
+.facts span img{width: 100px;border: 1px olid;position: relative;left: 35px;top: 25px}
+.fvect{width: 80%; height: auto; border: 1px olid;margin: auto;display: flex;justify-content: space-between;align-items: center;margin-top: 40px;flex-wrap: wrap}
+.fbox{border: 1px olid;width: 200px;height: 200px;display: flex;flex-direction: column;justify-content: center;align-items: center;margin-left: 50px;}
+.fbox img{width: 150px;}
+.fbox p{font-size: 22px;color: #454545;text-align: center}
+
+@media screen and (max-width:516px){
+    .fvect{justify-content: center;align-items: center;}
+    .fbox{margin: 0px;}
+    .facts h1{position: relative;left: 20px;border: 1px olid;text-align: left;font-size: 25px}
+    .facts span img{width: 70px;left: 25px;top: 17px;border:1px olid}
+    .fbox{width: 200px;height: 150px}
+    .fbox img{width:100px;height: 100px}
+    .fbox p{font-size: 20px;}
+}
+
+
+
