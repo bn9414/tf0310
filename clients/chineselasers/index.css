@@ -1,4 +1,4 @@
-.slide{border: 1px olid; width: 100%; height: 500px; background-image: url(images/slidebg.svg);background-repeat: no-repeat;background-size: cover;background-position: -0% -0px;border: 1px olid}
+.slide{border: 1px olid; width: 100%; height: 500px; background-image: url(images/slidebg.jpg);background-repeat: no-repeat;background-size: cover;background-position: -0% -0px;border: 1px olid}
 .slide h1{color:#25C485; font-size: 35px;  padding-top: 30px;padding-left: 10px}
 
 .slh{position: relative;left: -80px;opacity: 0;transition: opacity 1s,left 1s;}
