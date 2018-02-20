@@ -132,19 +132,7 @@ fvect[0].style.opacity="1";
 
       }
     
-    if(w>600){
-         if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
-backlay[0].style.opacity="1";
-        backlay[0].style.right="-150px";
-
-      }}
-    
-    if(w<600){
-         if (document.body.scrollTop > 3200 || document.documentElement.scrollTop > 3200) {
-
-        backlay[0].style.right="-220px";
-
-      }}
+  
     
         if(w>699){
          if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {

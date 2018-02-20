@@ -26,14 +26,14 @@
 
 
 /* s: philosophy*/
-.uvp{display: flex;flex-direction: column;justify-content: center;align-items: center;border:1px olid}
+.uvp{display: flex;flex-direction: column;justify-content: center;align-items: center;border:1px olid;}
 .uvp h1{margin-bottom: 50px;font-size: 25px;text-align: center;}
 .uvpm{width: 90%;border: 1px olid black;display: flex;justify-content: center;align-items: center;border: 1px olid}
 .main{position: relative;opacity: 0; left: -70px;transition: left 1s,opacity 1s;}
 .jtaruvp{position: relative;opacity: 0; left: 70px;transition: left 1s,opacity 1s;}
 .main img{width: 100%;}
 .s2flux{display: flex;flex-direction: column;justify-content: space-around;align-items: center;}
-.s2flux p{width: 95%;font-size: 18px;text-align: justify}
+.s2flux p{width: 95%;font-size: 17px;text-align: justify}
 
 
 
@@ -53,7 +53,7 @@
 
 /* s: facts*/
 
-.facts{width: 100%;height: auto;}
+.facts{width: 100%;height: auto;;overflow: hidden}
 .facts h1{color: #25C485;font-size: 35px;text-align: center}
 .facts span img{width: 100px;border: 1px olid;position: relative;left: 35px;top: 25px}
 .fvect{width: 80%; height: auto; border: 1px olid;margin: auto;display: flex;justify-content: space-between;align-items: center;margin-top: 40px;flex-wrap: wrap}
