@@ -17,7 +17,7 @@
     
 }
 @media screen and (min-width:1150px){
-.slide{border: 1px olid; width: 100%; height: 700px; background-image: url(images/slidebg.svg);background-repeat: no-repeat;background-size: contain;background-position: 0% -50px;}
+.slide{border: 1px olid; width: 100%; height: 700px; background-image: url(images/slidebg.jpg);background-repeat: no-repeat;background-size: contain;background-position: 0% -50px;}
 .slide h1{color:#25C485; font-size: 45px;  padding-top: 100px;padding-left: 50px}
 
 .slide p{color:#454545; font-size: 20px;padding-left:50px;width: 400px;text-align: justify}
