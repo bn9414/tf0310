@@ -78,7 +78,7 @@
 .why1{width: 250px; height: auto;border: 1px olid;border-radius: 20px;margin: 5px;display: flex;flex-direction: column;justify-content: center;align-items: center;box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);background-color: #fcfcfc;margin: auto;margin-top: 30px;animation-name: wsani;animation-duration: 1s; animation-fill-mode: forwards;position: relative;}
     
     .why1 img{width: 200px;margin-bottom: 0px;border: 1px olid}
-    .why1 p{padding: 0px 10px;padding-bottom: 10px;
+    .why1 p{padding: 0px 10px;padding-bottom: 10px;font-size: 17px
     }
 
     .why_cont{}
@@ -109,7 +109,10 @@
 /* back lay*/
 .sidebg{position: relative;}
   .backlay{width: 400px;border-radius: 50px; height: 400px;background-color: #dcf5ea;position: absolute;z-index: -1; right: -150px;top: 300px;transform: rotate(30deg);}
-
+@media screen and (max-width:600px){
+    
+    .backlay{top: 1100px;right: -220px;}
+}
 
 
 
