@@ -4,14 +4,16 @@
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
         	
-    var hd= document.getElementsByClassName('s1hd');
-        var para= document.getElementById('jtarget');
-
+    var slh= document.getElementsByClassName('slh');
+        var slp= document.getElementsByClassName('slp');
+        
 function portfullf(){
-   hd[0].style.left="0px";
-    para.style.left="0px";
-    hd[0].style.opacity="1";
-    para.style.opacity="1";
+   slh[0].style.opacity="1";
+    slh[0].style.left="0px";
+    slp[0].style.opacity="1";
+    slp[0].style.left="0px";
+    
+    
 }
 
 portfullf();
@@ -61,6 +63,10 @@ var wswit= document.getElementsByClassName('wswit');
 var wsin= document.getElementsByClassName('wsin');
 
 var why1=document.getElementsByClassName('why1');
+
+var tblock=document.getElementsByClassName('tblock');
+
+
 function wswitch(n){
     
     wsin[0].style.backgroundColor="#fcfcfc";
@@ -87,4 +93,91 @@ wswit[0].addEventListener('click',function() {wswitch(0);}, false);
 wswit[1].addEventListener('click',function() {wswitch(1);}, false);
 
 wswit[2].addEventListener('click',function() {wswitch(2);}, false);
+
+
+
+
+
+
+
+
+
+
+var main=document.getElementsByClassName("main");
+
+var jtaruvp=document.getElementsByClassName("jtaruvp");
+
+var backlay=document.getElementsByClassName("backlay");
+
+var fvect=document.getElementsByClassName("fvect");
+window.onscroll = function() {scrollani()};
+
+function scrollani() {
+    /* home*/
+ 
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+main[0].style.opacity="1";
+        main[0].style.left="0px";
+        
+        jtaruvp[0].style.opacity="1";
+        jtaruvp[0].style.left="0px";
+
+      }
+    
+       if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+fvect[0].style.opacity="1";
+        fvect[0].style.top="0px";
+        
+       
+
+      }
+    
+    if(w>600){
+         if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
+backlay[0].style.opacity="1";
+        backlay[0].style.right="-150px";
+
+      }}
+    
+    if(w<600){
+         if (document.body.scrollTop > 3200 || document.documentElement.scrollTop > 3200) {
+
+        backlay[0].style.right="-220px";
+
+      }}
+    
+        if(w>699){
+         if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+
+        tblock[0].style.top="0px";
+              tblock[0].style.opacity="1";
+
+      }}
+    
+    
+   
+     
+   
+    
+    
+    
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

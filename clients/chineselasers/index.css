@@ -1,6 +1,9 @@
 .slide{border: 1px olid; width: 100%; height: 500px; background-image: url(images/slidebg.svg);background-repeat: no-repeat;background-size: cover;background-position: -0% -0px;border: 1px olid}
 .slide h1{color:#25C485; font-size: 35px;  padding-top: 30px;padding-left: 10px}
 
+.slh{position: relative;left: -80px;opacity: 0;transition: opacity 1s,left 1s;}
+.slp{position: relative;left: -80px;opacity: 0;transition: opacity 1s,left 1s;}
+
 .slide p{color:#454545; font-size: 20px;padding-left:10px;width: 90%;text-align: justify}
 
 @media screen and (min-width:400px){
@@ -24,9 +27,10 @@
 
 /* s: philosophy*/
 .uvp{display: flex;flex-direction: column;justify-content: center;align-items: center;border:1px olid}
-.uvp h1{margin-bottom: 50px;font-size: 22px;text-align: center;}
+.uvp h1{margin-bottom: 50px;font-size: 25px;text-align: center;}
 .uvpm{width: 90%;border: 1px olid black;display: flex;justify-content: center;align-items: center;border: 1px olid}
-
+.main{position: relative;opacity: 0; left: -70px;transition: left 1s,opacity 1s;}
+.jtaruvp{position: relative;opacity: 0; left: 70px;transition: left 1s,opacity 1s;}
 .main img{width: 100%;}
 .s2flux{display: flex;flex-direction: column;justify-content: space-around;align-items: center;}
 .s2flux p{width: 95%;font-size: 18px;text-align: justify}
@@ -43,7 +47,7 @@
 
 .main img{width: 100%;;position: relative}
 .s2flux{display: flex;justify-content: space-around;align-items: center;flex-direction: row;}
-.s2flux p{width: 40%;font-size: 25px;text-align: justify}
+.s2flux p{width: 40%;font-size: 22px;text-align: justify}
 }
 
 
@@ -54,6 +58,9 @@
 .facts span img{width: 100px;border: 1px olid;position: relative;left: 35px;top: 25px}
 .fvect{width: 80%; height: auto; border: 1px olid;margin: auto;display: flex;justify-content: space-between;align-items: center;margin-top: 40px;flex-wrap: wrap}
 .fbox{border: 1px olid;width: 200px;height: 200px;display: flex;flex-direction: column;justify-content: center;align-items: center;margin-left: 50px;}
+
+.fvect{position: relative;opacity: 0; top: 70px;transition: top 1s,opacity 1s;}
+
 .fbox img{width: 150px;}
 .fbox p{font-size: 22px;color: #454545;text-align: center}
 
@@ -108,10 +115,10 @@
 
 /* back lay*/
 .sidebg{position: relative;}
-  .backlay{width: 400px;border-radius: 50px; height: 400px;background-color: #dcf5ea;position: absolute;z-index: -1; right: -150px;top: 300px;transform: rotate(30deg);}
+  .backlay{width: 400px;border-radius: 50px; height: 400px;background-color: #dcf5ea;position: absolute;z-index: -1; right: -450px;top: 300px;transform: rotate(30deg);transition: right 1s;}
 @media screen and (max-width:600px){
     
-    .backlay{top: 1100px;right: -220px;}
+    .backlay{top: 1100px;right: -220px;transition: right 1s;}
 }
 
 
@@ -155,14 +162,16 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 .t3{left: 500px;top: 100px;width: 350px;}
 
 .t4{left: 550px;top: -130px;width: 300px;}
-
+    .tblock{opacity: 0;top: 100px; transition: opacity 1s,top 1s;}
 }
 
 
 @media screen  and (min-width:1050px) and  (max-width:1231px){
     .tds{width: 25%;}
     .tds p{font-size: 18px;}
-    .tblock{position: relative;left: -100px}}
+    .tblock{position: relative;left: -100px}
+
+}
 
 @media screen and (min-width:900px) and  (max-width:1049px){
     .testi{height: 800px;}
