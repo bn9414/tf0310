@@ -40,7 +40,7 @@ function tswitch(n){
     
 
 }
-if(w<599){
+if(w<699){
 tswitch(0);
 }
 tswit[0].addEventListener('click',function() {tswitch(0);}, false);

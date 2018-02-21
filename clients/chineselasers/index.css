@@ -224,7 +224,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 
 
 
-@media screen and (max-width:599px){
+@media screen and (max-width:699px){
 
 .tswitch,.wswitch{width: 60%; height: 50px;border: 1px olid;margin: auto;margin-top: 30px;display: flex;justify-content: space-between;align-items: center;}
 .tswit,.wswit{width: 30px; height: 30px; border-radius: 50%; background-color: #25C485;display: flex;}

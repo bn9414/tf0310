@@ -1,4 +1,4 @@
-
+body{padding-bottom: 50px;}
 
 /* end pre-load screen*/
 
@@ -75,7 +75,7 @@
 { .mv p{padding: 10px 50px;}
 
     .mv{display: flex;justify-content: center;align-items: center;flex-direction: row}
-    .mv div{width: 50%; height: auto;border: px solid black;justify-content: flex-start;align-items: center;display: flex;flex-direction: column}
+    .mv div{width: 50%; height: auto;border: 0px solid black;justify-content: flex-start;align-items: center;display: flex;flex-direction: column}
     
 }
 
