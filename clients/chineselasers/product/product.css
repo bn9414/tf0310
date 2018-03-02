@@ -1,0 +1,8 @@
+
+.prod_hd{width: 100%; overflow: hidden;position: relative}
+.prod_hd img{width: 160%;position: relative;left: -120px;}
+
+.recttxt{position: absolute;top: 30px; border: 1px olid white;display: flex;justify-content: center;align-items: center;}
+.recttxt h2{color: #fcfcfc;font-weight: 500;font-size: 20px;width: 150px;margin-left: 5px}
+.rect{width: 15px; height: 100px; border: 3px solid #F39237;margin-left: 5px}
+.recttxt h2 span{font-family: 'Pacifico', cursive;color: #F39237;}
