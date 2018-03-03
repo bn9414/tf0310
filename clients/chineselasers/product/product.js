@@ -20,6 +20,33 @@ portfullf();
 
 
 
+var mainimg= document.getElementsByClassName('mainimg');
+
+var subimg= document.getElementsByClassName('subimg');
+
+function imageop(n){
+    mainimg[0].style.display="none";
+     mainimg[1].style.display="none";
+     mainimg[2].style.display="none";
+     mainimg[3].style.display="none";
+    
+     mainimg[n].style.display="block";
+}
+
+imageop(0);
+
+
+subimg[0].addEventListener('click',function(){imageop(0);},false);
+subimg[1].addEventListener('click',function(){imageop(1);},false);
+subimg[2].addEventListener('click',function(){imageop(2);},false);
+subimg[3].addEventListener('click',function(){imageop(3);},false);
+
+
+
+
+
+
+
 var listm1= document.getElementsByClassName('listm1');
 
 var menup= document.getElementsByClassName('menup');

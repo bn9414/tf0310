@@ -77,7 +77,7 @@
 @media screen and (min-width: 1100px ){
     .mach_con{display: flex;justify-content: center;align-items: flex-start;width: 98%;}
     .list_con{width: 20%;; height: auto; border: 1px solid #b5b5b5;margin: 10px;border-radius: 5px;display: block}
-    .lmt_con{width: 80%;border: px solid green}
+    .lmt_con{width: 80%;border: px solid green;justify-content: flex-start;}
     .listp{width: 100%;height: auto;padding: 7px;background-color: #fcfcfc;border-bottom: 1px solid #b5b5b5;padding-left: 10px;font-size: 18px;}
     .listp a{font-size: 18px;color: #454545;  font-family: 'Roboto', sans-serif;}
     .listhd{border-radius: 5px 5px 0px 0px;padding: 12px;background-color: #343434;}
@@ -95,9 +95,10 @@
 /* s:prod detail*/
 
 
-.lmtd{display:none;}
+.lmtd{display:block;}
+.lmt{display: none;}
 .lmd{width: 300px; height: auto;margin: auto;border: px solid green}
-.mainimg{height: 250px;width: 250px; margin: auto;border: px solid }
+.mainimg,.mainimg_con{height: 250px;width: 250px; margin: auto;border: px solid }
 
 .img_con{width: 210px;height: auto;border:px solid red;margin: auto;display: flex;justify-content: center;align-items: center;}
 .img_con img{width: 70px;}
