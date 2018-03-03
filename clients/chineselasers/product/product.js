@@ -50,8 +50,7 @@ function imageop(n){
     
 }
 
-imageop(0);
-imageop(4);
+
 
 
 subimg[0].addEventListener('click',function(){imageop(0);},false);
@@ -114,8 +113,6 @@ function pmenu(n){
     
       
 }
-pmenu(0);
-pmenu(4);
 
 
 listm1[0].addEventListener('click',function(){pmenu(0);},false);
@@ -149,7 +146,9 @@ function pclose(n){
     
 }
 
-lmt[0].addEventListener('click',function(){popen(0);},false);
-lmt[1].addEventListener('click',function(){popen(1);},false);
+lmt[0].addEventListener('click',function(){popen(0);imageop(0);pmenu(0);
+},false);
+lmt[1].addEventListener('click',function(){popen(1);;
+imageop(4);pmenu(4);},false);
 closex[0].addEventListener('click',function(){pclose(0);},false);
 closex[1].addEventListener('click',function(){pclose(1);},false);
