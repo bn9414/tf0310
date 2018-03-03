@@ -29,17 +29,39 @@ function imageop(n){
      mainimg[1].style.display="none";
      mainimg[2].style.display="none";
      mainimg[3].style.display="none";
+    mainimg[4].style.display="none";
+     mainimg[5].style.display="none";
+     mainimg[6].style.display="none";
+     mainimg[7].style.display="none";
+    
+    subimg[0].style.border="1px solid #ffffff";
+    subimg[1].style.border="1px solid #ffffff";
+    subimg[2].style.border="1px solid #ffffff";
+    subimg[3].style.border="1px solid #ffffff";
+        subimg[4].style.border="1px solid #ffffff";
+    subimg[5].style.border="1px solid #ffffff";
+    subimg[6].style.border="1px solid #ffffff";
+    subimg[7].style.border="1px solid #ffffff";
+    
+    subimg[n].style.border="1px solid #b5b5b5";
     
      mainimg[n].style.display="block";
+     mainimg[n].className="mainimg mmani"
+    
 }
 
 imageop(0);
+imageop(4);
 
 
 subimg[0].addEventListener('click',function(){imageop(0);},false);
 subimg[1].addEventListener('click',function(){imageop(1);},false);
 subimg[2].addEventListener('click',function(){imageop(2);},false);
 subimg[3].addEventListener('click',function(){imageop(3);},false);
+subimg[4].addEventListener('click',function(){imageop(4);},false);
+subimg[5].addEventListener('click',function(){imageop(5);},false);
+subimg[6].addEventListener('click',function(){imageop(6);},false);
+subimg[7].addEventListener('click',function(){imageop(7);},false);
 
 
 
@@ -62,51 +84,72 @@ function pmenu(n){
     listm1[1].style.backgroundColor="#ffffff";
     listm1[2].style.backgroundColor="#ffffff";
     listm1[3].style.backgroundColor="#ffffff";
+     listm1[4].style.backgroundColor="#ffffff";
+    listm1[5].style.backgroundColor="#ffffff";
+    listm1[6].style.backgroundColor="#ffffff";
+    listm1[7].style.backgroundColor="#ffffff";
        
     menup[0].style.color="#454545";
     menup[1].style.color="#454545";
     menup[2].style.color="#454545";
     menup[3].style.color="#454545";
+        menup[4].style.color="#454545";
+    menup[5].style.color="#454545";
+    menup[6].style.color="#454545";
+    menup[7].style.color="#454545";
     
     det1[0].style.display="none";
      det1[1].style.display="none";
      det1[2].style.display="none";
      det1[3].style.display="none";
+        det1[4].style.display="none";
+     det1[5].style.display="none";
+     det1[6].style.display="none";
+     det1[7].style.display="none";
     
      det1[n].style.display="block";
-     listm1[n].style.backgroundColor="#2193A8";
+     
+ listm1[n].style.backgroundColor="#2193A8";
      menup[n].style.color="#fcfcfc";
     
       
 }
 pmenu(0);
+pmenu(4);
 
 
 listm1[0].addEventListener('click',function(){pmenu(0);},false);
 listm1[1].addEventListener('click',function(){pmenu(1);},false);
 listm1[2].addEventListener('click',function(){pmenu(2);},false);
 listm1[3].addEventListener('click',function(){pmenu(3);},false);
+listm1[4].addEventListener('click',function(){pmenu(4);},false);
+listm1[5].addEventListener('click',function(){pmenu(5);},false);
+listm1[6].addEventListener('click',function(){pmenu(6);},false);
+listm1[7].addEventListener('click',function(){pmenu(7);},false);
 
 
 var lmt= document.getElementsByClassName('lmt');
 var lmtd= document.getElementsByClassName('lmtd');
 var closex= document.getElementsByClassName('closex');
 
-function popen(){
+function popen(n){
     
-    lmtd[0].style.display="block";
+    
     lmt[0].style.display="none";
        lmt[1].style.display="none";
+    lmtd[n].style.display="block";
     
 }
 
-function pclose(){
+function pclose(n){
     
-    lmtd[0].style.display="none";
+    lmtd[n].style.display="none";
     lmt[0].style.display="flex";
        lmt[1].style.display="flex";
     
 }
 
-lmt[0].addEventListener('click',popen,false);
-closex[0].addEventListener('click',pclose,false);
+lmt[0].addEventListener('click',function(){popen(0);},false);
+lmt[1].addEventListener('click',function(){popen(1);},false);
+closex[0].addEventListener('click',function(){pclose(0);},false);
+closex[1].addEventListener('click',function(){pclose(1);},false);
