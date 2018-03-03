@@ -95,8 +95,8 @@
 /* s:prod detail*/
 
 
-.lmtd{display:block;}
-.lmt{display: none;}
+.lmtd{display:none;}
+
 .lmd{width: 300px; height: auto;margin: auto;border: px solid green}
 .mainimg,.mainimg_con{height: 250px;width: 250px; margin: auto;border: px solid }
 
@@ -130,5 +130,23 @@ table, th, td {
 
 
 .closex{width: 30px;position: absolute;top: 0px;right: 5px;}
+
+@media screen and (min-width: 1100px ){
+    .lmsec1{display: flex;}
+    .lmtd{;margin: 5px;border-radius: 10px;border: 1px solid #b5b5b5;min-height: 550px;width: 100%;}
+    .closex{right: 10px;top: 10px;}
+    .img_con{position: relative;left: 20px;}
+    
+     .mainimg{border-radius: 10px;}
+    .lmd{border-radius: 5px 0px 0px 0px;}
+    .det1 img{width: 30%;border: 0px solid}
+    .detimg{display: flex;justify-content: center;align-items: center;width: 100%;}
+    .lt1{margin-left: 30px;}
+    
+
+}
+    
+    
+}
 
 /* e:prod detail*/
