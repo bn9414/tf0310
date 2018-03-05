@@ -4,17 +4,41 @@ textarea:focus, input:focus,select:focus{
     outline: none;
 }
 
+.conbg{width: 100%; position: relative;overflow: hidden;}
+.conbg img{width: 250%;position: relative;left: -180px;}
+.conbg h1{color: #2193A8;position: absolute;left: 20px;top:140px;z-index: 1; }
+.conbg p{color: #454545;position: absolute;left: 20px;top:180px;z-index: 1;font-size: 20px;}
+.cont_con{width: 100%;height: auto;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.con1{width: 98%; height: auto; border: 1px olid;margin: auto;position: relative;top: 0px;background-color: #454545;border-radius: 5px 5px 0px 0px;padding: 10px 5px;;}
+.con1 h2{color: #fcfcfc;text-align: center;padding: 20px 0px}
+.citem p{color: #fcfcfc;padding-left: 10px;}
+.citem{display: flex;justify-content: flex-start;align-items: center;padding-left: 20px;margin: 15px 0px}
+.citem img{width: 40px;height: 50px;}
 
-.main_con{width: 100%; height: auto;display: flex;flex-direction: column;justify-content: center;align-items: center;}
-.map,.info{width: 100%;height: 500px;border: 1px olid black; }
-.info{height: auto;background-color: #e9f9f3;padding: 30px 5px;}
-.map{order: 1;border: 1px olid black;overflow: hidden}
-.map iframe{height: 100%;width: 100%;}
-.reach{ display: flex;flex-direction: column;justify-content: center;align-items: center}
-.reach img{width: 50px;padding-bottom: 10px}
-.reach .rbox{display: flex;flex-direction: column;justify-content: center;align-items: center;margin: 5px auto;}
-.reach div p{text-align: center;}
-.reach h1,.let h1{padding-bottom: 10px;font-size: 20px;text-align: center;padding-top: 15px;}
+
+
+.map{width: 90%;height: 200px;border: 1px olid black;margin: auto;margin-top: 40px; }
+
+.map{border: 1px olid black;overflow: hidden}
+.map iframe{height: 100%;width: 100%;
+   -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
+
+}
+
+.con2{width: 98%; height: auto;background-color: #fcfcfc;border: 1px olid;padding-top: 10px;}
+.swit{display: flex;justify-content: center;align-items: center;}
+.swit1{width: 70px;height: 70px;display: flex;flex-direction: column;justify-content: space-between;align-items: center; transition: filter 0.5s;color: red;margin: 0px 5px;
+  
+}
+.swit1g{
+       -webkit-filter: grayscale(1000%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(1000%);}
+.switp{transition: color 0.5s;}
+.swit1 img{width: 50px;}
+.swit1 p{font-size: 18px;,color 0.5s;}
+
+
 
 
 
@@ -75,7 +99,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 #clet5 textarea:focus{border: 1px solid rgba(37,196,133,1);}
 
 
-#ffsubmit{ border-style: none; border-radius: 5px;  color:white;background-image: url(images/mailsend.png); font-size: 22px;  height: 40px; background-color:#41cab1;  background-repeat: no-repeat; background-position: 93px 10px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s; height: 50px;
+#ffsubmit{ border-style: none; border-radius: 5px;  color:white;background-image: url(images/mailsend.png); font-size: 22px;  height: 40px; background-color:#2193a8;  background-repeat: no-repeat; background-position: 93px 10px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s; height: 50px;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);position: relative;top: -5px;right: -30px;
     
   
@@ -88,22 +112,8 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 .cont_con *{border: 1px olid}
 
 
-
-
 @media screen and (min-width:900px){
-    .main_con{display: flex;flex-direction: row}
-    .map{order: -1;height: 580px;}
-.reach{width: 100%;}
-.reachtxt{ display: flex;width: 100%;}
-.rbox{width: 140px;}
     
-    .cont_con{display: flex;flex-direction: row;}
-    .you,.we{padding-top: 20px;padding-bottom: 20px}
-    .cinfo{padding-top: 80px; display: flex;flex-direction: row;}
-    .cinfo1{width: 50%;}
-    .cinfo1 div,.cinfo2 div{padding-bottom: 50px;}
-    .cinfo2{width: 50%;}
-    .form{}
     .set12{display: flex;flex-direction: row;}
     .set3{display: flex;width: 100%;position: relative;left: px}
     #clet5 { height: 100px;width: 65%;}
@@ -111,4 +121,3 @@ textarea::placeholder{color: #717171; font-size: 16px; }
     #cletf6{width: 30%;position: relative;left: -20px;padding-left: 0px}
     
 }
-

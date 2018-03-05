@@ -6,10 +6,10 @@
 <title></title>
 <g>
 	<title>Layer 1</title>
-	<path id="svg_1" fill="none" stroke="#2193A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M37.23,30
+	<path id="svg_1" fill="none" stroke="#FCFCFC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M37.23,30
 		c2.438-3.45,4.35-7.15,4.35-11.57c0-9.665-7.835-17.5-17.5-17.5s-17.5,7.835-17.5,17.5c0,5.72,2.92,9.66,6.24,14L23.91,47
 		c0.2,0.26,3.85-4.609,4.16-5c1.398-1.793,2.785-3.598,4.16-5.41C33.859,34.41,35.66,32.27,37.23,30z"/>
 	
-		<ellipse id="svg_2" fill="none" stroke="#2193A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="24.09" cy="18" rx="8.04" ry="8"/>
+		<ellipse id="svg_2" fill="none" stroke="#FCFCFC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="24.09" cy="18" rx="8.04" ry="8"/>
 </g>
 </svg>
