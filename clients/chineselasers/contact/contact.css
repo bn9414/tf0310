@@ -4,7 +4,7 @@ textarea:focus, input:focus,select:focus{
     outline: none;
 }
 
-.conbg{width: 100%; position: relative;overflow: hidden;}
+.conbg{width: 100%; position: relative;overflow: hidden;box-shadow: 5px 10px 50px 0px rgba(20, 20, 20, 0.2);}
 .conbg img{width: 250%;position: relative;left: -180px;}
 .conbg h1{color: #2193A8;position: absolute;left: 20px;top:140px;z-index: 1; }
 .conbg p{color: #454545;position: absolute;left: 20px;top:180px;z-index: 1;font-size: 20px;}
