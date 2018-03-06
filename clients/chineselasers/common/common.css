@@ -252,6 +252,7 @@ body.home  .dmn1 span{width: 60px;}
 .foot3 h2,.foot2 h2{text-align: left;color: #fcfcfc;font-size: 16px;font-weight: 600;padding-left: 5px;margin-bottom: 5px;padding-bottom: 7px;border-bottom: 1px solid #b5b5b5}
 .foot3 a,.foot2 a{text-align: left;padding-left: 5px;color: #fcfcfc;margin: 4px 0px}
     .ftp1,.ftp2{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;margin-right: 30px}
+
 @media screen and (min-width:700px){
     .foot1 p{width: 180px;margin-top: 20px;}
     .foot_con a{font-size: 17px;}
