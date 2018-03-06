@@ -57,20 +57,20 @@ body.home  .dmn1 span{width: 60px;}
 
 /*&& s:navigation bar &&*/
 
-#nav_bar{width: 100%; height: 55px; background-color: #fcfcfc; box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.1);  z-index: 10; position: relative;transition: box-shadow 0.5s;}
+#nav_bar{width: 100%; height: 55px; background-color: #c56d07; box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.1);  z-index: 10; position: relative;transition: box-shadow 0.5s;}
 
 
 /* s: mnav*/
 #nav_line{ width: 35px; height: 35px; margin: 0px; padding: 0px; position: absolute; right: 20px; top: 13px;z-index: 8; }
-.line{list-style: none; border: 2px solid #2d2d2d; margin: 5px 0px; position: relative; transition:  rotate 1s, top 1s, bottom 1s, opacity 0.4s; }
+.line{list-style: none; border: 2px solid #fcfcfc; margin: 5px 0px; position: relative; transition:  rotate 1s, top 1s, bottom 1s, opacity 0.4s; }
 /*
 .l1{transform: rotate(15deg);top: 9px;}
 .l2{transform: rotate(15deg);}
 .l3{transform: rotate(15deg);bottom: 9px;}*/
 
 .main_menu{display: none;}
-#inlogo{position: absolute; left:-1%;top: -10px }
-#inlogo_m{border: 1px olid black; width: 55px; height: 55px; margin: auto; display: block; padding-top: 10px; box-sizing: content-box;  }
+#inlogo{position: absolute; left:2%;top: -10px }
+#inlogo_m{border: 1px olid black; width: 145px; height: 55px; margin: auto; display: block; padding-top: 10px; box-sizing: content-box;  }
 
 /* s: menu lines ani */
 #nav_line{transform: rotate(00deg)}
@@ -157,17 +157,18 @@ body.home  .dmn1 span{width: 60px;}
 .b{transform: scale(1.05);}
 
 
-@media screen and (min-width:640px){
+@media screen and (min-width:900px){
     .dmn1,.dmn2,.dmn3,.dmn4,.dmn5,.dmn6{display: flex;}
    
    /* start:p_menu */
 
-.pmenu{width: 220px; height: auto; border: 1px solid #25C485;position: absolute;border-radius: 10px;background-color: #f9f9f9;top: 60px;left: -20px; display:none;z-index:-1;}
+.pmenu{width: 220px; height: auto; border: 1px solid #F39237;position: absolute;border-radius: 10px;background-color: #f9f9f9;top: 60px;left: -20px; display:none;z-index:-1;}
+    .dmenu p{color:#fcfcfc}
 .pmenu a{padding-left: 10px;border-bottom: 1px #b5b5b5 solid; color: #343434;display: block;margin: 5px;padding: 5px 0px 5px 10px;color: #676C6F;font-family: 'Slabo 27px', serif;font-size: 18px;font-family: 'Roboto', sans-serif;transition: border-bottom 0.5s;}
    .hover_track{width: 140px; height:  40px; position: absolute;left: -10px;top: 20px; }
     .pmenu{animation-name: pmenuop;animation-duration: 1s;animation-fill-mode: forwards;}
  .dmn3:hover .pmenu{display: block}
-    .pmenu a:hover {border-bottom: 1px solid #25C485;color: #25C485 }
+    .pmenu a:hover {border-bottom: 1px solid #F39237;color: #F39237 }
     @keyframes pmenuop {
         from{opacity: 0;}
         to{opacity: 1;}
@@ -177,10 +178,11 @@ body.home  .dmn1 span{width: 60px;}
 #border_ex{border-bottom: 0px;}
 
 /* end:p_menu */
-    .dmenu_con{display: flex;justify-content: center;align-items: center;}
+    .dmenu_con,.menuarray{display: flex;justify-content: center;align-items: center;border: 1px olid}
+    .dmenu_con{justify-content: space-between}
     .dmenu{border: 1px olid black;  height:auto;margin: auto 5px;font-size: 15px;position: relative;display: flex;justify-content: center;flex-direction: column;border: 1px olid black}
     
-      .dmenu span{border-bottom: solid 2px #25C485;width: 0px;margin: auto;transition: width 0.5s;display: ;}
+      .dmenu span{border-bottom: solid 2px #fcfcfc;width: 0px;margin: auto;transition: width 0.5s;display: ;}
     .dmn1{width: 40px;}
      .dmn1:hover span{width: 40px;}
     .dmn2{width: 90px;}
@@ -205,10 +207,10 @@ body.home  .dmn1 span{width: 60px;}
 
 
 }
-@media screen and (min-width:830px){
+@media screen and (min-width:930px){
   
     #inlogo{top: -2px }
-#inlogo_m{width: 60px; height: 60px;padding-top: 0px}
+#inlogo_m{width: 235px;height: 60px; padding-top: 0px}
     #nav_line{ top:16px}
     .dmenu{font-size: 18px;}
     .dmenu img{top: 0px;left: 85%;}
@@ -230,7 +232,7 @@ body.home  .dmn1 span{width: 60px;}
        
     #nav_bar{height: 65px;}
         #inlogo{top: -4px }
-#inlogo_m{width: 70px; height: 70px;padding-top: 2px;}
+#inlogo_m{padding-top: 7px;}
   
 }
 
@@ -239,19 +241,32 @@ body.home  .dmn1 span{width: 60px;}
 /*  ----------------- start:footer section------------------*/
     
 
-.footer{width: 100%; height: 50px; position: absolute; bottom: 0px;background-color:#454545; }
-
-.copyright p{color: #f9f9f9; text-align: center;font-size: 15px;}
-.copyright{width: 100%; border: 1px olid black; position: absolute; bottom: 12px;width: 100%;padding-bottom: 3px}
-
-
-@media screen and (min-width:500px){
-    .
-    .copyright{width:25%;}
-    .copyright p{width: 100%; margin: auto;}
+.footer{width: 100%; height: auto; position: absolute; bottom: 0px;background-color:#454545;;overflow: hidden;padding-bottom: 3px}
+.footer img{width: 200px;margin: auto;}
+.footer p{color: #fcfcfc;text-align: center;font-size: 14px;width: 80%;}
+.foot_con{display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 7px}
+.foot1{margin: uto;border: 1px olid;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.copyright p{color: #f9f9f9; text-align: center;font-size: 14px;}
+.copyright{width: 100%; border: 1px olid black;  bottom: 2px;width: 100%;padding-bottom: 0px;border: 1px olid;display: flex;justify-content: center;align-items: center;background-color: #867a6f}
+.foot3,.foot2{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;width: 100%;border: 1px olid;padding: 5px 0px;}
+.foot3 h2,.foot2 h2{text-align: left;color: #fcfcfc;font-size: 16px;font-weight: 600;padding-left: 5px;margin-bottom: 5px;padding-bottom: 7px;border-bottom: 1px solid #b5b5b5}
+.foot3 a,.foot2 a{text-align: left;padding-left: 5px;color: #fcfcfc;margin: 4px 0px}
+    .ftp1,.ftp2{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;margin-right: 30px}
+@media screen and (min-width:700px){
+    .foot1 p{width: 180px;margin-top: 20px;}
+    .foot_con a{font-size: 17px;}
+    .foot_con{display: flex;flex-direction: row;justify-content: center;;align-items: flex-start;}
+    .ftp1,.ftp2{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;margin-right: 30px}
+    .ftp_cont{display: flex;}
+    .foot1{width: auto;margin: 0px 30px}
+    .foot2{width:auto;margin: 0px 30px}
+    .foot3{width: auto;margin: 0px 30px}
+    .copyright{width:100%;}
+    .copyright p{width: 100%; margin: auto;font-size: 15px;padding: 10px 0px;}
  
    
     body{padding-bottom: 100px;}
+    .foot3 h2,.foot2 h2{font-size: 19px;}
 }
 
 

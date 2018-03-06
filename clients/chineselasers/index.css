@@ -1,6 +1,74 @@
 * p{font-size: 18px;}
-.slide{width: 100%; height: 500px; border: 2px solid}
 body{padding-bottom: 20px;}
+.slide{width: 100%;overflow: hidden;height: auto; position: relative;}
+.slide img{width: 180%; position: relative;left: -120px;top: px}
+.slidehd{position: absolute;font-size: 25px;left: 0px;top: 50px;padding-left: 5px;}
+.slidehdbrk{display: block;}
+.slidehdbrk span{font-family: 'Pacifico', cursive;color: #F39237;font-size: 25px}
+
+.downbox{width: 100%; height: auto;margin-bottom: 0px; background-color:#4d4d4f;position: relative;top: px;}
+.downbox p{color: #fcfcfc;font-size: 20px;text-align: center;}
+.downbrk{display: block;}
+.deco{font-family: 'Pacifico', cursive;color: #F39237;}
+.yellowbox{width: 100%;height: 20px;background-color: #FFE066;opacity: 0.8;position: absolute;bottom: 0px}
+@media screen and (min-width:350px){
+    .slidehd{font-size: 23px;top: 80px;}   
+    .downbox p{font-size: 25px;}
+        .slidehdbrk span{font-size: 28px}
+    .slide img{width: 170%;position: relative;left: -150px;}
+}
+
+@media screen and (min-width:450px){
+        .slide img{width: 160%;position: relative;left: -150px;}
+    .slidehd{font-size: 30px;top: 80px;}   
+    .downbox p{font-size: 30px;}
+    .slidehdbrk span{font-size: 40px}
+    
+}
+@media screen and (min-width:550px){
+        .slide img{width: 140%;position: relative;left: -150px;}
+    .slidehd{font-size: 30px;top: 80px;}   
+    .downbox p{font-size: 30px;}
+    .slidehdbrk span{font-size: 40px}
+    
+}
+@media screen and (min-width:700px){
+        .slide img{width: 100%;position: relative;left: -0px;}
+    .slidehd{font-size: 40px;top: 80px;}   
+    .downbox p{font-size: 30px;}
+    .slidehdbrk span{font-size: 45px}
+    
+}
+@media screen and (min-width:1000px){
+        .slide img{width: 100%;position: relative;left: -0px;}
+    .slidehd{font-size: 65px;top: 130px;}   
+    .downbox p{font-size: 35px;}
+    .slidehdbrk span{font-size: 55px;}
+    .downbrk{display: inline-block;padding: 20px 0px;}
+    .yellowbox{height: 30px;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .sermhd{text-align: center;font-size: 23px;margin-bottom: 25px;}
 .mspan{color: #F39237;}
 
