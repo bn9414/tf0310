@@ -72,11 +72,11 @@ background: linear-gradient(to right, #38ef7d, #11998e);
    .jhd3{position: relative;left: -40px; opacity: 0;transition: left 1s,opacity 1s;}
  .jtar1{position: relative;top: 60px; opacity: 0;transition: top 1s,opacity 1s;}
  .jtar2{position: relative;top: 60px; opacity: 0;transition: top 1.5s,opacity 1s;}
-    body{padding-bottom: 30px}
+  
 @media screen and (min-width:650px){
     .price{display: flex;width: 100%; height: auto;justify-content: center;align-items: flex-start}
     .sec2{background-image: url(images/bottom.svg);background-repeat: no-repeat;background-position: 0%  480px }
-    body{padding-bottom: 50px;}
+   
     .jhd3{position: relative;left: -40px; opacity: 0px;transition: left 1s,opacity 1s;}
 
 }

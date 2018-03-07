@@ -168,8 +168,15 @@ table, th, td {
     .enq a{font-size: 20px;}
 
 }
+  
+
+@media screen and (min-width: 600px ){
     
-    
+    #eximg{width: 80%;}
 }
+    
+
+
+
 
 /* e:prod detail*/
