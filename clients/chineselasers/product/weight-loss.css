@@ -1,4 +1,7 @@
+.lmt,.closex,.subimg{cursor: pointer;}
+
 /* s: header image*/
+
 .prod_hd{width: 100%; overflow: hidden;position: relative}
 .prod_hd img{width: 160%;position: relative;left: -120px;}
 
