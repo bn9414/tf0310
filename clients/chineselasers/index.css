@@ -309,7 +309,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 
    
-.testi{width: 100%; height: auto;  border:1px olid green;overflow: hidden;padding: 0px 0px;padding-bottom: 50px;margin-top: 50px;}
+.testi{width: 100%; height: auto;  border:1px olid green;overflow: hidden;padding: 0px 0px;padding-bottom: 50px;margin-top: 0px;}
 .testi h1{color: #F39237;font-size: 23px;text-align: center;margin-bottom: 50px;border: 1px olid;}
 .testi span{color: #454545}
 
