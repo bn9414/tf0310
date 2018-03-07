@@ -50,7 +50,7 @@
 }
 
 
-
+.slidehd{left: -50px;opacity: ;transition: opacity 1s,left 1s;}
 
 
 
@@ -270,6 +270,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 .inbox{width: 130px;height: 130px;border: 1px solid #b5b5b5;display: flex;flex-direction: column;justify-content: space-between;align-items: center;margin: 5px;}
 .inbox img{width: 70px;}
 .inbox p{text-align: center;}
+.intr{background-color:#F9F9F9;padding: 15px 0px;}
 
 @media screen and (min-width:800px){
     .intr{display: flex;border: 1px olid;justify-content: center;align-items: center} 
@@ -326,10 +327,11 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 .psidehd{display: none;}
 @media screen and (min-width:880px){
     .testihd{display: none;}
-    .tblock{display: flex;width: 90%;justify-content: center;align-items: flex-start;padding-top: 50px;}
+    .tbase{background-image: url(images/tbg.jpg);}
+    .tblock{display: flex;width: 90%;justify-content: center;align-items: flex-start;padding-top: 100px;}
     .tblock p{font-size: 17px;}
     .testi{padding-bottom: 0px;border: 1px olid;padding-top: 0px;background-color: #ffffff;height: 400px;}
-    .tall{width: 28%;box-shadow: none;background-color: #F2F2F2;border-radius: 5px;margin: 10px}
+    .tall{width: 28%;box-shadow: one;background-color: #FcFcFc;border-radius: 5px;margin: 10px;}
     .tbase{display: flex;justify-content: space-between;}
     .psidehd{width: 100px; height: 400px;
     
@@ -345,7 +347,7 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 
 
 @media screen and (max-width:880px){
-
+  
 .tswitch,.wswitch{width: 60%; height: 50px;border: 1px olid;margin: auto;margin-top: 30px;display: flex;justify-content: space-between;align-items: center;}
 .tswit,.wswit{width: 30px; height: 30px; border-radius: 50%; background-color: #454545;display: flex;}
 .tsin,.wsin{width: 20px; height: 20px;background-color: #454545;border-radius: 50%;margin: auto;border: 3px solid #fcfcfc;box-sizing: content-box}
@@ -366,5 +368,6 @@ textarea::placeholder{color: #717171; font-size: 16px; }
 }
 
 }
+
 
 /*e: Testimonial*/

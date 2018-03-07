@@ -4,14 +4,12 @@
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
         	
-    var slh= document.getElementsByClassName('slh');
-        var slp= document.getElementsByClassName('slp');
+    var slidehd= document.getElementsByClassName('slidehd');
+    
         
 function portfullf(){
-   slh[0].style.opacity="1";
-    slh[0].style.left="0px";
-    slp[0].style.opacity="1";
-    slp[0].style.left="0px";
+   slidehd[0].style.opacity="1";
+    slidehd[0].style.left="0px";
     
     
 }

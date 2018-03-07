@@ -6,11 +6,17 @@
 .keyword h1{font-size: 20px;text-align: center;color: #fcfcfc;margin: 20px;}
 .keybox{width: 100%; height: auto;display: flex;justify-content: center;flex-direction: column;align-items: center;padding-bottom: 20px;}
 .keyb1 {width: 150px;height: 200px; display: flex;flex-direction: column;justify-content: center;align-items: center;margin: 10px; background-color: #272425;transition: background-color 0.5s,color 0.5s;}
-.keyb1 p {color: #fcfcfc;margin: 20px;font-size: 18px;}
+.keyb1 p {color: #fcfcfc;margin: 20px;font-size: 18px;text-align: center}
 .keyb1:hover {background-color: #fcfcfc;}
 .keyb1:hover p{color: #25C485;}
 .kimg {background-image: url(images/keyw.svg);width: 80px; height: 80px;background-repeat: no-repeat;border: 1px olid white;background-position: 50%;transition: background-image 0.5s;}
+.kmg3{background-image: url(images/relw.svg);width: 80px; height: 80px;background-repeat: no-repeat;border: 1px olid white;background-position: 50%;transition: background-image 0.5s;}
+.kmg2{background-image: url(images/inow.svg);width: 80px; height: 80px;background-repeat: no-repeat;border: 1px olid white;background-position: 50%;transition: background-image 0.5s;}
+.kmg4{background-image: url(images/lifw.svg);width: 80px; height: 80px;background-repeat: no-repeat;border: 1px olid white;background-position: 50%;transition: background-image 0.5s;}
 .keyb1:hover .kimg {background-image: url(images/keyg.svg); }
+.kb3:hover .kmg3 {background-image: url(images/relg.svg); }
+.kb2:hover .kmg2 {background-image: url(images/inog.svg); }
+.kb4:hover .kmg4 {background-image: url(images/lifg.svg); }
 
 .ktxt{position: relative;top: 30px;opacity: 0; transition: top 1s,opacity 1s;}
 .kimg{position: relative;opacity: 0; top: -30px;transition: top 1s,opacity 1s;}
@@ -63,7 +69,7 @@
 
 
 
-.mv{width: 100%;height: 500px; background-image: url(images/mvbg.svg);background-repeat: no-repeat;background-size: 1800px 800px;overflow: hidden;display: flex;flex-direction: column;justify-content: center;align-items: center;border: 1px olid black;padding-top: 100px;padding-bottom: 30px;}
+.mv{width: 100%;min-height:  400px; background-image: url(images/mvbg.svg);background-repeat: no-repeat;background-size: 1800px 800px;overflow: hidden;display: flex;flex-direction: column;justify-content: center;align-items: center;border: 1px olid black;padding-top: 100px;padding-bottom: 30px;padding-top: }
 .mv p{font-size: 20px;text-align: justify;margin: 10px;}
 .mv h1{color: #25C485;font-size: 60px;text-align: center;}
 .mist span{width: 50px; height: 50px;background-image: url(images/mis.svg);border: 1px olid black;display: inline-block;background-repeat: no-repeat;background-size: contain;}
@@ -73,7 +79,7 @@
 
 @media screen and (min-width:800px)
 { .mv p{padding: 10px 50px;}
-
+    
     .mv{display: flex;justify-content: center;align-items: center;flex-direction: row}
     .mv div{width: 50%; height: auto;border: 0px solid black;justify-content: flex-start;align-items: center;display: flex;flex-direction: column}
     
