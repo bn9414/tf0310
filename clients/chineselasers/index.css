@@ -1,7 +1,7 @@
 
 
 .slide{width: 100%;overflow: hidden;height: auto; position: relative;}
-.slide img{width: 180%; position: relative;left: -100px;top: px}
+.slide img{width: 180%; position: relative;left: -100px;}
 .slidehd{position: absolute;font-size: 23px;left: 0px;top: 50px;padding-left: 5px;}
 .slidehdbrk{display: block;}
 .slidehdbrk span{font-family: 'Pacifico', cursive;color: #F39237;font-size: 25px}
@@ -40,7 +40,12 @@
     
 }
 @media screen and (min-width:1000px){
-        .slide img{width: 100%;position: relative;left: -0px;}
+        .slide img{width: 100%;position: relative;left: 0px; transition: left 1s;animation-duration: 1s;animation-fill-mode: forwards;}
+    .slani{animation-name: slani;}
+    @keyframes slani{
+        from{transform: scale(1.2);}
+        to{transform: scale(1.0);}
+    }
     .slidehd{font-size: 65px;top: 130px;}   
     .downbox p{font-size: 35px;}
     .slidehdbrk span{font-size: 55px;}

@@ -5,11 +5,13 @@
 		$(".se-pre-con").fadeOut("slow");;
         	
     var slidehd= document.getElementsByClassName('slidehd');
+            var slmgj= document.getElementsByClassName('slmgj');
     
         
 function portfullf(){
    slidehd[0].style.opacity="1";
     slidehd[0].style.left="0px";
+    slmgj[0].className="slmgj slani";
     
     
 }
