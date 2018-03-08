@@ -8,7 +8,7 @@
 .keyb1 {width: 150px;height: 200px; display: flex;flex-direction: column;justify-content: center;align-items: center;margin: 10px; background-color: #272425;transition: background-color 0.5s,color 0.5s;}
 .keyb1 p {color: #fcfcfc;margin: 20px;font-size: 18px;text-align: center}
 .keyb1:hover {background-color: #fcfcfc;}
-.keyb1:hover p{color: #25C485;}
+.keyb1:hover p{color: #2193A8;}
 .kimg {background-image: url(images/keyw.svg);width: 80px; height: 80px;background-repeat: no-repeat;border: 1px olid white;background-position: 50%;transition: background-image 0.5s;}
 .kmg3{background-image: url(images/relw.svg);width: 80px; height: 80px;background-repeat: no-repeat;border: 1px olid white;background-position: 50%;transition: background-image 0.5s;}
 .kmg2{background-image: url(images/inow.svg);width: 80px; height: 80px;background-repeat: no-repeat;border: 1px olid white;background-position: 50%;transition: background-image 0.5s;}
@@ -38,7 +38,7 @@
 .whwh_hd{width: 200px; height: 80px; border: 1px olid black;display: flex;justify-content: center;align-items: center;}
 .whimg{width: 80px; height: 80px;border: 1px olid black;background-image: url(images/w.png);background-repeat: no-repeat;background-size: contain}
 .whtxt{width: 120px; height: 80px;border: 1px olid black;font-size: 22px;padding: 10px 0px;position: relative;left: -30px;opacity: 0; transition: left 1s,opacity 1s;}
-.whtxt p{color: #25C485}
+.whtxt p{color: #2193a8}
  .whtxt span{position: relative;top: 15px;}
 .whdes{margin: 20px 10px;}
 .whdes p{text-align: justify;color: #454545;font-size: 18px;}
@@ -71,7 +71,7 @@
 
 .mv{width: 100%;min-height:  400px; background-image: url(images/mvbg.svg);background-repeat: no-repeat;background-size: 1800px 800px;overflow: hidden;display: flex;flex-direction: column;justify-content: center;align-items: center;border: 1px olid black;padding-top: 100px;padding-bottom: 30px;padding-top: }
 .mv p{font-size: 20px;text-align: justify;margin: 10px;}
-.mv h1{color: #25C485;font-size: 60px;text-align: center;}
+.mv h1{color: #2193A8;font-size: 60px;text-align: center;}
 .mist span{width: 50px; height: 50px;background-image: url(images/mis.svg);border: 1px olid black;display: inline-block;background-repeat: no-repeat;background-size: contain;}
 
 .vist span{width: 50px; height: 50px;background-image: url(images/vis.svg);border: 1px olid black;display: inline-block;background-repeat: no-repeat;background-size: contain;margin: 0px 5px}
