@@ -131,7 +131,7 @@ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, F
 /*  && e:navigation bar &&*/
     
 /* start: menu listing */
-.menu_con{width: 100%; height:600px;; background-color: #fcfcfc;display: none;padding-top: 70px;position: fixed;z-index: 2;transition: transform 0.5s, opacity 0.5s;position: relative;overflow: hidden;}
+.menu_con{width: 100%; height:auto; background-color: #fcfcfc;display: none;padding-top: 70px;position: fixed;z-index: 2;transition: transform 0.5s, opacity 0.5s;position: relative;overflow: hidden;}
 
 .black_lay{width: 130%; height: 100%; background-color: #2d2d2d;position: absolute;left:100%;top: -50px; transition: left 1s;   z-index: 6; }
 
@@ -139,7 +139,7 @@ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, F
 .mn img{width: 30px;position: relative; left:-8px;top: 3px;}
 .mn,.pmn{font-size: 34px;color: #2d2d2d;font-family: sans-serif;display: block; margin-bottom: 20px;margin-left: 20px;letter-spacing: 2px;font-weight: 600; opacity: 1;position: relative;transition: color 0.3s;font-family: 'Ubuntu', sans-serif;}
 .prod_menu{display: none;}
-.pmn{font-size: 20px;font-weight: 500;margin-left: 40px;opacity: 1}
+.pmn{font-size: 18px;font-weight: 500;margin-left: 40px;opacity: 1}
 .phead{font-size: 34px; font-weight: 600;margin-left: 12px;}
 .prodrow{display: flex;justify-content: flex-start
 ;align-items: center;border: 1px olid black}
@@ -173,13 +173,13 @@ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, F
    
    /* start:p_menu */
 
-.pmenu{width: 220px; height: auto; border: 1px solid #F39237;position: absolute;border-radius: 10px;background-color: #f9f9f9;top: 60px;left: -20px; display:none;z-index:-1;}
+.pmenu{width: 250px; height: auto; border: 1px solid #F39237;position: absolute;border-radius: 10px;background-color: #f9f9f9;top: 60px;left: -20px; display:none;z-index:-1;}
     .dmenu p{color:#fcfcfc}
-.pmenu a{padding-left: 10px;border-bottom: 1px #b5b5b5 solid; color: #343434;display: block;margin: 5px;padding: 5px 0px 5px 10px;color: #676C6F;font-family: 'Slabo 27px', serif;font-size: 18px;font-family: 'Roboto', sans-serif;transition: border-bottom 0.5s;}
+.pmenu a{padding-left: 10px;border-bottom: 1px #b5b5b5 solid; color: #343434;display: block;margin: 3px;padding: 5px 0px 5px 10px;color: #676C6F;font-family: 'Slabo 27px', serif;font-size: 16px;font-family: 'Roboto', sans-serif;transition: border-bottom 0.5s;}
    .hover_track{width: 140px; height:  40px; position: absolute;left: -10px;top: 20px; }
     .pmenu{animation-name: pmenuop;animation-duration: 1s;animation-fill-mode: forwards;}
  .dmn3:hover .pmenu{display: block}
-    .pmenu a:hover {border-bottom: 1px solid #F39237;color: #F39237 }
+    .pmenu a:hover {border-bottom: 1px solid #ed402b;color: #F39237 }
     @keyframes pmenuop {
         from{opacity: 0;}
         to{opacity: 1;}
