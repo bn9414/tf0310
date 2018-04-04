@@ -527,7 +527,7 @@ body,p{
     .tblock{display: flex;width: 90%;justify-content: center;align-items: flex-start;padding-top: 100px;}
     .tblock p{font-size: 17px;}
     .testi{padding-bottom: 0px;border: 1px olid;padding-top: 0px;background-color: #ffffff;height: 400px;}
-    .tall{width: 28%;box-shadow: one;background-color: #FcFcFc;border-radius: 5px;margin: 10px;}
+    .tall{width: 28%;box-shadow: one;background-color: #FcFcFc;border-radius: 5px;margin: 10px;min-height: 210px;}
     .tbase{display: flex;justify-content: space-between;}
     .psidehd{width: 100px; height: 400px;
     
