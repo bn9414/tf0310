@@ -36,9 +36,11 @@ body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
 
 #nav_right{}
 #nav_left{right: 22px;box-sizing: border-box;}
+#nav_left *{border: 1px olid}
 
 .rm{ display: block;  box-sizing: border-box; width: auto; height: 60px;font-size:17px;text-align: center; padding: 20px 10px;  transition: background-color 0.5s, color 0.5s ; }
-.nav_m1{width: 130px}
+.nav_m2{width: 130px}
+
 .hover_box{width: auto; height: 130%; display: block; border: 1px solid #f9f9f9;border-radius: 5px;padding: 0px 5px;display: flex;padding-top: 2px; align-items: center; justify-content: center;transition: border 0.5s;}
 
 /* END:right menu style*/
@@ -179,11 +181,11 @@ body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
 /*slider*/
 /* s: consult */
 
-.swit_con{width: 100%;}
+.swit_con{width: 100%;padding-bottom: 5px;}
   
-.bswitch{width: 20%; height: auto;padding:2px 0px;; border: 1px olid;margin: auto;margin-top: 0px;display: flex;justify-content: space-between;align-items: center;}
-.bswit,.bswit{width: 20px; height: 20px; border-radius: 50%; background-color: #454545;display: flex;}
-.bsin,.bsin{width: 10px; height: 10px;background-color: #454545;border-radius: 50%;margin: auto;border: 3px solid #fcfcfc;box-sizing: content-box}
+.bswitch{width: 15%;border: 1px solid height: auto;padding:px 0px;; border: 1px olid;margin: auto;margin-top: 0px;display: flex;justify-content: space-between;align-items: center;padding-bottom: 10p;}
+.bswit{width: 20px; height: 20px; border-radius: 50%; background-color: #454545;display: flex;}
+.bsin,.bsin{width: 10px; height: 10px;background-color: #454545;border-radius: 50%;margin: auto;border: 3px solid #fcfcfc;box-sizing: content-box;}
 
 
 @keyframes tsani{
@@ -193,7 +195,15 @@ body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
 }
 
 @media screen and (min-width:400px){
-    .bswitch{width: 60px;}
+    .bswitch{width: 60px;margin-bottom: 10px;}
+    
+}
+@media screen and (min-width:800px){
+    .bswitch{width: 80px;margin-bottom: 10px;}
+    
+    .bswit{width: 30px; height: 30px;}
+    .bsin,.bsin{width: 20px; height: 20px;}
+    
     
 }
 
@@ -208,7 +218,7 @@ body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
 .sch img{position: relative;margin: auto;width: 180%;vertical-align:middle;left: -20px;animation-name: tsani; animation-duration: 1s; animation-fill-mode: forwards;}
 .sidebg{width: 100%; height:auto;background-color: rgba(235,235,235,0.7);position: absolute;bottom: 0px;right: 0px;}
 
-.hdtxt h1{font-size: 20px;text-align: center;color: #19647E}
+.hdtxt h1{font-size: 20px;text-align: center;color: #19647E;margin: 0px;}
 .hdtxt p{font-size: 16px;text-align: center;}
 .hdtxt h1 span{font-family: 'Pacifico', cursive;font-weight: 100;font-size: 23px;}
 
