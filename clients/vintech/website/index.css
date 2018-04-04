@@ -400,6 +400,9 @@ body,p{
 .hed-pr h2 {
     font-size: 20px;
 }
+.btn-n a {
+    color: #fcfcfc !important;
+}
 /*mobile-view*/
 @media only screen and (min-width:600px){
     .btn-n{
@@ -442,10 +445,12 @@ body,p{
     .prd-an{
         display: flex;
         flex-direction: column;
+        
     }
     .prd-an a{
         font-size:18px;
         padding: 10px;
+        text-align: center;
     }
 }
 /*mobile-view-end*/
