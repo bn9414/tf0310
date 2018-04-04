@@ -1,5 +1,3 @@
-
-
 /* START: hl1 slide*/
 
 //paste this code under the head tag or in a separate js file.
@@ -9,7 +7,6 @@
 		$(".se-pre-con").fadeOut("slow");;
 	});
 //end preloads screen//
-
 var h = parseInt(window.innerHeight);
         var w = parseInt(window.innerWidth);
 var psidehdj=document.getElementById('psidehdj');
