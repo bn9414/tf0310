@@ -1,36 +1,4 @@
-/* start: pre loading screen */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(images/preload.gif) center no-repeat #f9f9f9;background-size: 70px;background-color: white;
-    
-}
-body p{font-family: 'Roboto', sans-serif;}
-body h1,body h2,body h3{font-family: 'Open Sans', sans-serif;}
-.se-pre-con img{width: 250px;;margin: auto;display: block;margin-top: 165px}
-@media screen and (max-width:480px)
-    {
-      .se-pre-con img{width: 200px;;margin: auto;display: block;margin-top: 70px;}
-        .se-pre-con {background-size: 60px;background-position: 50% 200px;}    
 
-}
-@media screen and (max-width:480px){
-
-.se-pre-con {
-	
-    background-position: 50% 40%;
-}
-#expose{ font-size: 300%; margin-top: 80px;}
-    #load{  font-size: 200%; margin-top: 140px;}
-
-}
-/* end: pre loading screen */
 body,p{
     font-family: 'Lato', sans-serif;
     padding: 0;
