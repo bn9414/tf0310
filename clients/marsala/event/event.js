@@ -1,8 +1,9 @@
 var slideIndex = 0;
 showSlides(slideIndex);
+var timer = null;
 
 function plusSlides(n) {
-    
+     
   showSlides(slideIndex += n);
 }
 
@@ -19,6 +20,7 @@ function showSlides(n) {
   }
 
   slides[slideIndex-1].style.display = "block"; 
+  
 }
  var prev = document.getElementById('prev');
 prev.addEventListener('click',function(e){

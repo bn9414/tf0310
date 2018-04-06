@@ -70,14 +70,16 @@ body,p{
          align-items: center;
     }
 .bis-list{
-        display: flex;
-        flex-direction: column;
-    margin: 10px auto;
+       /*display: flex;
+        flex-direction: column;*/
+   margin: 10px auto;*/
+     
     }
 .bis-a{
         display: flex;
     flex-direction: row;
         align-items: center;
+   
     }
 
 .bis-a img{
@@ -85,7 +87,7 @@ body,p{
     }
 /*mobile-subban*/
 @media only screen and (max-width:768px){
-    .sub-bck{
+    /*.sub-bck{
         background: #454545;
         color: #fcfcfc;
         display: flex;
@@ -113,7 +115,7 @@ body,p{
     }
     .bis-a img{
         width: 20%;
-    }
+    }*/
     
 }
 /*mobile-subban*/

@@ -58,13 +58,15 @@ body{
     padding: 0 50px;
 }
 .col-6{
-    width: 50%;
+    width: 50%;border: 1px solid red
 }
 
 .abt-img{
     background: url('images/one.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+   background-position: -150px ;
+  
 }
 .abt-bck{
     background: #fff;
