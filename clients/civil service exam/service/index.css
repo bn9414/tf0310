@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+ /*  border: 1px solid #000;*/
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*logo*/
+.main-div{
+    display: flex;
+}
+.logo-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-l{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+.logo-div img{
+    width: 25%;
+    padding-bottom: 10px;
+}
+.logo-div p{
+    text-align: center;
+}
+@media only screen and (min-width:500px){
+    .logo-div{
+    display: flex;
+    flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+}
+    .txt-p{
+      display: flex;
+        flex-direction: row;
+    }
+    .logo-div img{
+    width: 15%;
+    padding:0px 10px;
+}
+    .logo-txt p{
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+    }
+
+}
+@media only screen and (min-width:1000px){
+    .logo-div img {
+    width: 10%;
+    }
+}
+/*logo-end*/
+/*form-bck*/
+.back-blu{
+    background: rgb(38,137,201);
+    min-height: 500px;
+    padding: 10px 10px;
+}
+.form-container{
+    background: rgb(246,247,249);
+    height: 600px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.frm-hd{
+    padding: 10px 10px;
+}
+.frm-hd h4{
+    font-size: 15px;
+    text-align: center;
+}
+
+@media only screen and (min-width:500px){
+    .frm-hd h4{
+    font-size: 18px;
+    text-align: center;
+}
+   .back-blu{
+    background: rgb(38,137,201);
+    min-height: 1000px;
+    padding: 40px 30px;
+} 
+    .form-container{
+    background: rgb(246,247,249);
+    height: 1000px;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+}
+@media only screen and (min-width:800px){
+    .back-blu{
+         padding: 40px 150px;
+    } 
+}
+@media only screen and (min-width:1000px){
+    .back-blu{
+         padding: 40px 200px;
+    } 
+}
+/*form-bck-end*/
+/*form*/
+.fom-vlu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px ;
+   /* border: 1px solid;*/
+}
+.frm-cnt{
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.frm-cnt input{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+.usernme{
+    padding: 20px;
+    border-radius: 5px;
+    border-image:unset;
+    border-width:0;
+    border: 1px solid #ddd;
+    transition: transform 1s;
+}
+ select{
+        width:100%;
+       margin: 0px 0px;
+       padding: 10px;
+        border-radius: 5px;
+        border-color: #ddd;
+    }
+
+
+.usernme::-webkit-input-placeholder{
+    transition: transform 0.5s, font-size 0.5s;
+}
+.usernme::-moz-input-placeholder{
+    transition: transform 0.5s, font-size 0.5s;
+}
+.usernme::-o-input-placeholder{
+    transition: transform 0.5s, font-size 0.5s;
+}
+.usernme::-ms-input-placeholder{
+    transition: transform 0.5s, font-size 0.5s;
+}
+input:focus, textarea:focus, select:focus {
+    outline-offset: -2px;
+}
+
+input:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    border: none;
+    border-radius: 5px;
+}
+input:focus::-webkit-input-placeholder {
+  transform: translateY(-130%);
+  font-size: .65em;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url('images/calendar.svg') no-repeat;
+    width: 20px;
+    height: 20px;
+   padding: 0;
+    margin: 0;
+    
+}
+
+
+/*::-webkit-datetime-edit { ;}*/
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { background: transparent; }
+@media only screen and (min-width:500px){
+    .fom-vlu{
+       /* border: 1px solid;*/
+    }
+    .dte{
+    padding: 16px !important;
+}
+    .addres{
+       width: 83% !important;
+      
+    }
+  .frm-cnt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.frm-cnt input{
+    margin: 10px 10px;
+    width: 38%;
+    padding: 20px;
+    }
+    select{
+     width: 42%;
+    margin: 11px 16px;
+    padding: 17px 17px;
+    border-radius: 5px;
+    border-color: #ddd;
+    margin-right: 10px;
+    }
+    
+.usernme{
+    padding: 10px ;
+    border-radius: 5px;
+    border-image:unset;
+    border-width:0;
+    border: 1px solid #ddd;
+}
+input:focus, textarea:focus, select:focus {
+    outline-offset: -2px;
+}
+
+input:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    border: none;
+    border-radius: 5px;
+}  
+}
+/*form-end*/
