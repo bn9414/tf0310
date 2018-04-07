@@ -356,14 +356,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 
 /* Removes the clear button from date inputs */
-input[type="date"]::-webkit-clear-button {
+/*input[type="date"]::-webkit-clear-button {
     display: none;
 }
 input[type="time"]::-webkit-clear-button {
     display: none;
 }
 
-/* Removes the spin button */
 input[type="date"]::-webkit-inner-spin-button { 
     display: none;
 }
@@ -374,4 +373,4 @@ input[type="time"]::-webkit-inner-spin-button {
 input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 25px;
     color: #8D99AE;
-}
+}*/
