@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -348,4 +350,28 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .back-blu{
         padding: 50px 250px;
     }
+}
+
+
+
+
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+input[type="time"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+input[type="time"]::-webkit-inner-spin-button { 
+    font-size: 20px; padding-top: 20px;padding-right: 20px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    font-size: 25px;
+    color: #8D99AE;
 }
