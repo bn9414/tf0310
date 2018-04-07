@@ -1,0 +1,21 @@
+.img-con img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sus-txt{
+    margin: 10px;
+    text-align: center;
+}
+.hed-sus{
+    color:#39B54A;
+}
+.hed-con .nme-txt{
+    font-size: 16px;
+    text-align: left;
+}
+.nme-txt2{
+    text-align: justify;
+    padding: 0 10px;
+}
