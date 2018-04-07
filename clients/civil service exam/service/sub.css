@@ -3,6 +3,24 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px
+}
+.frm-tick{
+    margin-top: 20px
+}
+.cir-tick{
+   position: relative;
+}
+.cir-tick img{
+    width: 5%;
+    border: 2px solid #39B54A;
+    border-radius: 50%;
+    padding: 10px;
+    background:#39B54A;
+    position: absolute;
+    top: -20px;
+    left: 45%;
+
 }
 .sus-txt{
     margin: 10px;
@@ -10,6 +28,7 @@
 }
 .hed-sus{
     color:#39B54A;
+    margin: 10px;
 }
 .hed-con .nme-txt{
     font-size: 16px;
@@ -18,4 +37,72 @@
 .nme-txt2{
     text-align: justify;
     padding: 0 10px;
+    font-size: 15px;
+}
+.close{
+    background: #39B54A;
+    border-width: 0;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #fcfcfc;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width:600px){
+    .flx-i{
+        display: flex;
+        flex-direction: row;
+        height:auto;
+    }
+    .cir-tick{
+        position: relative;
+        top:-10px;
+    }
+    .cir-tick img{
+    width: 5%;
+    border: 2px solid #39B54A;
+    border-radius: 50%;
+    padding: 10px;
+    background:#39B54A;
+    
+}
+    .img-con img{
+    width: 100%;
+        
+    }
+    .img-con{
+        position: relative;
+        bottom: 0px;
+    }
+    .nme-txt{
+        margin: 10px;
+    }
+    .hed-con{
+        margin-top: 50px;
+    }
+    .nme-txt2{
+        line-height: 24px;
+    }
+    .hed-sus p{
+padding-top: 20px;
+    }
+    .sus-txt{
+    margin: 10px;
+    text-align: left;
+}
+    .btn-clse {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        
+    }
+    .frm-tick{
+    padding: 0 !important;
+}
+}
+@media only screen and (min-width:1000px){
+.frm-tick{
+     padding: 0px 100px!important;
+}
 }

@@ -132,9 +132,10 @@ body{
 }
 /*    sam*/
 .marks-div{
-    width: 80%;
-    margin: auto
+    width: 50%;
+    
 }
+.grad{width: 50% }
 .back-blu{
     background: rgb(38,137,201);
     height: auto;
@@ -143,6 +144,7 @@ body{
 .form-container{
     background: rgb(246,247,249);
     height: auto;
+    border-radius:10px;
 }
 .frm-hd{
     padding: 10px 10px;
@@ -232,6 +234,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 
+
 /*footer*/
 .footer{
     margin: 10px auto;
@@ -314,8 +317,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         width: 90%;
     }
     .frm-tr .p-txt{
-        padding:0 50px
+        padding:0 50px;
     }
+    .out-con{
+        display: flex;
+        
+    }
+    
 }
 @media only screen and (min-width:1000px){
     .form-container{
