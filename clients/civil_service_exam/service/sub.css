@@ -36,7 +36,6 @@
 }
 .nme-txt2{
     text-align: justify;
-    padding: 0 10px;
     font-size: 15px;
 }
 .close{
@@ -73,7 +72,7 @@
     }
     .img-con{
         position: relative;
-        bottom: 0px;
+      /*  bottom: -25px;*/
     }
     .nme-txt{
         margin: 10px;
@@ -98,11 +97,11 @@ padding-top: 20px;
         
     }
     .frm-tick{
-    padding: 0 !important;
+    padding: 0px!important;
 }
 }
 @media only screen and (min-width:1000px){
 .frm-tick{
-     padding: 0px 100px!important;
+    padding: 0px 100px!important;
 }
 }
