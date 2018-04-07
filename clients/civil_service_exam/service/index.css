@@ -1,4 +1,4 @@
-
+input{font-size: 16px;}
 
 *{
     margin: 0;
@@ -215,7 +215,7 @@ input:focus {
 }
 input:focus::-webkit-input-placeholder {
   transform: translateY(-130%);
-  font-size: .65em;
+  font-size: 14px;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgba(0, 0, 0, 0);
