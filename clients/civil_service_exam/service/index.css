@@ -420,3 +420,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 25px;
     color: #8D99AE;
 }
+
+input[type="date"]:before {
+  color: lightgrey;
+  content: attr(placeholder) !important;
+  margin-right: 0.5em;
+}
+input[type="date"]:focus:before {
+  content: '' !important;
+}
