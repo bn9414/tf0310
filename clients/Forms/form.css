@@ -5,17 +5,215 @@ body,h1,h2,h3,h4,h5,h6,p,{
     margin: 0;
     padding: 0;
 }
+/*radio-btn & checkbox*/
+/*design radio*/
+label {
+    display: inline;
+}
+.radio-1 {
+    width: 193px;
+}
+.button-holder {
+    float: left;
+    margin-left: 6px;
+    margin-top: 30px;
+    position: relative;
+}
+.regular-radio {
+    display: none;
+}
+.regular-radio + label {
+    background-color: #fafafa;
+    border: 2px solid #cacece;
+    border-radius: 50px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 -15px 10px -12px rgba(0, 0, 0, 0.05) inset;
+    display: inline-block;
+    padding: 11px;
+    position: relative;
+
+}
+.regular-radio + label:before {
+    background: none repeat scroll 0 0 #FDFDFD;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
+    content: " ";
+    font-size: 36px;
+    height: 8px;
+    left: 7px;
+    position: absolute;
+    top: 7px;
+    width: 8px;
+}
+.regular-radio:checked + label:after {
+    background: none repeat scroll 0 0 #94E325;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
+    content: " ";
+    font-size: 36px;
+    height: 8px;
+    left: 7px;
+    position: absolute;
+    top: 7px;
+    width: 8px;
+}
+.regular-radio:checked + label {
+    background-color: #e9ecee;
+    border: 2px solid #adb8c0;
+    color: #99a1a7;
+    padding: 11px;
+}
+.regular-radio + label:active, .regular-radio:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+/*design radio-end*/
+/*radio*/
+.ram-con input[type=radio] {
+  border: 1px solid #ddd;
+  padding: 1px;
+  -webkit-appearance: none;
+  width: 20px;
+    height: 20px;
+    background: #fcfcfc;
+}
+
+.ram-con input[type=radio]:checked {
+  background: url(tick.svg) no-repeat center center;
+  background-size: 20px 20px;
+}
+.ram-con {
+/*based on fields*/
+   /* padding-left: 20px;
+    padding-top: 20px;
+    min-width: 135px;*/
+}
+.ram-con label {
+    top: -20px;
+    position: relative;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.ram-con input[type=radio]:focus {
+  outline-color: transparent;
+}
+/*radio*/
+/* Hide the browser's default checkbox */
+input[type=checkbox]{
+    width: unset !important;
+}
+.container{
+    position: relative;
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.tit-ck{
+    position: absolute;
+    left: 50px;
+}
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*    sam*/
+/*radio-btn & checkbox-end*/
 /*select*/
 select{
     border-radius: 0;
 white-space: nowrap;
 text-overflow: ellipsis;
 }
-/*select*/
-.selection-box {
+
+
+
+/*select - center the text*/
+
+
+
+/*select {
+  text-align: center;
+  text-align-last: center;
+  -webkit-text-align-last: center;
+  -webkit- text-align: center;
+}
+option {
+  text-align: left;
+}*/
+
+
+
+
+/*select - center the text*/
+
+/*option text-color change*/
+/*        select{
+          color: green;
+        }
+        select option { color: black; }
+        select option:first-child{
+          color: green;
+        }*/
+
+/*option text-color change end*/
+/*changing the border ofthe selection box*/
+
+/*    select:active, select:hover {
+      outline-color: red
+    }*/
+/*background-color of select option*/
+/*    select:hover {
+    color: #444645;
+    background: #ddd;
+    }*/
+/*background-color of select option*/
+/*changing the border ofthe selection box-end*/
+
+
+
+/*.selection-box {
         background: url('./selection-box-button.png') 94% 50% no-repeat ;
-        /*width: 272px;
-        height: 38px;*/
         color:#454545 ;
         font: 700 15px/38px 'Montserrat', sans-serif;
         border: solid 1px #c5c4c5;
@@ -54,8 +252,29 @@ text-overflow: ellipsis;
         
         .selection-box .selected {
           background: #c29817;
-          color: white; }
+          color: white; }*/
 
+
+/*selected backgrnd-color*/
+/*select option:hover,
+    select option:focus,
+    select option:active {
+        background: linear-gradient(#000000, #000000);
+        background-color: #000000 !important; 
+        color: #ffed00 !important;
+    }
+
+    select option:checked {
+        background: linear-gradient(#d6d6d6, #d6d6d6);
+        background-color: #d6d6d6 !important; 
+        color: #000000 !important;
+    }*/
+/*selected backgrnd-color*/
+
+
+
+
+/*select*/
 /*text-area*/
 .text-area{
     display: flex;
@@ -95,9 +314,16 @@ input[type="date"], focus {
     -moz-box-shadow: none;
 }
 select{
-     /*-webkit-appearance: none;
+     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;*/
+    appearance: none;
+     background: url('caret.svg') 98% 50% no-repeat ;
+        color:#454545 ;
+        /*font: 700 15px/38px 'Montserrat', sans-serif;*/
+        border: solid 1px #c5c4c5;
+        border-bottom: 0;
+        position: relative;
+        background-size: 9px 9px;
 }
 input,select{
     padding: 10px;
@@ -106,9 +332,10 @@ input,select{
     border: 1px solid #ddd;
     border-radius: 0;
 }
-.form-main{
-   
-   
+.area{
+   width: 100%;
+    margin: 10px;
+    padding:20px;
 }
 .form-div{
      border: 1px solid;
@@ -123,6 +350,33 @@ input,select{
    /* box-shadow: 0 0 10px #ddd;*/
     border-radius: 0;
 }
+
+/*focus*/
+input:focus, textarea:focus, select:focus {
+    outline-offset: -2px;
+}
+
+input:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    border: none;
+    /*border-radius: 5px;*/
+}
+input:focus::-webkit-input-placeholder {
+  transform: translateY(-130%);
+  font-size: 14px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url('calendar.svg') no-repeat;
+    width: 20px;
+    height: 20px;
+   padding: 0;
+    margin: 0;
+    
+}
+/*focus*/
 @media (min-width:600px){
 .form-div{
      border: 1px solid;
@@ -151,7 +405,6 @@ input[type="textarea"]{
 
   /*text-area*/
 .text-area{
-   
     display: flex;
     width: 95%;
 }

@@ -8,35 +8,67 @@
     <link rel=stylesheet type="text/css" href="form.css">
          <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="form.js" type="text/javascript"></script>
-         
-  <script>
-    $(function() {
-      $('.selection-box').selectionBox();
-    });
-  </script>
     </head>
 <body>
     <div class="form-main">
     <form action="/action_page.php" class="form-div">
       <input type="text" name="firstname" value="Mickey">
       <input type="text" name="lastname" value="Mouse">
-        <input type="date"  value="1">
+        <input type="text"  value="" placeholder="Date of Birth" onfocus="(this.type='date')" onblur="(this.type='date');(this.placeholder='');">
       <select class="selection-box">
         <option value="red">red</option>
+        <option value="red">red</option>
+        <option value="red">red</option>
+        <option value="red">red</option>
+        <option value="red">red</option>
         </select>
-        <select class="selection-box">
+        <select class="">
+        <option value="red">red</option>
+        <option value="red">red</option>
+        <option value="red">red</option>
+        <option value="red">red</option>
+        <option value="red">red</option>
+        <option value="red">red</option>
         <option value="red">red</option>
         </select>
         <select class="selection-box">
         <option value="red">red</option>
+        <option value="red">red</option>
+        <option value="red">red</option>
         </select>
+      
+
         <div class="text-area">
-        <input type="textarea" name="lastname" value="des">
+        <textarea name="present" value placeholder class="area"></textarea>
         </div>
-        
     </form> 
+          <!--radio-->
+    <div class="ram-con">
+        <input type="radio" id="yes" name="graduate" value="yes"/>
+        <label for="yes">yes</label>
+        <input type="radio" id="no" name="graduate" value="no"/>
+        <label for="no">no</label>
+    </div>
+          <!--radio-->
+        <!--check-->
+        <!--<label class="container"><sapn class="tit-ck">Checkbox</sapn>
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>-->
+        <div class="lb">
+            <label class="container">
+        <input type="checkbox" checked="checked">
+         <span class="checkmark"></span>
+            </label>
+            </div>
+         <!--check-->
+        
+<!--design-radio-->
+        <div class="button-holder">
+<input type="radio" checked="" class="regular-radio" name="radio-1-set" id="radio-1-set"><label for="radio-1-set"></label><br>
+<input type="radio" checked="" class="regular-radio" name="radio-1-set" id="radio-2-set"><label for="radio-2-set"></label><br>
+</div>
+<!--design-radio-->
     </div>
 </body>
 </html>
