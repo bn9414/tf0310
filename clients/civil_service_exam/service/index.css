@@ -1,4 +1,4 @@
-
+input{font-size: 16px;}
 
 *{
     margin: 0;
@@ -218,7 +218,7 @@ input:focus {
 }
 input:focus::-webkit-input-placeholder {
   transform: translateY(-130%);
-  font-size: .65em;
+  font-size: 14px;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgba(0, 0, 0, 0);
@@ -365,15 +365,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 
 /* Removes the clear button from date inputs */
-input[type="date"]::-webkit-clear-button {
+/*input[type="date"]::-webkit-clear-button {
     display: none;
 }
 input[type="time"]::-webkit-clear-button {
     display: none;
-}
+}*/
 
 /* Removes the spin button */
-input[type="date"]::-webkit-inner-spin-button { 
+/*input[type="date"]::-webkit-inner-spin-button { 
     display: none;
 }
 input[type="time"]::-webkit-inner-spin-button { 
@@ -383,4 +383,4 @@ input[type="time"]::-webkit-inner-spin-button {
 input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 25px;
     color: #8D99AE;
-}
+}*/
