@@ -1,3 +1,6 @@
+textarea:focus, input:focus,select:focus{
+    outline: none;
+}
 input{font-size: 16px;}
 
 *{
@@ -264,6 +267,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /*footer*/
 /*frmback*/
 @media only screen and (min-width:600px){
+   
+
+    
+    
+    
     .frm-con{
     display:flex;
     flex-direction: row;
@@ -384,3 +392,78 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 25px;
     color: #8D99AE;
 }*/
+
+
+/* start: date of birth */
+   #clet1,#clet21,#clet2,#clet22, #clet3,#clet23,#clet24{ font-size: 100%; width: 70%; margin: 10px 0px; margin-left: 55px;}
+#cletf1, #cletf2, #cletf3{display: flex; justify-content: center; align-items: center; width:93%; margin: auto;margin: 20px;}
+#clet21, #clet22, #clet23,#clet24 {display: flex; justify-content: center; align-items: center; width: 100%; margin-left: 10px; margin: 0px 20px;  }
+
+#clet21 input, #clet22 input,#clet24 input,#clet23 input { width: 95%; height: 50px;  padding-left: 40px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); font-size: 100%; color: #2B2D42;
+transition: width 0.3s, box-shadow 0.3s;
+}
+#cletf1 input, #cletf2 input, #cletf3 input, #cletf5 textarea,#cletf2 select{ width: 100%; height: auto; padding: 13px 0px; padding-left: 10px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 18px; color: #2B2D42;
+transition: width 0.3s, box-shadow 0.3s;
+}
+
+
+
+@media screen and (min-width:600px){
+    #cletf1, #cletf2, #cletf3{display: flex; justify-content: center; align-items: center; width:100%; margin: auto;margin: 20px;}
+    
+}
+@media screen and (max-width:1000px){
+
+    #clet1, #clet2, #clet3{width: 100%;margin: 0px 5px}}
+
+
+@media screen and (max-width:810px){
+      #clet1,#clet21,#clet2,#clet22, #clet3,#clet23,#clet24{ font-size: 100%; width: 70%; margin: 10px 0px; margin-left: 55px;}}
+
+@media screen and (max-width:480px){
+    #clet3,#clet23,#clet24{ font-size: 100%; width: 100%; margin: 10px 0px; margin-left: px;}}
+/* end: date of birth */
+
+
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    font-size: 25px;
+    color: #8D99AE;
+}
+
+input[type="date"]:before {
+  color: lightgrey;
+  content: attr(placeholder) !important;
+  margin-right: 0.5em;
+}
+input[type="date"]:focus:before {
+  content: '' !important;
+}
+input[type="date"]{border-radius: 5px;outline: none;}
+
+#want_ex option,#cletf2 select{color: #717171; font-size: 16px;}
+
+
+input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: noe;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}
