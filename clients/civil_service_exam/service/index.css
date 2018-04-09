@@ -421,7 +421,7 @@ transition: width 0.3s, box-shadow 0.3s;
       #clet1,#clet21,#clet2,#clet22, #clet3,#clet23,#clet24{ font-size: 100%; width: 70%; margin: 10px 0px; margin-left: 55px;}}
 
 @media screen and (max-width:480px){
-    #clet3,#clet23,#clet24{ font-size: 100%; width: 70%; margin: 10px 0px; margin-left: 55px;}}
+    #clet3,#clet23,#clet24{ font-size: 100%; width: 100%; margin: 10px 0px; margin-left: px;}}
 /* end: date of birth */
 
 
