@@ -12,6 +12,49 @@ white-space: nowrap;
 text-overflow: ellipsis;
 }
 /*select*/
+.selection-box {
+        background: url('./selection-box-button.png') 94% 50% no-repeat ;
+        /*width: 272px;
+        height: 38px;*/
+        color:#454545 ;
+        font: 700 15px/38px 'Montserrat', sans-serif;
+        border: solid 1px #c5c4c5;
+        border-bottom: 0;
+        position: relative; }
+        
+        .selection-box:hover {
+          cursor: pointer; }
+        
+        .selection-box .current {
+          text-transform: uppercase;
+          padding: 0 22px; }
+        
+        .selection-box .options {
+          position: absolute;
+          top: 37px;
+          border: solid 1px #c5c4c5;
+          border-top: 0;
+          color: #563a1e;
+          padding: 0;
+          margin: 0 0 0 -1px;
+          width: 100%;
+          list-style: none;
+          font-weight: 400;}
+          
+          .selection-box .options .option {
+            padding: 0 22px;
+            border-top: solid 1px #c5c4c5; }
+            
+            .selection-box .options .option:hover {
+              background: #eeeece;
+              cursor: pointer; }
+              
+              .selection-box .options .option:hover.selected {
+                background: #c29817; }
+        
+        .selection-box .selected {
+          background: #c29817;
+          color: white; }
 
 /*text-area*/
 .text-area{
@@ -62,7 +105,6 @@ input,select{
     border-width:0;
     border: 1px solid #ddd;
     border-radius: 0;
-    
 }
 .form-main{
    

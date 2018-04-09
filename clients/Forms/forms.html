@@ -8,6 +8,14 @@
     <link rel=stylesheet type="text/css" href="form.css">
          <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="form.js" type="text/javascript"></script>
+         
+  <script>
+    $(function() {
+      $('.selection-box').selectionBox();
+    });
+  </script>
     </head>
 <body>
     <div class="form-main">
@@ -15,13 +23,13 @@
       <input type="text" name="firstname" value="Mickey">
       <input type="text" name="lastname" value="Mouse">
         <input type="date"  value="1">
-      <select>
+      <select class="selection-box">
         <option value="red">red</option>
         </select>
-        <select>
+        <select class="selection-box">
         <option value="red">red</option>
         </select>
-        <select>
+        <select class="selection-box">
         <option value="red">red</option>
         </select>
         <div class="text-area">
