@@ -77,7 +77,8 @@ input,select{
 .form-div input,.form-div select{
     border-width:0;
     border: 1px solid #ddd;
-    box-shadow: 0 0 10px #ddd;
+   /* box-shadow: 0 0 10px #ddd;*/
+    border-radius: 0;
 }
 @media (min-width:600px){
 .form-div{
