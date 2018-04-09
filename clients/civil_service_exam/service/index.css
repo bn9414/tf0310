@@ -442,5 +442,5 @@ input[type="date"]:focus:before {
 
 @media screen and (max-width:480px){
     
-    0select{height: 150px;}
+    select{height: 150px;}
 }
