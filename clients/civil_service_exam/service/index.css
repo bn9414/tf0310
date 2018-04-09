@@ -405,7 +405,7 @@ transition: width 0.3s, box-shadow 0.3s;
 #cletf1 input, #cletf2 input, #cletf3 input, #cletf5 textarea,#cletf2 select{ width: 100%; height: auto; padding: 13px 0px; padding-left: 10px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 18px; color: #2B2D42;
 transition: width 0.3s, box-shadow 0.3s;
 }
-#clet23 input{background-image: url(images/cal.png);}
+#clet23 input{background-image: url(images/calendar.svg);}
 
 
 @media screen and (min-width:600px){
