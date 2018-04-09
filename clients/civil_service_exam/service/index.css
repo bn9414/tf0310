@@ -440,6 +440,6 @@ input[type="date"]:focus:before {
 .want_ex option,.cletf2 select{color: #717171; font-size: 16px;}
 
 @media screen and (max-width:500px){
-.cletf2 select{height: 60px;}
+.cletf2 select{height: 20px;}
 }
 
