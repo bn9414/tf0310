@@ -1,0 +1,134 @@
+body *{
+  box-sizing: content-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,{
+    margin: 0;
+    padding: 0;
+}
+
+/*text-area*/
+.text-area{
+    display: flex;
+}
+input[type="textarea"]{
+ width: 100% !important;
+    height: 100px;
+    padding: 0;
+    
+}
+/*text-area*/
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+input[type="date"], focus {
+    color: #95a5a6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+select{
+     /*-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;*/
+}
+input,select{
+    padding: 10px;
+    margin: 10px;
+    border-width:0;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
+}
+.form-main{
+   
+   
+}
+.form-div{
+     border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.form-div input,.form-div select{
+    border-width:0;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
+}
+@media (min-width:600px){
+.form-div{
+     border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+   
+.form-div input,.form-div select {
+   width: 40%;
+}
+    /*text-area*/
+.text-area{
+   
+    display: flex;
+    width: 96%;
+}
+input[type="textarea"]{
+   width: 100% !important;
+    height: 100px;
+}
+    
+    }
+@media (min-width:800px){
+
+  /*text-area*/
+.text-area{
+   
+    display: flex;
+    width: 95%;
+}
+    }
+@media (min-width:900px){
+
+  /*text-area*/
+.text-area{
+    display: flex;
+    width: 94%;
+}
+    }
+@media (min-width:1200px){
+
+  /*text-area*/
+.text-area{
+    display: flex;
+    width: 93.5%;
+}
+    }
+@media (min-width:1300px){
+
+  /*text-area*/
+.text-area{
+    display: flex;
+    width: 98%;
+}
+    .form-div input,.form-div select {
+   width: 45%;
+}
+    }
