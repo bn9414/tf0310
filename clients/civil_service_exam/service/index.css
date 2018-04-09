@@ -397,7 +397,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 #clet21 input, #clet22 input,#clet24 input,#clet23 input { width: 95%; height: 50px;  padding-left: 40px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); font-size: 100%; color: #2B2D42;
 transition: width 0.3s, box-shadow 0.3s;
 }
-#cletf1 input, #cletf2 input, #cletf3 input, #cletf5 textarea,#cletf2 select{ width: 95%; height: auto; padding: 13px 0px; padding-left: 10px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 18px; color: #2B2D42;
+#cletf1 input, #cletf2 input, #cletf3 input, #cletf5 textarea,#cletf2 select{ width: 93%; height: auto; padding: 13px 0px; padding-left: 10px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 18px; color: #2B2D42;
 transition: width 0.3s, box-shadow 0.3s;
 }
 #clet23 input{background-image: url(images/cal.png);}
@@ -436,5 +436,24 @@ input[type="date"]:before {
 input[type="date"]:focus:before {
   content: '' !important;
 }
+input[type="date"]{border-radius: 5px;outline: none;}
 
 #want_ex option,#cletf2 select{color: #717171; font-size: 16px;}
+
+
+input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: noe;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}
