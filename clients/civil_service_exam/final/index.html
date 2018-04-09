@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+    <title>Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>	<div class="main-div">		<div class="logo-div">			<img src="images/logo.png">			<div class="logo-txt">				<div class="">					<p>All India Civil Service</p>				</div>				<div class="">					<p>Coaching Center,Chennai-28</p>				</div>			</div>		</div>	</div>    <div class="back-blu">        <div class="form-container">            <div class="frm-hd">                <h4>Application Form - 2018-19</h4>            </div>            <div class="frmfield">                <form id="application_form_validated" action="home.php" method="post">                     <!--frm1-end-->                    <div class="frm-con">						<div class="frm">							<input type="text" name="name" value="" placeholder="Name" class="usernme">						</div>						<div class="frm">							<div  id="clet23" class="date_frm"><!--<input type="date" name="date" placeholder="date of birth" ><input  placeholder=""  type="date" name="date">-->							<input placeholder="Date of Birth" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='date');(this.placeholder='')" id="date" name="date">							</div>							<!--<input type="date" name="date" placeholder="Date of birth" >-->						</div>                    </div> 
+                    <!--frm1-end-->
+                    <!--frm2-->
+                    <div class="frm-con">						<div class="frm">							<input type="number" name="age" value="" placeholder="Age" class="usernme">						</div>						<div  id="cletf2">							<select class="want_ex"  name="community" style="" >								<option value="volvo" disabled selected >Community</option>								<option value="oc" >OC</option>								<option value="bc">BC</option>								<option value="mbc">MBC</option>								<option value="sc">SC</option>								<option value="sca">SCA</option>								<option value="st">ST</option>							</select>						</div>                    </div>
+                    <!--frm2 end-->
+                        <!--frm3-->                    <div class="frm-con">						<div class="frm">							<input type="text" name="fname" value="" placeholder="Father Name" class="usernme">						</div>						<div id="cletf2">							<select class="want_ex"  name="focc" >								<option value="volvo" disabled selected >occupation of father</option>								<option value="agri" >Agriculture</option>								<option value="mbc">Business</option>								<option value="sc">Government service</option>								<option value="sca">Other</option>							</select>						</div>                    </div>
+                    <!--frm3 end-->
+                          <!--frm4-->
+                    <div class="frm-con">
+                    <div class="frm">
+                      <input type="tel" name="phone" value="" placeholder="Mobile Number" class="usernme">
+                    </div>
+                    <div class="frm">
+                       <input type="email" name="email" value="" placeholder="EMail ID" class="usernme">
+                    </div>
+                    </div>
+                    <!--frm4 end-->
+                     <!--frm5-->
+                    <div class="frm-con">
+                    <div class="frm">
+                      <input type="textbox" name="address" value="" placeholder="Address of Communication" class="usernme addres">
+                    </div>
+                    </div>
+                    <!--frm5 end-->
+                     <!--frm6-->
+                    <div class="frm-con">
+                    <div id="cletf2">
+                       <select class="want_ex"  name="education" >
+  
+                      <option value="volvo" disabled selected >Education qualification</option>
+                    <option value="b.a" >B.A</option>
+    
+                          <option value="b.sc">B.Sc</option>
+                          <option value="b.com">B.Com</option>
+                          <option value="b.e">B.E</option>
+                          <option value="mbbs">MBBS</option>
+                          <option value="b.tech">B.Tech</option>
+                          <option value="b.form">B.Form</option>
+                          <option value="others">Other</option>
+                          
+  </select>
+                    </div>
+                    <div id="cletf2">
+                  <select class="want_ex"  name="seducation" >
+  
+                      <option value="volvo" disabled selected >Stream of school education</option>
+                    
+
+                          <option value="metric">Metric</option>
+                          <option value="stateboard">Stateboard</option>
+                          <option value="international">International</option>
+                          <option value="other">Other</option>
+                         
+  </select>
+                    </div>
+                    </div>
+                    <!--frm6 end-->
+                    <!--frm7-->
+                    <div class="frm-con out-con">
+                    <div class="frm marks-div">
+                    <input type="number" name="percent" value="" placeholder="%of Marks scored in SSLC" class="usernme ">
+                    </div>
+                    <div class="frm grad">
+                    <p class="p-txt">Whether He/She is a first<br>graduate in the family?</p>
+                    
+                    <div class="ram-con">
+        <input type="radio" id="yes" name="graduate" value="yes"/>
+        <label for="yes">yes</label>
+        <input type="radio" id="no" name="graduate" value="no"/>
+        <label for="no">no</label>
+    </div>
+                        </div>
+                        </div>
+                    <!--frm7 end-->
+                    <!--frm6-->
+                    <div class="frm-con  frm1">
+                    <div class="frm ">
+                      <p class="deta">Details of Present Study or Employment.</p>  
+                    </div>
+                    <div class="frm_textarea">
+                       <textarea name="present" value="" placeholder="" class="ares"></textarea>
+                    </div>
+                    </div>
+                    <!--frm6 end-->
+                    <!--frm7-->
+                 <div class="frm-con frm1">
+                    <div class="frm">
+                     <label class="container cnfr">Here by Declare that all the information provided by me as above are true to the knowlegde &amp; the belief.
+  <input type="checkbox" checked="checked" name="declare" required>
+  <span class="checkmark"></span>
+
+</label>
+                    </div>
+                    
+                    </div>
+                    
+                    <!--frm7 end-->
+                    <!--frm8-->
+                    <div class="frm-con">
+                    <div class="frm frm-btn">
+						<input type="submit" value="submit" class="submit">
+                    </div>
+                    </div>
+                    <!--frm8 end-->
+                </form>
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+            <div class="txt-1">
+            <p>Civil Service Coaching Center 	&copy; 2018. All Rights Reserved</p>
+            </div>
+            <div class="txt-1">
+            <p>Powered by <a href="www.tenfinish.com">TENFINISH</a></p>
+            </div>
+        </div>
+</body><script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>		<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>    <!--<script src="index.js" >-->	<script>	jQuery(document).ready(function ($) {        $('#application_form_validated').validate({         rules: {            name: {                required: true,            },			age: {                required: true,				number: true,            },			date: {                required: true,				date: true,            },			fname: {                required: true,            },			address: {                required: true,            },			phone: {                required: true,				number:true,				maxlength:12            },			email: {                required: true,				email: true            },			declare:{				required: true			}        }    });});	    </script>
+</html>
+    
