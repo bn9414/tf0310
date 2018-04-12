@@ -1,63 +1,42 @@
 /*banner*/
-.abt-ban-img{
-    background: url(images/abtban.jpg) no-repeat;
+body{
+    box-sizing: border-box;
+}
+.abt-ban-img {
+  background: url(images/ban3.jpg) no-repeat;
     background-size: cover;
-    padding: 10vh;
     position: relative;
+    height: 150px;
+   vertical-align: middle;
+    border: 0.1px solid rgba(0,0,0,0);
+    
     
 }
-
+.abt-cap{
+   position: relative;
+    width: 70%;
+   
+}
 .abt-cap h2{
    color: #fcfcfc;
 }
 .abt-cap h1{
-    font-size: 20px;
+    font-size: 30px;
     color: #fcfcfc;
-    position: relative
 }
 @media (min-width:400px){
-    .abt-ban-img{
-    padding: 15vh;
-    
-}
-    .abt-cap h1{
-    font-size: 27px;
+    .abt-ban-img {
+       vertical-align: middle;
+        height: 500px;
     }
-}
-    @media (min-width:500px){
-    .abt-ban-img{
-    padding: 23vh;
-    
-}
-}
-        @media (min-width:600px){
-    .abt-ban-img{
-    padding: 28vh;
-    
-}
-}
-@media (min-width:700px){
-    .abt-ban-img{
-    padding: 35vh;
-    
-}  
-}
-    @media (min-width:800px){
-    .abt-ban-img{
-    padding: 40vh;
-    
-}
-}
-           @media (min-width:900px){
-    .abt-ban-img{
-    padding: 50vh;
-    
-}
-}
-@media (min-width:1000px){
-    .abt-ban-img{
-    padding: 70vh;
-    
+    .abt-cap h1{
+    font-size: 50px;
+    }
+    .abt-cap{
+   position: relative;
+    width: 70%;
+    margin: auto;
+   
 }
 }
 /*banner-end*/
@@ -73,8 +52,7 @@
     
 }
 .sec-para p{
-    text-align: justify;
-    white-space:pre-wrap;
+    text-align: left;
 }
 @media (min-width:500px){
     .para-div{
