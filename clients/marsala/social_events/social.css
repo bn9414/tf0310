@@ -1,0 +1,62 @@
+.so-ban{
+    position: relative;
+}
+.so-ban img{
+    width: 100%;
+}
+.so-cap h1{
+    font-size:16px;
+    position: relative;
+    color:#fcfcfc;
+}
+.so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+.so-lne{
+    border:2px solid #9b3236;
+    width:40px;
+    left: 35px;
+    position: absolute;
+}
+@media(min-width:600px){
+    .so-cap{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+    .so-cap h1{
+        font-size:25px;
+    }
+    .so-lne{
+    border:2px solid #9b3236;
+    width:80px;
+    left: 50px;
+    position: absolute;
+}
+}
+
+/*sec2*/
+.sec2-hd{
+    text-align: center;
+}
+.sec2-hd h2{
+    color: #454545;
+    font-weight: 500;
+}
+.sec-2 p{
+    padding: 10px;
+    text-align: center;
+    color: #454545
+}
+@media(min-width:900px){
+    .sec-2{
+        padding: 0 50px;
+    } 
+}
+/*sec2*/

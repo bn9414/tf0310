@@ -356,7 +356,7 @@ flex-direction: row;
 .prop1{
     float: left;
    
-    width: 100%
+    width: 50%
 }
     .prop1 img{
         width:100px;
@@ -365,7 +365,7 @@ flex-direction: row;
 .prop1 p{
         margin: 0;
     color: #fcfcfc;
-    font-size: 14px;
+    font-size: 13px;
     }
 @media(min-width:600px){
     .prop1{
