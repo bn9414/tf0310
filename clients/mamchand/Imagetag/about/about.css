@@ -14,7 +14,7 @@ body{
 }
 .abt-cap{
    position: relative;
-    width: 70%;
+   width: 70%;
    
 }
 .abt-cap h2{
@@ -30,12 +30,29 @@ body{
         height: 500px;
     }
     .abt-cap h1{
-    font-size: 50px;
+    font-size: 30px;
     }
     .abt-cap{
    position: relative;
-    width: 70%;
+    /*width: 70%;*/
     margin: auto;
+        padding: 150px 0px;
+   
+}
+}
+@media (min-width:600px){
+    .abt-ban-img {
+       vertical-align: middle;
+        height: 500px;
+    }
+    .abt-cap h1{
+    font-size: 45px;
+    }
+    .abt-cap{
+   position: relative;
+   width: 70%;
+    margin: auto;
+        padding: 150px 0px;
    
 }
 }
