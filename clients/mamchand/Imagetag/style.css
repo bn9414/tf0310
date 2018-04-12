@@ -7,11 +7,9 @@ body *{
 
  h1{
     font-size:25px;
+     margin: 0;
 }
-h1,h2,h3,h4,h5,h6,p,{
-    margin: 0 ;
-    padding: 0;
-}
+
 body{
      margin: 0;
 }
@@ -102,7 +100,7 @@ a{
 }
 .mnu-list{
     display:none;
-    position: relative;
+    position: absolute;
     width: 100%;
     left: -100%;
     z-index: 5;
@@ -120,6 +118,12 @@ a{
     display: block;
    text-align: center;
      background: #fff;
+}
+
+.btn-mnu{
+    border: 2px solid #fcfcfc;
+    padding: 0 20px;
+    border-radius:10px;
 }
 @media only screen and (min-width:550px){
     .bar{
@@ -145,15 +149,18 @@ a{
         flex-direction: row;
         justify-content: space-between;
        width: 70%;
-        padding: 10px 10px;
+        padding:15px;
     }
     .mnu-web a{
         color: #fff;
     }
+    .brand{
+        padding: 6px;
+    }
 }
 @media only screen and (min-width:900px){
     .mnu-web{
-    width:50%;
+    width:40%;
 }
 }
 /*navigation end*/

@@ -1,0 +1,97 @@
+/*banner*/
+.abt-ban-img{
+    background: url(images/abtban.jpg) no-repeat;
+    background-size: cover;
+    padding: 10vh;
+    position: relative;
+    
+}
+
+.abt-cap h2{
+   color: #fcfcfc;
+}
+.abt-cap h1{
+    font-size: 20px;
+    color: #fcfcfc;
+    position: relative
+}
+@media (min-width:400px){
+    .abt-ban-img{
+    padding: 15vh;
+    
+}
+    .abt-cap h1{
+    font-size: 27px;
+    }
+}
+    @media (min-width:500px){
+    .abt-ban-img{
+    padding: 23vh;
+    
+}
+}
+        @media (min-width:600px){
+    .abt-ban-img{
+    padding: 28vh;
+    
+}
+}
+@media (min-width:700px){
+    .abt-ban-img{
+    padding: 35vh;
+    
+}  
+}
+    @media (min-width:800px){
+    .abt-ban-img{
+    padding: 40vh;
+    
+}
+}
+           @media (min-width:900px){
+    .abt-ban-img{
+    padding: 50vh;
+    
+}
+}
+@media (min-width:1000px){
+    .abt-ban-img{
+    padding: 70vh;
+    
+}
+}
+/*banner-end*/
+/*txt-para*/
+.para-div{
+    padding: 0 10px;
+}
+.first-para p{
+    text-align: center;
+    color: #454545;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.sec-para p{
+    text-align: justify;
+    white-space:pre-wrap;
+}
+@media (min-width:500px){
+    .para-div{
+    width: 50%;
+        margin: auto;
+}
+}
+@media (min-width:800px){
+    .para-div{
+    width: 40%;
+        margin: auto;
+}
+}
+@media (min-width:1000px){
+    .para-div{
+    width: 30%;
+        margin: auto;
+}
+}
+/*txt-para-end*/
