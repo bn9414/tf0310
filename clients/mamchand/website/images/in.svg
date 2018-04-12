@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="512px" height="512px" viewBox="-156 -237 512 512" enable-background="new -156 -237 512 512" xml:space="preserve">
-<g id="XMLID_184_">
-	<path id="XMLID_195_" fill="#007BB6" d="M-118.324-77.997h93.597V222.96h-93.597V-77.997z M-71.354-227.605
-		c29.917,0,54.272,24.355,54.272,54.272c0,29.929-24.354,54.272-54.272,54.272c-30.1,0-54.272-24.343-54.272-54.272
-		C-125.626-203.25-101.454-227.605-71.354-227.605"/>
-	<path id="XMLID_192_" fill="#007BB6" d="M34.065-77.997h89.603v41.225h1.214c12.521-23.646,42.964-48.527,88.538-48.527
-		c94.649,0,112.206,62.284,112.206,143.336V222.96h-93.414V76.648c0-34.953-0.526-79.841-48.526-79.841
-		c-48.71,0-56.034,38.089-56.034,77.23V222.96H34.237V-77.997H34.065z"/>
+<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+<g>
+	<path fill="#8B8B8B" d="M8,19H5V9h3V19z M19,19h-3v-5.342c0-1.392-0.496-2.085-1.479-2.085c-0.779,0-1.273,0.388-1.521,1.165
+		C13,14,13,19,13,19h-3c0,0,0.04-9,0-10h2.368l0.183,2h0.063c0.615-1,1.598-1.678,2.945-1.678c1.025,0,1.854,0.285,2.487,1.001
+		C18.684,11.04,19,12.002,19,13.354V19z"/>
+</g>
+<g>
+	<ellipse fill="#8B8B8B" cx="6.5" cy="6.5" rx="1.55" ry="1.5"/>
 </g>
 </svg>

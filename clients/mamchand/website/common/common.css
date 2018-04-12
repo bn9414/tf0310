@@ -32,9 +32,14 @@ a{
         width: 20px;
             position: relative;
     top: 4px;
+            
+    }
+    .rgt-prt a,.lft-prt a{
+        color: #8b8b8b !important;
     }
     .rgt-prt,.lft-prt{
-        padding: 0px 
+        padding: 0px ;
+        
     }
     .rgt-prt a img{
         width: 25px;
@@ -69,9 +74,9 @@ a{
 #nav_bar{width: 100%; height: 55px;  box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.1);  z-index: 10; position: relative;transition: box-shadow 0.5s;
 
 
-background: #f85032;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background: #f85032;*/  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #e73827, #f85032); */ /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #e73827, #f85032);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     
     
@@ -183,7 +188,7 @@ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, F
    /* start:p_menu */
 
 .pmenu{width: 250px; height: auto; border: 1px solid #F06543;position: absolute;border-radius: 10px;background-color: #f9f9f9;top: 60px;left: -20px; display:none;z-index:-1;}
-    .dmenu p{color:#fcfcfc}
+    .dmenu p{    color: #8b8b8b;}
 .pmenu a{padding-left: 10px;border-bottom: 1px #b5b5b5 solid; color: #343434;display: block;margin: 3px;padding: 5px 0px 5px 10px;color: #676C6F;font-family: 'Slabo 27px', serif;font-size: 16px;font-family: 'Roboto', sans-serif;transition: border-bottom 0.5s;}
    .hover_track{width: 140px; height:  40px; position: absolute;left: -10px;top: 20px; }
     .pmenu{animation-name: pmenuop;animation-duration: 1s;animation-fill-mode: forwards;}
@@ -202,7 +207,7 @@ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, F
     .dmenu_con{justify-content: space-between}
     .dmenu{border: 1px olid black;  height:auto;margin: auto 5px;font-size: 15px;position: relative;display: flex;justify-content: center;flex-direction: column;border: 1px olid black}
     
-      .dmenu span{border-bottom: solid 2px #fcfcfc;width: 0px;margin: auto;transition: width 0.5s;display: ;}
+      .dmenu span{border-bottom: solid 2px #9b3236;width: 0px;margin: auto;transition: width 0.5s;display: ;}
     .dmn1{width: 40px;}
      .dmn1:hover span{width: 40px;}
     .dmn2{width: 90px;}
@@ -233,7 +238,7 @@ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, F
 #inlogo_m{width: 235px;height: 60px; padding-top: 0px}
     #nav_line{ top:16px}
     .dmenu{font-size: 18px;}
-    .dmenu img{top: 0px;left: 85%;}
+    .dmenu img{top: 18px;left: 85%;}
     .dmn1{width: 60px;}
      .dmn1:hover span{width: 60px;}
     .dmn2{width: 100px;}
