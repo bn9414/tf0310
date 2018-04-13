@@ -41,9 +41,9 @@ scrollImg(0);
 
 var bdy = document.getElementsByTagName("body");
 var ahrf = document.getElementsByTagName('a');
-ahrf.addEventListener('click',linkfn,false);
+ahrf[8].addEventListener('click',linkfn,false);
 
 function linkfn(){
-    bdy.style.top="-100px";
-    bdy.style.opacity="0";
+    bdy[0].style.top="-100px";
+    bdy[0].style.opacity="0";
 }
