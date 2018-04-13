@@ -154,6 +154,19 @@ input::placeholder{
         font-size: 12px;
     line-height: 20px;
 }
+.cpy{
+    background: #c53334;
+}
+.cpy-txt{
+    text-align: center;
+    padding: 10px;
+    color:#fcfcfc;
+   
+}
+.cpy-txt p{
+    color: #fcfcfc;
+}
+
 @media only screen and (max-width:700px){
     .footer-main{
     flex-direction: column;
