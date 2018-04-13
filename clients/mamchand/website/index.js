@@ -7,7 +7,10 @@ prev.addEventListener('click',function(e){
   incre(-1);},false);
 var nxt = document.getElementById('nxt');
 nxt.addEventListener('click',function(e){
-  incre(1);},false);
+  incre(1);
+    clearInterval(x);
+
+},false);
  var ban = document.getElementsByClassName('ban');
 var caphd = document.getElementsByClassName('txt-cap');
 var n =0;
@@ -33,6 +36,9 @@ function scrollImg(z){
     caphd[z].style.display="block";                               
 }
 scrollImg(0);
+var x= setInterval(function(){incre(1);},3000);
+
+
 /*
 function scrollImg(e){
     var ban1 = document.getElementById('ban1');
