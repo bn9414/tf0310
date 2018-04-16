@@ -18,7 +18,7 @@ var j =0;
  function incre(k){
      j = j + k;
      if(j == -1){
-         j = ban.length;
+         j = ban.length-1;
      }
      if(j == ban.length){
          j=0;
