@@ -1,0 +1,140 @@
+.fa-ban{
+    position: relative;
+}
+.fa-ban img{
+    width: 100%;
+}
+.fa-cap h1{
+    font-size:16px;
+    position: relative;
+    color:#fcfcfc;
+}
+.fa-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+.fa-lne{
+    border:2px solid #9b3236;
+    width:40px;
+    left: 0px;
+    position: absolute;
+}
+@media(min-width:600px){
+    .fa-cap{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+    .fa-cap h1{
+        font-size:35px;
+    }
+    .fa-lne{
+    border:2px solid #9b3236;
+    width:85px;
+    left: 0px;
+    position: absolute;
+}
+}
+
+.fa-txt p{
+    color:#454545;
+    padding: 0 10px;
+    padding: 0 10px;
+}
+@media(min-width:500px){
+    .fa-txt p{
+    text-align: left;
+    color:#716f70;
+    font-size:25px;padding: 0 50px;
+        margin: 10px 0;
+            font-weight: 400;
+}
+}
+/*panel*/
+.bar-con{
+    position: absolute;
+left:90%;
+    top: 16px;
+    
+}
+.bar1{
+    position: absolute;
+    top: 0px;
+}
+.bar2{
+    transform:rotate(90deg);
+    position: absolute;
+    top: 0px;
+    opacity: 1;
+}
+.bar {
+    width: 13px;
+    height: 5px;
+    background-color: #fcfcfc;
+    margin: 2px 0;
+}
+.panl{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.panl-hd.active{
+      background: #ed9a16;
+    color: #fcfcfc;
+    border: 1px solid #ed9a16;
+}
+.panl-hd{
+    border: 1px solid #c53334;
+    border-radius: 10px;
+    padding: 10px;
+    background: #c53334;
+    color: #fcfcfc;
+    position: relative;
+    
+}
+.panl-para {
+    border: 2px solid #f0eeef;
+    padding: 5px;
+    margin: 0 5px;
+    background: #f0eeef;
+    position: relative;
+    top: -2px;
+    display: none;
+    transition: 2.4s;
+
+    
+}
+
+
+
+.panl-para p{
+    /*border: 2px solid;*/
+     color: #716f70;
+}
+@media(min-width:600px){
+    .bar-con{
+    position: absolute;
+        left:95%;
+        top: 40%;
+    
+}
+    .panl{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+}
+@media(min-width:1000px){
+    
+    .panl{
+    margin: 20px 0;
+    padding: 0 50px;
+}
+}
+
+
+
+/*panel-end*/

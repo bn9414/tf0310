@@ -31,12 +31,12 @@
         
 }
     .so-cap h1{
-        font-size:25px;
+        font-size:35px;
     }
     .so-lne{
     border:2px solid #9b3236;
     width:80px;
-    left: 50px;
+    left: 85px;
     position: absolute;
 }
 }
@@ -52,7 +52,7 @@
 .sec-2 p{
     padding: 10px;
     text-align: center;
-    color: #454545
+    color: #727272
 }
 @media(min-width:900px){
     .sec-2{
@@ -60,3 +60,129 @@
     } 
 }
 /*sec2*/
+/*few*/
+.few{
+    text-align: center;
+    margin: 10px;
+}
+
+.few p{
+    margin: 10px auto;
+}
+@media(min-width:600px){
+    .few p{
+   width:500px;
+    margin: 10px auto;
+}
+}
+/*few-end*/
+/*function ban*/
+
+.img-fun img{
+    width:100%;position: relative;
+}
+.img-fun{
+   position: relative;width: 100%; height: auto;overflow: hidden;vertical-align: middle;}
+.funban{
+    padding: 10px ;
+}
+.info-ev{
+    text-align: center;
+    border: 2px solid #f1edec;
+    background-color: #f1edec;
+    margin: 0px 10px;
+    padding: 5px;
+    position: absolute;
+    top: 0%;
+    height: 130px;
+}
+.ev1-inf{
+    left: 10px;
+}
+
+@media(min-width:500px){
+    .info-ev{
+       width: 300px;
+        height: 150px;
+        right: 10px;
+    }
+    .icon-bth{
+    position: static !important;
+        width: 65px !important;
+    
+}
+    .img-fun{
+   position: relative;width: 100%; height: 200px;overflow: hidden;
+;}
+    .img-fun img{
+    width:100%;position: relative;top: -50px;
+}
+
+}
+@media(min-width:600px){
+    .info-ev{
+       width: 300px;
+        height: 150px;
+        right: 10px;
+        padding: 10px;
+    }
+    .info-ev p{
+        font-size:15px;
+        padding: 10px;
+    }
+.img-fun{
+   position: relative;width: 100%; height: 200px;overflow: hidden;
+;}
+    .img-fun img{
+    width:100%;position: relative;top: -50px;
+}
+}
+@media(min-width:700px){
+    .info-ev{
+       width: 300px;
+        height: 200px;
+        right: 10px;
+        padding: 10px;
+    }
+    .info-ev p{
+        font-size:15px;
+        padding: 10px;
+    }
+.img-fun{
+   position: relative;width: 100%; height: 300px;overflow: hidden;
+;}
+    .img-fun img{
+    width:100%;position: relative;top: -50px;
+}
+}
+@media(min-width:900px){
+    .info-ev{
+        height: 280px;
+    }
+
+    .funban{
+    padding: 10px 60px;
+}
+    .img-fun{
+   position: relative;width: 100%; height: 350px;overflow: hidden;
+;}
+    .img-fun img{
+    width:100%;position: relative;top: -50px;
+}
+}
+@media(min-width:1000px){
+    .info-ev{
+        height: 400px;
+    }
+
+    .funban{
+    padding: 10px 60px;
+}
+    .img-fun{
+   position: relative;width: 100%; height: 500px;overflow: hidden;
+;}
+    .img-fun img{
+    width:100%;position: relative;top: -50px;
+}
+}
+/*function ban*/
