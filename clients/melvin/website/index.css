@@ -8,9 +8,9 @@
 /*    transition: 0.7s;*/
 
 }
-.slider-con img{
-    width: 180%;
-    
+
+   .slider-con img {
+    width: 100%;
 }
 .ban{
     display: block;
@@ -134,12 +134,18 @@
     .cap-hd h1{
         font-size:30px;
     }
+    .slider-con .ban img {
+    width: 100%;
+    position: relative;
+    top: -63px;
+}
 }
 @media(min-width:600px){
     .switch {
     position: absolute;
    right: 50px;
 }
+   
        .txt-cap{
     position: absolute;
     top:40px;
@@ -153,6 +159,7 @@
     .cap-hd h1{
         font-size:30px;
     }
+    
 }
 @media(min-width:700px){
     .switch {
@@ -168,9 +175,9 @@
     font-size: 20px;
         width: 320px;
     }
-   /* .slider-con img{
+    .slider-con{
         height: 300px;
-    }*/
+    }
     .cap-hd h1{
         font-size:30px;
     }
@@ -189,8 +196,8 @@
     font-size: 20px;
         width: 320px;
     }
-    .slider-con img{
-        height: auto;
+    .slider-con {
+        height: 350px;
     }
     .cap-hd h1{
         font-size:30px;
@@ -263,6 +270,11 @@
     }
 }
 @media(min-width:1150px){
+    .slider-con .ban img {
+        position: relative;
+    top: -200px;
+        width: 100%;
+}
     .txt-cap{
            position: absolute;
     top: 35%;
@@ -408,7 +420,7 @@ flex-direction: row;
 .ser-hed p{
     margin: 0;
     color: #fcfcfc;
-    font-size:10px;
+    font-size:12px;
 }  
 .ser-hed h2{
     color: #fcfcfc;
@@ -444,11 +456,14 @@ flex-direction: row;
 margin: 10px;   
     }
     .prop-lst{
-    width: 680px; border: 1px olid black;
+    width: 850px; border: 1px olid black;
     margin: auto;
 }
     .services{
         height: auto;
+    }
+    .ser-prop{
+        padding: 50px;
     }
 }
 @media (min-width:1200px){
