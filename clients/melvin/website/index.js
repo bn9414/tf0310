@@ -12,7 +12,7 @@ nxt.addEventListener('click',function(e){
 
 },false);
  var ban = document.getElementsByClassName('ban');
-var caphd = document.getElementsByClassName('txt-cap');
+var caphd = document.getElementsByClassName('hdtxt');
 var n =0;
 
  function incre(a){
@@ -30,10 +30,11 @@ function scrollImg(z){
     ban[1].style.display="none";
     ban[2].style.display="none";
     ban[z].style.display="block";
-  /*  caphd[0].style.display="none";
+    
+   caphd[0].style.display="none";
     caphd[1].style.display="none";
     caphd[2].style.display="none";
-    caphd[z].style.display="block";*/                               
+    caphd[z].style.display="block";                              
 }
 scrollImg(0);
 var x= setInterval(function(){incre(1);},3000);
