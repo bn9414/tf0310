@@ -9,8 +9,8 @@
 
 }
 .slider-con img{
-    width: 180%;
-    eight: 230px;
+    width: 100%;
+    height: 230px;
 }
 .ban{
     display: block;
@@ -67,7 +67,7 @@
 }
 
 .switch img{
-    width:20px;
+    width:10px;
 }
 .switch{
         position: absolute;
