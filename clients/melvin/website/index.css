@@ -473,6 +473,157 @@ margin: 10px;
 }
 
 /*services-end*/
+/*newser*/
+.ser-mn{
+    background:url('images/bg1.jpg'); 
+    margin: 0;
+    position: relative;
+}
+.ser-mn:before {
+    background-color: #000;
+}
+
+.ser-mn:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    opacity: .8;
+    width: 100%;
+    height: auto;
+}
+h2,p{
+    margin: 0;
+    padding: 0
+}
+.ser-mnhd{
+    color: #fcfcfc;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+.end-lne{
+    border:2px solid red;
+    width: 20px;
+    margin: auto;
+    position: relative;
+}
+.lne1{
+    border:1px solid red;
+    width: 30px;
+    margin: auto;
+    position: relative;
+}
+.lne-2{
+    border:1px solid red;
+    width: 30px;
+    margin:5px auto;
+    position: relative;
+}
+.ser-ss strong{
+    font-size: 20px;
+    
+}
+.main-lne{
+    display: flex;
+    justify-content: center;
+}
+.cont-lne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+   /* border: 2px solid green;*/
+}
+.ser-contn{
+    /*border:2px solid pink;*/
+    padding:10px 20px;
+    position: relative;
+}
+.ser-ss{
+    background: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    margin: 10px 0px;
+    transition: background 1s;
+}
+.ser-sshd{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 25px;
+}
+.icon-ser{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+   background-image: url(images/busser.svg);
+    transition:background 1s;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+background-size: contain;
+}
+.icon-ser img{
+    width: 60px;
+}
+.ser-pp{
+     text-align: center;
+    margin-bottom: 7px;
+    padding: 0px;
+}
+.ser-mnhd h2,.ser-mnhd p{
+    color: #fcfcfc;
+}
+.ser-ss:hover.ser-ss *{
+    color: #fcfcfc;
+   
+}
+.ser-ss:hover .end-lne{
+    border-color:#fcfcfc;
+}
+.ser-ss:hover{
+    background: red;
+}
+.ser-ss:hover .icon-ser{
+    background-image: url('images/busser1.svg');
+
+    }
+@media (min-width:600px){
+    .ser-ss{
+    width: 179px;
+        float: left;
+        margin-left: 21px;
+        position: relative;
+        top: 50px;
+        box-shadow: 0 0 10px;
+         padding: 30px;
+}
+    .ser-mnhd{
+    color: #fcfcfc;
+    text-align: center;
+    padding: 30px 0;
+}
+    .ser-mn{
+        margin-bottom: 65px;
+    }
+    .ser-mnhd h2{
+        margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.08;
+        color: #fcfcfc;
+    }
+    .ser-mnhd p{
+        color:#fcfcfc;
+    }
+}
+/*newser*/
 /*why choose*/
 .why-ch{
     padding: 0 10px;
