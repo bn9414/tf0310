@@ -3,3 +3,7 @@ Reference website
 
 https://pixinvent.com/apex-angular-4-bootstrap-admin-template/apex-landing-page/#abouthttps://pixinvent.com/apex-angular-4-bootstrap-admin-template/apex-landing-page/#about
 
+
+
+footer section can be like this
+http://preview.themeforest.net/item/wellond-creative-html-template/full_screen_preview/21685684?_ga=2.110894086.2055168521.1523761490-673714352.1522485061

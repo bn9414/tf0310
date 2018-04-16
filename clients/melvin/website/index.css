@@ -2,15 +2,15 @@
 /*slider*/
 .slider-con{
     position: relative;
-    width: 100%;
+    width: 100%;height: 200px;
     overflow: hidden;
     margin-bottom:30px;
 /*    transition: 0.7s;*/
 
 }
 .slider-con img{
-    width: 100%;
-    height: 230px;
+    width: 180%;
+    eight: 230px;
 }
 .ban{
     display: block;
@@ -678,7 +678,7 @@ margin: 10px;
     top: 20px;
     left: -30px;
     width: 250px;
-}
+    }}
 @media (min-width:900px){
     .yr-txt img {
     width:150px ;
@@ -718,3 +718,59 @@ margin: 10px;
 }
 }
 
+/* s: side layer of slider*/
+    
+    .sidebg{width: 210px; height:600px;background-color: rgba(235,235,235,0.7);position: absolute;top: 0px;right: 0px;transform: skewX(-10deg);}
+
+.hdtxt{position: absolute;top: 0px; right: 0px;text-align: center;top: 25px;font-weight: 700;font-size: 20px;}
+.hdtxt span{font-family: 'Pacifico', cursive;color: #1B998B;}
+
+
+
+   .hdtxt{top: 50%;right: 10px;transform: translateY(-50%)}
+
+
+@media screen and (min-width:350px){
+    .hdtxt{font-size: 22px;}
+    
+
+    
+}
+@media screen and (min-width:420px){
+        .hdtxt{font-size: 22px;}
+
+}
+
+@media screen and (min-width:500px){
+    
+  .hdtxt{font-size: 24px;}
+    .sidebg{width: 210px;}
+}
+
+@media screen and (min-width:600px){
+      .hdtxt{font-size: 28px;}
+    .sidebg{width: 240px;}
+
+}
+
+@media screen and (min-width:700px){
+    
+    .hdtxt{;font-size: 32px;right: 10px;}
+    .sidebg{width: 320px;right: -30px;}
+    .sch img{width: 100%;vertical-align:middle}
+}
+
+
+@media screen and (min-width:900px){
+        
+    .hdtxt{top: 30%;font-size: 45px;right: 10px;transform: translateY(-50%)}
+    .sidebg{width: 410px;right: -40px;}
+
+}
+@media screen and (min-width:1200px){
+    .hdtxt{font-size: 50px;}
+        .sidebg{width: 450px;right: -50px;}
+
+}
+
+/*E: side layer of slider*/
