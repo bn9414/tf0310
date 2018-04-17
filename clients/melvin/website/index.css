@@ -581,7 +581,7 @@ background-size: contain;
 .y-chsy img{
     vertical-align: middle;
     position: absolute;
-    bottom: -20px;width: 100px;
+    bottom: -20px;left:-5px; width: 40px;
 }
 .y-chsy p{
     text-align: justify;
