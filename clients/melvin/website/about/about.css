@@ -59,7 +59,7 @@ body{
 /*banner-end*/
 /*start: m and v*/
 
-.mv_con{width: 100%;;padding: 15px 5px;display: flex;flex-direction: column; color: #454545;overflow: hidden;position: relative;}
+.mv_con{width: 100%;;padding: 15px 5px;display: flex;flex-direction: column; color: #454545;overflow: hidden;position: relative;;}
 .mv_con h1{text-align: center;font-size: 70px;font-family: 'Lato', sans-serif;color: #343434;}
 .mv_con p{font-size: 20px; color: #388697}
 .mv_con div{margin: 20px 0px}
@@ -83,6 +83,7 @@ body{
 /* end: m and v*/
 
 /*txt-para*/
+#abtbg{background-color: #f8f5f5;border: 1px solid #f8f5f5;}
 .para-div{
     padding: 0 10px;
 }
