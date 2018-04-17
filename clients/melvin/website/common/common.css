@@ -49,9 +49,9 @@ body.home  .dmn1 span{width: 60px;}
         justify-content: space-between;
         padding: 5px 10px;
        height: 25px;
-        background-color: #f5f5f5;
+        background-color: #343434;
     }
-    .top-nav a{font-size: 16px;}
+    .top-nav a{font-size: 16px;font-weight: 500}
     .lft-prt img{
         width: 20px;
             position: relative;
@@ -59,7 +59,7 @@ body.home  .dmn1 span{width: 60px;}
             
     }
     .rgt-prt a,.lft-prt a{
-        color: #8b8b8b !important;
+        color: #fcfcfc !important;
     }
     .rgt-prt,.lft-prt{
         padding: 0px ;
@@ -267,7 +267,7 @@ body.home  .dmn1 span{width: 60px;}
     #inlogo{top: -2px }
 #inlogo_m{width: 60px;height: 60px; padding-top: 0px;padding-left: 10px;}
     #nav_line{ top:16px}
-    .dmenu{font-size: 18px;}
+    .dmenu p{font-size: 16px;font-weight: 600;}
     .dmenu img{top: 18px;left: 85%;}
     .dmn1{width: 60px;}
      .dmn1:hover span{width: 60px;}

@@ -1,12 +1,18 @@
-<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
- <title/>
-
- <g>
-  <title>background</title>
-  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
- </g>
- <g>
-  <title>Layer 1</title>
-  <path fill="#8b8b8b" id="Shape" d="m9.73196,8.48454l4.9498,4.24268c-0.18008,0.16824 -0.42226,0.27278 -0.6886,0.27278l-11.98632,0c-0.26765,0 -0.5106,-0.10294 -0.69077,-0.27092l4.95197,-4.24454l1.73196,1.51546l1.73196,-1.51546zm-1.73196,0.51546l-6.68176,-5.72722c0.18008,-0.16824 0.42226,-0.27278 0.6886,-0.27278l11.98632,0c0.26765,0 0.5106,0.10294 0.69077,0.27092l-6.68393,5.72908zm7,3.18561l-4.83264,-4.10675l4.83264,-4.20344l0,8.31019l0,0zm-14,0l0,-8.30746l4.83264,4.20071l-4.83264,4.10675l0,0zm0,0"/>
- </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<title></title>
+<g>
+	<title>background</title>
+	<rect id="canvas_background" x="-1" y="-1" fill="none" width="582" height="402"/>
+</g>
+<g>
+	<title>Layer 1</title>
+	<path id="Shape" fill="#FCFCFC" d="M9.732,8.484l4.949,4.242C14.502,12.896,14.26,13,13.993,13H2.007
+		c-0.268,0-0.511-0.104-0.691-0.271l4.952-4.244L8,10L9.732,8.484z M8,9L1.318,3.273C1.499,3.104,1.741,3,2.007,3h11.986
+		c0.268,0,0.511,0.103,0.69,0.271L8,9z M15,12.186l-4.832-4.106L15,3.875V12.186L15,12.186z M1,12.186V3.878l4.833,4.201L1,12.186
+		L1,12.186z"/>
+</g>
 </svg>
