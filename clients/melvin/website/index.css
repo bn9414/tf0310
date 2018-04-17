@@ -467,7 +467,7 @@ flex-direction: row;
 }
 .ser-contn{
     /*border:2px solid pink;*/
-    padding:10px 20px;
+    padding:10px 10px;
     position: relative;
 }
 .ser-ss{
@@ -521,16 +521,32 @@ background-size: contain;
     background-image: url('images/busser1.svg');
 
     }
+.ser-contn{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
+         }
 @media (min-width:600px){
-    
+    .ser-contn{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+         }
+    .ser-contn a{
+        display: block;
+    }
     .ser-ss{
-    width: 179px;
-        float: left;
+    width:180px;
         margin-left: 21px;
         position: relative;
         top: 100px;
         box-shadow: 0 0 10px;
          padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
 }
     .ser-mnhd{
     color: #fcfcfc;
@@ -854,5 +870,6 @@ background-size: contain;
         .sidebg{width: 450px;right: -50px;}
 
 }
+
 
 /*E: side layer of slider*/
