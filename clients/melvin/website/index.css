@@ -489,13 +489,19 @@ flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     padding:10px;
-   background-image: url(images/busser.svg);
+   background-image: url(images/rac.svg);
     transition:background 1s;
     width: 80px;
     height: 80px;
     background-repeat: no-repeat;
 background-size: contain;
 }
+
+.ic1{ background-image: url(images/employee.svg);}
+.ic2{ background-image: url(images/tour.svg);}
+.ic3{ background-image: url(images/bus.svg);}
+.ic4{ background-image: url(images/airport.svg);}
+
 .icon-ser img{
     width: 60px;
 }
@@ -518,7 +524,26 @@ background-size: contain;
     background: #d01818;
 }
 .ser-ss:hover .icon-ser{
-    background-image: url('images/busser1.svg');
+    background-image: url('images/racw.svg');
+
+    }
+
+.ser-ss:hover .ic1{
+    background-image: url('images/employeew.svg');
+
+    }
+
+.ser-ss:hover .ic2{
+    background-image: url('images/tourw.svg');
+
+    }
+
+.ser-ss:hover .ic3{
+    background-image: url('images/busw.svg');
+
+    }
+.ser-ss:hover .ic4{
+    background-image: url('images/airportw.svg');
 
     }
 .ser-contn{
@@ -542,7 +567,7 @@ background-size: contain;
         margin-left: 21px;
         position: relative;
         top: 100px;
-        box-shadow: 0 0 10px;
+      box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.1);
          padding: 30px;
         display: flex;
         flex-direction: column;
@@ -593,11 +618,12 @@ background-size: contain;
     top: -10px;
     background: rgba(0,0,0,0.1);
     box-shadow: 0 10px 10px 1px #fcfcfc;
-}
+
+display: flex;}
 .y-chsy img{
     vertical-align: middle;
-    position: absolute;
-    bottom: -20px;left:-5px; width: 40px;
+    position: absolut;margin: auto;
+    bottom: 0px;left:0px; width: 80px;
 }
 .y-chsy p{
     text-align: justify;
@@ -622,7 +648,7 @@ background-size: contain;
 }
     .y-chsy p{
     text-align: justify;
-    font-size: 12px
+    font-size: 16px
 }
     .y-chsy{
         width: 30%;
