@@ -46,8 +46,7 @@ if(a==2){n=1;}
     c.className='line l2 lopen2';
         d.className='line l3 lopen3';
         e.style.display='block';
-         
-     nav.style.boxShadow='0px 0px 0px 0px hsla(0, 0%, 0%, 0.0)';
+
 
          setTimeout(function(){prod_menu.style.display="none"; main_menu.style.display='block';  },420); 
          

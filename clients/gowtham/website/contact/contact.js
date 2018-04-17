@@ -1,3 +1,5 @@
+
+
 var swit1=document.getElementsByClassName('swit1');
 var switp=document.getElementsByClassName('switp');
 

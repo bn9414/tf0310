@@ -8,35 +8,38 @@ prev.addEventListener('click',function(e){
 var nxt = document.getElementById('nxt');
 nxt.addEventListener('click',function(e){
   incre(1);
-    clearInterval(x);
+    clearInterval(xset);
 
 },false);
  var ban = document.getElementsByClassName('ban');
-var caphd = document.getElementsByClassName('txt-cap');
-var n =0;
+var caphd = document.getElementsByClassName('hdtxt');
+var j =0;
 
- function incre(a){
-     n = n + a;
-     if(n == -1){
-         n = ban.length-1;
+ function incre(k){
+     j = j + k;
+     if(j == -1){
+         j = ban.length-1;
      }
-     if(n == ban.length){
-         n=0;
+     if(j == ban.length){
+         j=0;
      }
-    scrollImg(n);
+    scrollImg(j);
  }
 function scrollImg(z){
     ban[0].style.display="none";
     ban[1].style.display="none";
     ban[2].style.display="none";
+    ban[3].style.display="none";
     ban[z].style.display="block";
-    caphd[0].style.display="none";
+    
+   caphd[0].style.display="none";
     caphd[1].style.display="none";
     caphd[2].style.display="none";
-    caphd[z].style.display="block";                               
+     caphd[3].style.display="none";
+    caphd[z].style.display="block";                              
 }
 scrollImg(0);
-var x= setInterval(function(){incre(1);},3000);
+var xset= setInterval(function(){incre(1);},4000);
 
 
 /*
