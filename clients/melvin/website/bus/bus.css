@@ -583,7 +583,45 @@ input[type=date]::-webkit-datetime-edit-year-field {
     display: flex;
     justify-content: center;
 }
-@media(min-width:700px){
+@media(min-width:600px){
+    .frmgrp-cnt{
+    display: flex;
+    flex-direction: row;
+        /*border: 1px solid red;*/
+        justify-content: space-around;
+        background: #ddd;
+        position: relative;
+        margin: 50px 0px;
+        
+}
+    .frm-contr{
+        position: relative;
+        left: 0px;
+    }
+    .frm-imgcon{
+        width: 200px;
+border: 1px solid;
+        background: url(images/handsk.jpg)no-repeat;
+        background-size:cover;
+        padding: 4vh;
+        background-position: 100% 10%;
+        position: absolute;
+        top:10px;
+       transform: scale(1.1);
+        height: 600px;
+        left: 30px;
+        display: none;
+    }
+    .frm-imgcon img{
+    width: 100%;
+        
+    display: block;
+}
+    .hfrm{
+    visibility: hidden;
+}
+}
+@media(min-width:1200px){
     .frmgrp-cnt{
     display: flex;
     flex-direction: row;
@@ -610,6 +648,7 @@ border: 1px solid;
        transform: scale(1.1);
         height: 600px;
         left: 200px;
+        display: block;
     }
     .frm-imgcon img{
     width: 100%;
