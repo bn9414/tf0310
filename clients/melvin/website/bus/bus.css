@@ -229,10 +229,103 @@
     }
 /*splt-img*/
 /*newsplt*/
+@media (min-width:500px){
 .nw-splt-con{
+    background: #000;
+    padding: 50px;
+}
+.nw-spltdiv{
+    background: #fcfcfc;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);
+
+    }
+.nw-imgcon img{
+    width: 100%;
+    vertical-align: middle
+}
+.spl-dv{
+    width: 50%;
+    position: relative;
+    padding: 0px 50px ;
+    padding-top: 20px;
+}
+.nw-imgcon{
+    width: 500px;
+    height: 500px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: -20px;
+    background: url(images/spltimg.jpg) no-repeat;
+    background-position: 80% 10%;
+    background-size:cover;
+   box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);
     
 }
+    .nw-para{
+        width:450px;
+        height: 380px;
+        text-align: justify;
+    }
+    }
 /*newsplt*/
+/*tabs*/
+@media (min-width:500px){
+.tabcont{
+    margin: 50px 0;
+}
+.intab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.lft-plc{
+   width: 500px;
+}
+.tb-mn h1{
+    color: #fcfcfc;
+    text-align: center;
+}
+.right-plc{
+    width: 800px;
+border-left: 3px solid rgba(255,255,255,0.8);
+}
+.pn{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.pn p{
+    color:#fcfcfc;
+    font-size: 25px;
+    text-align: left;
+    border-bottom: 2px solid rgba(255,255,255,0.8);
+    width: 300px;
+    padding: 10px 0;
+}
+.pn-non p{
+    border-bottom: 2px solid #000 !important;
+}
+.tabs{
+    animation: anima 3s;
+    padding: 0px 80px
+}
+.tabs h1{
+    color: #fcfcfc;
+}
+.tabs p{
+    color:#fcfcfc;
+    font-size: 16px;
+}
+@keyframes anima{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+}
+/*tabs*/
 /*frm-grp*/
 .marks-div{
     width: 50%;
@@ -721,15 +814,19 @@ input[type=date]::-webkit-datetime-edit-year-field {
         transform: translate(-50%,50%);
         left: 50%;
     }
-.cnta-btn{
+.cnta-btn{box-sizing: border-box;
     border: 1px solid #d01818;
     display: inline-block;
     background: #d01818;
     color: #fcfcfc;
     border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 10px
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    
+    font-size: 18px;
+    
 }
+.cnta-btn p{margin: auto; color: white;font-size: 20px; transform: translateY(0%);}
 @media(min-width:500px){
     .cnt-ban{
    
@@ -759,15 +856,19 @@ input[type=date]::-webkit-datetime-edit-year-field {
 }
 @media(min-width:1000px){
     .cnt-ban{
-        height: 300px;
+        height: 250px;
         padding-top: 100px;
         margin:10px 0px;
+        
     }
     .cnt-p{
-    width: 250px;
+    width: 600px;
     }
     .cntxt-con{
         margin: 50px 0;
     }
 }
 /*meet with us*/
+button:focus {
+    outline: none;
+}
