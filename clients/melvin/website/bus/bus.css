@@ -5,7 +5,8 @@
     height: auto;
     margin-bottom: 40px;
     padding: 6vh 10px;
-    position: relative
+    position: relative;
+    display: none;
 }
 .fst-ban::before{
     background: #fcfcfc;
@@ -70,6 +71,7 @@
     background-color: #454545;
     margin: 0;
     position: relative;
+    display: none;
 }
 .splt-tit h1{
     color: #fcfcfc;
@@ -123,6 +125,7 @@
         display: flex;
         flex-direction: row;
         padding: 50px 30px;
+        border: 2px solid #fcfcfc;
     }
     .splt-imgcon{
     margin: 0;
@@ -225,6 +228,11 @@
     }
     }
 /*splt-img*/
+/*newsplt*/
+.nw-splt-con{
+    
+}
+/*newsplt*/
 /*frm-grp*/
 .marks-div{
     width: 50%;

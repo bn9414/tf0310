@@ -176,7 +176,7 @@ body.home  .dmn1 span{width: 60px;}
 .pmn p{font-size: 16px;}
 .phead p{font-size: 25px;}
 .prod_menu{display: none;}
-.pmn{font-size: 18px;width:80%;font-weight: 500;margin:10px auto;opacity: 1;border: 1px solid #b5b5b5;display: flex;justify-content: center;align-items: center;flex-direction: column;}
+.pmn{font-size: 18px;width:80%;font-weight: 500;margin:10px auto;opacity: 1;display: flex;justify-content: center;text-align:left;flex-direction: column;}
 .pmn img{width: 60px;border: 1px olid}
 .pmn p{margin: 0px;font-weight: 00;}
 .phead{font-size: 34px; margin-left: 12px;border: 0px;}
