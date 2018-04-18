@@ -101,9 +101,6 @@ body.home  .dmn1 span{width: 60px;}
 /*background: -webkit-linear-gradient(to right, #e73827, #f85032); */ /* Chrome 10-25, Safari 5.1-6 */
 /*background: linear-gradient(to right, #e73827, #f85032);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    
-    
-
 
 }
 
@@ -213,17 +210,14 @@ body.home  .dmn1 span{width: 60px;}
 @media screen and (min-width:600px){
     .dmn1,.dmn2,.dmn3,.dmn4,.dmn5,.dmn6{display: flex;}
    
-   /* start:p_menu */
-
-.pmenu{width: 580px;; height: auto; border: px solid #0964a0;position: absolute;border-radius: 10px;background-color: #f9f9f9;top: 60px;left: -350px; display:none;z-index:-1;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);}
-    .pmenu p{    color: #8b8b8b;border: 1px olid;text-align: center}
-    .pmenu img{border: 1px olid}
-.pmenu a{padding-left: 10px; color: #343434;;margin: 10px;padding: 0px 0px 0px 0px;color: #454545;font-family: 'Lato 27px', serif;font-size: 16px;font-family: 'Roboto', sans-serif;transition: border-bottom 0.5s;display: flex;flex-direction: column;justify-content: center;align-items: center;border: 1px olid}
-    .pmenu p{color: #454545;}    
+  
+.pmenu{width: 250px; height: auto; border: 1px solid #b5b5b5;position: absolute;border-radius: 0px;background-color: #f9f9f9;top: 60px;left: -20px; display:block;z-index:-1;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1); }
+    .dmenu p{color:#454545}
+.pmenu a{padding-left: 10px;border-bottom: 1px #b5b5b5 solid; color: #343434;display: block;margin: 3px;padding: 5px 0px 5px 10px;color: #676C6F;font-family: 'Slabo 27px', serif;font-size: 16px;font-family: 'Roboto', sans-serif;transition: border-bottom 0.5s;}
    .hover_track{width: 140px; height:  40px; position: absolute;left: -10px;top: 20px; }
     .pmenu{animation-name: pmenuop;animation-duration: 1s;animation-fill-mode: forwards;}
- .dmn3:hover .pmenu{display: flex;}
-    .pmenu a:hover {}
+ .dmn3:hover .pmenu{display: block}
+    .pmenu a:hover {border-bottom: 1px solid #F06543;color: #F06543 }
     @keyframes pmenuop {
         from{opacity: 0;}
         to{opacity: 1;}
@@ -233,7 +227,7 @@ body.home  .dmn1 span{width: 60px;}
 #border_ex{border-bottom: 0px;}
 
 /* end:p_menu */
-    .dmenu_con,.menuarray{display: flex;justify-content: center;align-items: center;border: 1px olid}
+  .dmenu_con,.menuarray{display: flex;justify-content: center;align-items: center;border: 1px olid}
     .dmenu_con{justify-content: space-between}
     .dmenu{border: 1px olid black;  height:auto;margin: auto 5px;font-size: 15px;position: relative;display: flex;justify-content: center;flex-direction: column;border: 1px olid black}
     
