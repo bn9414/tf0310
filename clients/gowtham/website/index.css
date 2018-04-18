@@ -489,18 +489,16 @@ flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     padding:10px;
-   background-image: url(images/rac.svg);
+  /* background-image: url(images/rac.svg);*/
     transition:background 1s;
     width: 80px;
     height: 80px;
     background-repeat: no-repeat;
 background-size: contain;
+    display: none;
 }
 
-.ic1{ background-image: url(images/employee.svg);}
-.ic2{ background-image: url(images/tour.svg);}
-.ic3{ background-image: url(images/bus.svg);}
-.ic4{ background-image: url(images/airport.svg);}
+
 
 .icon-ser img{
     width: 60px;
@@ -523,12 +521,12 @@ background-size: contain;
 .ser-ss:hover{
     background: #d01818;
 }
-.ser-ss:hover .icon-ser{
+/*.ser-ss:hover .icon-ser{
     background-image: url('images/racw.svg');
 
-    }
+    }*/
 
-.ser-ss:hover .ic1{
+/*.ser-ss:hover .ic1{
     background-image: url('images/employeew.svg');
 
     }
@@ -545,7 +543,7 @@ background-size: contain;
 .ser-ss:hover .ic4{
     background-image: url('images/airportw.svg');
 
-    }
+    }*/
 .ser-contn{
         display: flex;
         flex-direction: column;

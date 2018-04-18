@@ -211,7 +211,7 @@ body.home  .dmn1 span{width: 60px;}
     .dmn1,.dmn2,.dmn3,.dmn4,.dmn5,.dmn6{display: flex;}
    
   
-.pmenu{width: 250px; height: auto; border: 1px solid #b5b5b5;position: absolute;border-radius: 0px;background-color: #f9f9f9;top: 60px;left: -20px; display:block;z-index:-1;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1); }
+.pmenu{width: 250px; height: auto; border: 1px solid #b5b5b5;position: absolute;border-radius: 0px;background-color: #f9f9f9;top: 60px;left: -20px; display:none;z-index:-1;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1); }
     .dmenu p{color:#454545}
 .pmenu a{padding-left: 10px;border-bottom: 1px #b5b5b5 solid; color: #343434;display: block;margin: 3px;padding: 5px 0px 5px 10px;color: #676C6F;font-family: 'Slabo 27px', serif;font-size: 16px;font-family: 'Roboto', sans-serif;transition: border-bottom 0.5s;}
    .hover_track{width: 140px; height:  40px; position: absolute;left: -10px;top: 20px; }
