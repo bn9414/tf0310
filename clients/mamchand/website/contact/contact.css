@@ -21,17 +21,15 @@ textarea:focus, input:focus,select:focus{
     
 }
 @media screen and (min-width:450px){
-   .conbg img{width: 120%;position: relative;left: -180px;} 
+   .conbg img{width: 120%;position: relative;left: -100px;} 
     
 }
 @media screen and (min-width:450px){
-   .conbg img{width: 100%;position: relative;left: -180px;} 
+   .conbg img{width: 100%;position: relative;left: 0px;} 
     
 }
 
-@media screen and (min-width:1000px){
-   .conbg img{width: 100%;position: relative;left: -180px;} 
-        .conbg h1{left: 50%;transform: translateX(-50%); top:190px;z-index: 1;font-size: 40px; }
+@media screen and (min-width:1000px){        .conbg h1{left: 50%;transform: translateX(-50%); top:190px;z-index: 1;font-size: 40px; }
 .conbg p{left: 20px;top:230px;z-index: 1;font-size: 20px;left: 50%;transform: translateX(-50%);font-size: 25px;text-align: center;}
     
 }

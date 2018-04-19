@@ -1,0 +1,611 @@
+<style type="text/css">
+
+
+
+body {
+  font: 14px/1.7143 'Hind';
+  color: #444;
+}
+@media (max-width:700px){
+    .b-advantages-2 {
+    margin-bottom: 20px !important;
+    }
+}
+@media (min-width:800px)and (max-width:1000px){
+    .b-advantages-2 {
+    margin-bottom: 50px !important;
+    }
+}
+/* Titles */
+.ui-title-page {
+  position: relative;
+  display: inline-block;
+  margin-top: 0;
+  padding: 38px 88px 32px;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: .05em;
+}
+
+.ui-title-block {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1.08;
+}
+
+.ui-title-block-2 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 36px;
+  line-height: 1.08;
+  letter-spacing: .02em;
+}
+
+.ui-subtitle-block {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.875;
+  color: #888;
+}
+
+.ui-title-inner {
+  margin-bottom: 22px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.ui-title-inner:before {
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  margin-right: 10px;
+  content: '';
+  vertical-align: middle;
+}
+
+/* Decor elements */
+.ui-decor {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.ui-decor:before, .ui-decor:after {
+  position: absolute;
+  bottom: -5px;
+  width: 30px;
+  height: 1px;
+  content: '';
+}
+
+.ui-decor:before {
+  left: -15px;
+}
+
+.ui-decor:after {
+  right: -15px;
+}
+
+.ui-decor-2 {
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+
+/* Sections */
+.section-area {
+  position: relative;
+}
+
+.section-default {
+  position: relative;
+  padding-top: 104px;
+  padding-bottom: 110px;
+}
+
+.section-default_btm {
+  padding-bottom: 110px;
+}
+
+.section-default_top {
+  padding-top: 104px;
+}
+
+.section-content {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.section-inner {
+  margin-top: 60px;
+}
+
+.section-border {
+  border-bottom: 1px solid #eee;
+}
+
+.section-dark .ui-title-block, .section-dark .ui-subtitle-block {
+  color: #fff;
+}
+
+.area-bg {
+  position: relative;
+}
+
+.area-bg:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  opacity: .8;
+}
+
+.area-bg__inner {
+  position: relative;
+  z-index: 110;
+}
+
+.area-bg_dark:after {
+  background-color: #000;
+}
+
+.area-bg_dark-2:after {
+  background-color: #222;
+}
+
+.area-bg_light:after {
+  background-color: #f4f4f4;
+}
+
+.area-bg_grey:after {
+  background-color: #111;
+}
+
+.area-bg_op_5:after {
+  opacity: .05;
+}
+
+.area-bg_op_10:after {
+  opacity: .1;
+}
+
+.area-bg_op_20:after {
+  opacity: .2;
+}
+
+.area-bg_op_30:after {
+  opacity: .3;
+}
+
+.area-bg_op_40:after {
+  opacity: .4;
+}
+
+.area-bg_op_50:after {
+  opacity: .5;
+}
+
+.area-bg_op_60:after {
+  opacity: .6;
+}
+
+.area-bg_op_70:after {
+  opacity: .7;
+}
+
+.area-bg_op_80:after {
+  opacity: .8;
+}
+
+.area-bg_op_85:after {
+  opacity: .85;
+}
+
+.area-bg_op_90:after {
+  opacity: .9;
+}
+
+
+
+.parallax {
+  -webkit-transform: none;
+          transform: none;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section-policy {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.section-policy h2 {
+  margin-bottom: 40px;
+}
+
+.section-policy h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.section-policy p {
+  margin-bottom: 5px;
+}
+
+.section-policy .list-letter {
+  margin-bottom: 10px;
+  list-style-type: lower-alpha;
+}
+
+/* Typed cursor */
+.typed-strings {
+  float: left;
+}
+
+.typed-cursor {
+  float: left;
+  font-weight: 100;
+  -webkit-animation: blink .7s infinite;
+          animation: blink .7s infinite;
+  opacity: 1;
+}
+
+@-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ======= COMPONENTS ======= */
+.section-type-1 {
+  padding-top: 85px;
+  padding-bottom: 17px;
+}
+
+.section-type-2 {
+  padding-top: 110px;
+  padding-bottom: 80px;
+}
+
+.section-type-2__img {
+  margin-right: -30px;
+}
+
+.section-type-2__inner {
+  padding-right: 40px;
+  padding-left: 60px;
+}
+
+.section-type-2__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .01em;
+  color: #222;
+}
+
+.section-type-2__subtitle {
+  margin-bottom: 20px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 300;
+  color: #222;
+}
+
+.section-type-2 .list {
+  margin-top: 33px;
+}
+
+.section-type-3 {
+  background-image: url(../media/content/bg/bg-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.section-advantages-2 {
+  padding-top: 95px;
+}
+
+.b-advantages-2 {
+  margin-top: 57px;
+  margin-bottom: -90px;
+  padding: 40px 30px 40px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  text-align: center;
+  background-color: #f4f4f4;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.b-advantages-2:hover {
+  color: #fff;
+}
+
+.b-advantages-2:hover .ui-decor-2 {
+  background-color: #fff;
+}
+
+.b-advantages-2:hover .b-advantages-2__title {
+  color: #fff;
+}
+
+.b-advantages-2__icon {
+  font-size: 65px;
+}
+
+.b-advantages-2__title {
+  margin-top: 0;
+  margin-bottom: 27px;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.b-advantages-2__title strong {
+  display: block;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.b-advantages-2__info {
+  margin-bottom: 7px;
+}
+
+.b-advantages-2.active {
+  border-bottom-color: #ccc;
+  background-color: rgba(204, 204, 204, 0.15);
+}
+
+
+
+/**/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 1*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+a,
+.text-primary,
+.text-primary_h:hover,
+.text-primary_b:before,
+.text-primary_a:after,
+.list > li > a:hover,
+.pager li > a:hover,
+.pager li > a:hover .icon,
+.pagination_primary > li:first-child > a:hover,
+.pagination_primary > li:first-child > a:hover .icon,
+.pagination_primary > li:last-child > a:hover,
+.pagination_primary > li:last-child > a:hover .icon,
+.search-close:hover,
+.breadcrumb > li > a:hover,
+.b-progress-list__percent,
+.b-list-brands__link:hover,
+.b-bnr__title,
+.b-goods__price,
+.footer-list__link:hover,
+.b-filter-type__input:checked + .b-filter-type__label .b-filter-type__icon,
+.b-goods-ac__price,
+.b-goods-links__link:hover,
+.b-post-1 .b-post-social__list > li > a:hover,
+.entry-meta__link:hover,
+.b-post .entry-title a:hover,
+.b-subscribe__submit:hover,
+.copyright a:hover,
+.breadcrumb > li > a > .icon,
+.b-goods-1__info-link:after,
+.b-goods-1__choose:hover,
+.btns-switch__item:hover,
+.btns-switch__item.active,
+.b-goods-1_mod-a .b-goods-1__title,
+.b-car-info__item-info,
+.b-blockquote-2:after,
+.post-carousel .owl-nav div:hover:before,
+.b-team-2__contact:hover,
+.accordion .btn-collapse:hover {color: #d01818;}
+
+
+.bg-primary,
+.bg-primary_h:hover,
+.bg-primary_b:before,
+.bg-primary_a:after,
+.pagination_primary > .active > a,
+.pagination_primary > .active > span,
+.pagination_primary > .active > a,
+.pagination_primary > .active > span,
+.pagination_primary > li > a:hover,
+.pagination_primary > li > a:focus,
+.dropcap_primary:first-letter,
+.tooltip-1 .tooltip-inner,
+.btn-primary,
+.forms__label-check-1:after,
+.forms__label-radio-2:before,
+.ui-decor,
+.ui-decor:after,
+.ui-decor:before,
+.ui-decor-2,
+.noUi-handle:after,
+.b-team__category,
+.b-isotope-grid__item .icon,
+.b-blockquote__author:before,
+.owl-theme .owl-dots .owl-dot.active span,
+.entry-meta__categorie,
+.area-bg_prim:after,
+.footer-section__title:before,
+.b-goods-feat__name:before,
+.b-goods-feat__label,
+.b-advantages-2:hover,
+.b-post-1 .entry-title:before,
+.sp-thumbnail-title:before,
+.b-goods-1__price,
+.b-car-info__price,
+.sp-button:after,
+.ui-title-inner:before,
+.list_mark-prim > li:before,
+.widget-list__item:hover:before,
+.list-tags__link:hover,
+.entry-footer__tags:hover,
+.accordion .btn-collapse .icon,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current,
+.forms__label-radio-1:after,
+.rent-carousel .owl-nav div:hover,
+.b-advantages-5:hover .b-advantages-5__icon,
+.yamm.nav>li>a:focus,
+.yamm.nav>li>a:hover {background-color: #d01818;}
+
+
+.border_prim,
+.border_prim_h:hover,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination a:hover,
+.pagination span:hover,
+.pagination a:focus,
+.pagination span:focus,
+.progress_border_primary,
+.btn-primary,
+.forms__label-radio-2:before,
+.b-filter-type-2__input:checked + .b-filter-type-2__label,
+.rent-carousel .owl-nav div:hover {border-color: #d01818;}
+
+.border-t_prim,
+.border-t_prim_h:hover,
+.tooltip-1.top .tooltip-arrow,
+.tooltip-1.top-left .tooltip-arrow,
+.tooltip-1.top-right .tooltip-arrow {border-top-color: #d01818;}
+
+.border-r_prim,
+.border-r_prim_h:hover,
+.tooltip-1.right .tooltip-arrow {border-right-color: #d01818;}
+
+.border-b_prim,
+.border-b_prim_h:hover,
+.tooltip-1.bottom .tooltip-arrow,
+.tooltip-1.bottom-left .tooltip-arrow,
+.tooltip-1.bottom-right .tooltip-arrow,
+.table_primary > thead > tr > th,
+.collapse.in,
+.btn-up:after,
+.b-filter-2__title,
+.b-bnr-2,
+.b-advantages-3.active {border-bottom-color: #d01818;}
+
+.border-l_prim,
+.border-l_prim_h:hover,
+.tooltip-1.left .tooltip-arrow,
+.border-left_primary:before,
+.form-sidebar__btn {border-left-color: #d01818;}
+
+
+.b-advantages-3.active {
+  box-shadow: 0 2px 0 0 #d01818;
+}
+
+
+.text-second,
+.text-second_h:hover,
+.link-tooltip-2,
+.forms__label-check-2:after {color: #0097c2;}
+
+.bg-second,
+.bg-second_h:hover,
+.tooltip-2 .tooltip-inner,
+.dropcap_secondary:first-letter {background-color: #0097c2;}
+
+.border_second,
+.border_second_h:hover,
+.progress_border_secondary {border-color: #0097C2;}
+
+
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 25/08/2017 10:38
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("flaticon/font/Flaticon.eot");
+  src: url("flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("flaticon/font/Flaticon.woff") format("woff"),
+       url("flaticon/font/Flaticon.ttf") format("truetype"),
+       url("flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-steering-wheel-1:before { content: "\f100"; }
+.flaticon-doors:before { content: "\f101"; }
+.flaticon-transport-1:before { content: "\f102"; }
+.flaticon-suitcase-with-white-details:before { content: "\f103"; }
+.flaticon-technology:before { content: "\f104"; }
+.flaticon-transport:before { content: "\f105"; }
+.flaticon-handshake:before { content: "\f106"; }
+.flaticon-travel:before { content: "\f107"; }
+.flaticon-sedan-car-model:before { content: "\f108"; }
+.flaticon-car-black-side-view-pointing-left:before { content: "\f109"; }
+.flaticon-car-of-hatchback-model:before { content: "\f10a"; }
+.flaticon-coupe-car:before { content: "\f10b"; }
+.flaticon-car-1:before { content: "\f10c"; }
+.flaticon-cabrio-car:before { content: "\f10d"; }
+.flaticon-sportive-car:before { content: "\f10e"; }
+.flaticon-pick-up:before { content: "\f10f"; }
+.flaticon-ac:before { content: "\f110"; }
+.flaticon-oil:before { content: "\f111"; }
+.flaticon-transmision:before { content: "\f112"; }
+.flaticon-screwdriver-and-wrench:before { content: "\f113"; }
+.flaticon-gears:before { content: "\f114"; }
+.flaticon-voltage:before { content: "\f115"; }
+.flaticon-wheel-and-manometer:before { content: "\f116"; }
+.flaticon-car-driver:before { content: "\f117"; }
+.flaticon-auto-repair-service:before { content: "\f118"; }
+.flaticon-car-dashboard:before { content: "\f119"; }
+.flaticon-calculator:before { content: "\f11a"; }
+.flaticon-smartphone:before { content: "\f11b"; }
+.flaticon-car:before { content: "\f11c"; }
+.flaticon-fuel:before { content: "\f11d"; }
+.flaticon-wrench:before { content: "\f11e"; }
+.flaticon-gearbox:before { content: "\f11f"; }
+.flaticon-steering-wheel:before { content: "\f120"; }
+.flaticon-inspection:before { content: "\f121"; }
+.flaticon-painting:before { content: "\f122"; }
+.flaticon-gearstick:before { content: "\f123"; }
+.flaticon-wheel-alignment:before { content: "\f124"; }
+
