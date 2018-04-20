@@ -286,10 +286,15 @@ font-size: 12px;
 }
 .ch-hed{
     margin: 10px 0px;
+    text-align: center;
+    padding: 30px 0;
 }
 .ch-hed h1 {
     color:#fcfcfc;
     
+}
+.fln-sldee{
+    padding: 20px 0;
 }
 .hole-con{
     display: flex;
