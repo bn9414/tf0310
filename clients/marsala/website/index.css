@@ -292,7 +292,8 @@ font-size: 12px;
 }
 .hole-con{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    padding-bottom: 30px
 }
 .slider-act{
     display: flex;
@@ -413,7 +414,149 @@ font-size: 12px;
 /*spliter*/
 .spliter-con{
     display: flex;
+    flex-direction: column;
+    margin: 0px 0;
+    align-items: center;
+    justify-content: center
+}
+.sap1{
+    width: 200px;
+    height: 600px;
+  /* transform: skew(-15deg);*/
+    position: relative;
+    left: -25px;
+    top: -10px;
+  background: url("images/chid.jpg") no-repeat;
+    background-size:cover;
+    background-position: 20% 10%;
+
+}
+
+.sap2{
+    width: 200px;
+    height: 600px;
+    /*transform: skew(-15deg);*/
+    position: relative;
+    top: 30px;
+    left: -25px;
+    background: url("images/ring.jpg") no-repeat;
+    background-size:cover;
+    background-position: 50% 0%;
+   
+    
+}
+.spimg{
+    width: 150px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: ;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    position: relative;
+    flex-direction: column;
+}
+.spltr-txt{
+    /*width: 400px;*/
+    position: relative;
+    top: 80px;
+    margin: 30px 0px;
+    padding: 0px 5px;
+}
+.txt-lne{
+    border: 2px solid #ee1b24;
+    width: 25px;
+    background: #ee1b24;
+}
+.spltr-txt p{
+    font-size: 18px;
+}
+.clror{
+    color: #ee1b24;
+}
+@media(min-width:300px){
+    .sap1{
+    width: 180px;
+    height: 600px;
+  transform: skew(-15deg);
+    position: relative;
+    left: -25px;
+    top: -20px;
+  background: url("images/chid.jpg") no-repeat;
+    background-size:cover;
+    background-position: 20% 10%;
+
+}
+
+.sap2{
+    width: 180px;
+    height: 600px;
+    transform: skew(-15deg);
+    position: relative;
+    top: 30px;
+    left: -25px;
+    background: url("images/ring.jpg") no-repeat;
+    background-size:cover;
+    background-position: 50% 0%;
+   
+    
+}
+.spimg{
+    width: 150px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: ;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    position: relative;
+    flex-direction: column;
+}
+}
+@media(min-width:500px){
+    .sap1{
+    width: 200px;
+    height: 400px;
+    transform: skew(-15deg);
+    position: relative;
+    left: 10px;
+    top: -20px;
+  background: url("images/chid.jpg") no-repeat;
+    background-size:cover;
+    background-position: 20% 10%;
+
+}
+
+.sap2{
+    width: 200px;
+    height: 400px;
+    transform: skew(-15deg);
+    position: relative;
+    top: 30px;
+    left: 20px;
+    background: url("images/ring.jpg") no-repeat;
+    background-size:cover;
+    background-position: 50% 0%;
+    
+}
+.spimg{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-bottom: 20px;
     flex-direction: row;
+}
+    .spltr-txt{
+        padding: 0 30px;
+        width: 300px;
+    }
+}
+@media(min-width:600px){
+    .spliter-con{
+    display: flex;
+    flex-direction: column;
     margin: 0px 0;
     align-items: center;
     justify-content: center
@@ -425,11 +568,12 @@ font-size: 12px;
     position: relative;
     left: 50px;
     top: -80px;
-    background: url("images/chid.jpg") no-repeat;
+  background: url("images/chid.jpg") no-repeat;
     background-size:cover;
     background-position: 20% 10%;
-    
+
 }
+
 .sap2{
     width: 200px;
     height: 400px;
@@ -441,19 +585,24 @@ font-size: 12px;
     background-size:cover;
     background-position: 50% 0%;
     
+    
 }
 .spimg{
    
-    width: 500px;
+    width: 480px;
     height: 300px;
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
+    margin-bottom: 20px;
+    flex-direction: row;
 }
 .spltr-txt{
     width: 400px;
     position: relative;
-    top: 80px
+    top: 80px;
+    margin: 30px 0px;
+    
 }
 .txt-lne{
     border: 2px solid #ee1b24;
@@ -466,9 +615,141 @@ font-size: 12px;
 .clror{
     color: #ee1b24;
 }
+
+}
+@media(min-width:900px){
+    .sap1{
+    width: 200px;
+    height: 400px;
+    transform: skew(-15deg);
+    position: relative;
+    left: 50px;
+    top: -80px;
+  background: url("images/chid.jpg") no-repeat;
+    background-size:cover;
+    background-position: 20% 10%;
+
+}
+
+.sap2{
+    width: 200px;
+    height: 400px;
+    transform: skew(-15deg);
+    position: relative;
+    top: 30px;
+    left: -10px;
+    background: url("images/ring.jpg") no-repeat;
+    background-size:cover;
+    background-position: 50% 0%;
+    
+    
+}
+}
+
+@media(min-width:1000px){
+.spliter-con{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0;
+    align-items: center;
+    justify-content: center
+}
+.sap1{
+    width: 200px;
+    height: 400px;
+    transform: skew(-15deg);
+    position: relative;
+    left: 50px;
+    top: -80px;
+  background: url("images/chid.jpg") no-repeat;
+    background-size:cover;
+    background-position: 20% 10%;
+
+}
+
+.sap2{
+    width: 200px;
+    height: 400px;
+    transform: skew(-15deg);
+    position: relative;
+    top: 30px;
+    left: -40px;
+    background: url("images/ring.jpg") no-repeat;
+    background-size:cover;
+    background-position: 50% 0%;
+    
+    
+}
+.spimg{
+   
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    flex-direction: row;
+}
+.spltr-txt{
+    width: 400px;
+    position: relative;
+    top: 80px;
+    left: -50px;
+}
+.txt-lne{
+    border: 2px solid #ee1b24;
+    width: 25px;
+    background: #ee1b24;
+}
+.spltr-txt p{
+    font-size: 25px;
+}
+.clror{
+    color: #ee1b24;
+}
+}
 /*spliter*/
+/*testimonial*/
+.testi-mn{
+    margin-top: 80px;
+}
+.testi-hd,.tsi-para,.tsti-nme{
+    text-align: center;
+    font-size: 15px;
+}
+
+.tsti-slider-act{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    /*border: 1px solid;*/
+    justify-content: space-between;
+   margin: 10px 0px;
+}
+.tsti-lne{
+    border:2px solid #ee1b24;
+    background: #ee1b24;
+    width: 30px;
+    margin:10px auto;
+    
+}
+.tsti-nme{
+    font-weight: 600;
+}
+#tsval-2,#tsval-3,#tsval-4{
+    display: none;
+}
+.test-vl{
+    animation: fun 1s;
+    transition: 0.7s;
+}
+/*testimonial*/
 /*footer*/
 .fot-hed{
+    margin-top: 10px;
+}
+@media(min-width:800px){
+    .fot-hed{
     margin-top: 150px;
+}
 }
 /*footer*/
