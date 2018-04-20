@@ -8,6 +8,7 @@ img {vertical-align: middle;}
   max-width: 1920px;
   position: relative;
   margin: auto;
+    
 }
 .mySlides{
     position: relative;
@@ -741,8 +742,121 @@ font-size: 12px;
 .test-vl{
     animation: fun 1s;
     transition: 0.7s;
+    position: relative;
+}
+.tusr-img{
+    
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.tusr-img img{
+    width: 100%;
+    border-radius: 100%;
+    
+}
+.testi-hd h3{
+    margin: 0;
+    font-size: 25px;
+}
+.testi-hd .tsti-lne{
+    margin: 10px auto;
+}
+.quimg img{
+    width: 10%;
+}
+.quimg{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+@media(min-width:800px){
+    .testi-mn{
+        margin: 150px 0px;
+        padding: 0 200px;
+    }
+}
+@media(min-width:1000px){
+    .testi-mn{
+        margin: 150px 0px;
+        padding: 0 300px;
+    }
 }
 /*testimonial*/
+/*gallery*/
+.gala-hd,.gala-para{
+    text-align: center;
+}
+.gala-act p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.galar-main{
+    display: none;
+}
+/*gallery*/
+/*gallerymobile*/
+.bir-hd p{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 5px
+}
+.eve-amg{
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+.eve-amg img{
+    width: 100%;
+    vertical-align: middle;
+}
+.eve-amg::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;right: 0;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    opacity: 0;
+}
+.gala-cap{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    opacity: 0;
+}
+.gala-cap img{
+    width: 30px;
+    position: relative;
+    display: block;
+    margin: auto;
+    
+}
+.cap-hd1{
+    
+    padding: 0px 5px;
+}
+.cap-hd1 h3,.cap-hd1 p{
+    color: #fcfcfc;
+    margin: 0;
+    text-align: center
+}
+.cap-hd1 p{
+    font-size: 10px;
+    text-align: center;
+    margin:0;
+}
+.eve-amg:hover.eve-amg::before {
+    opacity: 1;
+    transition: opacity 0.7s;
+    animation: fun 1s;
+}
+.eve-amg:hover .gala-cap {
+    opacity: 1;
+    transition: opacity 0.7s;
+    animation: fun 1s;
+}
+/*gallerymobile*/
 /*footer*/
 .fot-hed{
     margin-top: 10px;
