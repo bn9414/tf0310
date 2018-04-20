@@ -3,11 +3,11 @@
 
 
 var prev = document.getElementById('prev');
-prev.addEventListener('click',function(w){
+prev.addEventListener('click',function(){
   incre(-1);},false);
 
 var nxt = document.getElementById('nxt');
-nxt.addEventListener('click',function(w){
+nxt.addEventListener('click',function(){
   incre(1);
     clearInterval(xset);
 

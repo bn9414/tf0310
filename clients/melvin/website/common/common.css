@@ -7,7 +7,9 @@
 }
 html{ height: 100%;}
 body{background-color: #fcfcfc;margin: 0px;}
+
 body * { box-sizing: content-box;  color: #454545;font-family: 'Lato', sans-serif;}
+
 * h1,* h2{
 font-family: 'Lato', sans-serif;}
  h1{
@@ -35,7 +37,6 @@ body.home  .dmn1 span{width: 60px;}
 
 
 /*  ----------------- e:general things------------------*/
-
 
 /*topnav*/
 .top-nav{
