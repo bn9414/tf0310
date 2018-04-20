@@ -8,7 +8,7 @@ body * { box-sizing: content-box;  color: #454545;font-family: 'Lato', sans-seri
 * h1,* h2{
 font-family: 'Lato', sans-serif;}
  h1{
-     font-size:25px;}
+     font-size:25px;margin: 0}
 * p,a{
     font-family: 'Lato', sans-serif;}
 .pmenu h1,.pmenu h2,.pmenu h3,.pmenu p {margin: 0px;color: #454545;}
@@ -235,7 +235,10 @@ a{
 }
 
 @media(min-width:860px){
-    
+  #submnu1{
+    display: flex;
+      z-index: 10;
+}
     .bar-con{
         display: none;
     }
@@ -405,6 +408,10 @@ input::placeholder{
 }
 .fot-h1{
     color: #9b3236;
+}
+.fot-hd-p{
+    text-align: center;
+    margin: 0;
 }
 .fot-h2{
         padding-left: 5px;
