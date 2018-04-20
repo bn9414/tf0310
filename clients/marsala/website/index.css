@@ -935,7 +935,7 @@ padding: 5px 0;
 }
 @media(min-width:1300px){
     .gala-imgs img{
-        width: 280px;
+        width: 100%;
         vertical-align: middle;
         height: 100%;
     }
