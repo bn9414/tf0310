@@ -68,7 +68,56 @@
   
     align-items: center;
 }
+.hil{
+    background: url(images/hillw.svg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    transition: background 1s;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.wid{
+    background: url(images/wildw.svg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    transition: background 1s;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.templ{
+    background: url(images/templew.svg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    transition: background 1s;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hony{
+    background: url(images/honeyw.svg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    transition: background 1s;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 @media (min-width:600px){
+    
     .galar-main{
         padding: 50px 0px;
     }
@@ -131,7 +180,7 @@
     }
     .tr-bx{
     border-bottom: 3px solid #ebeef0;
-    width: 200px;
+    width: 190px;
      margin: 0 0px;
     display: flex;
     flex-direction: column;
