@@ -2,6 +2,20 @@
 .tr-bx img{
     width: 100px;
 }
+.chck{
+    /*border: 1px solid;*/
+    display: flex;
+    align-items: center;
+}
+.chck p{
+    margin: 5px;
+}
+.chck img{width: 15px;
+    /*border: 1px solid;*/
+    height: 20px;
+    position: relative;
+    top: -8px;
+}
 .fligt-con{
     width: 260px;
     margin: auto;
@@ -43,7 +57,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    
 }
 .tr-bx{
      
@@ -51,19 +65,26 @@
      margin: 0 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+  
     align-items: center;
 }
 @media (min-width:600px){
+    .galar-main{
+        padding: 50px 0px;
+    }
     .tr-bx{
-    border-bottom: 3px solid grey;
-    width: 150px;
+    border-bottom: 3px solid #ebeef0;
+    width: 130px;
      margin: 0 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+    .tr-bx p{
+    color: #777;
+        font-weight: 700;
+    }
     .galar-con{
     padding: 0px 50px;
 }
@@ -76,25 +97,40 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    
 }
-    .txt-gala{
-        width: 600px;
-    }
+    
     .fligt-con{
-    width: 600px;
+    width: 400px;
     margin: auto;
-    border:5px solid #ffffff;
+    border:10px solid #ffffff;
 }
 .fligt-con img{
     width: 100%;
     vertical-align: middle;
     
 }
+    .chck img{width: 15px;
+    /*border: 1px solid;*/
+    height: 20px;
+    position: relative;
+    top: 0px;
+}
+    .txt-gala p{
+        color: #a2a3a3;
+        font-size: 15px;
+    }
 }
 @media (min-width:800px){
+    .txt-gala{
+        width: 600px;
+        padding: 10px 0px
+    }
+    .txt-gala *{
+        padding: 3px 0px
+    }
     .tr-bx{
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid #ebeef0;
     width: 200px;
      margin: 0 0px;
     display: flex;
@@ -106,12 +142,20 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
     .gala-imgs{
         display: flex;
         flex-direction: row;
         
     }
+}
+@media (min-width:1000px){
+    .tr-bx{width: 240px;}
+    .galar-con{
+        padding: 0px 150px;
+    }
+}
+@media (min-width:1250px){
+    .tr-bx{width: 280px;}
 }
 /*gallery*/
