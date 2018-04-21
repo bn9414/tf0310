@@ -1,12 +1,12 @@
 /*fst-ban*/
 .slide{width: 100%; height: 450px;background-image: url(images/hd1.jpg);background-size: cover;background-repeat: no-repeat;background-position:-500px; }
 
-.second{width: 90%;height: auto;border: 1px olid black;margin: auto;position: relative;top: -100px;background-color: white;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);
+.second{width: 90%;height: auto;border: 1px olid black;margin: auto;position: relative;top: -100px;background-color: white; box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);
 border: 3px olid black;overflow: hidden;
 }
 .sec1{width:100%;height: 200px;overflow: hidden;background-image: url(images/hd1c.jpg);background-size: cover;background-repeat: no-repeat;background-position:-100px;}
 .sec2 p{padding-right: 10px;}
-.sec2{width: 100%;border: 1px solid #ffffff00;  ;height: auto;
+.sec2{width: 100%;border: none;  ;height: auto;border: 1px solid #ffffff00;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5433ab+0,e560af+50,ee727a+99 */
 background: #5433ab; /* Old browsers */
 background: -moz-linear-gradient(-45deg, #5433ab 0%, #e560af 50%, #ee727a 99%); /* FF3.6-15 */
@@ -31,9 +31,9 @@ background-position:-00px;}
 }
     @media screen and (min-width:700px){
         
-        .slide{background-size: cover;background-position:00px;}
-        .second{display: flex;flex-direction: row;height: 400px;}
-        .sec1{width: 50%;background-size: 300%;height: 400px; background-repeat: no-repeat;background-position:-500px;}
+        .slide{background-size: cover;height: 500px; background-position:00px;}
+        .second{display: flex;flex-direction: row;height: 400px;width: 70%;top: -200px;}
+        .sec1{width: 50%;background-size: 400%;height: 400px; background-repeat: no-repeat;background-position:-600px}
         .sec2{width: 50%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
         
    
@@ -51,8 +51,12 @@ background-position:-00px;}
     
 }
 
-.slidehd{margin: 0px;font-size: 25px; color: white;text-align: center;padding-top: 100px;width: 250px;margin: auto;}
+.slidehd{margin: 0px;font-size: 25px; color: white;text-align: center;padding-top: 160px;width: 80%;margin: auto;}
 
+@media screen and (min-width:700px){
+    .slidehd{width: 450px;font-size: 35px;padding-top: 100px;}
+    
+}
 
 
 
