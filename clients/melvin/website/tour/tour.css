@@ -128,6 +128,7 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+.wid1{background-image: url(images/wildc.svg);}
 .templ{
     background: url(images/templew.svg);
     display: block;
@@ -140,6 +141,7 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+.templ1{background-image: url(images/templec.svg);}
 .hony{
     background: url(images/honeyw.svg);
     display: block;
@@ -151,6 +153,9 @@
     height: 80px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+.hony1{
+   background-image: url(images/honeyc.svg); 
 }
 @media (min-width:600px){
     
