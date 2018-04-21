@@ -104,7 +104,7 @@
     opacity: 1;
 }
 .hil{
-    background: url(images/hillw.svg);
+    background-image: url(images/hillw.svg);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -113,8 +113,9 @@
     width: 80px;
     height: 80px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain;transition: 0.5s;
 }
+.hil1{ background-image: url(images/hillc.svg);}
 .wid{
     background: url(images/wildw.svg);
     display: block;

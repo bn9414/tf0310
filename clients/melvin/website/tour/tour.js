@@ -32,7 +32,9 @@ function gallery(g){
         galaimg[2].style.display="none";
         galaimg[3].style.display="none";
         
-        hil[0].style.background="url(images/hillc.svg)";
+        /*hil[0].style.background="url(images/hillc.svg)";
+        */
+    hil[0].className="hil hil1";    
         bbhd[0].style.color="#ffc527";
         galaact[0].style.borderBottom="3px solid #ffc527";
         galaact[0].classList.add("tr-bx1");
