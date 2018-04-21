@@ -1,0 +1,22 @@
+
+.active{
+    border-bottom: 3px solid #fcfcfc;
+}
+
+.fir1,.fir2,.fir3,.fir4,.fir5,.fir6{
+    padding: 40vh;
+    border-bottom:0;
+}
+@keyframes anima{
+    0%{opacity:1;}
+    100%{opacity: 0;}
+}
+.fir1{
+    background: red;
+}
+.fir2{background: green;}
+.fir3{background: yellow;}
+.fir4{background: orange;}
+.fir5{background: aqua;}
+.fir6{background: blue;padding: 50vh;}
+/*scroll*/
