@@ -35,7 +35,9 @@ function gallery(g){
         /*hil[0].style.background="url(images/hillc.svg)";
         */
         hony[0].classList.remove('hony1');
-        
+        wid[0].classList.remove('wid1');
+        templ[0].classList.remove('templ1');
+
     hil[0].className="hil hil1";    
         bbhd[0].style.color="#ffc527";
         galaact[0].style.borderBottom="3px solid #ffc527";
@@ -63,7 +65,8 @@ function gallery(g){
         galaimg[2].style.display="none";
         galaimg[3].style.display="none";
        hil[0].classList.remove('hil1');
-        
+        templ[0].classList.remove('templ1');
+        hony[0].classList.remove('hony1');
       /*  wid[0].style.background="url(images/wildc.svg)";*/
          wid[0].className="wid wid1";
         
@@ -93,6 +96,8 @@ function gallery(g){
         galaimg[2].style.display="flex";
         galaimg[3].style.display="none";
          wid[0].classList.remove('wid1');
+          hil[0].classList.remove('hil1');
+          hony[0].classList.remove('hony1');
         /*templ[0].style.background="url(images/templec.svg)";*/
         templ[0].className="templ templ1";
         bbhd[2].style.color="#ffc527";
@@ -122,7 +127,9 @@ function gallery(g){
         
      /*   hony[0].style.background="url(images/honeycc.svg)";*/
         templ[0].classList.remove('templ1');
-        
+         wid[0].classList.remove('wid1');
+          hil[0].classList.remove('hil1');
+          
         hony[0].className="hony hony1";
         bbhd[3].style.color="#ffc527";
         galaact[3].style.borderBottom="3px solid #ffc527";
