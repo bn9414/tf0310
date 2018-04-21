@@ -31,7 +31,24 @@
 }
 .tr-bx p{
     text-align: center;
+    
 }
+.tr-bx{
+    border-bottom: 0px solid;
+}
+.tr-bx::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    transform: rotate(180deg);
+    border-color: #ebeef0 transparent transparent transparent;
+    opacity: 0;
+}
+
 .galar-con{
     padding: 0px 5px;
    
@@ -60,13 +77,31 @@
     
 }
 .tr-bx{
-     
     width: 120px;
      margin: 0 0px;
     display: flex;
     flex-direction: column;
-  
+  position: relative;
     align-items: center;
+     border-bottom: 3px solid #ebeef0;
+}
+/*.tr-bx:hover.tr-bx::after{
+    opacity: 1;
+}*/
+.tr-bx:focus .tr-bx::after{
+    border-color:#ffc527;
+}
+.tr-bx1::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    transform: rotate(180deg);
+    border-color: #ffc527 transparent transparent transparent;
+    opacity: 1;
 }
 .hil{
     background: url(images/hillw.svg);
