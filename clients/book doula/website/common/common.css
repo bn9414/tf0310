@@ -197,6 +197,7 @@ a{
         width: 500px;
         justify-content: space-between;
         padding: 10px 50px;
+        align-items: center;
     }
     .nav-web a{
         padding: 20px 0;
