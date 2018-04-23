@@ -3,7 +3,7 @@
 .slide{width: 100%; height: 450px;background-image: url(images/hd1.jpg);background-size: cover;background-repeat: no-repeat;background-position:-500px; }
 
 .second{width: 90%;height: auto;border: 1px olid black;margin: auto;position: relative;margin-top: -100px;background-color: white; box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);
-border: 3px olid black;overflow: hidden;margin-bottom: 50px;
+border: 3px olid black;overflow: hidden;margin-bottom: 50px;top:100px;opacity: 0.0; transition: opacity 1s, top 1s; 
 }
 .sec1{width:100%;height: 200px;overflow: hidden;background-image: url(images/hd1c.jpg);background-size: cover;background-repeat: no-repeat;background-position:-100px;}
 .sec2 p{padding-right: 10px;}
@@ -235,7 +235,7 @@ background-position:-00px;}
     border-width: 8px;
     border-style: solid;
     transform: rotate(180deg);
-    border-color: #ffc527 transparent transparent transparent;
+    border-color: #d53132 transparent transparent transparent;
     opacity: 1;
 }
 .hil{
@@ -458,7 +458,7 @@ background-position:-00px;}
     margin-left: auto;
     margin-right: auto;
     padding:10px;
-   background-image: url(images/rac.svg);
+   background-image: url(images/trainc.svg);
     transition:background 1s;
     width: 80px;
     height: 80px;
@@ -466,8 +466,8 @@ background-position:-00px;}
 background-size: contain;
 }
 
-.ic1{ background-image: url(images/employee.svg);}
-.ic2{ background-image: url(images/tour.svg);}
+.ic1{ background-image: url(images/planec.svg);}
+.ic2{ background-image: url(images/hotelc.svg);}
 .ic3{ background-image: url(images/bus.svg);}
 .ic4{ background-image: url(images/airport.svg);}
 
@@ -488,11 +488,11 @@ background-size: contain;
 }
 .ser-ss:hover .end-lne{
     border-color:#fcfcfc;
-}
+}/*
 .ser-ss:hover{
     background: #d01818;
 }
-
+*/
 
 
 .ser-contn{

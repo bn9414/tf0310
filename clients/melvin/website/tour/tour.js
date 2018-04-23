@@ -1,3 +1,51 @@
+/* START: hl1 slide*/
+
+//paste this code under the head tag or in a separate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	
+        var second=document.getElementsByClassName('second');
+        
+
+function homeani()
+{
+    second[0].style.top="0px";
+    second[0].style.opacity="1";
+}
+homeani();
+        
+	});
+
+
+
+var ser=document.getElementsByClassName('ser-ss');
+
+
+window.onscroll = function() {scrollani(),scrollanib()};
+
+  var h = parseInt(window.innerHeight);
+        var w = parseInt(window.innerWidth);
+
+function scrollani() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        price[0].className="price pricemob_ani" 
+       
+      
+    }
+    
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        price[0].className="price price_ani pricemob_ani" 
+       
+      
+    }
+}
+
+
+
+
+
 
 var w = parseInt(window.innerWidth);
 var galaact = document.getElementsByClassName('tr-bx');
@@ -39,8 +87,8 @@ function gallery(g){
         templ[0].classList.remove('templ1');
 
     hil[0].className="hil hil1";    
-        bbhd[0].style.color="#ffc527";
-        galaact[0].style.borderBottom="3px solid #ffc527";
+        bbhd[0].style.color="#d53132";
+        galaact[0].style.borderBottom="3px solid #d53132";
         galaact[0].classList.add("tr-bx1");
      
         
@@ -70,8 +118,8 @@ function gallery(g){
       /*  wid[0].style.background="url(images/wildc.svg)";*/
          wid[0].className="wid wid1";
         
-        bbhd[1].style.color="#ffc527";
-        galaact[1].style.borderBottom="3px solid #ffc527";
+        bbhd[1].style.color="#d53132";
+        galaact[1].style.borderBottom="3px solid #d53132";
         galaact[1].classList.add("tr-bx1");
         
        /* hil[0].style.background="url(images/hillw.svg)";*/
@@ -100,8 +148,8 @@ function gallery(g){
           hony[0].classList.remove('hony1');
         /*templ[0].style.background="url(images/templec.svg)";*/
         templ[0].className="templ templ1";
-        bbhd[2].style.color="#ffc527";
-        galaact[2].style.borderBottom="3px solid #ffc527";
+        bbhd[2].style.color="#d53132";
+        galaact[2].style.borderBottom="3px solid #d53132";
         galaact[2].classList.add("tr-bx1");
         
         /*wid[0].style.background="url(images/wildw.svg)";*/
@@ -131,8 +179,8 @@ function gallery(g){
           hil[0].classList.remove('hil1');
           
         hony[0].className="hony hony1";
-        bbhd[3].style.color="#ffc527";
-        galaact[3].style.borderBottom="3px solid #ffc527";
+        bbhd[3].style.color="#d53132";
+        galaact[3].style.borderBottom="3px solid #d53132";
         galaact[3].classList.add("tr-bx1");
         
         /*templ[0].style.background="url(images/templew.svg)";*/
