@@ -205,6 +205,125 @@ padding: 13px 6px !important;
 }
 }
 
+
+/*img-txt*/
+@media (min-width:200px) and (max-width:400px){
+    .scl-bck {
+    background: url(images/girl.jpg)no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 10% !important;
+    width: 100%;
+}
+}
+.sep-wel{
+    color:#9b3236;
+}
+
+.udr1 {
+    border-bottom: 3px solid #9b3236;
+    width: 40px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+}
+/*.welc-txt{
+    border-bottom: 3px solid #9b3236;
+}*/
+.wel-p{
+    text-align: justify;
+    font-weight: 400;
+}
+.img-scl{
+    margin: 80px 0px;
+}
+.scl-con{
+    display: flex;
+    flex-direction: column;
+}
+.sclee-img{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.scl-bck{
+    background: url(images/girl.jpg)no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: 20% 10%;
+    width: 100%;
+}
+.sclee-txt{
+    width: 100%;
+    display: flex;
+    
+}
+@media(min-width:800px){
+    .col-7{
+     padding: 20px;}
+    .img-scl{
+        padding: 0 50px;
+    }
+    .col-7 h3{
+        font-weight: 500;
+    }
+.scl-con{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.sclee-img{
+    
+    width: 400px;
+    height: auto;
+    
+    display: flex;
+    
+}
+.scl-bck{
+    background: url(images/girl.jpg)no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 10%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.sclee-txt{
+    width: 60%;
+    display: flex;
+   
+}
+}
+@media(min-width:900px){
+    .img-scl{
+        padding: 0 50px;
+    }
+    .sclee-img {
+    width: 40%;
+    height: auto;
+    display: flex;
+}
+}
+   
+@media (min-width:1200px){
+        .col-7{
+     padding: 50px;
+        }
+}
+    
+@media(min-width:1300px){
+    .img-scl{
+        padding: 0 150px;
+    }
+    .sclee-img{
+        height: 500px;
+    }
+}
+/*img-txt*/
+
+
 /*iconlist*/
 .icn-div{
     margin: 20px 0px;
@@ -808,8 +927,8 @@ font-size: 12px;
 .gala-hd,.gala-para{
     text-align: center;
 }
-    .gala a{
-        position: relative;
+    .gala .a-con {
+   
     }
     
 .gala-act p{
@@ -869,6 +988,7 @@ padding: 5px 0;
         padding: 0px;
         justify-content: center;
         animation: fun 1s;
+            position: relative;
     }
     .gala-imgs img{
         width: 100%;
@@ -881,9 +1001,10 @@ padding: 5px 0;
     
 .gala-cape{
     position: absolute;
-    /*top: 60px;*/
-    left: 0px;
+    /* top: 60px; */
+    left: -10px;
     opacity: 1;
+    transform: scale(0.8);
 }
 .gala-cape .cape-img{
     width: 30px;
@@ -938,7 +1059,7 @@ padding: 5px 0;
         
     }
 }
-@media(min-width:730px){
+@media(min-width:700px){
     .gala-cape {
     position: absolute;
     left: 10px;
@@ -950,6 +1071,7 @@ padding: 5px 0;
     position: absolute;
     left: 0px;
     opacity: 1;
+        top: 30px;
 }
     .gala-cape .cap-hd1 p {
     font-size: 14px;
@@ -958,12 +1080,57 @@ padding: 5px 0;
     width: 200px;
 }
 }
-@media(min-width:1300px){
+@media(min-width:1000px){
+    .gala-cape {
+    position: absolute;
+    left: 20px;
+    opacity: 1;
+    top: 40px;
+    margin: auto;
+    }
+    .gala-cape .cap-hd1 p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+}
+@media(min-width:1100px){
+    .gala-cape {
+    position: absolute;
+    left: 30px;
+    opacity: 1;
+    top: 50px;
+    margin: auto;
+         transform: scale(1);
+    }
+    .gala-cape .cap-hd1 p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+}
+@media(min-width:1250px){
     .gala-imgs img{
         width: 100%;
         vertical-align: middle;
         height: 100%;
     }
+    .gala-cape {
+    position: absolute;
+    left: 50px;
+    opacity: 1;
+    top: 70px;
+    margin: auto;
+    }
+    .gala-cape .cap-hd1 p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+    
 }
 
 /*gallery*/
