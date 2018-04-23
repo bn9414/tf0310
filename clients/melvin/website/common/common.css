@@ -298,7 +298,7 @@ body.home  .dmn1 span{width: 60px;}
     
 
 
-.footer{width: 100%; height: auto; background-color:#fcfcfc;;overflow: hidden;padding-bottom: 3px;box-shadow: 0px 0px 15px 1px hsla(0, 0%, 0%, 0.1); }
+.footer{width: 100%; height: auto; background-color:#fcfcfc;;overflow: hidden;padding-bottom: 3px; }
 .foot1 img{width: 70px;margin: auto;border: 1px olid}
 .footer p{color: #454545;text-align: center;font-size: 15px;width: 100%;padding: 0px 0px;}
 .foot_con{display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 7px;padding-bottom: 0px; border: 1px olid black}

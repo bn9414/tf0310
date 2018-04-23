@@ -10,7 +10,7 @@
 }
 
    .slider-con img {
-    width: 100%;
+    width: 120%;
 }
 .ban{
     display: block;
@@ -164,7 +164,7 @@
 @media(min-width:700px){
     .switch {
     position: absolute;
-    right: 50px;
+    right: 100px;
 }
        .txt-cap{
     position: absolute;
@@ -190,8 +190,9 @@
 }
 .switch{
         position: absolute;
-   right: 70px;
+   right: 80px;
 }
+    .switch img{width: 25px;}
    .txt-cap p {
     font-size: 20px;
         width: 320px;
@@ -208,7 +209,7 @@
     border: 2px solid #00aa8d;
     width: 100px;
 }
-        .slider-con{width: 100%;height: 500px;}
+        .slider-con{width: 100%;height: 450px;}
 .cap-hd h1{
     margin: 0;
     color: #fcfcfc;
@@ -227,7 +228,7 @@
 
     .switch {
         position: absolute;
-   bottom: 50px;
+   bottom: 50px;right: 120px
 
 }
 .prev{
@@ -651,7 +652,7 @@ display: flex;}
     font-size: 16px
 }
     .y-chsy{
-        width: 30%;
+        width: 45%;
         padding: 10px;
     }
 }
@@ -662,7 +663,7 @@ display: flex;}
        
     }
     .y-chsy{
-        width: 20%;
+        width: 25%;
         padding: 10px;
     }
     .ch-y{
@@ -846,7 +847,7 @@ display: flex;}
     
     .sidebg{width: 210px; height:600px;background-color: rgba(235,235,235,0.7);position: absolute;top: 0px;right: 0px;transform: skewX(-10deg);}
 
-.hdtxt{position: absolute;top: 0px; right: 0px;text-align: center;top: 25px;font-weight: 700;font-size: 20px;}
+.hdtxt{position: absolute;top: 0px; right: 0px;text-align: center;top: 25px;font-weight: 500;font-size: 17px;width: 145px;font}
 .hdtxt span{font-family: 'Pacifico', cursive;color: #1B998B;}
 
 
@@ -855,45 +856,46 @@ display: flex;}
 
 
 @media screen and (min-width:350px){
-    .hdtxt{font-size: 22px;}
+    .hdtxt{font-size: 17px;}
     
 
     
 }
 @media screen and (min-width:420px){
-        .hdtxt{font-size: 22px;}
+        .hdtxt{font-size: 17px;}
 
 }
 
 @media screen and (min-width:500px){
     
-  .hdtxt{font-size: 24px;}
-    .sidebg{width: 210px;}
+  .hdtxt{font-size: 20px;width: 170px;}
+    .sidebg{width: 250px;}
+    
 }
 
 @media screen and (min-width:600px){
-      .hdtxt{font-size: 28px;}
+      .hdtxt{font-size: 20px;}
     .sidebg{width: 240px;}
 
 }
 
 @media screen and (min-width:700px){
     
-    .hdtxt{;font-size: 32px;right: 10px;}
-    .sidebg{width: 320px;right: -30px;}
+    .hdtxt{;font-size: 25px;right: 10px;width: 230px}
+    .sidebg{width: 350px;right: -30px;}
     .sch img{width: 100%;vertical-align:middle}
 }
 
 
 @media screen and (min-width:900px){
         
-    .hdtxt{top: 30%;font-size: 45px;right: 10px;transform: translateY(-50%)}
+    .hdtxt{top: 30%;font-size: 35px;right: 10px;transform: translateY(-50%);width: 300px}
     .sidebg{width: 410px;right: -40px;}
 
 }
 @media screen and (min-width:1200px){
-    .hdtxt{font-size: 50px;}
-        .sidebg{width: 450px;right: -50px;}
+    .hdtxt{font-size: 35px;right: 30px}
+        .sidebg{width: 450px;right: -30px;}
 
 }
 

@@ -40,7 +40,7 @@ function scrollImg(z){
     caphd[z].style.display="block";                              
 }
 scrollImg(0);
-var xset= setInterval(function(){incre(1);},4000);
+//var xset= setInterval(function(){incre(1);},4000);
 
 
 /*
