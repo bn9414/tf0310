@@ -331,7 +331,7 @@ a{
 .footer-main{
     display: flex;
     flex-direction: row;
-    padding: 0 50px;
+   /* padding: 0 50px;*/
 }
 .footer-block{
     width: 50%;
