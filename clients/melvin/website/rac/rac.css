@@ -156,6 +156,8 @@ background-position:-00px;}
     margin: auto;
     /*border:5px solid #ffffff;*/
     position: relative;
+    order: -1;
+    margin-top: 80px;
 }
 .fligt-con .flimg{
     width: 100%;
@@ -345,17 +347,20 @@ background-position:-00px;}
     position: relative;
     top: 0px;
 }
+    
     .txt-gala p{
         color: #a2a3a3;
         font-size: 15px;
     }
     
 }
+.txt-gala{margin-top: 100px}
 @media (min-width:800px){
     .txt-gala{
         width: 600px;
-        padding: 10px 0px
+        padding: 10px 0px;margin-top: 0px;
     }
+    .fligt-con{order: 0;}
     .txt-gala *{
         padding: 3px 0px
     }
@@ -880,7 +885,7 @@ input[type=date]::-webkit-datetime-edit-year-field {
 @media screen and (max-width:639px){	#cletf1, #cletf2, #cletf3,.marks-div{width:auto;}	.frm_textarea{padding:0 20px 0 20px;}	.frm_textarea textarea{box-sizing:border-box;}	.frm.grad{display:block;}	.frm.grad .p-txt br{display:none;}	.ram-con{padding-left:0;}}
 
 /*def*/
-
+.frm-imgcon h1{display: none;}
 .frmgrp-cnt{
     display: flex;
     flex-direction: column;
@@ -950,6 +955,7 @@ input[type=date]::-webkit-datetime-edit-year-field {
 }
 }
 @media(min-width:1200px){
+    .frm-imgcon h1{display: block;}
     .frmgrp-cnt{
     display: flex;
     flex-direction: row;
