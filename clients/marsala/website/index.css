@@ -10,8 +10,6 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 
 }
 
-
-
 .lalin{
     border-bottom: 2px solid #9b3236;
 }
@@ -100,8 +98,6 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 @media(min-width:300px){
     .switch {
     position: absolute;
-
-   
 }
    
        .txt-cap{
@@ -135,6 +131,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
         position: absolute;bottom: 20px
    
 }
+
     .switch img{width: 40px;}
        .txt-cap{
     position: absolute;
@@ -166,7 +163,9 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
     to {width: 140%;}
     
     
+    }
 }
+
 @media(min-width:600px){
     .switch {
     position: absolute;
@@ -1248,6 +1247,65 @@ font-size: 16px;
     }
 }
 /*testimonial*/
+ /*gallerymobile*/
+@media(min-width:600px){
+    .mobi-gala{
+        display: none;
+    }
+}
+.bir-hd p{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 5px;
+    text-align: center;
+}
+.eve-amg{
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+     cursor: pointer;
+}
+.eve-amg img{
+    width: 100%;
+    vertical-align: middle;
+}
+.img-mng::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;right: 0;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    opacity: 1;
+}
+.gala-cap{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    opacity: 1;
+}
+.gala-cap img{
+    width: 30px;
+    position: relative;
+    display: block;
+    margin: auto;
+    
+}
+.cap-hd1{
+    padding: 0px 5px;
+}
+.cap-hd1 h3,.cap-hd1 p{
+    color: #fcfcfc;
+    margin: 0;
+    text-align: center
+}
+.cap-hd1 p{
+    font-size: 10px;
+    text-align: center;
+    margin:0;
+}
+
+/*gallerymobile*/
 /*gallery*/
 .galar-main{
     display: none;
@@ -1468,79 +1526,7 @@ padding: 5px 0;
 }
 
 /*gallery*/
-/*gallerymobile*/
-@media(min-width:600px){
-    .mobi-gala{
-        display: none;
-    }
-}
-.bir-hd p{
-    font-size: 15px;
-    font-weight: 600;
-    padding: 0 5px;
-    text-align: center;
-}
-.eve-amg{
-    width: 200px;
-    margin: 0 auto;
-    position: relative;
-     cursor: pointer;
-}
-.eve-amg img{
-    width: 100%;
-    vertical-align: middle;
-}
-.img-mng::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    left: 0;right: 0;
-    background: rgba(0,0,0,0.8);
-    position: absolute;
-    opacity: 1;
-}
-.gala-cap{
-    position: absolute;
-    top: 30px;
-    left: 0px;
-    opacity: 1;
-}
-.gala-cap img{
-    width: 30px;
-    position: relative;
-    display: block;
-    margin: auto;
-    
-}
-.cap-hd1{
-    
-    padding: 0px 5px;
-}
-.cap-hd1 h3,.cap-hd1 p{
-    color: #fcfcfc;
-    margin: 0;
-    text-align: center
-}
-.cap-hd1 p{
-    font-size: 10px;
-    text-align: center;
-    margin:0;
-}
-.main-evs{
-    
-}
 
-/*.eve-amg:hover.eve-amg::before {
-    opacity: 1;
-    transition: opacity 0.7s;
-    animation: fun 1s;
-}
-.eve-amg:hover .gala-cap {
-    opacity: 1;
-    transition: opacity 0.7s;
-    animation: fun 1s;
-}*/
-/*gallerymobile*/
 /*footer*/
 .fot-hed{
     margin-top: 10px;

@@ -70,7 +70,7 @@ body.home  .dmn1 span{width: 60px;}
     .lft-prt img{
         width: 20px;
             position: relative;
-    /*top: 4px;*/
+   top: 4px;
             
     }
     .rgt-prt a,.lft-prt a{
@@ -350,6 +350,7 @@ a{
 .footer-block{
     width: 50%;
     height: auto;
+    overflow: hidden;
 }
 .fot-img{
     display: flex;
