@@ -350,6 +350,7 @@ a{
 .footer-block{
     width: 50%;
     height: auto;
+    overflow: hidden;
 }
 .fot-img{
     display: flex;
