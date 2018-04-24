@@ -147,6 +147,8 @@ a{
 }
 .brand a img{
     width: 200px;
+    position: relative;
+    left: 20px;
 }
 .navlst{
     display: flex;
@@ -253,6 +255,11 @@ a{
         justify-content: space-between;
         width:100%;
     }
+    .brand a img{
+    width: 200px;
+    position: relative;
+    left: 0px;
+}
     .brand a{
         color: #993233;
         font-size: 25px;

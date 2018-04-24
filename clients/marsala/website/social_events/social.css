@@ -61,11 +61,14 @@
 }
 /*sec2*/
 /*few*/
+
 .few{
     text-align: center;
     margin: 10px;
 }
-
+.info-ev img{
+    width: 100px;
+}
 .few p{
     margin: 10px auto;
 }
@@ -78,23 +81,28 @@
 /*few-end*/
 /*function ban*/
 
-.img-fun img{
-    width:100%;position: relative;
+.img-fun .fun-imgss{
+    width:180%;position: relative;
 }
 .img-fun{
-   position: relative;width: 100%; height: auto;overflow: hidden;vertical-align: middle;}
+  position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    vertical-align: middle;
+}
 .funban{
     padding: 10px ;
 }
 .info-ev{
     text-align: center;
-    border: 2px solid #f1edec;
-    background-color: #f1edec;
+    /*border: 2px solid #f1edecd9;*/
+    background-color: #f1edecd9;
     margin: 0px 10px;
     padding: 5px;
     position: absolute;
     top: 0%;
-    height: 130px;
+    height: auto;
 }
 .ev1-inf{
     left: 10px;
@@ -103,85 +111,95 @@
 @media(min-width:500px){
     .info-ev{
        width: 300px;
-        height: 150px;
+        height: auto;
         right: 10px;
     }
     .icon-bth{
     position: static !important;
-        width: 65px !important;
     
 }
     .img-fun{
-   position: relative;width: 100%; height: 200px;overflow: hidden;
+   position: relative;width: 100%; height: auto;overflow: hidden;
 ;}
-    .img-fun img{
+    .img-fun .fun-imgss{
     width:100%;position: relative;top: -50px;
 }
 
 }
 @media(min-width:600px){
+    .info-ev img {
+    width: 110px;
+}
+    .info-ev h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
     .info-ev{
        width: 300px;
-        height: 150px;
+        height: auto;
         right: 10px;
         padding: 10px;
     }
     .info-ev p{
-        font-size:15px;
+        font-size:18px;
         padding: 10px;
+        font-weight: 300;
     }
 .img-fun{
-   position: relative;width: 100%; height: 200px;overflow: hidden;
+   position: relative;width: 100%; height: auto;overflow: hidden;
 ;}
-    .img-fun img{
+    .img-fun .fun-imgss{
     width:100%;position: relative;top: -50px;
 }
 }
 @media(min-width:700px){
     .info-ev{
        width: 300px;
-        height: 200px;
+        height: auto;
         right: 10px;
         padding: 10px;
     }
     .info-ev p{
-        font-size:15px;
+        font-size:18px;
         padding: 10px;
+        font-weight: 300;
+        margin: 0;
     }
 .img-fun{
-   position: relative;width: 100%; height: 300px;overflow: hidden;
+   position: relative;width: 100%; height: auto;overflow: hidden;
 ;}
-    .img-fun img{
+    .img-fun .fun-imgss{
     width:100%;position: relative;top: -50px;
 }
 }
 @media(min-width:900px){
     .info-ev{
-        height: 280px;
+        height: auto;
+        padding-bottom: 100px;
     }
 
     .funban{
     padding: 10px 60px;
 }
     .img-fun{
-   position: relative;width: 100%; height: 350px;overflow: hidden;
+   position: relative;width: 100%; height: auto;overflow: hidden;
 ;}
-    .img-fun img{
+    .img-fun .fun-imgss{
     width:100%;position: relative;top: -50px;
 }
 }
 @media(min-width:1000px){
     .info-ev{
-        height: 400px;
+        height: auto;
     }
 
     .funban{
     padding: 10px 60px;
 }
     .img-fun{
-   position: relative;width: 100%; height: 500px;overflow: hidden;
+   position: relative;width: 100%; height: 450px;overflow: hidden;
 ;}
-    .img-fun img{
+    .img-fun .fun-imgss{
     width:100%;position: relative;top: -50px;
 }
 }
