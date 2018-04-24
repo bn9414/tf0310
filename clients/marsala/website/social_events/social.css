@@ -1,5 +1,79 @@
 .so-ban{
     position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.so-ban img{
+    width: 300%;
+    
+}
+.so-cap h1{
+    font-size:16px;
+    position: relative;
+    color:#fcfcfc;
+    width: 200px;
+}
+.so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+.so-lne{
+    border:2px solid #9b3236;
+    width:40px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,50%);
+}
+@media(min-width:600px){
+    .so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+    .so-ban{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.so-ban img{
+    width: 100%;
+}
+    .so-cap h1{
+        font-size:35px;
+       width: 200%;
+    }
+    .so-lne{
+    border:2px solid #9b3236;
+    width:80px;
+    left: 50%;
+    position: absolute;
+}
+}
+@media(min-width:700px){
+    .so-cap{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+        
+}
+    .so-ban{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.so-ban img{
+    width: 100%;
+}
+}
+
+/*.so-ban{
+    position: relative;
 }
 .so-ban img{
     width: 100%;
@@ -39,11 +113,12 @@
     left: 85px;
     position: absolute;
 }
-}
+}*/
 
 /*sec2*/
+
 .relimg img {
-    width: 20%;
+    width: 50%;
     display: block;
     margin: auto;
 }
@@ -52,6 +127,7 @@
 }
 .baloon{
     position: absolute;
+    display: none
 }
 .baloon img{
     width: 50%;
@@ -62,6 +138,7 @@
 .baloon2{
     position: absolute;
     right: -180px;
+    display: none;
 }
 .baloon2 img{
     width: 50%;
@@ -89,8 +166,33 @@ h2{
 
 @media(min-width:900px){
     .sec-2{
-        padding: 0 50px;
-    } 
+        padding: 0 50px;}
+    
+        
+  
+}
+@media(min-width:1060px){
+    .baloon{
+    position: absolute;
+           display: block;
+}
+.baloon img{
+    width: 50%;
+    position: relative;
+    left: 30px;
+    top: -160px;
+}
+.baloon2{
+    position: absolute;
+    right: -180px;
+     display: block
+}
+.baloon2 img{
+    width: 50%;
+    position: relative;
+    top: -160px;
+    
+}
 }
 /*sec2*/
 /*few*/
@@ -109,6 +211,11 @@ h2{
     .few p{
    width:500px;
     margin: 10px auto;
+}
+    .relimg img {
+    width: 20%;
+    display: block;
+    margin: auto;
 }
 }
 /*few-end*/
