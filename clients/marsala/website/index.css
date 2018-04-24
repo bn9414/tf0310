@@ -660,7 +660,7 @@ font-size: 12px;
     transform: skew(-15deg);
     position: relative;
     top: 30px;
-    left: 20px;
+    left: 13px;
     background: url("images/ring.jpg") no-repeat;
     background-size:cover;
     background-position: 50% 0%;
@@ -835,6 +835,117 @@ font-size: 12px;
 }
 }
 /*spliter*/
+
+/*moment*/
+.mo-hed{
+    margin: 60px 0px;
+    margin-bottom: 0;
+}
+.mo-hed img{
+    width: 50px;
+     display: block;
+     margin:0 auto;
+}
+.mo-con{
+    display: flex;
+    flex-direction: column;
+}
+.mo-cir{
+    border: 1px solid #e81a24;
+    width: 200px;
+    border-radius: 50%;
+    height: 210px;
+    padding: 0 5px;
+    margin: auto;
+    margin: 10px auto;
+}
+.mo-cir h4,.mo-cir p{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+.mo-cir h4{
+    border-bottom: 1px solid #ddd;
+    width: 150px;
+    margin: auto;
+    font-size: 20px
+}
+.mo-cir p{
+    font-size: 12px;
+    transform: scale(0.8);
+}
+.mo-cir img{
+    width: 140px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 0px;
+}
+@media (min-width:600px){
+    .mo-con{
+    display: flex;
+    flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+    .mo-un{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .mo-cir{
+    border: 1px solid #e81a24;
+    width: 160px;
+    border-radius: 50%;
+    height: 170px;
+    padding: 0 5px;
+    margin: 10px;
+        
+}
+    .mo-cir img{
+    width: 90px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 0px;
+}
+}
+@media (min-width:1000px){
+    .mo-con{
+    display: flex;
+    flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+    .mo-un{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .mo-cir{
+    border: 1px solid #e81a24;
+    width: 200px;
+    border-radius: 50%;
+    height: 210px;
+    padding: 0 5px;
+    margin: 10px;
+        
+}
+    .mo-cir img{
+    width: 140px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 0px;
+}
+    .mo-hed {
+    margin: 180px 0px;
+    margin-bottom: 0;
+}
+}
+/*moment*/
+
 /*testimonial*/
 .testi-mn{
     margin-top: 80px;
@@ -908,7 +1019,7 @@ font-size: 12px;
 }
 @media(min-width:1000px){
     .testi-mn{
-        margin-top: 150px ;
+        margin-top: 60px ;
         padding: 0 200px;
         margin-bottom: 10px;
     }
