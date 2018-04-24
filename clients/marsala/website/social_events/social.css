@@ -42,6 +42,38 @@
 }
 
 /*sec2*/
+.relimg img {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+.fn-lst{
+    position: relative
+}
+.baloon{
+    position: absolute;
+}
+.baloon img{
+    width: 50%;
+    position: relative;
+    left: 30px;
+    top: -160px;
+}
+.baloon2{
+    position: absolute;
+    right: -180px;
+}
+.baloon2 img{
+    width: 50%;
+    position: relative;
+    top: -160px;
+    
+}
+h2{
+    font-weight: 500;
+    font-size: 25px;
+    color: #454545;
+}
 .sec2-hd{
     text-align: center;
 }
@@ -52,8 +84,9 @@
 .sec-2 p{
     padding: 10px;
     text-align: center;
-    color: #727272
+    color: #72727291
 }
+
 @media(min-width:900px){
     .sec-2{
         padding: 0 50px;
