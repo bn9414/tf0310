@@ -37,7 +37,7 @@ function scrollImg(z){
     caphd[z].style.display="block";                              
 }
 scrollImg(0);
-var xset= setInterval(function(){incre(1);},4000);
+var xset= setInterval(function(){incre(1);},3000);
 /*slider nor*/
 var dot1 = document.getElementById("dot1");
 var dot2 = document.getElementById("dot2");
