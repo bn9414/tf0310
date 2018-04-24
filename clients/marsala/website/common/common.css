@@ -16,7 +16,7 @@ font-family: 'Lato', sans-serif;}
 * p{font-size: 16px}
 
 @media screen and (min-width:750px){
-    * p{font-size: 16px}
+    * p{font-size: 18px}
     
 }
 a{text-decoration: none !important; color: #454545; }
@@ -118,7 +118,7 @@ a{
 }
 .bar-con{
     position: absolute;
-    top: 0;
+    top: 20px;
     left: 10px
 }
 .bar{
@@ -144,6 +144,9 @@ a{
 .brand a{
     font-size: 25px;
         font-weight: 900;
+}
+.brand a img{
+    width: 200px;
 }
 .navlst{
     display: flex;
@@ -236,7 +239,7 @@ a{
   right: 40%;
 }
 
-@media(min-width:860px){
+@media(min-width:1000px){
   #submnu1{
     display: flex;
       z-index: 10;
@@ -264,6 +267,7 @@ a{
         width: 800px;
         justify-content: space-between;
         padding: 10px 50px;
+        padding-top: 25px;
     }
     .nav-web a{
         padding: 10px 0;
@@ -353,6 +357,7 @@ a{
     width: 100%;
     
 }
+
 .foot-form{
     display: flex;
     flex-direction: column;
@@ -406,7 +411,7 @@ input::placeholder{
 .footer-sec{
     background: grey;
     padding: 30px 0;
-    margin-top: 1em;
+   margin-top: 2em;
     
 }
 .fot-h1{
@@ -465,6 +470,9 @@ input::placeholder{
     background-repeat: no-repeat;
         font-size: 12px;
     line-height: 20px;
+}
+ul.list-sty li a {
+    color: #454545;
 }
 .sl-img{
     width: 60px;
