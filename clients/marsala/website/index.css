@@ -9,32 +9,9 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 /*    transition: 0.7s;*/
 
 }
-.qo-btn {
-    border: 0;
-    background: #9b3236;
-    color: #fff;
-    padding: 10px 10px;
-    border-radius: 15px;
-    font-size: 13px;
-    font-weight: 400;
-    position: absolute;
-    bottom: 60px;
-    margin: 0 10px;
-}
-.qo-btn1 {
-    border: 0;
-    background: none;
-    color: #fff;
-    padding: 10px 10px;
-    border-radius: 15px;
-    font-size: 13px;
-    font-weight: 400;
-    position: absolute;
-    bottom: 60px;
-    margin: 0 10px;
-    border: 1px solid #fcfcfc;
-    left:130px;
-}
+
+
+
 .lalin{
     border-bottom: 2px solid #9b3236;
 }
@@ -42,6 +19,8 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
    .slider-con img {
     width: 250%;
 }
+
+
 .ban{
     display: block;
   
@@ -51,7 +30,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 }
 
 @-webkit-keyframes fadeIn {
-            0% {opacity: 0.3;}
+            0% {opacity: 0.7;}
             100% {opacity: 1;}
          }
 
@@ -77,7 +56,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
     opacity: 1;
     transition: 0.7s;
 }
-
+/*
 .prev{
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -87,7 +66,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
     border-radius: 50%;
     padding: 10px;
     background: #00aa8d;
-    /*margin: 0 10px;*/
+    margin: 0 10px;
     position: absolute;
     right: 50px;
     top: 0;
@@ -102,14 +81,16 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
     right: 0px;
     top: 0;
     width: 24px !important;
-}
+}*/
 
 
 .switch{
         position: absolute;
-    right: 90px;
-    bottom: 20px;
+    left: 50%;transform: translateX(-50%);
+    bottom: 00px;
 }
+.switch img{width: 35px;margin: 0px 2px}
+
     .txt-cap{
     position: absolute;
     top:5px;
@@ -119,7 +100,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 @media(min-width:300px){
     .switch {
     position: absolute;
-    right: 40px;
+
    
 }
    
@@ -137,8 +118,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 @media(min-width:400px){
     .switch {
     position: absolute;
-   
-   right: 40px;
+  
 }
        .txt-cap{
     position: absolute;
@@ -152,9 +132,10 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 }
 @media(min-width:500px){
     .switch {
-        position: absolute;
-    right: 40px;
+        position: absolute;bottom: 20px
+   
 }
+    .switch img{width: 40px;}
        .txt-cap{
     position: absolute;
     top:30px;
@@ -170,16 +151,26 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
     .cap-hd h1{
         font-size:30px;
     }
-    .slider-con .ban img {
+    #bimg {
     width: 140%;
     position: relative;
    /* top: -63px;*/
+        transition: width 1s;
+        animation-name: imgani;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
 }
+    @keyframes imgani{
+    
+    from {width:150%;}
+    to {width: 140%;}
+    
+    
 }
 @media(min-width:600px){
     .switch {
     position: absolute;
-   right: 50px;
+
 }
    
        .txt-cap{
@@ -200,7 +191,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 @media(min-width:700px){
     .switch {
     position: absolute;
-    right: 100px;
+    
 }
        .txt-cap{
     position: absolute;
@@ -226,9 +217,9 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 }
 .switch{
         position: absolute;
-   right: 80px;
+  
 }
-    .switch img{width: 25px;}
+    .switch img{width: 50px;}
    .txt-cap p {
     font-size: 20px;
         width: 320px;
@@ -264,10 +255,10 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 
     .switch {
         position: absolute;
-   bottom: 50px;right: 120px
+   bottom: 50px;
 
 }
-.prev{
+/*.prev{
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -283,9 +274,9 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
     border-radius: 50%;
     padding: 10px;
     background: #00aa8d;
-}
+}*/
 .switch img{
-    width:30px;
+    width:50px;
 }
 }
 @media(min-width:1020px){
@@ -307,11 +298,20 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
     }
 }
 @media(min-width:1150px){
-    .slider-con .ban img {
+    #bimg {
         position: relative;
     /*top: -200px;*/
         width: 100%;
+        animation-name: dimgani;
 }
+        @keyframes dimgani{
+    
+    from {width:110%;}
+    to {width: 100%;}
+    
+    
+}
+    #bimg{width: 100%;}
     .txt-cap{
            position: absolute;
     top: 35%;
@@ -320,7 +320,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 .switch{
         position: absolute;
    bottom: 80px;
-    right: 105px;
+
 
 }
    .txt-cap p {
@@ -337,7 +337,7 @@ body {font-family: 'Roboto', sans-serif; margin:0;}
 }
  .sidebg{width: 210px; height:600px;background-color: rgba(235,235,235,0.7);position: absolute;top: 0px;right: 0px;transform: skewX(-10deg);display:none;}
 
-.hdtxt{color: #fcfcfc;position: absolute;top: 0px; left: 0px;text-align: center;top: 25px;font-weight: 500;font-size: 17px;/*width: 145px;*/font}
+.hdtxt{color: #fcfcfc;position: absolute;top: 0px; left: 0px;text-align: center;top: 25px;font-weight: 500;font-size: 20px;margin-bottom: 10px}
 .hdtxt span{color: #fcfcfc !important}
 
 
@@ -1550,3 +1550,15 @@ padding: 5px 0;
 }
 }
 /*footer*/
+
+
+
+.butbox{ position: absolute;top: 50%;left: 50%; transform: translateX(-50%);display: flex;}
+.butbox a{display: block;margin: 10px;font-size: 16px;border-radius: 5px;padding: 5px;width: 100px;text-align: center;}
+.qut{background-color: #9a3434;color: #fcfcfc}
+.read{color: #fcfcfc;border:1px solid #fcfcfc}
+@media screen and (min-width:500px){
+    
+    .butbox a{font-size: 20px;width: 130px;}
+}
+
