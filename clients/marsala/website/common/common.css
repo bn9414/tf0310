@@ -561,3 +561,10 @@ button:focus{
     }
 }
 /*footer*/
+
+/*gallery*/
+@keyframes fun{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+/*gallery*/
