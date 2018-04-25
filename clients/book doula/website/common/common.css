@@ -67,6 +67,7 @@ a{
     background: #fcfcfc;
     width: 100%;
     position: relative;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 .brand{
    display: flex;
@@ -93,6 +94,7 @@ a{
  -ms-transition: 0.7s;
     transition: 0.4s;
         z-index: 10;
+    width: 100%;
 }
 #submnu1{
     display: none;

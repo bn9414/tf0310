@@ -1,5 +1,11 @@
 
 /*slider*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+    z-index: 10;
+}
 .slider1-con{
     height: 550px;
     
@@ -138,6 +144,7 @@
 /*label*/
 .lbl{
     /*border: 1px solid #000;*/
+    display: none;
 }
 .lbl-txt{
     background: #fcfcfc;
@@ -152,6 +159,7 @@
 @media(min-width:1000px){
     .lbl{
     /*border: 1px solid #000;*/
+        display: none;
 }
 .lbl-txt{
     background: #fcfcfc;
@@ -1264,7 +1272,7 @@ display: flex;}
     .main-div{
         display: flex;
         flex-direction: row;
-        padding: 0px 200px;
+        padding: 50px 200px;
         justify-content: space-between
     }
     
@@ -1645,7 +1653,7 @@ input[type=date]::-webkit-datetime-edit-year-field {
         justify-content: space-around;
        
         position: relative;
-        margin: 50px 0px;
+        margin: 100px 0px;
         
 }
     .frm-contr{

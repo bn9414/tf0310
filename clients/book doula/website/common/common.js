@@ -1,4 +1,24 @@
-var sections = $('.sections div')
+
+
+$(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        
+        e.preventDefault();
+        var target = this.hash;
+        
+        $target = $(target);
+       
+        $('html, body').stop().animate({
+            'scrollTop':  $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+            console.log(target);
+        });
+    });
+});
+
+
+var sections = $('.sections .div')
   , nav = $('.nav-web')
   , nav_height = nav.outerHeight();
 
@@ -42,34 +62,6 @@ for (var i = 0; i < btns.length; i++) {
   
   return false;
 });*/
-window.onscroll = function() {stricky()};
-
-var navbar = document.getElementById("nav");
-var sticky = navbar.offsetTop;
-
-function stricky() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-$(document).ready(function(){
-    $('a[href^="#"]').on('click',function (e) {
-        
-        e.preventDefault();
-        var target = this.hash;
-        
-        $target = $(target);
-       
-        $('html, body').stop().animate({
-            'scrollTop':  $target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
-            console.log(target);
-        });
-    });
-});
 
 
 
@@ -131,14 +123,15 @@ var mnulist1 = document.getElementById('navlst');
     
 }
 
-var bar11 = document.getElementById('bar-con1');
-bar11.addEventListener('click',toogle1,false);
+
+/*var bar1one = document.getElementById('bar-con1');
+bar1one.addEventListener('click',toogleone,false);
         var bar21 = document.getElementById('bar-s1');
         var bar22 = document.getElementById('bar-s2');
         var bar23 = document.getElementById('bar-s3');
 var statusof = 1
 
-function toogle1(){
+function toogleone(){
     if(statusof == 1){ 
         var submnu1 = document.getElementById('submnu1');
        
@@ -177,6 +170,6 @@ var submnu2 = document.getElementById('submnu1');
     statusof = 1;
     }
     
-}
+}*/
 
 

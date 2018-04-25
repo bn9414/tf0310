@@ -113,3 +113,17 @@ function gallery(g){
     
 }
 gallery(1);
+
+
+window.onscroll = function() {stricky()};
+
+var navbar = document.getElementById("nav");
+var sticky = navbar.offsetTop;
+
+function stricky() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
