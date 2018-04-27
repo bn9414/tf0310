@@ -67,6 +67,8 @@ var hil = document.getElementsByClassName('e-car');
 var wid = document.getElementsByClassName('p-car');
 var bbhd = document.getElementsByClassName('bb-hhd');
 var towbx = document.getElementsByClassName('tr-bx1');
+
+var round1 = document.getElementsByClassName("roun1");
         
 function gallery(g){
 
@@ -75,6 +77,8 @@ function gallery(g){
         galaimg[1].style.display="none";
         wid[0].classList.remove('p-car1');
         
+        round1[0].style.opacity="1";
+        round1[1].style.opacity="0";
 
     hil[0].className="e-car e-car1";    
         bbhd[0].style.color="#d53132";
@@ -93,6 +97,9 @@ function gallery(g){
         galaimg[0].style.display="none";
         galaimg[1].style.display="flex";
         
+        round1[0].style.opacity="0";
+        round1[1].style.opacity="1";
+
        hil[0].classList.remove('e-car1');
         
      
@@ -110,12 +117,10 @@ function gallery(g){
         
          
     }
-    
 }
 gallery(1);
 
-
-window.onscroll = function() {stricky()};
+window.onscroll = function() {stricky(),tabsanim()};
 
 var navbar = document.getElementById("nav");
 var sticky = navbar.offsetTop;
@@ -127,3 +132,31 @@ function stricky() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+
+
+  var h = parseInt(window.innerHeight);
+        var w = parseInt(window.innerWidth);
+
+var imgbor = document.getElementsByClassName("img-bor");
+var smlimg = document.getElementsByClassName("sml-img");
+function tabsanim() {
+    if(w>= 700){
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+        
+       imgbor[0].style.top="0px";
+       imgbor[0].style.opacity="1";
+       imgbor[0].style.animation="imgbr 1s";
+        
+        smlimg[0].style.opacity="1";
+        smlimg[0].style.transition="opacity 3s";
+        
+      
+    }
+    
+    }
+}
+
+
+
