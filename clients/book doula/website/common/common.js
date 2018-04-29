@@ -86,7 +86,7 @@ function toogle(){
         
         bar2.style.opacity="1";
         bar2.style.transition="opacity 0.7s";
-        bar2.style.background="#993233";
+        bar2.style.background="#C71484";
         bar1.style.position="static";
         
         bar1.style.transform="rotate(0deg)";

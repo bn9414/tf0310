@@ -1,33 +1,9 @@
-/* START: hl1 slide*/
-
-//paste this code under the head tag or in a separate js file.
-	// Wait for window load
-
-
-
-/*
-var ser=document.getElementsByClassName('ser-ss');
+$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
 
 
-window.onscroll = function() {scrollani(),scrollanib()};
-
-  var h = parseInt(window.innerHeight);
-        var w = parseInt(window.innerWidth);
-
-function scrollani() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        price[0].className="price pricemob_ani" 
-       
-      
-    }
-    
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        price[0].className="price price_ani pricemob_ani" 
-       
-      
-    }
-}
-*/
 var ecar=document.getElementsByClassName('e-car');
 var pcar=document.getElementsByClassName('p-car');
 
@@ -126,11 +102,11 @@ var navbar = document.getElementById("nav");
 var sticky = navbar.offsetTop;
 
 function stricky() {
-  if (window.pageYOffset >= sticky) {
+/*  if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
-  }
+  }*/
 }
 
 
@@ -141,18 +117,35 @@ function stricky() {
 
 var imgbor = document.getElementsByClassName("img-bor");
 var smlimg = document.getElementsByClassName("sml-img");
+var logimg = document.getElementsByClassName("logimg");
+var mainimg = document.getElementsByClassName("main-img")
+
 function tabsanim() {
     if(w>= 700){
-    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
-        
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+/*        
        imgbor[0].style.top="0px";
        imgbor[0].style.opacity="1";
        imgbor[0].style.animation="imgbr 1s";
         
         smlimg[0].style.opacity="1";
-        smlimg[0].style.transition="opacity 3s";
+        smlimg[0].style.transition="opacity 3s";*/
+        smlimg[0].style.right="-20px";
+        smlimg[0].style.opacity="1";
+       
         
+        mainimg[0].style.top="30px"; mainimg[0].style.left="-50px";
+        mainimg[0].style.opacity="1";
       
+    }
+        
+        
+        logimg[0].style.backgroundSize="95%";
+         navbar.style.height="95px";
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    
+             navbar.style.height="75px";
+            logimg[0].style.backgroundSize="200px"; 
     }
     
     }
