@@ -1,8 +1,36 @@
-$(window).load(function() {
+
+//paste this code under the head tag or in a separate js file.
+	// Wait for window load
+	$(window).load(function() {
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
+	
+        var vrbar=document.getElementsByClassName('vrbar');
+         var tar1=document.getElementsByClassName('tar1');
+         var tar2=document.getElementsByClassName('tar2');
+         var tar3=document.getElementsByClassName('tar3');
+   
+
+function homeani()
+{
+vrbar[0].style.WebkitAnimationName = "vrbarv";
+    vrbar[0].style.animationName = "vrbarv";
+    
+    tar1[0].style.WebkitAnimationName = "tarone";
+    tar1[0].style.animationName = "tarone";
+    
+    tar2[0].style.WebkitAnimationName = "tartwo";
+    tar2[0].style.animationName = "tartwo";
+    
+    tar3[0].style.WebkitAnimationName = "tarthr";
+    tar3[0].style.animationName = "tarthr";
+    
+}
+homeani();
+        
 	});
 
+/* start: second layer*/
 
 var ecar=document.getElementsByClassName('e-car');
 var pcar=document.getElementsByClassName('p-car');
@@ -57,8 +85,8 @@ function gallery(g){
         round1[1].style.opacity="0";
 
     hil[0].className="e-car e-car1";    
-        bbhd[0].style.color="#d53132";
-        galaact[0].style.borderBottom="3px solid #d53132";
+        bbhd[0].style.color="#C71484";
+        galaact[0].style.borderBottom="3px solid #C71484";
         galaact[0].classList.add("tr-bx1");
      
         
@@ -81,8 +109,8 @@ function gallery(g){
      
          wid[0].className="p-car p-car1";
         
-        bbhd[1].style.color="#d53132";
-        galaact[1].style.borderBottom="3px solid #d53132";
+        bbhd[1].style.color="#C71484";
+        galaact[1].style.borderBottom="3px solid #C71484";
         galaact[1].classList.add("tr-bx1");
         
        

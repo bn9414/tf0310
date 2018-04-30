@@ -228,7 +228,7 @@
     left: -15px;
     position: absolute;
         display: block;
-        animation: vrbarv 1s;
+        animation: vrbarvi 1s;
         transition: top 1s;
         
         
@@ -240,7 +240,7 @@
     .tar1{
         position: relative;
         top:0;
-        animation: tarone 1s;
+        animation: taronei 1s;
         transition: top 1s;
         font-family: 'Pacifico', cursive;
         font-size: 35px !important;
@@ -248,7 +248,7 @@
     .tar2{
         position: relative;
         left:0;
-        animation: tartwo 1s;
+        animation: tartwoi 1s;
         transition: left 1s;
         font-size: 30px !important;
         
@@ -256,7 +256,7 @@
     .tar3{
         position: relative;
         bottom:0;
-        animation: tarthr 1s;
+        animation: tarthri 1s;
         transition: bottom 1s;
         font-size: 30px !important;
         
@@ -334,6 +334,7 @@ font-size: 24px;
 }
 /*label*/
 /*gallery*/
+.txt-gala{margin-top: 220px}
 .gaghd{
     text-align: center;
     margin: 10px 0px;
@@ -384,7 +385,8 @@ font-size: 24px;
     }
 .galar-main{
     background: #f6f8f9;
-    margin: 50px 0;
+    margin-top: 20px;border: 1px olid;
+        padding: 30px 0px;
 }
 .tr-bx p{
     text-align: center;
@@ -414,6 +416,7 @@ font-size: 24px;
         display: flex;
         flex-direction: column;
      animation: fun 1s;
+
     }
 @keyframes fun{
     0%{opacity: 0;}
@@ -500,21 +503,21 @@ font-size: 24px;
 display: none;}
 
 .roun1{
-    border: 1px solid #d53132;
+    border: 1px solid #C71484;
     width: 10px;
     height: 10px;
    
     border-radius: 50%;
     margin:4px auto;
     opacity: 0;
-    background: #d53132;
+    background: #C71484;
 }
 .roun{
     border: 1px solid #fcfcfc;
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 40px;
+    top: 45px;
     /*left: 130px;*/
     z-index: 9;
     border-radius: 50%;
@@ -522,10 +525,11 @@ display: none;}
     box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.1);
     
 }
+.txt-gala{padding: 0px 10px}
 @media (min-width:600px){
     
     .galar-main{
-        padding: 100px 0px;
+        padding: 30px 0px;
        
     }
     .tr-bx{
@@ -585,13 +589,14 @@ display: none;}
 }
     
     .txt-gala p{
-        color: #a2a3a3;
-        font-size: 15px;
+        color: #454545;
+        font-size: 16px;
     }
-    
+    .txt-gala h3{color: #454545;font-size: 24px; font-weight: 400;}
+.txt-gala{margin-top: 200px;}
 }
-.txt-gala{margin-top: 100px}
-@media (min-width:800px){
+
+@media (min-width:850px){
     .txt-gala{
         width: 600px;
         padding: 10px 10px;margin-top: 0px;
@@ -625,6 +630,7 @@ display: none;}
     .galar-con{
         padding: 0px 150px;
     }
+    .galar-main *, .galar-main{border: 1px olid;}
     .sec-flimg{
         position: absolute;
         border:10px solid #ffffff;
@@ -1012,8 +1018,8 @@ flex-direction: row;
  text-align: center;width: 330px;
 }
 .num{
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 400;
 }
 .num-t{
     font-size: 15px;
@@ -1360,6 +1366,8 @@ display: flex;}
         flex-direction: row;
         
     }
+    .yr-div2{overflow: hidden;}
+    .yr-cnt1{left: 350px;position: relative;}
     .yr-cnt p{
     text-align: left;
     font-size: 15px;
@@ -1417,7 +1425,9 @@ display: flex;}
 }
     .lne{
     border: 2px solid;
-  width: 10%;
+  width: 13%;
+}   .ab{
+  width: 50%;
 }
 }
 @media (min-width:800px){
@@ -1832,9 +1842,11 @@ input[type=date]::-webkit-datetime-edit-year-field {
 .frmgrp-cnt{
     display: flex;
     flex-direction: column;
-    padding: 50px 0;
-    background: #ddd;
+    padding: 0px 0px;
+    background: #fcfcfc;
+    border: 1px olid;
 }
+.frmgrp-cnt *{border: 1px olid}
 .frm-imgcon{
     width: 200px;
 }
@@ -1853,8 +1865,9 @@ input[type=date]::-webkit-datetime-edit-year-field {
     border: none;
     padding: 10px;
     color: #fcfcfc;
-    background:#d01818;
+    background:#C71484;
     border-radius: 10px;
+    font-size: 18px;
 }
 .subcon{
     display: flex;
@@ -1868,7 +1881,7 @@ input[type=date]::-webkit-datetime-edit-year-field {
         justify-content: space-around;
        
         position: relative;
-        margin: 100px 0px;
+        margin: 00px 0px;
         
 }
     .frm-contr{
@@ -1973,11 +1986,14 @@ textarea {
     overflow: hidden;
 }
 .cnt-con{
-    background: url(images/about1.jpg)no-repeat;
+    background: url(images/formbg.jpg)no-repeat;
     background-size: cover;
     height: 100%;
     position: relative;
 }
+.cnt-con p,.cnt-con h1{color: #fcfcfc;text-align: center;}
+.cnt-con h1{padding-top: 100px;font-size: 45px }
+.cnt-con p{font-size: 24px;}
 .flttr1{
     position: absolute;
     width: 100%;
@@ -2007,8 +2023,9 @@ textarea {
     height: auto;
    
 }
+    .frm-contr{width: 50%;padding: 0px 30px}
     .cnt-con{
-    background: url(images/about1.jpg)no-repeat;
+    background: url(images/formbg.jpg)no-repeat;
     background-size: cover;
     height: 100%;
     background-position: 90%,0%;
@@ -2025,6 +2042,7 @@ textarea {
 }
 }
 /*bbb*/
+
 .tt1{
     width:100%;
     height: auto;
@@ -2036,8 +2054,8 @@ textarea {
     border-radius: 5px;
 }
 .tt2,.tt3{
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
     vertical-align: middle;
     /*border: 1px solid;*/
     overflow: hidden;
@@ -2047,10 +2065,12 @@ textarea {
 }
 .tt1 img,.tt2 img,.tt3 img{
     
-    width: 110% !important;
+    width: 150% !important;
     vertical-align: middle;
     
 }
+.tt3 img{position: relative;left: -100px;}
+.tt2 img{position: relative;left: -20px;}
 .tt2{
     left: 20px;
     top: -30px
@@ -2059,6 +2079,7 @@ textarea {
     left: 50px;
     top: 30px
 }
+/*.txt-gala{margin-top: 250px;}*/
 .fligt-con{
     margin-top: 80px;
     /*margin-left: 60px;
@@ -2066,14 +2087,7 @@ textarea {
     
 }
 @media(max-width:375px){
-    .tt1{
-    width:80%;
-        height: auto;
-    }
-    .tt2,.tt3{
-    width: 80%;
-        height: auto;
-    }
+    .txt-gala{margin-top: 300px;}
 }
 @media(min-width:700px){
     .tt1{
@@ -2081,28 +2095,69 @@ textarea {
     height: 300px;
     }
     .tt1 img,.tt2 img,.tt3 img{
-    width: 120% !important;
+    width: 150% !important;
       
     vertical-align: middle;
     
 }
-    .tt2,.tt3{
-    width: 400px;
-    height: 300px;
+    .tt2{
+    width: 250px;
+    height: 250px;
+          left: 100px;
+    top: -30px
+}
+    .tt3{
+    width: 250px;
+    height: 250px;
+        left: -20px;
+    top: -60px
 }
     .fligt-con{
     margin: 80px ;
 }
     .tt2{
-    left: 30px;
-    top: -30px
+  
 }
 .tt3{
-    left: 60px;
-    top: 30px
+    
 }
 }
 /*tabcon*/
 
 
 /*tabcon*/
+
+
+/*S: Getintouch form*/
+.getcon,.getcon *{border: 1px olid}
+.getcon1{display: flex;flex-direction:column;background-color: #454545;}
+.getcon{width: 100%; height: auto;background-color: #454545;display: flex;justify-content: space-around;align-items: center;border: 1px olid yellow}
+.getcon1 h1{color: #fcfcfc;text-align: center;}
+.icon img{width: 50px;}
+.icon{display: flex;flex-direction: column;align-items: center;justify-content: center;border: 1px olid yellow;max-width: 250px;}
+.icon p{color: #fcfcfc;}
+
+
+
+.foot3,.foot2{display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;width: 100%;border: 1px olid;padding: 5px 0px;}
+.fooico{display: flex;}
+.foot3{display: flex;justify-content: center;align-items: center;}
+.foot3 h2{font-size: 20px;text-align: center;color: #fcfcfc;font-weight: 400;}
+.fooico img{width: 30px;}
+@media screen and (max-width:750px){
+    .getcon{flex-direction: column;}
+    
+}
+@media screen and (min-width:700px){
+  .foot3{width: auto;margin: 0px 20px;border: 1px olid black}
+    .foot3 h2{width: 150px;margin-bottom: 10px;}
+    .foot3 img{width: 40px;}
+.foot3 h2,.foot2 h2{font-size: 18px;}
+}
+
+/*E: Getintouch form*/
+
+/*copy*/
+.copyright{background-color: #343434;border: 1px solid}
+.copyright p{text-align: center;color: #fcfcfc;margin: 5px}
+/*copy*/
