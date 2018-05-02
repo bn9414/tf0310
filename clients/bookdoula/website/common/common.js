@@ -1,4 +1,16 @@
 
+//paste this code under the head tag or in a separate js file.
+	// Wait for window load
+	jQuery_1_5_2(window).load(function() {
+		// Animate loader off screen
+		jQuery_1_5_2(".se-pre-con").fadeOut("slow");;
+	});
+//end preloads screen//
+
+
+
+
+
 
 $(document).ready(function(){
     $('a[href^="#"]').on('click',function (e) {
@@ -86,7 +98,7 @@ function toogle(){
         
         bar2.style.opacity="1";
         bar2.style.transition="opacity 0.7s";
-        bar2.style.background="#C71484";
+        bar2.style.background="#993233";
         bar1.style.position="static";
         
         bar1.style.transform="rotate(0deg)";

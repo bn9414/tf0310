@@ -8,6 +8,17 @@
       
        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet"> 
         
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script type="text/javascript">
+var jQuery_1_5_2= $.noConflict(true);
+</script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        
+        
+           
+        
+        
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
@@ -17,12 +28,15 @@
     <link rel=stylesheet type="text/css" href="index.css">
            <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+<!--      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+var jQuery_3_3_1 = $.noConflict(true);
+</script>-->
     
     </head>
 <body>
-  <div class="se-pre-con"></div> 
 
+  <div class="se-pre-con"></div>
     <!--navigation-->
     <div class="nav sticky" id="nav">
         <div class="brand">
@@ -30,9 +44,10 @@
        </div>
        <div class="nav-web">
         <a href="#fir" class="web-mnu ">Home</a>
-        <a href="#two" class="web-mnu">About</a>
-        <a href="#tir" class="web-mnu"> Why Enquiry</a>
-        <a href="#four" class="web-mnu">Contact Us</a>
+        <a href="#two" class="web-mnu">About us</a>
+        <a href="#tir" class="web-mnu"> Why us</a>
+        <a href="#four" class="web-mnu">Staff enquiry</a>
+           
        
            
        </div>
@@ -41,7 +56,7 @@
         <a href="#fir">Home</a>
         <a href="#two">About</a>
         <a href="#tir">Staff Enquiry</a>
-        <a href="#four">Contact Us</a>
+        <a href="#four">Staff enquiry</a>
         
        </div>
        <div class="bar-con" id="bar-con">
@@ -139,9 +154,10 @@
                 </div>
             </div>
     <!--whychoose-->
-        
+      
         <!--tours-->
     <div class="galar-main div" id="tir">
+        
         <div class="galar-con">
                <div class="yr-div yr-div1 yr-div2">
                 <div class="yr-txt">
@@ -194,11 +210,11 @@
                     </div>
                 </div>
                 <div class="txt-gala">
-              <h3>We are different from agents and editors</h3>
+              <h3 >We are different from agents and editors</h3>
                 <p>We distinguish ourselves from agents and editors, been a new publishing service to help emerging authors with our guidance, support, encouragement, empowerment in area of editing, proof-reading, cover design and interior formatting.</p>
                 
                 <div class="">
-                <p>We take care of almost everything when it comes to publising so that you can center your focus to writing great book.</p>
+                <p>We take care of almost everything when it comes to publising so that you can center your focus on writing great book.</p>
                 </div>
                 
                 </div>
@@ -234,18 +250,23 @@
         <!--contactus-->
         
                  <!--form-tag-->
-    
-    <div class="frmgrp-cnt div" id="four">
+      <div class="patch  div" id="four"></div>
+    <div class="frmgrp-cnt">
+        
         <div class="bxsh">
         
         <div class="frm-contr">
             <div class="frmfield">
-                <form id="application_form_validated" action="home.php" method="post" novalidate="novalidate" >       <h1 class="frm-tit">Drop your detials, we get back to you.</h1>              <!--frm1-end-->                    <div class="frm-con">						<div class="frm">							<input type="text" name="name" value="" placeholder="Name" class="usernme">						</div>						<div class="frm">							<div id="clet23" class="date_frm"><!--<input type="date" name="date" placeholder="date of birth" ><input  placeholder=""  type="date" name="date">-->							<input type="text" name="place" value="" placeholder="Place" class="usernme">							</div>							<!--<input type="date" name="date" placeholder="Date of birth" >-->						</div>                    </div> 
+                <form id="application_form_validated" action="https://formspree.io/editor@bookdoulapublications.com"
+      method="POST"   novalidate="novalidate" > 
+                     <input type="hidden" name="_next" value="https://www.bookdoulapublications.com/misc/cform/cform.html" />
+                    
+                    <h1 class="frm-tit">Drop your detials, we get back to you.</h1>              <!--frm1-end-->                    <div class="frm-con">						<div class="frm">							<input type="text" name="name" value="" placeholder="Name" class="usernme">						</div>						<div class="frm">							<div id="clet23" class="date_frm"><!--<input type="date" name="date" placeholder="date of birth" ><input  placeholder=""  type="date" name="date">-->							<input type="text" name="place" value="" placeholder="Place" class="usernme">							</div>							<!--<input type="date" name="date" placeholder="Date of birth" >-->						</div>                    </div> 
                     <!--frm1-end-->
                     <!--frm2-->
                     <div class="frm-con">						<div class="frm">							<input type="email" name="Email Id" value="" placeholder="Email Id" class="usernme">						</div>						<div id="cletf2">							<input type="tel" name="mobile" value="" placeholder="Mobile" class="usernme">						</div>                    </div>
                     <!--frm2 end-->
-                        <!--frm3-->                    <div class="frm-con">						<div class="frm">												</div>						<div id="cletf2">									</div>                    </div>
+                        <!--frm3-->                   
                     <!--frm3 end-->
                           
                     <!--frm-4.1-->
@@ -254,9 +275,9 @@
                       <div  id="cletf2" class="f3">							<select class="want_ex"  name="Intrested Field" style="" >								<option value="volvo" disabled selected >Intrested Field</option>								<option value="oc" >Engineering</option>								<option value="bc">Arts & Science</option>								<option value="mbc">For Phd</option>																															</select>						</div>
                     </div>
                         <!--hidden form-->
-                    <div class="frm hfrm" style="visibility: hidden">
+                   <!-- <div class="frm hfrm" style="visibility: hidden">
                        <input type="email" name="email" value="" placeholder="EMail ID" class="usernme">
-                    </div>
+                    </div>-->
                         <!--hidden form-->
                     </div>
 
@@ -298,17 +319,17 @@
     <h1>Get in touch with us</h1>
    <div class="getcon">
         <div class="icon"><img src="images/phone.svg">
-                               <p>9884856894</p></div>
+                               <p>9884829434</p></div>
         <div class="icon"><img src="images/mail.svg">
-                               <p>test@gmail.com</p></div>
-        <div class="icon"><img src="images/loc.svg"><p>No 142, bajani koil st, eliambedu, poneri-601204</p></div>
+                               <p>editor@bookdoulapublications.com</p></div>
+        <div class="icon"><img src="images/loc.svg"><p> No 2/45, Labour Colony, Guindy Industrial estate, Chennai-600032</p></div>
          <div class="foot3">
       <h2>Connect with us</h2>
             <div class="fooico">
-            <a href="https://www.facebook.com/dresslanduniforms/" target="_blank"><img src="images/fb32.svg"></a>
-            <a  href="https://twitter.com/dlanduniforms" target="_blank"><img src="images/tw32.svg"></a>
-            <a  href="https://www.instagram.com/dresslanduniforms/" target="_blank"><img src="images/in32.svg"></a>
-                    <a  href="https://www.linkedin.com/in/dresslanduniforms/" target="_blank"><img src="images/link.svg"></a>
+            <a href="#" target="_blank"><img src="images/fb32.svg"></a>
+            <a  href="#" target="_blank"><img src="images/tw32.svg"></a>
+            <a  href="#" target="_blank"><img src="images/in32.svg"></a>
+                    <a  href="#" target="_blank"><img src="images/link.svg"></a>
             </div>
       </div>
         </div>
@@ -320,15 +341,31 @@
     
     
     
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>  
-
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> --> 
+    
+ <!--   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+var jQuery_1_5_2 = $.noConflict(true);
+</script>-->
+    
+ <!--   
+  <div class="se-pre-con"></div> -->
     <script src="common/common.js" type="text/javascript"></script>
 
  
     <script src="index.js" type="text/javascript"></script>
-        
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
+  
+        
+     <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    
+    
+    
+    <!-- load jQuery 1.1.3 -->
+
+
+<!-- load jQuery 1.3.2 -->
+
      
     </body>
 </html>

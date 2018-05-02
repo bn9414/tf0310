@@ -1,9 +1,9 @@
 
 //paste this code under the head tag or in a separate js file.
 	// Wait for window load
-	$(window).load(function() {
+	jQuery_1_5_2(window).load(function() {
 		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
+		jQuery_1_5_2(".se-pre-con").fadeOut("slow");;
 	
         var vrbar=document.getElementsByClassName('vrbar');
          var tar1=document.getElementsByClassName('tar1');
@@ -147,9 +147,11 @@ var imgbor = document.getElementsByClassName("img-bor");
 var smlimg = document.getElementsByClassName("sml-img");
 var logimg = document.getElementsByClassName("logimg");
 var mainimg = document.getElementsByClassName("main-img")
+var tt2 = document.getElementsByClassName("tt2")
+var tt3 = document.getElementsByClassName("tt3")
 
 function tabsanim() {
-    if(w>= 700){
+    if(w>= 300){
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
 /*        
        imgbor[0].style.top="0px";
@@ -167,6 +169,36 @@ function tabsanim() {
       
     }
         
+        
+        if(w>700){
+            if (document.body.scrollTop > 1372 || document.documentElement.scrollTop > 1372) {
+                
+                tt2[0].style.left="100px";
+                tt2[0].style.top="-30px";
+                   tt2[1].style.left="100px";
+                tt2[1].style.top="-30px";
+                
+                   tt3[0].style.left="-20px";
+                tt3[0].style.top="-60px";   tt3[1].style.left="-20px";
+                tt3[1].style.top="-60px";
+            }
+        }
+        
+            if(w<700){
+            if (document.body.scrollTop > 2020 || document.documentElement.scrollTop > 2020) {
+                
+                tt2[0].style.left="20px";
+                tt2[0].style.top="-30px";
+                   
+                tt2[1].style.left="20px";
+                tt2[1].style.top="-30px";
+                
+                   tt3[0].style.left="50px";
+                tt3[0].style.top="30px";
+                 tt3[1].style.left="50px";
+                tt3[1].style.top="30px";
+            }
+        }
         
         logimg[0].style.backgroundSize="95%";
          navbar.style.height="95px";
