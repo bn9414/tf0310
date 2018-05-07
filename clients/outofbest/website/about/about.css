@@ -6,8 +6,9 @@ body{
 .aboutsld{
    
     position: relative;
-    height: 350px;
+    height: 400px;
     overflow: hidden;
+    border: 1px solid;
 }
 .rotcon{
     background-color: #DCD38E;
@@ -18,44 +19,15 @@ body{
     left: -80px;
     top: -80px;
 }
-.wholediv{
-    padding: 0 25px;
-    position:relative;
-    top: -300px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
 
-}
-@media(min-width:500px){
-    .wholediv{
-    padding: 0 70px;
-    }
-}
-@media(min-width:600px){
-    .wholediv{
-    padding: 0 90px;
-    }
-}
-@media(min-width:900px){
-    .wholediv{
-    padding: 0 150px;
-        top: -350px;
-    }
-}
-@media(min-width:1300px){
-    .wholediv{
-        top: -450px;
-        padding: 0 300px;
-    }
-}
 .txtabt{
-    /*position: absolute;*/
     text-align: left;
-    width: 100%;
+    /*width: 100%;*/
     top: 100px;
+    position: absolute;
+    padding: 0px 20px;
 }
+
 .txtabt h1,.txtabt h3{
     color: #fcfcfc;
     margin: 0;
@@ -71,14 +43,7 @@ body{
 .sepclr{
 color: #6F7273;
 }
-
 @media (min-width:600px){
-    .aboutsld{
-        height:400px
-    }
-    .rotcon{
-        padding: 38vh;
-    }
     .txtabt h1{
         font-size: 50px
     }
@@ -88,205 +53,87 @@ color: #6F7273;
     .txtabt p{
         font-size: 25px;
     }
-}
-@media (min-width:900px){
     .aboutsld{
-        height:500px
+        height: 500px;
     }
     .rotcon{
-      padding: 48vh;
-        left: -600px;
-        top: -100px;
-        width:160%
+        padding: 45vh;
     }
+}
+@media (min-width:900px){
     .txtabt{
     margin: 40px 0px;
 }
-}
-@media (min-width:1300px){
-    .aboutsld{
-        height:600px;
-    }
     
-    .rotcon{
-        top: -220px;
-         padding: 55vh;
-    }
 }
-.sldimg{
+
+/*spt*/
+.sptcon{
     display: flex;
+    border:1px solid;
     flex-direction: column;
-    /*justify-content: center;*/
-    /*align-items: center;*/
     position: relative;
-    /*top: -60px;*/
-}
-.mgabtcon{
-    width: 250px;
-    height: 250px;
-    margin: auto;
-}
-.ownimg{
-    background-image: url(images/spltimg.jpg);
-    background-size: cover;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-.owntxt{
-    text-align: left;
-    width: 250px;
-    margin: auto;
-}
-.owntxt p{
-   font-size: 18px;
-    color: #454545;
-}
-.icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: center
-}
-.icon span{
-    width: 20px;
-    color: #6F7273;
-}
-@media (min-width:500px){
-    .mgabtcon{
-    width: 350px;
-    height: 300px;
-        
-}
-    .owntxt{
-    text-align: left;
-    width: 350px;
-}
-}
-@media (min-width:750px){
-    .sldimg{
-    display: flex;
-    flex-direction: row;
-    }
-    .owntxt{
-        display: flex;
-        flex-direction: column;
-        padding-top: 100px;
-        padding-left: 20px;
-       
-    }
-}
-@media(min-width:900px){
-    .mgabtcon{
-    width: 400px;
-    height: 400px;
-        margin: unset;
-}
-    .owntxt{
-    text-align: left;
-        margin: unset;
-       
-}
+    top: -150px;
     
 }
-@media(min-width:1100px){
-    .sldimg{
-       /* top: -150px;*/
-    }
-    .owntxt{
-        padding-top: 150px;
-    }
+.sptimgcon{
+    width: 290px;
+    height:350px;
+    overflow: hidden;
+   margin: auto;
 }
-
-
-.reful{
-    display: flex;
-    flex-direction: column;
+.sptimg{
+    background: url(images/spltimg.jpg) no-repeat;
+    background-size: cover;
+  height: 100%;
+    width: 100%;
+    background-position:100% 50%;
+    
+}
+.txts-p p{
+    color:#727679;
     padding: 0px 10px;
 }
-.reffhd h1{
-    color: #A4D6CD;
-    font-size: 25px;
-    text-align: center;
-}
-.echdiv h3{
-    text-align: center;
-    color: #6F7273;
-}
-.echdiv p{
-    text-align: left;
-    color: #6F7273;
-}
-.reflimg{
+.icn{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100px;
     align-items: center;
-     margin: auto;
-        width: 80%;
+    margin: auto;
 }
-.ic{
-    width: 130px;
-    height: 100px;
-    border: 1px solid;
+.icn span{
+     color:#727679;
+   /* border: 1px solid;*/
+  
 }
-.reffrng{
-    position: relative;
-    top: -280px;
-    /*padding: 0 150px;*/
-}
-@media(min-width:500px){
-    .ic{
-    width: 200px;
-    height: 200px;
 
-    }
-    .reflimg{
-        margin: auto;
-        width: 80%;
-    }
-    
-}
-@media(min-width:1200px){
-    .reffrng{
-    position: relative;
-    top: -380px;
-   padding: 0 100px;
-}
-    .reful{
+@media(min-width:600px){
+    .sptcon{
     display: flex;
-        flex-direction: row;
+    border:1px solid;
+    flex-direction: row;;
+    position: relative;
+    top: -150px;
+        align-items: flex-end;
+}
+    .txtspt{
+        width: 50%;
     }
 }
-@media(min-width:800px){
-    .reffrng{
-        padding: 0 100px;
+@media(min-width:1100px){
+    .sptcon{
+        width: 60%;
+        margin: auto;
     }
 }
-@media(min-width:900px){
-    .reffrng{
-        padding: 0 100px;
-    }
-    .reffhd h1{
-    color: #A4D6CD;
-    font-size: 25px;
-    text-align: left;
-}
-    
-.echdiv h3{
-    text-align: left;
-    color: #6F7273;
-}
-.echdiv p{
-    text-align: left;
-    color: #6F7273;
-}
-    
-}
+/*spt*/
 
+/*footer*/
 .aboutsld1{
    
     position: relative;
-    height: 350px;
+    height: 380px;
     overflow: hidden;
 }
 .rotcon1{
@@ -300,7 +147,7 @@ color: #6F7273;
 }
 @media (min-width:600px){
     .aboutsld1{
-        height:400px
+        height:500px
     }
     .rotcon1{
         padding: 38vh;
@@ -342,13 +189,13 @@ color: #6F7273;
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
-    width: 300px;
+    width: 270px;
     margin: auto;
 }
 .mnuser a{
     text-decoration: none;
     color: #fcfcfc;
-    font-size: 18px
+    font-size: 16px
 }
 .cpy p{
     font-size: 15px;
@@ -359,7 +206,24 @@ color: #6F7273;
     font-size: 16px;
     font-weight: 600;
 }
-
+@media(min-width:600px){
+    .mnuser{
+        width: 270px;
+    }
+    .foottxt{
+        top:200px;
+    }
+}
+@media(min-width:700px){
+    .mnuser{
+        width: 300px;
+    }
+    .mnuser a{
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 18px
+}
+}
 @media(min-width:900px){
     .foottxt{
     top: 180px;
@@ -415,3 +279,4 @@ color: #6F7273;
         bottom: 80px
     }
 }
+/*footer end*/
