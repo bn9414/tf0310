@@ -222,7 +222,7 @@ body.home  .dmn1 span{width: 60px;}
     .pmenu p{color: #454545;}    
    .hover_track{width: 140px; height:  40px; position: absolute;left: -10px;top: 20px; }
     .pmenu{animation-name: pmenuop;animation-duration: 1s;animation-fill-mode: forwards;}
- .dmn3:hover .pmenu{display: flex;}
+ .dmn3:hover .pmenu{display: none;}
     .pmenu a:hover {}
     @keyframes pmenuop {
         from{opacity: 0;}

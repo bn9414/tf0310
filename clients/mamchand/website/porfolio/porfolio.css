@@ -5,13 +5,14 @@
         width: 90%;
     margin: auto;
         margin-bottom: 50px;
+    animation: im 1s;
     }
 .vertima{
     border: 1px solid;
     height: 50px;
     width: 3px;
     position: absolute;
-        top: 310px;
+       top: 310px;
     left: 0;
     background-color: #454545;
 }

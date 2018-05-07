@@ -77,18 +77,18 @@ if(n==false){
 n=!n;
 }
 
-function test1(){
-   setTimeout(function(){  main_menu.style.display='none';   prod_menu.style.display="block";},420); 
+/*function test1(){
+   setTimeout(function(){  main_menu.style.display='none';   prod_menu.style.display="none";},420); 
     
  
     pmn[0].className='pmn mjz4 phead';
         
       blacklay.className="black_lay blackani";
      setTimeout(function(){  blacklay.className="black_lay";},1300);
-}
+}*/
 
 a.addEventListener('click', function(){test(3);}, false );
-menu3.addEventListener('click', test1, false );
+/*menu3.addEventListener('click', test1, false );*/
 phead.addEventListener('click', function(){test(2);}, false );
 
 
