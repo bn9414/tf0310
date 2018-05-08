@@ -28,72 +28,7 @@ font-size: 16px;}
 
 /*e:header design*/
 
-/*s:nav*/
-.onav{
-    display: none;
-}
-@media(min-width:650px){
-   
-.onav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-    .barcon{
-        cursor: pointer;
-    }
-.bar{
-    width: 35px;
-    height: 5px;
-    margin: 6px 0;
-    background-color: #fcfcfc;
-    cursor: pointer;
-}
-.onavlst{
-    display: flex;
-    align-items: center;
-    width:400px;
-    justify-content: space-around;
-   
-}
-    .onavlst a{
-        font-size: 20px;
-        color: #fcfcfcfc;
-    }
-    .obrnd h1{
-        color: #fcfcfc;
-        font-size: 30px;
-    }
-    .ecomlst{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        right: -250px;
-        top: 60px;
-        background: #454545;
-        width: 250px;
-        height: 500px;
-        align-items: center;
-        justify-content: flex-start;
-        overflow: scroll;
-        transition: 1s;
-    }
-    .ecomlst a{
-        color: #fcfcfc;
-        padding: 15px 0px
-    }
-}
-@media(min-width:750px){
-    .obrnd h1{
-        color: #fcfcfc;
-        font-size: 50px;
-    }
-}
 
-
-/*e:nav*/
 /*serolst*/
 .olist{
     display: flex;
@@ -140,6 +75,7 @@ font-size: 16px;}
 }
 .olstpara{
     border-left: 0px solid #d7d7d7;
+    padding: 0px 10px;
 }
 .olstpara p{
     font-size: 18px;
@@ -176,6 +112,7 @@ a{
 @media(min-width:700px){
     .olstpara{
     border-left: 10px solid #d7d7d7;
+        padding: 0;
 }
     .olist{
     display: flex;
@@ -241,154 +178,3 @@ a{
 /*serolst*/
 
 
-/*footer*/
-
-
-.footer{
-    position: relative;
-    overflow: hidden;
-    width: 100%; 
-    height: 500px;
-    background-image: url(images/footbg.svg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-.foottxt{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,50%);
-    top: 120px;
-    /*border: 1px solid #fcfcfc;*/
-    width: 90%;
-}
-
-.foottxt *{
-    color: #d7d7d7;
-    text-align: center;
-    margin: 5px;
-}
-.foottxt h1{
-    color: #fcfcfc;
-}
-.foottxt p,.foottxt span,.bcktp a ,.bcktp .fa{
-    color: #d7d7d7;
-}
-.foottxt span i{
-    color: #d7d7d7;
-    width: 50px;
-}
-.icon{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center
-}
-.mnuser{
-   
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin:  auto;
-}
-.mnuser a{
-    font-size: 15px;
-    margin: 0;
-    margin: 10px 0px;
-    color: #d7d7d7;
-}
-.cpy p{
-    font-size: 15px;
-}
-@media(min-width:400px){
-    .foottxt{
-        width: 80%;
-    }
-    
-}
-@media(min-width:600px){
-    .foottxt{
-        width: 60%
-    }
-}
-@media(min-width:700px){
-    .foottxt{
-        width: 60%
-    }
-    .bcktp{
-        position: absolute;
-        transform: rotate(-90deg);
-        right: -100px;
-        top: 50px;
-    }
-    .bcktp i{
-        transform: rotate(90deg);
-    }
-}
-@media(min-width:900px){
-    .footer{
-    position: relative;
-    overflow: hidden;
-    width: 100%; 
-    height: 500px;
-    background-image: url(images/footbg.svg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-.foottxt{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,50%);
-    top: 150px;
-    /*border: 1px solid #fcfcfc;*/
-    width: 80%;
-}
-.foottxt *{
-    color: #fcfcfc;
-    text-align: center;
-    margin: 5px;
-}
-.foottxt span i{
-    color: #d7d7d7;
-    width: 50px;
-}
-.icon{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center
-}
-.mnuser{
-    /*border: 1px solid;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-    margin: auto;
-}
-.mnuser a{
-    font-size: 20px;
-}
-.cpy p{
-    font-size: 20px;
-}
-    .bcktp{
-        position: absolute;
-        transform: rotate(-90deg);
-        right: -100px;
-        top: 50px;
-    }
-    .bcktp i{
-        transform: rotate(90deg);
-    }
-}
-@media(min-width:1000px){
-    .foottxt{
-        width: 50%
-    }
-    .bcktp i{
-        transform: rotate(90deg);
-    }
-}
-/*e:header design*/
-
-/*footer end*/
