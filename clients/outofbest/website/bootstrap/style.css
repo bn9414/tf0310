@@ -726,7 +726,7 @@ body.fullpage{
 	3. Top Content Section Styles
 -------------------------------------------------------------------*/
 #top-content{
-    background-color: #f9fbff;
+    background-color: #fff;
 }
 .slide{
     perspective: 1000px;
@@ -964,6 +964,7 @@ body.fullpage{
     letter-spacing: -1px;
     line-height: 38px;
     margin-bottom: 25px;
+    opacity: 1;
 }
 #main-slider .slide .button-holder a.blue-button{
     display: inline-block;
@@ -992,7 +993,7 @@ body.fullpage{
 	4. Info Section Styles
 -------------------------------------------------------------------*/
 #info{
-    background-color: #00d85f;
+    background-color: #acde61;
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
@@ -1066,6 +1067,12 @@ a.white-green-shadow-button:focus{
     margin-left: 20px;
     margin-right: 20px;
     
+}
+.mfeature-box:hover{
+    background-color: #f9fbff;
+    -webkit-box-shadow: 0 0 11px rgba(3, 151, 255, 0.19);
+    -moz-box-shadow: 0 0 11px rgba(3, 151, 255, 0.19);
+    box-shadow: 0 0 11px rgba(3, 151, 255, 0.19);
 }
 #features .mfeature-box.active{
     background-color: #f9fbff;

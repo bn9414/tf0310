@@ -102,10 +102,10 @@ function functionExists( name ) {
  ## Add page effect on load page and on leave page
  --------------------------------------------------------------*/
 if ( ! functionExists( 'pageEffectOnLoad' ) ) {
-	ish.pageEffectOnLoad = function() {
+		ish.pageEffectOnLoad = function() {
+    // Change to support Firefox & Safari back buttons - pageshow is fired even when page served from browser's cache
 
-		// Change to support Firefox & Safari back buttons - pageshow is fired even when page served from browser's cache
-		window.addEventListener('pageshow', function(event) {
+    window.addEventListener('pageshow', function(event) {
 			setTimeout(function() {
 			$('body').addClass('ish-no-blur');
 			$('.ish-blurred-overlay').fadeOut( ishPageEffectAnimSpeed );

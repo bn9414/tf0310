@@ -1,32 +1,3 @@
-body * { box-sizing: content-box;  color: #454545;
-    font-family: 'Poppins', sans-serif;}
-body{
-        margin: 0px;
-}
-h1,p{
-    margin: 0;
-}
-.spclr{
-    color: #fcfcfc;
-    margin: 0px;
-}
-/*s:header design*/
-.spclr{
-    color: #fcfcfc;
-}
-
-.header{
-    position: relative;
-    overflow: hidden;
-    width: 100%; 
-    height: 500px;background-image: url(images/headerbg.svg);background-repeat: no-repeat;background-size: cover; }
-
-.hd-txt{margin: 0px; padding-top: 0px;width: 70%;margin: auto;
-font-size: 16px;}
-@media(min-width:650px){
-    .hd-txt{margin: 0px; padding-top: 100px;width: 70%;margin: auto;font-size: 16px;}}
-
-/*e:header design*/
 
 
 /*serolst*/
