@@ -1,0 +1,35 @@
+{
+  "name": "qusq-theme",
+  "description": "A library which contains all used plugins in a minified version.",
+  "main": "",
+  "authors": [
+    "[object Object]"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "v2.8.3",
+    "jquery": "jQuery#1.11.3",
+    "imagesloaded": "desandro/imagesloaded#^4.1.0",
+    "lightgallery": "^1.3.9",
+    "isInViewport": "zeusdeux/isInViewport#^2.3.1",
+    "justifiedGallery": "miromannino/Justified-Gallery#^3.6.1",
+    "macy": "bigbitecreative/macy.js#^1.1.2",
+    "smoothscroll-for-websites": "galambalazs/smoothscroll-for-websites#^1.4.4",
+    "lg-thumbnail": "^1.0.3",
+    "lg-autoplay": "^1.0.2",
+    "lg-video": "^1.0.1",
+    "lg-fullscreen": "^1.0.1",
+    "lg-pager": "^1.0.2",
+    "lg-zoom": "^1.0.4",
+    "lg-hash": "^1.0.1",
+    "lg-share": "^1.0.2"
+  }
+}
