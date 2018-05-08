@@ -64,9 +64,11 @@
 .yr-cnt p{
     text-align: center;
     font-size: 15px;
+
 }
 .yrdiv-p p{
     text-align: justify;
+    padding: 20px 0px;
 }
 .lne{
     border: 2px solid;
