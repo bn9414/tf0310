@@ -253,7 +253,7 @@ if ( ! functionExists( 'showHideNavigation' ) ) {
         
         
         
-        function goto(event) {
+/*        function goto(event) {
   var noRedirect = '.ish-menu-desc';
   var ress = '.ish-icon-nav';
   if (!event.target.matches(noRedirect)) {
@@ -263,14 +263,14 @@ if ( ! functionExists( 'showHideNavigation' ) ) {
   
   } 
             
-/*             if (!event.target.matches(ress)) {
+             if (!event.target.matches(ress)) {
   alert("hai2");
   				ishNavigation.removeClass('ish-nav-on');
 				setTimeout( function(){ setOpacity('0') }, showHideDelay );
   
-  }*/
+  }
 };
-      
+     */ 
         document.body.addEventListener('click', goto, false);
         
 		jQuery(document).keyup(function(e) {
