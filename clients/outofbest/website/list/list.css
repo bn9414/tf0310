@@ -5,8 +5,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 10px;
     margin-bottom: 50px;
-    
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.2);
+    padding: 15px
 }
 .rateng p{
         color: #d7d7d7;
@@ -36,35 +38,36 @@
 
 }
 .olstimg{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
-    /*border: 1px solid;*/
+    margin: 0px 10px;
 }
 .olstimg img{
-    width:150px;
+    width:100px;
 }
 .olstpara{
     border-left: 0px solid #d7d7d7;
     padding: 0px 10px;
 }
 .olstpara p{
-    font-size: 18px;
+    font-size: 15px;
    /* padding: 0px 10px;*/
 }
 .rtr{
-    color:#d7d7d7;
+        color: #454545;
     position: relative;
     top: -5px;
     left: 5px;
+    font-size: 18px;
 }
 .btn-vist {
     border: 0px;
     width: 30%;
-    margin: auto;
+    /*margin: auto;*/
     padding: 15px;
     color: #fcfcfc;
-    font-size: 20px;
+    font-size: 16px;
     background-color: #F8981F;
     border-radius: 10px;
 }
@@ -93,8 +96,11 @@ a{
     font-weight: 600;
     }
     .olist{
-    display: flex;
+   display: flex;
     flex-direction: row;
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.2);;
+    padding: 30px;
+    justify-content: center;
 }
     .hedimg{
         align-items: center;
@@ -107,7 +113,7 @@ a{
     .olsthd h1{
     font-size: 70px;
         position: relative;
-        top: -30px;
+       /* top: -30px;*/
 }
     .rateng p{
         color: #d7d7d7;
@@ -124,7 +130,7 @@ a{
     text-align: justify;
 }
     .olstpara p{
-        font-size: 18px
+        font-size: 15px
     }
     .olist{
         width: 90%;
@@ -136,13 +142,13 @@ a{
         width: 150px;
     }
     .olstimg img{
-    width: 200px;
+    width: 100px;
 }
     .olstimg{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
-    
+    margin: 0px 10px;
 }
     .olsthd h1{
     font-size: 70px;
