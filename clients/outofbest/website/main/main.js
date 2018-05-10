@@ -249,29 +249,6 @@ if ( ! functionExists( 'showHideNavigation' ) ) {
 				ishNavigation.addClass('ish-nav-on');
 			}
 		});
-
-        
-        
-        
-/*        function goto(event) {
-  var noRedirect = '.ish-menu-desc';
-  var ress = '.ish-icon-nav';
-  if (!event.target.matches(noRedirect)) {
- 
-  				ishNavigation.removeClass('ish-nav-on');
-				setTimeout( function(){ setOpacity('0') }, showHideDelay );
-  
-  } 
-            
-             if (!event.target.matches(ress)) {
-  alert("hai2");
-  				ishNavigation.removeClass('ish-nav-on');
-				setTimeout( function(){ setOpacity('0') }, showHideDelay );
-  
-  }
-};
-     */ 
-        document.body.addEventListener('click', goto, false);
         
 		jQuery(document).keyup(function(e) {
 			if (e.keyCode == 27) {
