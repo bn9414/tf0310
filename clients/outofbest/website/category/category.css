@@ -1,0 +1,39 @@
+
+/*S:other wedding services*/
+@media(max-width:400px){
+    .ser1{margin: 0px  !important;}  
+}
+.ser-cont{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: 90%;margin: auto}
+.ser1{border: 1px olid black;width: 100px; display: flex;justify-content: center;align-items: center;flex-direction: column;margin: 0px 40px}
+.ser1 img{width: 80px;}
+.ser1 p{
+        font-size: 16px;
+        text-align: center;
+    }
+@media(min-width:700px){
+    .ser1 p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .ser1 {
+       position: relative;
+        bottom:-100px;
+        opacity:0;
+    }
+}
+.ser1{
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.2);
+    height: 150px;
+    margin-bottom: 10px;
+        margin: 10px 5px !important;
+    width: 120px;
+} 
+
+@media(min-width:1300px){
+    .ser1{
+        width: 130px;
+    }
+}
+ 
+ 
+/*E:other wedding services*/
