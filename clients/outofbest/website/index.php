@@ -78,41 +78,19 @@
 
 							<!-- Menu: Logo & Tagline -->
 							<div class="ish-widget-element">
-								<a href="index.html"><img src="images/logo1.svg" class="ish-logo-widget" alt="Out of best" /></a>
+								<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="Out of best" /></a>
 								<!--<div class="ish-tagline-widget ish-txt-color1">Unique Portfolio</div>-->
 							</div>
 
 							<!-- Menu: Main Navigation -->
 							<nav id="site-navigation" class="main-navigation ish-widget-element">
 								<ul>
-									<li class="ish-active-item"><a href="index.html"><span>Home</span></a></li>
-									<li class="ish-has-submenu">
-										<a><span>Top Ten</span></a>
-										<ul>
-											<li><a href="list.html"><span>Shopping Websites</span></a></li>
-											<li><a href="list.html"><span>Online Money Making </span></a></li>
-											<li><a href="list.html"><span> Movie Booking</span></a></li>
-											<li><a href="list.html"><span> Job Searching</span></a></li>
-											<li><a href="list.html"><span>Travel Booking/Hotel Booking</span></a></li>
-											<li><a href="list.html"><span> Web Hosting </span></a></li>
-                                            
-                                            <li><a href="list.html"><span> Online Food Ordering</span></a></li>
-											<li><a href="list.html"><span>Online Education </span></a></li>
-											<li><a href="list.html"><span> News Channels</span></a></li>
-											<li><a href="list-.html"><span> Online Logo Makers</span></a></li>
-											<li><a href="list.html"><span>Coupon Websites</span></a></li>
-											<li><a href="list.html"><span> Domain Name Registrars </span></a></li>
-                                            
-                                            <li><a href="list.html"><span> International Real-Estate</span></a></li>
-											<li><a href="list.html"><span> Freelancing Websites </span></a></li>
-											<li><a href="list.html"><span>  Current Affairs</span></a></li>
-											<li><a href="list.html"><span>  Online Music</span></a></li>
-											<li><a href="list.html"><span>Sports Websites</span></a></li>
-											<li><a href="list.html"><span> Matrimonial Websites </span></a></li>
-										</ul>
+									<li class="ish-active-item"><a href="index.php"><span>Home</span></a></li>
+									<li class="">
+										<a href="service.php"><span>Service</span></a>
 									</li>
 									<li class="">
-										<a href="service.html"><span>Services</span></a>
+										<a href="quotes.php"><span>Quotes</span></a>
 										<!--<ul>
 											<li><a href="blog.html"><span>2 Columns Layout</span></a></li>
 											<li><a href="blog-classic.html"><span>Classic Layout</span></a></li>
@@ -120,7 +98,7 @@
 										</ul>-->
 									</li>
 									<li class="">
-										<a href="about.html"><span>About</span></a>
+										<a href="category.php"><span>Top Ten</span></a>
 										<!--<ul>
 											<li><a href="shortcodes.html"><span>Typography &amp; Shortcodes</span></a></li>
 											<li><a href="about.html"><span>About Me</span></a></li>
@@ -130,15 +108,16 @@
 										</ul>-->
 									</li>
 									<li class="">
-										<a href="contact.html"><span>Contact</span></a>
+										<a href="about.php"><span>About</span></a>
 										<!--<ul>
 											<li><a href="contact.html"><span>Google Map Contact</span></a></li>
 											<li><a href="contact-alt.html"><span>No Map Contact</span></a></li>
 										</ul>-->
 									</li>
-									<li><a href="quotes.html" ><span>Quotes</span></a></li>
+									<li><a href="contact.php" ><span>Contact</span></a></li>
 								</ul>
 							</nav>
+
 
 							<!-- Menu: Search Form -->
 							<!--<form role="search" method="get" id="ish-search-nav-form" class="ish-search-form ish-widget-element" action="search-results.html">
@@ -426,7 +405,7 @@
 					<div class="ish-footer ish-col-xs-offset-1 ish-col-xs-10">
 
 						<div class="ish-widget-element">
-							<a href="index.html"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
+							<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
 						</div>
 
 						<!--<div class="ish-widget-element">

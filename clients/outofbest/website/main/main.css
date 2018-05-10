@@ -59,6 +59,9 @@
 .site-header .ish-menu-container .ish-vertical {
     transform: rotate(0deg);
 }
+.clrchng{
+    background-color: #ffffff !important;
+}
 /*.ish-decor-bottom {
     background-image:url(images/testi.jpg);
 }*/

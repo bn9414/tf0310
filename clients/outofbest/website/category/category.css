@@ -23,7 +23,7 @@
 }
 .ser1{
     box-shadow: 0 0 10px rgba(20, 20, 20, 0.2);
-    height: 150px;
+    height: 200px;
     margin-bottom: 10px;
         margin: 10px 5px !important;
     width: 120px;
@@ -33,7 +33,9 @@
     .ser1{
         width: 130px;
     }
+    
 }
  
+
  
 /*E:other wedding services*/

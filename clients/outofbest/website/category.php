@@ -16,20 +16,16 @@
 <link rel=stylesheet type="text/css" href="bootstrap/style.css">
 
 <link rel=stylesheet type="text/css" href="main/main.css">
-<link rel=stylesheet type="text/css" href="vendor.css">
-<link rel=stylesheet type="text/css" href="quotes/quotes.css">
-
-
+<link rel=stylesheet type="text/css" href="category/category.css">
 <link rel=stylesheet type="text/css" href="common/common.css">
 <link rel=stylesheet type="text/scss" href="common/_responsive.scss">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     
 <link rel=stylesheet type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     </head>
-<body class="page-template-portfolio ish-content-overlay-large ish-blurred ish-color14 ish-no-blur">
+<body class="home page-template page-template-templates page-template-homepage-portfolio page-template-templateshomepage-portfolio-php page page-id-115 wp-custom-logo ish-blurred ish-color1 ish-content-overlay-large ish-bg-animate ish-no-blur">
     <div class="ish-blurred-overlay" style="display: none;"></div>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -49,13 +45,13 @@
 
 						<!-- Main Logo & Tagline -->
 						<div class="ish-logo-container ish-txt-color3">
-							<a href="index.html"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="Out of Best" /></span></span></a>
+							<a href="index.php"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="Out of Best" /></span></span></a>
 							<!--<span class="ish-theme-tagline ish-vertical">Unique Portfolio</span>-->
 						</div>
 
 						<!-- Menu open Button -->
 						<div class="ish-menu-container ish-txt-color3">
-							<a href="#"><span class="ish-icon-nav"><i class="ish-icon-menu"></i></span><span class="ish-menu-desc ish-vertical">Menu</span></a>
+							<a href="#" class="test12"><span class="ish-icon-nav"><i class="ish-icon-menu ty12"></i></span><span class="ish-menu-desc ish-vertical">Menu</span></a>
 						</div>
 
 					</div>
@@ -86,36 +82,14 @@
 							</div>
 
 							<!-- Menu: Main Navigation -->
-							<nav id="site-navigation" class="main-navigation ish-widget-element">
+									<nav id="site-navigation" class="main-navigation ish-widget-element">
 								<ul>
-									<li class="ish-active-item"><a href="index.html"><span>Home</span></a></li>
-									<li class="ish-has-submenu">
-										<a href=""><span>Top Ten</span></a>
-										<ul>
-											<li><a href="list.html"><span>Shopping Websites</span></a></li>
-											<li><a href="list.html"><span>Online Money Making </span></a></li>
-											<li><a href="list.html"><span> Movie Booking</span></a></li>
-											<li><a href="list.html"><span> Job Searching</span></a></li>
-											<li><a href="list.html"><span>Travel Booking/Hotel Booking</span></a></li>
-											<li><a href="list.html"><span> Web Hosting </span></a></li>
-                                            
-                                            <li><a href="list.html"><span> Online Food Ordering</span></a></li>
-											<li><a href="list.html"><span>Online Education </span></a></li>
-											<li><a href="list.html"><span> News Channels</span></a></li>
-											<li><a href="list-.html"><span> Online Logo Makers</span></a></li>
-											<li><a href="list.html"><span>Coupon Websites</span></a></li>
-											<li><a href="list.html"><span> Domain Name Registrars </span></a></li>
-                                            
-                                            <li><a href="list.html"><span> International Real-Estate</span></a></li>
-											<li><a href="list.html"><span> Freelancing Websites </span></a></li>
-											<li><a href="list.html"><span>  Current Affairs</span></a></li>
-											<li><a href="list.html"><span>  Online Music</span></a></li>
-											<li><a href="list.html"><span>Sports Websites</span></a></li>
-											<li><a href="list.html"><span> Matrimonial Websites </span></a></li>
-										</ul>
+									<li class="ish-active-item"><a href="index.php"><span>Home</span></a></li>
+									<li class="">
+										<a href="service.php"><span>Service</span></a>
 									</li>
 									<li class="">
-										<a href="service.html"><span>Services</span></a>
+										<a href="quotes.php"><span>Quotes</span></a>
 										<!--<ul>
 											<li><a href="blog.html"><span>2 Columns Layout</span></a></li>
 											<li><a href="blog-classic.html"><span>Classic Layout</span></a></li>
@@ -123,7 +97,7 @@
 										</ul>-->
 									</li>
 									<li class="">
-										<a href="about.html"><span>About</span></a>
+										<a href="category.php"><span>Top Ten</span></a>
 										<!--<ul>
 											<li><a href="shortcodes.html"><span>Typography &amp; Shortcodes</span></a></li>
 											<li><a href="about.html"><span>About Me</span></a></li>
@@ -133,13 +107,13 @@
 										</ul>-->
 									</li>
 									<li class="">
-										<a href="contact.html"><span>Contact</span></a>
+										<a href="about.php"><span>About</span></a>
 										<!--<ul>
 											<li><a href="contact.html"><span>Google Map Contact</span></a></li>
 											<li><a href="contact-alt.html"><span>No Map Contact</span></a></li>
 										</ul>-->
 									</li>
-									<li><a href="quotes.html" ><span>Quotes</span></a></li>
+									<li><a href="contact.php" ><span>Contact</span></a></li>
 								</ul>
 							</nav>
 
@@ -178,99 +152,59 @@
 
 
 	</header><!-- #masthead -->
-    <!--ser-->
-    <!--slider-->
-    <!--slider-->
-    <div class="slider-con">
-        <div class="ban"><img id="bimg" src="quotes/images/bb1.jpg"  id="ban1">
-        <!--<div class="butbox"><a class="qut"  href="#" >Get a quote</a><a href="wedding_index.html" class="read">Read more</a></div>-->
-           <div class="sidebg"></div>
-   <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
-       aware that my parents' dreams"</h2>
-            <div class="tusr-img">
-               <img src="images/testi.jpg">
-                <h5>Adhi</h5>
-            </div>
-      </div>
-        <div class="ban"><img id="bimg" src="quotes/images/dw.jpg" class="" id="ban2">
-            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
-        <div class="sidebg"></div>
-    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
-       aware that my parents' dreams"</h2>
-             <div class="tusr-img">
-               <img src="images/testi.jpg">
-                  <h5>Adhi</h5>
-            </div>
-        </div>
-    <div class="switch">
-       <img src="quotes/images/left.svg" class="prev" id="prev">
-       <img src="quotes/images/right.svg" class="nxt" id="nxt">
+ <!--category-->
+     <div class="ser-cont">
+    <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p>Shopping Websites</p></div>
+        <div class="ser1"><img src="category/vectors/bridal_wear.svg">
+        <p>Online Money Making</p></div>
+        <div class="ser1"><img src="category/vectors/wedding%20jewellery.svg">
+        <p>Movie Booking</p></div>
+        <div class="ser1"><img src="category/vectors/decorators%20and%20florists.svg">
+        <p>Job Searching </p></div>
+        <div class="ser1"><img src="category/vectors/groom.svg">
+        <p>Travel Booking Websites | <br/>Hotel Booking Websites</p></div>
+        <div class="ser1"><img src="category/vectors/weddig%20planners.svg">
+        <p>Web Hosting</p></div>
+        <div class="ser1"><img src="category/vectors/bachelor%20parties.svg">
+        <p>Online Food Ordering </p></div>
+        <div class="ser1"><img src="category/vectors/Videogrpaher.svg">
+        <p>Online Education </p></div>
+        <div class="ser1"><img src="category/vectors/Invitation.svg">
+        <p>News Channels</p></div>
+        <div class="ser1"><img src="category/vectors/wedding%20cakes.svg">
+        <p>Online Logo Makers</p></div>
+        <div class="ser1"><img src="category/vectors/astrologer.svg">
+        <p>Coupon Websites</p></div>
+        <div class="ser1"><img src="category/vectors/Wedding%20Music.svg">
+        <p>Domain Name Registrars</p></div>
+        <div class="ser1"><img src="category/vectors/transport.svg">
+        <p>International Real-Estate</p></div>
+        <div class="ser1"><img src="category/vectors/catering.svg">
+        <p>Current Affairs </p></div>
+        <div class="ser1"><img src="category/vectors/wedding%20venue.svg">
+        <p> Online Music</p></div>
+        <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p>Sports Websites</p></div>
+        <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p>Matrimonial Websites</p></div>
+         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p>Dating Websites</p></div>
+         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p>Kids Websites</p></div>
+         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p>Online Furniture eCommerce</p></div>
+         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p>Real Estate websites in india</p></div>
+         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p>Second Hand Buying and Selling Websites</p></div>
+         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p> Social Media Websites</p></div>
+         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <p>Technology News </p></div>
+         
     </div>
-    </div>
-    
-
-    <!--slider-end-->
-    <!--slider-->
-    
-     <div class="frmgrp-cnt">
-        
-        <div class="bxsh">
-        
-        <div class="frm-contr">
-            <div class="frmfield">
-                <form id="application_form_validated" action=""
-      method="POST"   novalidate="novalidate" > 
-                     <input type="hidden" name="_next" value="" />
-                    
-                    <h1 class="frm-tit">Drop your detials, we get back to you.</h1>              <!--frm1-end-->                    <div class="frm-con">						<div class="frm">							<input type="text" name="name" value="" placeholder="Name" class="usernme">						</div>						<div class="frm">							<div id="clet23" class="date_frm"><!--<input type="date" name="date" placeholder="date of birth" ><input  placeholder=""  type="date" name="date">-->							<input type="text" name="place" value="" placeholder="Place" class="usernme">							</div>							<!--<input type="date" name="date" placeholder="Date of birth" >-->						</div>                    </div> 
-                    <!--frm1-end-->
-                    <!--frm2-->
-                    <div class="frm-con">						<div class="frm">							<input type="email" name="Email Id" value="" placeholder="Email Id" class="usernme">						</div>						<div id="cletf2">							<input type="tel" name="mobile" value="" placeholder="Mobile" class="usernme">						</div>                    </div>
-                    <!--frm2 end-->
-                        <!--frm3-->                   
-                    <!--frm3 end-->
-                          
-                    <!--frm-4.1-->
-                    <div class="frm-con">
-                    <!--<div class="frm">
-                      <div  id="cletf2" class="f3">							<select class="want_ex"  name="Intrested Field" style="" >								<option value="volvo" disabled selected >Intrested Field</option>								<option value="oc" >Engineering</option>								<option value="bc">Arts & Science</option>								<option value="mbc">For Phd</option>																															</select>						</div>
-                    </div>-->
-                        <!--hidden form-->
-                   <!-- <div class="frm hfrm" style="visibility: hidden">
-                       <input type="email" name="email" value="" placeholder="EMail ID" class="usernme">
-                    </div>-->
-                        <!--hidden form-->
-                    </div>
-
-                    <!--frm-4.1-->
-                     <!--frm5-->
-                    
-                    <!--frm5 end-->
-                    <!--frm6-->
-                    <div class="frm-con">
-                    <div class="frm">
-                      <textarea type="textarea" name="Message" value="" placeholder="Message to Out of best" class="usernme" style="width:100%;"></textarea>
-                    </div>
-                    </div>
-                    <!--frm6 end-->
-                    <div class="subcon">
-                    <input type="submit" name="submit" class="sub-mit">
-                        </div>
-                </form>
-            </div>
-        </div>
-            <div class="cnt-img">
-                 
-                <div class="cnt-conwi">
-                    <h1>Out of best is one stop platform for all your event needs</h1>
-                    <p>Come on! Let make your event sound big.</p>
-                    <p></p>
-            <!--    <div class="flttr1"></div>-->
-                </div>
-            </div>
-    <!--form-tag-->
-            </div>
-        </div>
+ <!--category-->
     <!--footer-->
     <footer id="colophon" class="site-footer">
 
@@ -286,7 +220,7 @@
 					<div class="ish-footer ish-col-xs-offset-1 ish-col-xs-10">
 
 						<div class="ish-widget-element">
-							<a href="index.html"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
+							<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
 						</div>
 
 						<!--<div class="ish-widget-element">
@@ -328,8 +262,7 @@
     
 <!--footer-->
  <script src="main/main.js" type="text/javascript"></script>
- <script src="quotes/quotes.js" type="text/javascript"></script>
- 
+ <script src="category/category.js" type="text/javascript"></script>
  <script src="bootstrap/js/jquery.min.js" type="text/javascript"></script>
  <script src="main/vendor/AnimOnScroll.js" type="text/javascript"></script>
  <script src="main/vendor/plugins.js" type="text/javascript"></script>
