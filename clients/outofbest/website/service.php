@@ -161,7 +161,7 @@
                 <div id="main-slider">
                     <div class="slide info-slide1" title="Welcome !">
                         <div class="image-holder"><img src="service/images/main-slide-img1.png" alt="" /></div>
-                        <div class="text-holder txt">Take your career to the next level<br>
+                        <div class="text-holder txt">Take your business to the next level<br>
 Get your website today.</div>
                         <div class="button-holder"><a href="signup.html" class="blue-button">Sign up now</a></div>
                     </div>
@@ -214,7 +214,7 @@ The best of the best in all times!
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="row-title">What makes Hostino the best choise for you?</div>
+                <div class="row-title">What we do?</div>
             </div>
         </div>
         <div class="row">
@@ -224,7 +224,7 @@ The best of the best in all times!
                         <div class="icon-bg"><img src="images/clouds-light.png" alt="" /></div>
                         <i class="fa fa-star"></i>
                     </div>
-                    <div class="mfeature-title">Uptime 100%. Guaranteed.</div>
+                    <div class="mfeature-title">Website design</div>
                     <div class="mfeature-details">Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.</div>
                 </div>
             </div>
@@ -234,7 +234,7 @@ The best of the best in all times!
                         <div class="icon-bg"><img src="images/clouds-light.png" alt="" /></div>
                         <i class="fa fa-ticket"></i>
                     </div>
-                    <div class="mfeature-title">Readymade templates</div>
+                    <div class="mfeature-title">website development</div>
                     <div class="mfeature-details">Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.</div>
                 </div>
             </div>
@@ -244,7 +244,7 @@ The best of the best in all times!
                         <div class="icon-bg"><img src="images/clouds-light.png" alt="" /></div>
                         <i class="fa fa-comments-o"></i>
                     </div>
-                    <div class="mfeature-title">Amazing support</div>
+                    <div class="mfeature-title">Website maintenance</div>
                     <div class="mfeature-details">Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.</div>
                 </div>
             </div>
@@ -262,7 +262,7 @@ The best of the best in all times!
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="row-title" title="One-Click Install">+ The best applications on the web, with one click install.</div>
+                <div class="row-title" title="One-Click Install">+ The best technology on the website, we use.</div>
             </div>
         </div>
         <div class="row">
