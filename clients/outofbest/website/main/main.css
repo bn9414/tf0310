@@ -62,7 +62,34 @@
 .clrchng{
     background-color: #ffffff !important;
 }
-
+.ish-contact-form-box .required-error::after {
+    content: 'This field must be filled in!';
+    position: absolute;
+    bottom: 10px;
+    margin-bottom: -10px;
+    left: 0;
+}
+.ish-contact-form-box input, .ish-contact-form-box button, .ish-contact-form-box textarea {
+    width: 100%;
+    border: none;
+        border-top-width: medium;
+        border-top-style: none;
+        border-top-color: currentcolor;
+    border-top: solid 1px;
+    line-height: 2;
+    margin-bottom: 20px;
+    background: none;
+    text-align: left;
+    -webkit-appearance: none;
+    border-radius: 0;
+    box-shadow: 0 0 10px #fff;
+}
+.wdd{
+    max-width: unset;
+}
+.xtxcl{
+    color:#454545;
+}
 /*.ish-decor-bottom {
     background-image:url(images/testi.jpg);
 }*/

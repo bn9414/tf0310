@@ -37,7 +37,7 @@
     
     
 <div class="slider-con">
-        <div class="ban"><img id="bimg" src="quotes/images/bb1.jpg"  id="ban1">
+        <div class="ban"><img id="bimg" src="quotes/images/sc1.jpg"  id="ban1">
         <!--<div class="butbox"><a class="qut"  href="#" >Get a quote</a><a href="wedding_index.html" class="read">Read more</a></div>-->
            <div class="sidebg"></div>
    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
@@ -47,7 +47,7 @@
                 <h5>Adhi</h5>
             </div>
       </div>
-        <div class="ban"><img id="bimg" src="quotes/images/dw.jpg" class="" id="ban2">
+        <div class="ban"><img id="bimg" src="quotes/images/sc2.jpg" class="" id="ban2">
             <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
         <div class="sidebg"></div>
     <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
@@ -57,6 +57,95 @@
                   <h5>Adhi</h5>
             </div>
         </div>
+    
+    <div class="ban"><img id="bimg" src="quotes/images/sc3.jpg" class="" id="ban2">
+            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
+        <div class="sidebg"></div>
+    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+             <div class="tusr-img">
+               <img src="images/testi.jpg">
+                  <h5>Adhi</h5>
+            </div>
+        </div>
+    
+    <div class="ban"><img id="bimg" src="quotes/images/sc4.jpg" class="" id="ban2">
+            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
+        <div class="sidebg"></div>
+    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+             <div class="tusr-img">
+               <img src="images/testi.jpg">
+                  <h5>Adhi</h5>
+            </div>
+        </div>
+    
+    <div class="ban"><img id="bimg" src="quotes/images/sc5.jpg" class="" id="ban2">
+            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
+        <div class="sidebg"></div>
+    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+             <div class="tusr-img">
+               <img src="images/testi.jpg">
+                  <h5>Adhi</h5>
+            </div>
+        </div>
+    
+    <div class="ban"><img id="bimg" src="quotes/images/sc6.jpg" class="" id="ban2">
+            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
+        <div class="sidebg"></div>
+    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+             <div class="tusr-img">
+               <img src="images/testi.jpg">
+                  <h5>Adhi</h5>
+            </div>
+        </div>
+    
+    <div class="ban"><img id="bimg" src="quotes/images/sc7.jpg" class="" id="ban2">
+            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
+        <div class="sidebg"></div>
+    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+             <div class="tusr-img">
+               <img src="images/testi.jpg">
+                  <h5>Adhi</h5>
+            </div>
+        </div>
+    
+    <div class="ban"><img id="bimg" src="quotes/images/sc8.jpg" class="" id="ban2">
+            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
+        <div class="sidebg"></div>
+    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+             <div class="tusr-img">
+               <img src="images/testi.jpg">
+                  <h5>Adhi</h5>
+            </div>
+        </div>
+    
+    <div class="ban"><img id="bimg" src="quotes/images/sc9.jpg" class="" id="ban2">
+            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
+        <div class="sidebg"></div>
+    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+             <div class="tusr-img">
+               <img src="images/testi.jpg">
+                  <h5>Adhi</h5>
+            </div>
+        </div>
+    
+    <div class="ban"><img id="bimg" src="quotes/images/sc10.jpg" class="" id="ban2">
+            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
+        <div class="sidebg"></div>
+    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+             <div class="tusr-img">
+               <img src="images/testi.jpg">
+                  <h5>Adhi</h5>
+            </div>
+        </div>
+    
     <div class="switch">
        <img src="quotes/images/left.svg" class="prev" id="prev">
        <img src="quotes/images/right.svg" class="nxt" id="nxt">
@@ -232,20 +321,41 @@
                       <textarea type="textarea" name="Message" value="" placeholder="Your Quote takes place here!" class="usernme" style="width:100%;"></textarea>
                     </div>
                     </div>
+                    <div class="frm-con">
+                    <div class="frm frmfrm">
+                        <label for="file">Upload your image</label><br>
+                        <input type="file" name="upload" class="bortp" placeholder="Upload your image">
+                    </div>
+                    </div>
                     <!--frm6 end-->
                     <div class="subcon">
-                    <input type="submit" name="submit" class="sub-mit">
+                    <input type="Submit" class="sub-mit">
                         </div>
+                    <div class="padp" style=""><p><sup style="color:#9b3236;">*</sup>The quotes should be submitted before 72 hours. 10 quotes will be chosen in random.</p></div>
                 </form>
             </div>
         </div>
             <div class="cnt-img">
-                 
+                <!--<div class="qqeeimg">
+                     <div class="qimg">
+                        <div class="qimg-t1"></div>
+                    </div>
+                    <div class="qimg">
+                        <div class="qimg-t2"></div>
+                    </div>
+                </div>
+                <div class="qqeeimg">
+                    <div class="qimg">
+                        <div class="qimg-t3"></div>
+                    </div>
+                    <div class="qimg">
+                        <div class="qimg-t4"></div>
+                    </div>
+                </div>-->
                 <div class="cnt-conwi">
                     <h1>Do you want your quote to be published in out of best</h1>
                     <p>You are just one step away from making it.</p>
                     <p></p>
-            <!--    <div class="flttr1"></div>-->
                 </div>
             </div>
     <!--form-tag-->
@@ -281,15 +391,17 @@
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus"><a href="#"><i class="ish-icon-gplus"></i></a></span>
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook"><a href="#"><i class="ish-icon-facebook"></i></a></span>
 						</div>
-
-						<!--<div class="site-info ish-legals ish-widget-element">
-						<a href="#" class="ish-underline">Qusq</a> Theme
-						<span class="ish-separator">~</span>
-						Proudly powered by <a href="https://wordpress.org/" target="_blank" class="ish-underline">WordPress</a>
-						<span class="ish-separator">~</span>
-						Created by <a href="http://ishyoboy.com" target="_blank" class="ish-underline">IshYoBoy.com</a>
+<div class="ish-social-box ish-widget-element ish-row ish-center-xs">
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-twitter wdd"><a href="index.php"><span>Home</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-behance wdd"><a href="service.php"><span>Service</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-dribbble wdd"><a href="quotes.php"><span>Quotes</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-instagram wdd"><a href="category.php"><span>TopTen</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus wdd"><a href="about.php"><span>About</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook wdd"><a href="contact.php"><span>Contact</span></a></span>
+						</div>
+						<div class="site-info ish-legals ish-widget-element">
+						<a  class="ish-underline">@2018 Out Of Best.All rights are reserved.</a> 
 					</div>
--->
 					</div>
 
 					<div class="ish-back-to-top ish-widget-element ish-col-xs-1">

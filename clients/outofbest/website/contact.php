@@ -167,7 +167,7 @@
 								<div class="ish-col-xs-12 ish-col-sm-6 ish-contact-info-container ">
 									<div class="ish-contact-info-box">
 										<div class="ish-row">
-											<div class="ish-contact-info-text ish-col-xs-12 ish-col-md-9 ish-txt-align-right ish-txt-color14">
+											<div class="ish-contact-info-text ish-col-xs-12 ish-col-md-9 ish-txt-align-right ish-txt-color14 xtxcl">
 												Feel free to contact me if you find something interesting here to discuss. I’m usually available from 5am till 3pm.
 											</div>
 										</div>
@@ -190,9 +190,7 @@
 										<div class="ish-row">
 											<div class="ish-contact-info-text ish-txt-align-right ish-col-xs-12 ish-col-sm-10 ish-col-md-8">
 
-												+8143353613
-
-												+91 8565953212
+												9087907290
 
 											</div>
 											<div class="ish-contact-info-icon ish-col-xs-12 ish-col-sm-2 ish-first-xs ish-last-sm ish-txt-color14">
@@ -204,7 +202,7 @@
 
 												info@outofbest.com
 
-												outofbest@gmail.com
+												demo@gmail.com
 
 											</div>
 											<div class="ish-contact-info-icon ish-col-xs-12 ish-col-sm-2 ish-first-xs ish-last-sm ish-txt-color14">
@@ -301,15 +299,18 @@
 								<a href="#"><i class="ish-icon-facebook"></i></a>
 							</span>
 						</div>
-
-						<!-- <div class="site-info ish-legals ish-widget-element">
-							<a href="#" class="ish-underline">Qusq</a> Theme
-							<span class="ish-separator">~</span>
-							Proudly powered by <a href="https://wordpress.org/" target="_blank" class="ish-underline">WordPress</a>
-							<span class="ish-separator">~</span>
-							Created by <a href="http://ishyoboy.com" target="_blank" class="ish-underline">IshYoBoy.com</a>
+                        <div class="ish-social-box ish-widget-element ish-row ish-center-xs">
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-twitter wdd"><a href="index.php"><span>Home</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-behance wdd"><a href="service.php"><span>Service</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-dribbble wdd"><a href="quotes.php"><span>Quotes</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-instagram wdd"><a href="category.php"><span>TopTen</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus wdd"><a href="about.php"><span>About</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook wdd"><a href="contact.php"><span>Contact</span></a></span>
 						</div>
- -->
+
+						<div class="site-info ish-legals ish-widget-element">
+						<a  class="ish-underline">@2018 Out Of Best.All rights are reserved.</a> 
+					</div>
 					</div>
 
 					<div class="ish-back-to-top ish-widget-element ish-col-xs-1">

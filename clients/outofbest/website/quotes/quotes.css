@@ -5,7 +5,7 @@
     overflow: hidden;
     /*margin-bottom:30px;*/
 /*    transition: 0.7s;*/
-
+height: 500px;
     
 }
 
@@ -1082,7 +1082,7 @@ textarea {
 .cnt-conl p{font-size: 24px;}*/
 
 .cnt-conwi{
-    background: url(images/wedding-min.jpg)no-repeat;
+    background: url(images/web.jpg)no-repeat;
     background-size: cover;
     height: 100%;
     position: relative;
@@ -1130,7 +1130,7 @@ textarea {
     
  
     .cnt-conwi{
-    background: url(images/wedding-min.jpg)no-repeat;
+    background: url(images/web.jpg)no-repeat;
     background-size: cover;
     height: 100%;
     background-position: 90%,0%;
@@ -1159,7 +1159,7 @@ textarea {
 /*face*/
 
 .tusr-img{
-        width: 100px;
+        width: 130px;
     height: 100px;
     margin: auto;
     position: absolute;
@@ -1264,4 +1264,86 @@ textarea {
     .switch {
     bottom: 50px;
     }
+}
+.bortp{
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.frmfrm{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.frm label{
+    font-size: 18px;
+    font-weight: 400;
+    color: #928e8e;
+    padding: 0px 20px;
+}
+
+/*img*/
+/*.qqeeimg{
+    display: flex;
+    flex-direction: row;
+}
+.qimg{
+    width: 50%;
+    border: 1px olid;
+    height: 370px;
+    overflow: hidden;
+}
+.qimg-t1{
+    background-image: url(images/sc1.jpg);
+
+background-size: cover;
+
+width: 100%;
+
+height: 100%;
+
+background-position: 50%;
+    
+}
+.qimg-t2{
+    background-image: url(images/sc2.jpg);
+
+background-size: cover;
+
+width: 100%;
+
+height: 100%;
+
+background-position: 50%;
+    
+}
+.qimg-t3{
+    background-image: url(images/sc3.jpg);
+
+background-size: cover;
+
+width: 100%;
+
+height: 100%;
+
+background-position: 50%;
+    
+}
+.qimg-t4{
+    background-image: url(images/sc4.jpg);
+
+background-size: cover;
+
+width: 100%;
+
+height: 100%;
+
+background-position: 50%;
+    
+}*/
+
+.padp{
+   padding:0px 10px; 
 }

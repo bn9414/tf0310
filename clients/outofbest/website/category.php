@@ -235,15 +235,18 @@
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus"><a href="#"><i class="ish-icon-gplus"></i></a></span>
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook"><a href="#"><i class="ish-icon-facebook"></i></a></span>
 						</div>
+                        <div class="ish-social-box ish-widget-element ish-row ish-center-xs">
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-twitter wdd"><a href="index.php"><span>Home</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-behance wdd"><a href="service.php"><span>Service</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-dribbble wdd"><a href="quotes.php"><span>Quotes</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-instagram wdd"><a href="category.php"><span>TopTen</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus wdd"><a href="about.php"><span>About</span></a></span>
+							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook wdd"><a href="contact.php"><span>Contact</span></a></span>
+						</div>
 
-						<!--<div class="site-info ish-legals ish-widget-element">
-						<a href="#" class="ish-underline">Qusq</a> Theme
-						<span class="ish-separator">~</span>
-						Proudly powered by <a href="https://wordpress.org/" target="_blank" class="ish-underline">WordPress</a>
-						<span class="ish-separator">~</span>
-						Created by <a href="http://ishyoboy.com" target="_blank" class="ish-underline">IshYoBoy.com</a>
+						<div class="site-info ish-legals ish-widget-element">
+						<a  class="ish-underline">@2018 Out Of Best.All rights are reserved.</a> 
 					</div>
--->
 					</div>
 
 					<div class="ish-back-to-top ish-widget-element ish-col-xs-1">
