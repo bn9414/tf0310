@@ -16,6 +16,7 @@
 <link rel=stylesheet type="text/css" href="bootstrap/style.css">
 
 <link rel=stylesheet type="text/css" href="main/main.css">
+<link rel=stylesheet type="text/css" href="vendor.css">
 <link rel=stylesheet type="text/css" href="quotes/quotes.css">
 
 
@@ -25,21 +26,50 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     
 <link rel=stylesheet type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     </head>
 <body class="page-template-portfolio ish-content-overlay-large ish-blurred ish-color14 ish-no-blur">
     <div class="ish-blurred-overlay" style="display: none;"></div>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-
+    
+    
+<div class="slider-con">
+        <div class="ban"><img id="bimg" src="quotes/images/bb1.jpg"  id="ban1">
+        <!--<div class="butbox"><a class="qut"  href="#" >Get a quote</a><a href="wedding_index.html" class="read">Read more</a></div>-->
+           <div class="sidebg"></div>
+   <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+            <div class="tusr-img">
+               <img src="images/testi.jpg">
+                <h5>Adhi</h5>
+            </div>
+      </div>
+        <div class="ban"><img id="bimg" src="quotes/images/dw.jpg" class="" id="ban2">
+            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
+        <div class="sidebg"></div>
+    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
+       aware that my parents' dreams"</h2>
+             <div class="tusr-img">
+               <img src="images/testi.jpg">
+                  <h5>Adhi</h5>
+            </div>
+        </div>
+    <div class="switch">
+       <img src="quotes/images/left.svg" class="prev" id="prev">
+       <img src="quotes/images/right.svg" class="nxt" id="nxt">
+    </div>
+    </div>
+    
 <div id="page" class="site">
 
 	<a class="skip-link screen-reader-text" href="#content"></a>
 
 	<header id="masthead" class="site-header">
 
-		<div class="ish-container-fluid">
+		<div class="ish-container-fluid clrchng">
 			<div class="ish-container-inner">
 				<div class="ish-row">
 
@@ -47,7 +77,7 @@
 
 						<!-- Main Logo & Tagline -->
 						<div class="ish-logo-container ish-txt-color3">
-							<a href="index.html"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="Out of Best" /></span></span></a>
+							<a href="index.php"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="Out of Best" /></span></span></a>
 							<!--<span class="ish-theme-tagline ish-vertical">Unique Portfolio</span>-->
 						</div>
 
@@ -58,7 +88,7 @@
 
 					</div>
 
-					<div class="site-branding">
+					<div class="site-branding" style="display:none;">
 						<h1 class="site-title">When <span>Love</span><br> &amp; <span>Passion</span> meet</h1>
 						<h2 class="site-subtitle">beautiful <span>things</span> start to <span>work</span>!</h2>
 						<p class="site-description"><span>You don't believe?</span></p>
@@ -84,36 +114,14 @@
 							</div>
 
 							<!-- Menu: Main Navigation -->
-							<nav id="site-navigation" class="main-navigation ish-widget-element">
+								<nav id="site-navigation" class="main-navigation ish-widget-element">
 								<ul>
-									<li class="ish-active-item"><a href="index.html"><span>Home</span></a></li>
-									<li class="ish-has-submenu">
-										<a href="portfolio.html"><span>Top Ten</span></a>
-										<ul>
-											<li><a href="list.html"><span>Shopping Websites</span></a></li>
-											<li><a href="list.html"><span>Online Money Making </span></a></li>
-											<li><a href="list.html"><span> Movie Booking</span></a></li>
-											<li><a href="list.html"><span> Job Searching</span></a></li>
-											<li><a href="list.html"><span>Travel Booking/Hotel Booking</span></a></li>
-											<li><a href="list.html"><span> Web Hosting </span></a></li>
-                                            
-                                            <li><a href="list.html"><span> Online Food Ordering</span></a></li>
-											<li><a href="list.html"><span>Online Education </span></a></li>
-											<li><a href="list.html"><span> News Channels</span></a></li>
-											<li><a href="list-.html"><span> Online Logo Makers</span></a></li>
-											<li><a href="list.html"><span>Coupon Websites</span></a></li>
-											<li><a href="list.html"><span> Domain Name Registrars </span></a></li>
-                                            
-                                            <li><a href="list.html"><span> International Real-Estate</span></a></li>
-											<li><a href="list.html"><span> Freelancing Websites </span></a></li>
-											<li><a href="list.html"><span>  Current Affairs</span></a></li>
-											<li><a href="list.html"><span>  Online Music</span></a></li>
-											<li><a href="list.html"><span>Sports Websites</span></a></li>
-											<li><a href="list.html"><span> Matrimonial Websites </span></a></li>
-										</ul>
+									<li class="ish-active-item"><a href="index.php"><span>Home</span></a></li>
+									<li class="">
+										<a href="service.php"><span>Service</span></a>
 									</li>
 									<li class="">
-										<a href="service.html"><span>Services</span></a>
+										<a href="quotes.php"><span>Quotes</span></a>
 										<!--<ul>
 											<li><a href="blog.html"><span>2 Columns Layout</span></a></li>
 											<li><a href="blog-classic.html"><span>Classic Layout</span></a></li>
@@ -121,7 +129,7 @@
 										</ul>-->
 									</li>
 									<li class="">
-										<a href="about.html"><span>About</span></a>
+										<a href="category.php"><span>Top Ten</span></a>
 										<!--<ul>
 											<li><a href="shortcodes.html"><span>Typography &amp; Shortcodes</span></a></li>
 											<li><a href="about.html"><span>About Me</span></a></li>
@@ -131,13 +139,13 @@
 										</ul>-->
 									</li>
 									<li class="">
-										<a href="contact.html"><span>Contact</span></a>
+										<a href="about.php"><span>About</span></a>
 										<!--<ul>
 											<li><a href="contact.html"><span>Google Map Contact</span></a></li>
 											<li><a href="contact-alt.html"><span>No Map Contact</span></a></li>
 										</ul>-->
 									</li>
-									<li><a href="quotes.html" ><span>Quotes</span></a></li>
+									<li><a href="contact.php" ><span>Contact</span></a></li>
 								</ul>
 							</nav>
 
@@ -172,31 +180,13 @@
 
 		</div>
 
-		<div class="ish-decor-container"><div class="ish-decor-bottom ish-theme-rotate"></div></div>
+		<div class="ish-decor-container clrcon"><div class="ish-decor-bottom ish-theme-rotate "></div></div>
 
 
 	</header><!-- #masthead -->
     <!--ser-->
     <!--slider-->
     <!--slider-->
-    <div class="slider-con">
-        <div class="ban"><img id="bimg" src="quotes/images/bb1.jpg"  id="ban1">
-        <!--<div class="butbox"><a class="qut"  href="#" >Get a quote</a><a href="wedding_index.html" class="read">Read more</a></div>-->
-           <div class="sidebg"></div>
-   <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
-       aware that my parents' dreams"</h2>
-      </div>
-        <div class="ban"><img id="bimg" src="quotes/images/dw.jpg" class="" id="ban2">
-            <!--<div class="butbox"><a class="qut"  href="contact.html" >Get a quote</a><a href="socialevent.html" class="read">Read more</a></div>-->
-        <div class="sidebg"></div>
-    <h2 class="hdtxt" id="caphd">"I stand here today, grateful for the diversity of my heritage, 
-       aware that my parents' dreams"</h2>
-        </div>
-    <div class="switch">
-       <img src="quotes/images/left.svg" class="prev" id="prev">
-       <img src="quotes/images/right.svg" class="nxt" id="nxt">
-    </div>
-    </div>
     
 
     <!--slider-end-->
@@ -276,7 +266,7 @@
 					<div class="ish-footer ish-col-xs-offset-1 ish-col-xs-10">
 
 						<div class="ish-widget-element">
-							<a href="index.html"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
+							<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
 						</div>
 
 						<!--<div class="ish-widget-element">

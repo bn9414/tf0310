@@ -14,6 +14,7 @@
        
  <link rel=stylesheet type="text/css" href="bootstrap/bootstrap.min.css">
 <link rel=stylesheet type="text/css" href="bootstrap/style.css">
+<link rel=stylesheet type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel=stylesheet type="text/css" href="main/main.css">
 
@@ -47,7 +48,7 @@
 
 						<!-- Main Logo & Tagline -->
 						<div class="ish-logo-container ish-txt-color3">
-							<a href="index.html"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="Out of Best" /></span></span></a>
+							<a href="index.php"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="Out of Best" /></span></span></a>
 							<!--<span class="ish-theme-tagline ish-vertical">Unique Portfolio</span>-->
 						</div>
 
@@ -84,36 +85,14 @@
 							</div>
 
 							<!-- Menu: Main Navigation -->
-							<nav id="site-navigation" class="main-navigation ish-widget-element">
+									<nav id="site-navigation" class="main-navigation ish-widget-element">
 								<ul>
-									<li class="ish-active-item"><a href="index.html"><span>Home</span></a></li>
-									<li class="ish-has-submenu">
-										<a href="portfolio.html"><span>Top Ten</span></a>
-										<ul>
-											<li><a href="list.html"><span>Shopping Websites</span></a></li>
-											<li><a href="list.html"><span>Online Money Making </span></a></li>
-											<li><a href="list.html"><span> Movie Booking</span></a></li>
-											<li><a href="list.html"><span> Job Searching</span></a></li>
-											<li><a href="list.html"><span>Travel Booking/Hotel Booking</span></a></li>
-											<li><a href="list.html"><span> Web Hosting </span></a></li>
-                                            
-                                            <li><a href="list.html"><span> Online Food Ordering</span></a></li>
-											<li><a href="list.html"><span>Online Education </span></a></li>
-											<li><a href="list.html"><span> News Channels</span></a></li>
-											<li><a href="list-.html"><span> Online Logo Makers</span></a></li>
-											<li><a href="list.html"><span>Coupon Websites</span></a></li>
-											<li><a href="list.html"><span> Domain Name Registrars </span></a></li>
-                                            
-                                            <li><a href="list.html"><span> International Real-Estate</span></a></li>
-											<li><a href="list.html"><span> Freelancing Websites </span></a></li>
-											<li><a href="list.html"><span>  Current Affairs</span></a></li>
-											<li><a href="list.html"><span>  Online Music</span></a></li>
-											<li><a href="list.html"><span>Sports Websites</span></a></li>
-											<li><a href="list.html"><span> Matrimonial Websites </span></a></li>
-										</ul>
+									<li class="ish-active-item"><a href="index.php"><span>Home</span></a></li>
+									<li class="">
+										<a href="service.php"><span>Service</span></a>
 									</li>
 									<li class="">
-										<a href="service.html"><span>Services</span></a>
+										<a href="quotes.php"><span>Quotes</span></a>
 										<!--<ul>
 											<li><a href="blog.html"><span>2 Columns Layout</span></a></li>
 											<li><a href="blog-classic.html"><span>Classic Layout</span></a></li>
@@ -121,7 +100,7 @@
 										</ul>-->
 									</li>
 									<li class="">
-										<a href="about.html"><span>About</span></a>
+										<a href="category.php"><span>Top Ten</span></a>
 										<!--<ul>
 											<li><a href="shortcodes.html"><span>Typography &amp; Shortcodes</span></a></li>
 											<li><a href="about.html"><span>About Me</span></a></li>
@@ -131,16 +110,16 @@
 										</ul>-->
 									</li>
 									<li class="">
-										<a href="contact.html"><span>Contact</span></a>
+										<a href="about.php"><span>About</span></a>
 										<!--<ul>
 											<li><a href="contact.html"><span>Google Map Contact</span></a></li>
 											<li><a href="contact-alt.html"><span>No Map Contact</span></a></li>
 										</ul>-->
 									</li>
-									<!--<li><a href="http://ishyoboy.com/" target="_blank"><span>Buy Now</span></a></li>-->
+									<li><a href="contact.php" ><span>Contact</span></a></li>
 								</ul>
 							</nav>
-
+<!---->
 							<!-- Menu: Search Form -->
 							<!--<form role="search" method="get" id="ish-search-nav-form" class="ish-search-form ish-widget-element" action="search-results.html">
 								<div>
@@ -192,11 +171,11 @@
            
             </p>
             <div class="rateng">
-            <p><i class="fa fa-smile-o" aria-hidden="true"></i><span class="rtr">Rating 4.8</span> </p>
+            <p><i class="fa fa-smile-o" aria-hidden="true"></i><span class="rtr">Rating 4.5</span> </p>
             </div>
         </div>
        
-        <button class="btn-vist"><a href="#">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.amazon.in" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
     
@@ -216,11 +195,11 @@
            
             </p>
             <div class="rateng">
-            <p><i class="fa fa-smile-o" aria-hidden="true"></i><span class="rtr">Rating 4.8</span> </p>
+            <p><i class="fa fa-smile-o" aria-hidden="true"></i><span class="rtr">Rating 4.3</span> </p>
             </div>
         </div>
        
-        <button class="btn-vist"><a href="#">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.flipkart.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
     
@@ -244,7 +223,7 @@
             </div>
         </div>
        
-        <button class="btn-vist"><a href="https://www.paytmmall.com">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.paytmmall.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
     
@@ -268,7 +247,7 @@
             </div>
         </div>
        
-        <button class="btn-vist"><a href="https://www.snapdeal.com">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.snapdeal.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
     
@@ -292,7 +271,7 @@
             </div>
         </div>
        
-        <button class="btn-vist"><a href="https://www.ebay.in/">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.ebay.in/" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
     
@@ -316,7 +295,7 @@
             </div>
         </div>
        
-        <button class="btn-vist"><a href="https://www.jabong.com">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.jabong.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
     
@@ -340,7 +319,7 @@
             </div>
         </div>
        
-        <button class="btn-vist"><a href="https://www.myntra.com">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.myntra.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
     
@@ -364,7 +343,7 @@
             </div>
         </div>
        
-        <button class="btn-vist"><a href="https://www.shopclues.com">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.shopclues.com" target="_blank" >Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
      <!--1-->
@@ -385,11 +364,11 @@
             This content will be replaced by the one the client provide.
             </p>
             <div class="rateng">
-            <p><i class="fa fa-smile-o" aria-hidden="true"></i><span class="rtr">Rating 2.9</span> </p>
+            <p><i class="fa fa-frown-o" aria-hidden="true"></i></i><span class="rtr">Rating 2.9</span> </p>
             </div>
         </div>
        
-        <button class="btn-vist"><a href="https://www.ajio.com">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.ajio.com" target="_blank" >Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
      <!--1-->
@@ -410,11 +389,11 @@
             This content will be replaced by the one the client provide.
             </p>
             <div class="rateng">
-            <p><i class="fa fa-smile-o" aria-hidden="true"></i><span class="rtr">Rating 2.9</span> </p>
+            <p><i class="fa fa-frown-o" aria-hidden="true"></i><span class="rtr">Rating 2.9</span> </p>
             </div>
         </div>
        
-        <button class="btn-vist"><a href="https://www.tataCliq.com">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <button class="btn-vist"><a href="https://www.tataCliq.com" target="_blank" >Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
     </div>
     <!--1-->
     
@@ -434,7 +413,7 @@
 					<div class="ish-footer ish-col-xs-offset-1 ish-col-xs-10">
 
 						<div class="ish-widget-element">
-							<a href="index.html"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
+							<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
 						</div>
 
 						<!--<div class="ish-widget-element">

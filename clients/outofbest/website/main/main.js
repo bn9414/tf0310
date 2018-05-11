@@ -249,7 +249,7 @@ if ( ! functionExists( 'showHideNavigation' ) ) {
 				ishNavigation.addClass('ish-nav-on');
 			}
 		});
-
+        
 		jQuery(document).keyup(function(e) {
 			if (e.keyCode == 27) {
 				ishNavigation.removeClass( 'ish-nav-on' );
