@@ -172,7 +172,7 @@
                     <img src="images/year.png">
                 </div>
                 <div class="yr-cnt">
-                    <p>6 YEARS OF <span class="susc">SUCCESS</span><span class="wrk">WORK <span class="susc-dt">.</span></span> <span class="susc1">.</span></p>
+                    <p>2 YEARS OF <span class="susc">SUCCESS</span><span class="wrk">WORK <span class="susc-dt">.</span></span> <span class="susc1">.</span></p>
                 </div>
             </div>
             <div class="yrdiv-p">
@@ -317,8 +317,7 @@
                 <img src="images/testi.jpg">
             </div>
             <div class="tsi-para">
-                <p>Marsala is 'ONE STOP SHOP' for all event-needs.
-                At Marsala we strive to be the most reliable At Marsala we strive to be the most reliable</p>
+                <p>I tried the website list of online money making, I found all the website are good. TO be honest i got the hope that i could make some money on  the internet</p>
             </div>
             <div class="tsti-lne"></div>
             <div class="tsti-nme"><p>Alex-wins</p></div>

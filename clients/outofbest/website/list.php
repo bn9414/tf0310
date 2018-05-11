@@ -60,9 +60,9 @@
 					</div>
 
 					<div class="site-branding">
-						<h1 class="site-title">When <span>Love</span><br> &amp; <span>Passion</span> meet</h1>
-						<h2 class="site-subtitle">beautiful <span>things</span> start to <span>work</span>!</h2>
-						<p class="site-description"><span>You don't believe?</span></p>
+						<h1 class="site-title">Top <span>10</span><br> </h1>
+						<h2 class="site-subtitle"> <span>E-commerse websites</span> for <span>You</span>!</h2>
+				<!--		<p class="site-description"><span>You don't believe?</span></p>-->
 					</div><!-- .site-branding -->
 				</div>
 

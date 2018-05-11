@@ -58,9 +58,10 @@
 					</div>
 
 					<div class="site-branding">
-						<h1 class="site-title">When <span>Love</span><br> &amp; <span>Passion</span> meet</h1>
-						<h2 class="site-subtitle">beautiful <span>things</span> start to <span>work</span>!</h2>
-						<p class="site-description"><span>You don't believe?</span></p>
+						<h1 class="site-title">We design <span>websites</span><br> by <span> placing soul</span><br/> in it</h1>
+						<!--<h2 class="site-subtitle">beautiful <span>things</span> start to <span>work</span>!</h2>
+						-->
+                        <p class="site-description"><span>Just check below</span></p>
 					</div><!-- .site-branding -->
 				</div>
 
@@ -194,16 +195,16 @@ Get your website today.</div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="row-title">Regret-free choise<br>
-The best of the best in all times!
+                <div class="row-title">Why you want to choose use?<br>
+We have couple of reasons, but we wanna tell you one things.
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div class="info-text">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.</div>
+                <div class="info-text">Every element in the business should give profit. The website is one of the major part of the business, so we have deeper understanding on your business and develop  the website that increases your business success rate.</div>
                 
-                <a href="#" class="white-green-shadow-button">All Features</a>
+                <a href="#" class="white-green-shadow-button">Our services</a>
             </div>
         </div>
     </div>
@@ -225,7 +226,7 @@ The best of the best in all times!
                         <i class="fa fa-star"></i>
                     </div>
                     <div class="mfeature-title">Website design</div>
-                    <div class="mfeature-details">Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.</div>
+                    <div class="mfeature-details">We design the website with one thing in mind which the design should be artistic</div>
                 </div>
             </div>
             <div class="col-sm-4 col-md-4">
@@ -235,7 +236,7 @@ The best of the best in all times!
                         <i class="fa fa-ticket"></i>
                     </div>
                     <div class="mfeature-title">website development</div>
-                    <div class="mfeature-details">Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.</div>
+                    <div class="mfeature-details">We are good at doing the custom web application that solves the user problem. We make the development process in very precious manner so that it will be reliabel and secure</div>
                 </div>
             </div>
             <div class="col-sm-4 col-md-4">
@@ -245,7 +246,7 @@ The best of the best in all times!
                         <i class="fa fa-comments-o"></i>
                     </div>
                     <div class="mfeature-title">Website maintenance</div>
-                    <div class="mfeature-details">Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.</div>
+                    <div class="mfeature-details">We do not just end our connection with you once the website has been delivered. we travel with you through out your journey</div>
                 </div>
             </div>
         </div>

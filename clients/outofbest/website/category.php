@@ -57,9 +57,9 @@
 					</div>
 
 					<div class="site-branding">
-						<h1 class="site-title">When <span>Love</span><br> &amp; <span>Passion</span> meet</h1>
-						<h2 class="site-subtitle">beautiful <span>things</span> start to <span>work</span>!</h2>
-						<p class="site-description"><span>You don't believe?</span></p>
+						<h1 class="site-title">Prepare to be <br> <span>Amazed</span> meet</h1>
+						<h2 class="site-subtitle">Here goes<span>Top Ten</span> categories !</h2>
+						<p class="site-description"><span>check below!</span></p>
 					</div><!-- .site-branding -->
 				</div>
 

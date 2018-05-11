@@ -174,7 +174,7 @@
 								<div class="ish-col-xs-12 ish-col-sm-offset-1 ish-col-sm-4">
 									<h4 class="ish-txt-color5">Adhi</h4>
 									<p>
-										Leonardo Wilhelm DiCaprio is an American actor and film producer. He has been nominated for numerous awards, and has won three Golden Globe Awards.
+										I am entrepreneur who always keep finding solution for problem that people face on the internet. The journey of Out of best is one of that. Here i work all my time to give you the best website under each category.
 									</p>
 									<p class="ish-social-box">
 										<span class="ish-twitter ish-sc-element ish-sc-icon ish-icon-xs"><a href="#"><i class="ish-icon-twitter"></i></a></span>
@@ -188,7 +188,7 @@
 							<div class="ish-row">
 								<div class="ish-col-xs-12">
 									<h3 class="ish-txt-color17 ish-txt-align-center">
-										Thus design may be a referring to a categorical abstraction, or a verb for the process of creation.
+										Every day i feel that i have bigger responsisibilty to give the right things to users. 
 									</h3>
 								</div>
 							</div>
@@ -196,10 +196,10 @@
 							<div class="ish-row">
 								<div class="ish-col-xs-12 ish-col-sm-4 ish-txt-align-right">
 									<p>
-										The film had a difficult production, with various screenwriters and directors getting involved in the project, and shooting began without a finished script.
+										We are running towards the day where everyone in the world using outofbest to see to get the top ten list of website in various categories without giving any second thought.
 									</p>
 									<p>
-										Designing often necessitates considering the aesthetic, functional, economic and sociopolitical dimensions of both the design object and design process.
+										Now our major focus is to improve our the ranking alogorithm to  give the right website list that works well for the  users.
 									</p>
 								</div>
 								<div class="ish-sc-element ish-sc-gallery ish-col-xs-12 ish-col-sm-offset-1 ish-col-sm-7" data-rowHeight="200" data-lastRow="nojustify" data-margins="1">
