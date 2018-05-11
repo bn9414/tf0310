@@ -1058,7 +1058,7 @@ a.white-green-shadow-button:focus{
 #features .row-title {
     color: #6c84af;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 60px;
 }
 #features .mfeature-box{
@@ -1117,7 +1117,7 @@ a.white-green-shadow-button:focus{
 #features .mfeature-box .mfeature-title {
     font-size: 17px;
     color: #34a8ff;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 10px;
     position: relative;
 }
@@ -1478,7 +1478,7 @@ a.light-blue-button:focus{
 #apps .row-title {
     color: #6c84af;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 60px;
     position: relative;
     z-index: 10;
@@ -1740,7 +1740,7 @@ a.light-blue-button:focus{
 #more-features .row-title {
     color: #6c84af;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 60px;
     position: relative;
     z-index: 10;
@@ -1784,13 +1784,13 @@ a.light-blue-button:focus{
 }
 #more-features .mfeature-box .mfeature-title {
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 400;
     color: #34a8ff;
     margin-bottom: 10px;
     position: relative;
 }
 #more-features .mfeature-box .mfeature-details {
-    font-size: 15px;
+    font-size: 16px;
     color: #678ea6;
     position: relative;
 }
