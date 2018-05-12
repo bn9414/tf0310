@@ -16,15 +16,14 @@ height: 500px;
 
  
 
-
 .ban{
     display: block;
-   transition: 0.1s;
-   -webkit-transition: 0.1s;
-    animation-name: fadeIn ;
+   transition: 1s;
+ /*  -webkit-transition: 1s;*/
+   /* animation-name: fadeIn ;
     -webkit--webkit-animation-name: fadeIn ;
     animation-duration: 1s;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 1s;*/
 }
 
 @-webkit-keyframes fadeIn {
@@ -246,11 +245,15 @@ height: 500px;
     }
     #bimg{
         width: 200%;
+        animation: qqq 2s;
     }
     .cap-hd h1{
         font-size:30px;
     }
-    
+    @keyframes qqq{
+        0%{width:210%;}
+        100%{width:200%;}
+    }
 }
 @media (min-width:900px){
     .hd-lne{
@@ -323,12 +326,12 @@ height: 500px;
         position: relative;
     /*top: -200px;*/
         width: 100%;
-        animation-name: dimgani;
+        animation: dimgani 2s;
 }
         @keyframes dimgani{
     
-    from {width:150%;}
-    to {width: 130%;}
+    from {width:160%;}
+    to {width: 150%;}
     
     
 }
@@ -1254,7 +1257,12 @@ textarea {
     
     #bimg {
     width: 300%;
+        animation: qim 1s;
 }
+    @keyframes qim {
+        0%{width:310%;}
+        100%{width:300%;}
+    }
 }
 @media(max-width:400px){
     .tusr-img{
