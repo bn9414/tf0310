@@ -44,7 +44,7 @@
        aware that my parents' dreams"</h2>
             <div class="tusr-img">
                <img src="images/testi.jpg">
-                <h5>Adhi</h5>
+                <h5>Adi</h5>
             </div>
       </div>
         <div class="ban"><img id="bimg" src="quotes/images/sc2.jpg" class="" id="ban2">
@@ -54,7 +54,7 @@
        aware that my parents' dreams"</h2>
              <div class="tusr-img">
                <img src="images/testi.jpg">
-                  <h5>Adhi</h5>
+                  <h5>Adi</h5>
             </div>
         </div>
     
@@ -87,7 +87,7 @@
        aware that my parents' dreams"</h2>
              <div class="tusr-img">
                <img src="images/testi.jpg">
-                  <h5>Adhi</h5>
+                  <h5>Adi</h5>
             </div>
         </div>
     
@@ -98,7 +98,7 @@
        aware that my parents' dreams"</h2>
              <div class="tusr-img">
                <img src="images/testi.jpg">
-                  <h5>Adhi</h5>
+                  <h5>Adi</h5>
             </div>
         </div>
     
@@ -109,7 +109,7 @@
        aware that my parents' dreams"</h2>
              <div class="tusr-img">
                <img src="images/testi.jpg">
-                  <h5>Adhi</h5>
+                  <h5>Adi</h5>
             </div>
         </div>
     
@@ -131,7 +131,7 @@
        aware that my parents' dreams"</h2>
              <div class="tusr-img">
                <img src="images/testi.jpg">
-                  <h5>Adhi</h5>
+                  <h5>Adi</h5>
             </div>
         </div>
     
@@ -142,7 +142,7 @@
        aware that my parents' dreams"</h2>
              <div class="tusr-img">
                <img src="images/testi.jpg">
-                  <h5>Adhi</h5>
+                  <h5>Adi</h5>
             </div>
         </div>
     
