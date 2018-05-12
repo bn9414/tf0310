@@ -14,13 +14,14 @@ justify-content: space-around;
       transition: 1s !important;
 }
 .mnumnu a {
-    width: 400px;
+        width: 250px;
     border: 1px olid;
     display: block;
-    margin: 10px 0px;
+    margin: 10px 5px;
     padding: 10px;
     background: #ffffff;
-box-shadow: 0 0 10px #ddd;
+    box-shadow: 0 0 10px #ddd;
+    font-size: 15px;
 }
 .mnumnu a:hover{
     border-right: 5px solid #acde61;
