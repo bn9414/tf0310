@@ -49,7 +49,7 @@ if ($conn->connect_error) {
 		
       
 // sql to create table
-$sql = "CREATE TABLE moneymake (
+$sql = "CREATE TABLE jobsearch (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
 tit VARCHAR(100) NOT NULL,
 des VARCHAR(500) NOT NULL,
@@ -59,7 +59,7 @@ logo VARCHAR(100)
 )";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Table moneymake created successfully";
+    echo "Table jobsearch created successfully";
 } else {
     echo "Error creating table: " . $conn->error;
 }
@@ -67,7 +67,7 @@ if ($conn->query($sql) === TRUE) {
     
 //$arr= array ('hai','bye');
 
-$sql1 = "INSERT INTO moneymake (tit, des, rate, url, logo)
+$sql1 = "INSERT INTO jobsearch (tit, des, rate, url, logo)
 VALUES (' ', ' ', ' ','','')";  
     
     for($i=0;$i<10;$i++){
@@ -654,7 +654,7 @@ $logo10= "uploads/". basename( $_FILES["logo10"]["name"]);
 /*$dum =basename( $_FILES["logo1"]["name"]);
 $rate1= "uploads" . $dum;*/
 
-$sql = "UPDATE moneymake SET tit='$tit1',des='$des1',url='$url1',rate='$rate1',logo='$logo1' WHERE id=1";
+$sql = "UPDATE jobsearch SET tit='$tit1',des='$des1',url='$url1',rate='$rate1',logo='$logo1' WHERE id=1";
 
 if(!empty($tit1) &&  !empty($des1) &&  !empty($url1) &&  !empty($rate1)){ 
 if ($conn->query($sql) === TRUE) {
@@ -666,7 +666,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
     
-    $sql2 = "UPDATE moneymake SET tit='$tit2',des='$des2',url='$url2',rate='$rate2',logo='$logo2' WHERE id=2";
+    $sql2 = "UPDATE jobsearch SET tit='$tit2',des='$des2',url='$url2',rate='$rate2',logo='$logo2' WHERE id=2";
 
 if(!empty($tit2) &&  !empty($des2) &&  !empty($url2) &&  !empty($rate2)){ 
 if ($conn->query($sql2) === TRUE) {
@@ -679,7 +679,7 @@ if ($conn->query($sql2) === TRUE) {
 
  
     
-    $sql3 = "UPDATE moneymake SET tit='$tit3',des='$des3',url='$url3',rate='$rate3',logo='$logo3' WHERE id=3";
+    $sql3 = "UPDATE jobsearch SET tit='$tit3',des='$des3',url='$url3',rate='$rate3',logo='$logo3' WHERE id=3";
 
 if(!empty($tit3) &&  !empty($des3) &&  !empty($url3) &&  !empty($rate3)){ 
 if ($conn->query($sql3) === TRUE) {
@@ -692,7 +692,7 @@ if ($conn->query($sql3) === TRUE) {
 
  
     
-    $sql4 = "UPDATE moneymake SET tit='$tit4',des='$des4',url='$url4',rate='$rate4',logo='$logo4' WHERE id=4";
+    $sql4 = "UPDATE jobsearch SET tit='$tit4',des='$des4',url='$url4',rate='$rate4',logo='$logo4' WHERE id=4";
 
 if(!empty($tit4) &&  !empty($des4) &&  !empty($url4) &&  !empty($rate4)){ 
 if ($conn->query($sql4) === TRUE) {
@@ -705,7 +705,7 @@ if ($conn->query($sql4) === TRUE) {
 
  
     
-    $sql5 = "UPDATE moneymake SET tit='$tit5',des='$des5',url='$url5',rate='$rate5',logo='$logo5' WHERE id=5";
+    $sql5 = "UPDATE jobsearch SET tit='$tit5',des='$des5',url='$url5',rate='$rate5',logo='$logo5' WHERE id=5";
 
 if(!empty($tit5) &&  !empty($des5) &&  !empty($url5) &&  !empty($rate5)){ 
 if ($conn->query($sql5) === TRUE) {
@@ -718,7 +718,7 @@ if ($conn->query($sql5) === TRUE) {
 
  
     
-    $sql6 = "UPDATE moneymake SET tit='$tit6',des='$des6',url='$url6',rate='$rate6',logo='$logo6' WHERE id=6";
+    $sql6 = "UPDATE jobsearch SET tit='$tit6',des='$des6',url='$url6',rate='$rate6',logo='$logo6' WHERE id=6";
 
 if(!empty($tit6) &&  !empty($des6) &&  !empty($url6) &&  !empty($rate6)){ 
 if ($conn->query($sql6) === TRUE) {
@@ -731,7 +731,7 @@ if ($conn->query($sql6) === TRUE) {
 
  
     
-    $sql7 = "UPDATE moneymake SET tit='$tit7',des='$des7',url='$url7',rate='$rate7',logo='$logo7' WHERE id=7";
+    $sql7 = "UPDATE jobsearch SET tit='$tit7',des='$des7',url='$url7',rate='$rate7',logo='$logo7' WHERE id=7";
 
 if(!empty($tit7) &&  !empty($des7) &&  !empty($url7) &&  !empty($rate7)){ 
 if ($conn->query($sql7) === TRUE) {
@@ -744,7 +744,7 @@ if ($conn->query($sql7) === TRUE) {
 
  
     
-    $sql8 = "UPDATE moneymake SET tit='$tit8',des='$des8',url='$url8',rate='$rate8',logo='$logo8' WHERE id=8";
+    $sql8 = "UPDATE jobsearch SET tit='$tit8',des='$des8',url='$url8',rate='$rate8',logo='$logo8' WHERE id=8";
 
 if(!empty($tit8) &&  !empty($des8) &&  !empty($url8) &&  !empty($rate8)){ 
 if ($conn->query($sql8) === TRUE) {
@@ -757,7 +757,7 @@ if ($conn->query($sql8) === TRUE) {
 
  
     
-    $sql9 = "UPDATE moneymake SET tit='$tit9',des='$des9',url='$url9',rate='$rate9',logo='$logo9' WHERE id=9";
+    $sql9 = "UPDATE jobsearch SET tit='$tit9',des='$des9',url='$url9',rate='$rate9',logo='$logo9' WHERE id=9";
 
 if(!empty($tit9) &&  !empty($des9) &&  !empty($url9) &&  !empty($rate9)){ 
 if ($conn->query($sql9) === TRUE) {
@@ -770,7 +770,7 @@ if ($conn->query($sql9) === TRUE) {
 
  
     
-    $sql10 = "UPDATE moneymake SET tit='$tit10',des='$des10',url='$url10',rate='$rate10',logo='$logo10' WHERE id=10";
+    $sql10 = "UPDATE jobsearch SET tit='$tit10',des='$des10',url='$url10',rate='$rate10',logo='$logo10' WHERE id=10";
 
 if(!empty($tit10) &&  !empty($des10) &&  !empty($url10) &&  !empty($rate10)){ 
 if ($conn->query($sql10) === TRUE) {

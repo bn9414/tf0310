@@ -167,6 +167,10 @@ $password = "";
 $dbname ="tenfirqd_test";*/
 
         
+    $servername = "localhost";
+$username = "tenfirqd_testp";
+$password = "B123123b";
+$dbname ="tenfirqd_test";    
         
 
 // Create connection
