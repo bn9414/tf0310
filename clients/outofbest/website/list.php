@@ -80,7 +80,7 @@
 
 							<!-- Menu: Logo & Tagline -->
 							<div class="ish-widget-element">
-								<a href="index.html"><img src="images/logo1.svg" class="ish-logo-widget" alt="Out of best" /></a>
+								<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="Out of best" /></a>
 								<!--<div class="ish-tagline-widget ish-txt-color1">Unique Portfolio</div>-->
 							</div>
 

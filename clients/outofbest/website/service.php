@@ -79,7 +79,7 @@
 
 							<!-- Menu: Logo & Tagline -->
 							<div class="ish-widget-element">
-								<a href="index.html"><img src="images/logo1.svg" class="ish-logo-widget" alt="Out of best" /></a>
+								<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="Out of best" /></a>
 								<!--<div class="ish-tagline-widget ish-txt-color1">Unique Portfolio</div>-->
 							</div>
 
@@ -161,7 +161,7 @@
             <div class="col-md-12 text-center">
                 <div id="main-slider">
                     <div class="slide info-slide1" title="Welcome !">
-                        <div class="image-holder"><img src="service/images/lap.jpg" alt="" /></div>
+                        <div class="image-holder"><img src="service/images/main-slide-img1.png" alt="" /></div>
                         <div class="text-holder txt">Take your business to the next level<br>
 Get your website today.</div>
                         <div class="button-holder"><a href="signup.html" class="blue-button">Sign up now</a></div>

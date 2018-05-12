@@ -46,7 +46,7 @@
 
 						<!-- Main Logo & Tagline -->
 						<div class="ish-logo-container ish-txt-color3">
-							<a href="index.html"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="Out of Best" /></span></span></a>
+							<a href="index.php"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="Out of Best" /></span></span></a>
 							<!--<span class="ish-theme-tagline ish-vertical">Unique Portfolio</span>-->
 						</div>
 
