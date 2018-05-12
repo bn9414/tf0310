@@ -226,6 +226,28 @@
          <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Technology News </p></div></a>
          
+          <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Stock Brokers in India  </p></div></a>
+         
+          <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Home Service  </p></div></a>
+         
+         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Business Consulting Companies in India </p></div></a>
+         
+         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Horoscope/Astrology </p></div></a>
+         
+         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Government Websites  </p></div></a>
+         
+         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Life Insurance companies in India  </p></div></a>
+         
+      <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Health Insurance Companies in India  </p></div></a>
+         
+         
     </div>
  <!--category-->
     <!--footer-->
