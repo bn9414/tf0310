@@ -12,24 +12,32 @@
 <meta http-equiv="Expires" content="0" />
         
        
-   
+ <link rel=stylesheet type="text/css" href="bootstrap/bootstrap.min.css">
+<link rel=stylesheet type="text/css" href="bootstrap/style.css">
+
 <link rel=stylesheet type="text/css" href="main/main.css">
-<link rel=stylesheet type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel=stylesheet type="text/css" href="index.css">
+<link rel=stylesheet type="text/css" href="vendor.css">
+<link rel=stylesheet type="text/css" href="menulnk/mnulnk.css">
+
+
 <link rel=stylesheet type="text/css" href="common/common.css">
 <link rel=stylesheet type="text/scss" href="common/_responsive.scss">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     
 <link rel=stylesheet type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     </head>
-<body class="page-template-home ish-content-overlay-medium ish-blurred ish-color17">
-<div class="ish-blurred-overlay" style="display: none;"></div>
+<body class="page-template-portfolio ish-content-overlay-large ish-blurred ish-color14 ish-no-blur">
+    <div class="ish-blurred-overlay" style="display: none;"></div>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
+    
+    
 
+    
 <div id="page" class="site">
 
 	<a class="skip-link screen-reader-text" href="#content"></a>
@@ -44,21 +52,21 @@
 
 						<!-- Main Logo & Tagline -->
 						<div class="ish-logo-container ish-txt-color3">
-							<a href="index.php"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="" /></span></span></a>
+							<a href="index.html"><span class="ish-logo-box"><span class="ish-logo-middle"><img src="images/logo1.svg" class="ish-logo" alt="Out of Best" /></span></span></a>
 							<!--<span class="ish-theme-tagline ish-vertical">Unique Portfolio</span>-->
 						</div>
 
 						<!-- Menu open Button -->
 						<div class="ish-menu-container ish-txt-color3">
-							<a href="#"><span class="ish-icon-nav"><i class="ish-icon-menu"></i></span><span class="ish-menu-desc ish-vertical">Menu</span></a>
+							<a href="#" class="test12"><span class="ish-icon-nav"><i class="ish-icon-menu ty12"></i></span><span class="ish-menu-desc ish-vertical">Menu</span></a>
 						</div>
 
 					</div>
 
 					<div class="site-branding">
-						<h1 class="site-title">Want <span>to know</span></h1>
-						<h2 class="site-subtitle">something <span>about me</span>/<span>us</span>?</h2>
-						<p class="site-description">We do whatever we want to be happy in this moment</p>
+						<h1 class="site-title">When <span>Love</span><br> &amp; <span>Passion</span> meet</h1>
+						<h2 class="site-subtitle">beautiful <span>things</span> start to <span>work</span>!</h2>
+						<p class="site-description"><span>You don't believe?</span></p>
 					</div><!-- .site-branding -->
 				</div>
 
@@ -76,12 +84,12 @@
 
 							<!-- Menu: Logo & Tagline -->
 							<div class="ish-widget-element">
-								<a href="index.html"><img src="images/logo1.svg" class="ish-logo-widget" alt="" /></a>
+								<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="Out of best" /></a>
 								<!--<div class="ish-tagline-widget ish-txt-color1">Unique Portfolio</div>-->
 							</div>
 
 							<!-- Menu: Main Navigation -->
-									<nav id="site-navigation" class="main-navigation ish-widget-element">
+							<nav id="site-navigation" class="main-navigation ish-widget-element">
 								<ul>
 									<li class="ish-active-item"><a href="index.php"><span>Home</span></a></li>
 									<li class="">
@@ -115,6 +123,7 @@
 									<li><a href="contact.php" ><span>Contact</span></a></li>
 								</ul>
 							</nav>
+
 
 							<!-- Menu: Search Form -->
 							<!--<form role="search" method="get" id="ish-search-nav-form" class="ish-search-form ish-widget-element" action="search-results.html">
@@ -151,81 +160,42 @@
 
 
 	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
-
-		<div id="primary" class="content-area">
-			<main id="main" class="site-main">
-
-				<!-- CONTENT GOES HERE -->
-
-				<div class="ish-container-fluid">
-					<div class="ish-container-inner">
-
-						<div class="ish-main-content ish-content-parallax">
-							<div class="ish-row ish-bottom-xs">
-								<div class="ish-col-xs-12 ish-col-sm-7">
-									<p>
-										<a href="about/images/blog14.jpg" class="ish-lightbox ish-img-scale">
-											<img src="about/images/blog14.jpg" alt="Adi Reddy">
-										</a>
-									</p>
-								</div>
-								<div class="ish-col-xs-12 ish-col-sm-offset-1 ish-col-sm-4">
-									<h4 class="ish-txt-color5">Adhi</h4>
-									<p>
-										I am entrepreneur who always keep finding solution for problem that people face on the internet. The journey of Out of best is one of that. Here i work all my time to give you the best website under each category.
-									</p>
-									<p class="ish-social-box">
-										<span class="ish-twitter ish-sc-element ish-sc-icon ish-icon-xs"><a href="#"><i class="ish-icon-twitter"></i></a></span>
-										<span class="ish-behance ish-sc-element ish-sc-icon ish-icon-xs"><a href="#"><i class="ish-icon-behance"></i></a></span>
-										<span class="ish-gplus ish-sc-element ish-sc-icon ish-icon-xs"><a href="#"><i class="ish-icon-gplus"></i></a></span>
-										<span class="ish-facebook ish-sc-element ish-sc-icon ish-icon-xs"><a href="#"><i class="ish-icon-facebook"></i></a></span>
-									</p>
-								</div>
-							</div>
-
-							<div class="ish-row">
-								<div class="ish-col-xs-12">
-									<h3 class="ish-txt-color17 ish-txt-align-center">
-										Every day i feel that i have bigger responsisibilty to give the right things to users. 
-									</h3>
-								</div>
-							</div>
-
-							<div class="ish-row">
-								<div class="ish-col-xs-12 ish-col-sm-4 ish-txt-align-right">
-									<p>
-										We are running towards the day where everyone in the world using outofbest to see to get the top ten list of website in various categories without giving any second thought.
-									</p>
-									<p>
-										Now our major focus is to improve our the ranking alogorithm to  give the right website list that works well for the  users.
-									</p>
-								</div>
-								<div class="ish-sc-element ish-sc-gallery ish-col-xs-12 ish-col-sm-offset-1 ish-col-sm-7" data-rowHeight="200" data-lastRow="nojustify" data-margins="1">
-									<a href="about/images/blog11.jpg">
-										<img src="about/images/blog11.jpg" alt="Happy Girl">
-									</a>
-									<a href="about/images/blog15.jpg">
-										<img src="about/images/blog15.jpg" alt="Gramophone">
-									</a>
-									<a href="about/images/blog7.jpg">
-										<img src="about/images/blog7.jpg" alt="Napkin">
-									</a>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-
-			</main><!-- #main -->
-		</div><!-- #primary -->
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
+    <!--menulst-->
+    <div class="mnuhed">
+    <h1>Quick Links</h1>
+    </div>
+    
+    <div class="mnumnu">
+        
+    <a href="#">Shopping Websites</a>
+    <a href="#">Online Money Making</a>
+    <a href="#">Movie Booking</a>
+    <a href="#">Job Searching</a>
+    <a href="#">Travel Booking Websites | Hotel Booking Websites</a>
+    <a href="#">Web Hosting</a>
+    <a href="#">Online Food Ordering</a>
+    <a href="#">Online Education</a>
+    <a href="#">News Channels</a>
+    <a href="#">Online Logo Makers</a>
+    <a href="#">Coupon Websites</a>
+    <a href="#">Domain Name Registrars</a>
+    <a href="#">International Real-Estate</a>
+    <a href="#">Current Affairs </a>
+    <a href="#">Online Music </a>
+    <a href="#">Sports Websites </a>
+    <a href="#">Matrimonial Websites </a>
+    <a href="#">Dating Websites </a>
+    <a href="#">Kids Websites</a>
+    <a href="#">Online Furniture eCommerce</a>
+    <a href="#">Real Estate websites in india</a>
+    <a href="#">Second Hand Buying and Selling Websites</a>
+    <a href="#">Social Media Websites</a>
+    <a href="#">Technology News</a>
+    </div>
+    <!--menulst-->
+    
+    <!--footer-->
+    <footer id="colophon" class="site-footer">
 
 		<!-- FOOTER WIDGETS GO HERE -->
 		<div class="ish-decor-container">
@@ -239,7 +209,7 @@
 					<div class="ish-footer ish-col-xs-offset-1 ish-col-xs-10">
 
 						<div class="ish-widget-element">
-							<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="" /></a>
+							<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
 						</div>
 
 						<!--<div class="ish-widget-element">
@@ -254,8 +224,7 @@
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus"><a href="#"><i class="ish-icon-gplus"></i></a></span>
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook"><a href="#"><i class="ish-icon-facebook"></i></a></span>
 						</div>
-                        
-                        <div class="ish-social-box ish-widget-element ish-row ish-center-xs">
+<div class="ish-social-box ish-widget-element ish-row ish-center-xs">
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-twitter wdd"><a href="index.php"><span>Home</span></a></span>
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-behance wdd"><a href="service.php"><span>Service</span></a></span>
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-dribbble wdd"><a href="quotes.php"><span>Quotes</span></a></span>
@@ -277,13 +246,17 @@
 		</div>
 
 	</footer><!-- #colophon -->
-
-</div><!-- #page -->
-
-
-<script src="main/main.js" type="text/javascript"></script>
+    </div>
+    <!--1-->
+    
+    <!--footer-->
+    
+<!--footer-->
+ <script src="main/main.js" type="text/javascript"></script>
+ <script src="quotes/quotes.js" type="text/javascript"></script>
+ 
+ <script src="bootstrap/js/jquery.min.js" type="text/javascript"></script>
  <script src="main/vendor/AnimOnScroll.js" type="text/javascript"></script>
  <script src="main/vendor/plugins.js" type="text/javascript"></script>
-
 </body>
 </html>

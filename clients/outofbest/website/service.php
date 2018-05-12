@@ -355,7 +355,7 @@ We have couple of reasons, but we wanna tell you one things.
 						</div>
                         
 						<div class="site-info ish-legals ish-widget-element">
-						<a  class="ish-underline">@2018 Out Of Best.All rights are reserved.</a> 
+						<a  class="">@2018 Out Of Best.All rights are reserved.</a> 
 					</div>
 					</div>
 

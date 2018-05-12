@@ -154,54 +154,77 @@
 	</header><!-- #masthead -->
  <!--category-->
      <div class="ser-cont">
-    <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p>Shopping Websites</p></div>
-        <div class="ser1"><img src="category/vectors/bridal_wear.svg">
-        <p>Online Money Making</p></div>
-        <div class="ser1"><img src="category/vectors/wedding%20jewellery.svg">
-        <p>Movie Booking</p></div>
-        <div class="ser1"><img src="category/vectors/decorators%20and%20florists.svg">
-        <p>Job Searching </p></div>
-        <div class="ser1"><img src="category/vectors/groom.svg">
-        <p>Travel Booking Websites | <br/>Hotel Booking Websites</p></div>
-        <div class="ser1"><img src="category/vectors/weddig%20planners.svg">
-        <p>Web Hosting</p></div>
-        <div class="ser1"><img src="category/vectors/bachelor%20parties.svg">
-        <p>Online Food Ordering </p></div>
-        <div class="ser1"><img src="category/vectors/Videogrpaher.svg">
-        <p>Online Education </p></div>
-        <div class="ser1"><img src="category/vectors/Invitation.svg">
-        <p>News Channels</p></div>
-        <div class="ser1"><img src="category/vectors/wedding%20cakes.svg">
-        <p>Online Logo Makers</p></div>
-        <div class="ser1"><img src="category/vectors/astrologer.svg">
-        <p>Coupon Websites</p></div>
-        <div class="ser1"><img src="category/vectors/Wedding%20Music.svg">
-        <p>Domain Name Registrars</p></div>
-        <div class="ser1"><img src="category/vectors/transport.svg">
-        <p>International Real-Estate</p></div>
-        <div class="ser1"><img src="category/vectors/catering.svg">
-        <p>Current Affairs </p></div>
-        <div class="ser1"><img src="category/vectors/wedding%20venue.svg">
-        <p> Online Music</p></div>
-        <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p>Sports Websites</p></div>
-        <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p>Matrimonial Websites</p></div>
-         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p>Dating Websites</p></div>
-         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p>Kids Websites</p></div>
-         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p>Online Furniture eCommerce</p></div>
-         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p>Real Estate websites in india</p></div>
-         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p>Second Hand Buying and Selling Websites</p></div>
-         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p> Social Media Websites</p></div>
-         <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-        <p>Technology News </p></div>
+    <a href="#"><div class="ser1"><img src="category/vectors/Shopping%20Cart.svg">
+         <p>Shopping Websites</p></div></a>
+         
+       <a href="#"> <div class="ser1"><img src="category/vectors/Money%20I.svg">
+           <p>Online Money Making</p></div></a>
+         
+     <a href="#">   <div class="ser1"><img src="category/vectors/Bar%20Code.svg">
+         <p>Movie Booking</p></div></a>
+         
+       <a href="#"> <div class="ser1"><img src="category/vectors/search.svg">
+           <p>Job Searching </p></div></a>
+         
+       <a href="#"> <div class="ser1"><img src="category/vectors/Delivery%20Truck.svg">
+           <p>Travel Booking Websites | <br/>Hotel Booking Websites</p></div></a>
+         
+       <a href="#"> <div class="ser1"><img src="category/vectors/Secure%20Card.svg">
+           <p>Web Hosting</p></div></a>
+         
+       <a href="#"> <div class="ser1"><img src="category/vectors/Fast%20Food.svg">
+           <p>Online Food Ordering </p></div></a>
+         
+       <a href="#"> <div class="ser1"><img src="category/vectors/books.svg">
+           <p>Online Education </p></div></a>
+         
+        <a href="#"><div class="ser1"><img src="category/vectors/newspaper.svg">
+            <p>News Channels</p></div></a>
+         
+       <a href="#"> <div class="ser1"><img src="category/vectors/compass.svg">
+           <p>Online Logo Makers</p></div></a>
+         
+     <a href="#">   <div class="ser1"><img src="category/vectors/New%20Tag.svg">
+         <p>Coupon Websites</p></div></a>
+         
+        <a href="#"><div class="ser1"><img src="category/vectors/astrologer.svg">
+            <p>Domain Name Registrars</p></div></a>
+         
+      <a href="#">  <div class="ser1"><img src="category/vectors/Shop.svg">
+          <p>International Real-Estate</p></div></a>
+         
+       <a href="#"> <div class="ser1"><img src="category/vectors/catering.svg">
+           <p>Current Affairs </p></div></a>
+         
+       <a href="#"> <div class="ser1"><img src="category/vectors/wedding%20venue.svg">
+           <p> Online Music</p></div></a>
+         
+        <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+            <p>Sports Websites</p></div></a>
+         
+        <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+            <p>Matrimonial Websites</p></div></a>
+         
+         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Dating Websites</p></div></a>
+         
+        <a href="#"> <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+            <p>Kids Websites</p></div></a>
+         
+        <a href="#"> <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+            <p>Online Furniture eCommerce</p></div></a>
+         
+         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Real Estate websites in india</p></div></a>
+         
+        <a href="#"> <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+            <p>Second Hand Buying and Selling Websites</p></div></a>
+         
+         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p> Social Media Websites</p></div></a>
+         
+         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Technology News </p></div></a>
          
     </div>
  <!--category-->
@@ -245,7 +268,7 @@
 						</div>
 
 						<div class="site-info ish-legals ish-widget-element">
-						<a  class="ish-underline">@2018 Out Of Best.All rights are reserved.</a> 
+						<a  class="">@2018 Out Of Best.All rights are reserved.</a> 
 					</div>
 					</div>
 

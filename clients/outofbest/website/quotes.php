@@ -353,10 +353,13 @@
                     </div>
                 </div>-->
                 <div class="cnt-conwi">
+                    <div class="test"></div>
+                    <div class="cocon">
                     <h1>Do you want your quote to be published in out of best</h1>
                     <p>You are just one step away from making it.</p>
                     <p></p>
                 </div>
+                    </div>
             </div>
     <!--form-tag-->
             </div>
@@ -400,7 +403,7 @@
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook wdd"><a href="contact.php"><span>Contact</span></a></span>
 						</div>
 						<div class="site-info ish-legals ish-widget-element">
-						<a  class="ish-underline">@2018 Out Of Best.All rights are reserved.</a> 
+						<a  class="">@2018 Out Of Best.All rights are reserved.</a> 
 					</div>
 					</div>
 
