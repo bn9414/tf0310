@@ -80,7 +80,7 @@
 
 							<!-- Menu: Logo & Tagline -->
 							<div class="ish-widget-element">
-								<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="Out of best" /></a>
+								<a href="index.html"><img src="images/logo1.svg" class="ish-logo-widget" alt="Out of best" /></a>
 								<!--<div class="ish-tagline-widget ish-txt-color1">Unique Portfolio</div>-->
 							</div>
 
@@ -153,6 +153,170 @@
 
 		<div class="ish-decor-container"><div class="ish-decor-bottom ish-theme-rotate"></div></div>
 
+        
+        
+        
+        
+        
+                
+            <?php
+
+/*$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname ="tenfirqd_test";*/
+
+        
+        
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+
+/* $sql = "SELECT tit FROM ecom";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "id: " . $row["tit"];
+    }
+} else {
+    echo "0 results";
+}    
+ */
+
+       ?> 
+                  <?php
+
+
+  $sql = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=1";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz1= array();
+    while($row1 = $result->fetch_assoc()) {
+        $rowz1 =$row1;
+      }   } 
+        
+          $sql2 = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=2";
+$result = $conn->query($sql2);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz2= array();
+    while($row2 = $result->fetch_assoc()) {
+        $rowz2 =$row2;
+      }   } 
+
+
+        
+        $sql3 = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=3";
+$result = $conn->query($sql3);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz3= array();
+    while($row3 = $result->fetch_assoc()) {
+        $rowz3 =$row3;
+      }   } 
+
+     
+        
+        $sql4 = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=4";
+$result = $conn->query($sql4);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz4= array();
+    while($row4 = $result->fetch_assoc()) {
+        $rowz4 =$row4;
+      }   } 
+
+  
+        
+        $sql5 = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=5";
+$result = $conn->query($sql5);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz5= array();
+    while($row5 = $result->fetch_assoc()) {
+        $rowz5 =$row5;
+      }   } 
+
+  
+        
+        $sql6 = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=6";
+$result = $conn->query($sql6);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz6= array();
+    while($row6 = $result->fetch_assoc()) {
+        $rowz6 =$row6;
+      }   } 
+
+    
+        
+        $sql7 = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=7";
+$result = $conn->query($sql7);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz7= array();
+    while($row7 = $result->fetch_assoc()) {
+        $rowz7 =$row7;
+      }   } 
+
+ 
+        
+        $sql8 = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=8";
+$result = $conn->query($sql8);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz8= array();
+    while($row8 = $result->fetch_assoc()) {
+        $rowz8 =$row8;
+      }   } 
+
+  
+        
+        $sql9 = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=9";
+$result = $conn->query($sql9);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz9= array();
+    while($row9 = $result->fetch_assoc()) {
+        $rowz9 =$row9;
+      }   } 
+        
+                $sql10 = "SELECT  id, tit, des, url, rate,logo FROM ecom WHERE id=10";
+$result = $conn->query($sql10);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz10= array();
+    while($row10 = $result->fetch_assoc()) {
+        $rowz10 =$row10;
+      }   } 
+
+     ?>
+
+        
+        
+        
+        
+        
+        
+        
 
 	</header><!-- #masthead -->
     <!--lst-->
@@ -161,27 +325,393 @@
         <div class="hedimg">
         <div class="olsthd"><h1>01</h1></div>
         <div class="olstimg">
-            <img src="list/images/ama.png">
+            <img src="<?php echo  $rowz1["logo"]?>">
         </div>
         </div>
         <div class="olstpara">
-            <h1>Amazon</h1>
-        <p>Amazon.com, 
-            It has been a long established fact that reader will be distracted by the dummy text. So we will be using the word lorem epsum to denote that it is the dummy text. This content will be replaced by the one the client provide.
-           
+            <h1><?php echo  $rowz1["tit"]?></h1>
+        <p><?php echo  $rowz1["des"]?>
             </p>
             <div class="rateng">
-            <p><i class="fa fa-smile-o" aria-hidden="true"></i><span class="rtr">Rating 4.5</span> </p>
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz1["rate"]>=1) && ($rowz1["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz1["rate"]>=2) && ($rowz1["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz1["rate"]>=3) && ($rowz1["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz1["rate"]>=4) && ($rowz1["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz1["rate"]?></span> </p>
             </div>
         </div>
        
-        <button class="btn-vist"><a href="https://www.amazon.in" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz1["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
+    </div>
+    <!--1-->
+    
+    
+     <!--1-->
+    <div class="olist">
+        <div class="hedimg">
+        <div class="olsthd"><h1>02</h1></div>
+        <div class="olstimg">
+            <img src="<?php echo  $rowz2["logo"]?>">
+        </div>
+        </div>
+        <div class="olstpara">
+            <h1><?php echo  $rowz2["tit"]?></h1>
+        <p><?php echo  $rowz2["des"]?>
+            </p>
+            <div class="rateng">
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz2["rate"]>=1) && ($rowz2["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz2["rate"]>=2) && ($rowz2["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz2["rate"]>=3) && ($rowz2["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz2["rate"]>=4) && ($rowz2["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz2["rate"]?></span> </p>
+            </div>
+        </div>
+       
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz2["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
     </div>
     <!--1-->
     
     
     
-     <div class="olist">
+     <!--1-->
+    <div class="olist">
+        <div class="hedimg">
+        <div class="olsthd"><h1>03</h1></div>
+        <div class="olstimg">
+            <img src="<?php echo  $rowz3["logo"]?>">
+        </div>
+        </div>
+        <div class="olstpara">
+            <h1><?php echo  $rowz3["tit"]?></h1>
+        <p><?php echo  $rowz3["des"]?>
+            </p>
+            <div class="rateng">
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz3["rate"]>=1) && ($rowz3["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz3["rate"]>=2) && ($rowz3["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz3["rate"]>=3) && ($rowz3["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz3["rate"]>=4) && ($rowz3["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz3["rate"]?></span> </p>
+            </div>
+        </div>
+       
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz3["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
+    </div>
+    <!--1-->
+    
+     <!--1-->
+    <div class="olist">
+        <div class="hedimg">
+        <div class="olsthd"><h1>04</h1></div>
+        <div class="olstimg">
+            <img src="<?php echo  $rowz4["logo"]?>">
+        </div>
+        </div>
+        <div class="olstpara">
+            <h1><?php echo  $rowz4["tit"]?></h1>
+        <p><?php echo  $rowz4["des"]?>
+            </p>
+            <div class="rateng">
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz4["rate"]>=1) && ($rowz4["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz4["rate"]>=2) && ($rowz4["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz4["rate"]>=3) && ($rowz4["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz4["rate"]>=4) && ($rowz4["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz4["rate"]?></span> </p>
+            </div>
+        </div>
+       
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz4["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
+    </div>
+    <!--1-->
+    
+     <!--1-->
+    <div class="olist">
+        <div class="hedimg">
+        <div class="olsthd"><h1>05</h1></div>
+        <div class="olstimg">
+            <img src="<?php echo  $rowz5["logo"]?>">
+        </div>
+        </div>
+        <div class="olstpara">
+            <h1><?php echo  $rowz5["tit"]?></h1>
+        <p><?php echo  $rowz5["des"]?>
+            </p>
+            <div class="rateng">
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz5["rate"]>=1) && ($rowz5["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz5["rate"]>=2) && ($rowz5["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz5["rate"]>=3) && ($rowz5["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz5["rate"]>=4) && ($rowz5["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz5["rate"]?></span> </p>
+            </div>
+        </div>
+       
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz5["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
+    </div>
+    <!--1-->
+    
+    
+     <!--1-->
+    <div class="olist">
+        <div class="hedimg">
+        <div class="olsthd"><h1>06</h1></div>
+        <div class="olstimg">
+            <img src="<?php echo  $rowz6["logo"]?>">
+        </div>
+        </div>
+        <div class="olstpara">
+            <h1><?php echo  $rowz6["tit"]?></h1>
+        <p><?php echo  $rowz6["des"]?>
+            </p>
+            <div class="rateng">
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz6["rate"]>=1) && ($rowz6["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz6["rate"]>=2) && ($rowz6["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz6["rate"]>=3) && ($rowz6["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz6["rate"]>=4) && ($rowz6["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz6["rate"]?></span> </p>
+            </div>
+        </div>
+       
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz6["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
+    </div>
+    <!--1-->
+    
+    
+     <!--1-->
+    <div class="olist">
+        <div class="hedimg">
+        <div class="olsthd"><h1>07</h1></div>
+        <div class="olstimg">
+            <img src="<?php echo  $rowz7["logo"]?>">
+        </div>
+        </div>
+        <div class="olstpara">
+            <h1><?php echo  $rowz7["tit"]?></h1>
+        <p><?php echo  $rowz7["des"]?>
+            </p>
+            <div class="rateng">
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz7["rate"]>=1) && ($rowz7["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz7["rate"]>=2) && ($rowz7["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz7["rate"]>=3) && ($rowz7["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz7["rate"]>=4) && ($rowz7["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz7["rate"]?></span> </p>
+            </div>
+        </div>
+       
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz7["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
+    </div>
+    <!--1-->
+    
+    
+     <!--1-->
+    <div class="olist">
+        <div class="hedimg">
+        <div class="olsthd"><h1>08</h1></div>
+        <div class="olstimg">
+            <img src="<?php echo  $rowz8["logo"]?>">
+        </div>
+        </div>
+        <div class="olstpara">
+            <h1><?php echo  $rowz8["tit"]?></h1>
+        <p><?php echo  $rowz8["des"]?>
+            </p>
+            <div class="rateng">
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz8["rate"]>=1) && ($rowz8["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz8["rate"]>=2) && ($rowz8["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz8["rate"]>=3) && ($rowz8["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz8["rate"]>=4) && ($rowz8["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz8["rate"]?></span> </p>
+            </div>
+        </div>
+       
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz8["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
+    </div>
+    <!--1-->
+    
+    
+     <!--1-->
+    <div class="olist">
+        <div class="hedimg">
+        <div class="olsthd"><h1>09</h1></div>
+        <div class="olstimg">
+            <img src="<?php echo  $rowz9["logo"]?>">
+        </div>
+        </div>
+        <div class="olstpara">
+            <h1><?php echo  $rowz9["tit"]?></h1>
+        <p><?php echo  $rowz9["des"]?>
+            </p>
+            <div class="rateng">
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz9["rate"]>=1) && ($rowz9["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz9["rate"]>=2) && ($rowz9["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz9["rate"]>=3) && ($rowz9["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz9["rate"]>=4) && ($rowz9["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz9["rate"]?></span> </p>
+            </div>
+        </div>
+       
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz9["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
+    </div>
+    <!--1-->
+    
+    
+     <!--1-->
+    <div class="olist">
+        <div class="hedimg">
+        <div class="olsthd"><h1>10</h1></div>
+        <div class="olstimg">
+            <img src="<?php echo  $rowz10["logo"]?>">
+        </div>
+        </div>
+        <div class="olstpara">
+            <h1><?php echo  $rowz10["tit"]?></h1>
+        <p><?php echo  $rowz10["des"]?>
+            </p>
+            <div class="rateng">
+            <p><i id="smile"><img src="
+                <?php 
+    if (($rowz10["rate"]>=1) && ($rowz10["rate"]<2))
+               { echo "images/1.svg";}
+                 
+                  if (($rowz10["rate"]>=2) && ($rowz10["rate"]<3)){
+                echo "images/2.svg";}
+                 
+                  if (($rowz10["rate"]>=3) && ($rowz10["rate"]<4))
+               { echo "images/3.svg";}
+                 
+                  if (($rowz10["rate"]>=4) && ($rowz10["rate"]<=5))
+               { echo "images/4.svg";}
+                
+                ?>
+                                  
+                                  
+                                  "></i><span class="rtr">Rating <?php echo  $rowz10["rate"]?></span> </p>
+            </div>
+        </div>
+       
+        <a class="btn-vist" target="_blank"  href="<?php echo  $rowz10["url"]?>"><span>Vist <i class="fa fa-external-link" aria-hidden="true"></i></span></a> 
+    </div>
+    <!--1-->
+    
+    
+    
+    
+     <!--<div class="olist">
         <div class="hedimg">
         <div class="olsthd"><h1>02</h1></div>
         <div class="olstimg">
@@ -200,10 +730,10 @@
         </div>
        
         <button class="btn-vist"><a href="https://www.flipkart.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-    </div>
+    </div>-->
     <!--1-->
     
-     <div class="olist">
+    <!-- <div class="olist">
         <div class="hedimg">
         <div class="olsthd"><h1>03</h1></div>
         <div class="olstimg">
@@ -224,10 +754,10 @@
         </div>
        
         <button class="btn-vist"><a href="https://www.paytmmall.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-    </div>
+    </div>-->
     <!--1-->
     
-     <div class="olist">
+    <!-- <div class="olist">
         <div class="hedimg">
         <div class="olsthd"><h1>04</h1></div>
         <div class="olstimg">
@@ -248,10 +778,10 @@
         </div>
        
         <button class="btn-vist"><a href="https://www.snapdeal.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-    </div>
+    </div>-->
     <!--1-->
     
-     <div class="olist">
+    <!-- <div class="olist">
         <div class="hedimg">
         <div class="olsthd"><h1>05</h1></div>
         <div class="olstimg">
@@ -272,10 +802,10 @@
         </div>
        
         <button class="btn-vist"><a href="https://www.ebay.in/" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-    </div>
+    </div>-->
     <!--1-->
     
-     <div class="olist">
+     <!--<div class="olist">
         <div class="hedimg">
         <div class="olsthd"><h1>06</h1></div>
         <div class="olstimg">
@@ -296,10 +826,10 @@
         </div>
        
         <button class="btn-vist"><a href="https://www.jabong.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-    </div>
+    </div>-->
     <!--1-->
     
-     <div class="olist">
+    <!-- <div class="olist">
         <div class="hedimg">
         <div class="olsthd"><h1>07</h1></div>
         <div class="olstimg">
@@ -320,10 +850,10 @@
         </div>
        
         <button class="btn-vist"><a href="https://www.myntra.com" target="_blank">Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-    </div>
+    </div>-->
     <!--1-->
     
-     <div class="olist">
+    <!-- <div class="olist">
         <div class="hedimg">
         <div class="olsthd"><h1>08</h1></div>
         <div class="olstimg">
@@ -344,11 +874,11 @@
         </div>
        
         <button class="btn-vist"><a href="https://www.shopclues.com" target="_blank" >Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-    </div>
+    </div>-->
     <!--1-->
      <!--1-->
     
-     <div class="olist">
+    <!-- <div class="olist">
         <div class="hedimg">
         <div class="olsthd"><h1>09</h1></div>
         <div class="olstimg">
@@ -364,16 +894,16 @@
             This content will be replaced by the one the client provide.
             </p>
             <div class="rateng">
-            <p><i class="fa fa-frown-o" aria-hidden="true"></i></i><span class="rtr">Rating 2.9</span> </p>
+            <p><i class="fa fa-frown-o" aria-hidden="true"></i><span class="rtr">Rating 2.9</span> </p>
             </div>
         </div>
        
         <button class="btn-vist"><a href="https://www.ajio.com" target="_blank" >Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-    </div>
+    </div>-->
     <!--1-->
      <!--1-->
     
-     <div class="olist">
+    <!-- <div class="olist">
         <div class="hedimg">
         <div class="olsthd"><h1>10</h1></div>
         <div class="olstimg">
@@ -394,7 +924,7 @@
         </div>
        
         <button class="btn-vist"><a href="https://www.tataCliq.com" target="_blank" >Vist <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-    </div>
+    </div>-->
     <!--1-->
     
     <!--lst-->
@@ -429,14 +959,14 @@
 							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook"><a href="#"><i class="ish-icon-facebook"></i></a></span>
 						</div>
 
-	<div class="ish-social-box ish-widget-element ish-row ish-center-xs">
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-twitter wdd"><a href="index.php"><span>Home</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-behance wdd"><a href="service.php"><span>Service</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-dribbble wdd"><a href="quotes.php"><span>Quotes</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-instagram wdd"><a href="category.php"><span>TopTen</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus wdd"><a href="about.php"><span>About</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook wdd"><a href="contact.php"><span>Contact</span></a></span>
-						</div>
+						<!--<div class="site-info ish-legals ish-widget-element">
+						<a href="#" class="ish-underline">Qusq</a> Theme
+						<span class="ish-separator">~</span>
+						Proudly powered by <a href="https://wordpress.org/" target="_blank" class="ish-underline">WordPress</a>
+						<span class="ish-separator">~</span>
+						Created by <a href="http://ishyoboy.com" target="_blank" class="ish-underline">IshYoBoy.com</a>
+					</div>
+-->
 					</div>
 
 					<div class="ish-back-to-top ish-widget-element ish-col-xs-1">

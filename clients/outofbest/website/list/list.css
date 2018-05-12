@@ -52,6 +52,7 @@
 }
 .olstpara p{
     font-size: 15px;
+    
    /* padding: 0px 10px;*/
 }
 .rtr{
@@ -71,9 +72,10 @@
     background-color: #F8981F;
     border-radius: 10px;
 }
-.btn-vist a{
-    color: #fcfcfc;
+.btn-vist p{
+    color: #fcfcfc;position: relative;left: 10px;
 }
+
 a{
     text-decoration: none;
     
@@ -141,6 +143,9 @@ a{
     .btn-vist{
         width: 150px;
     }
+    .btn-vist span{position: relative;left: 10px;}
+   
+   
     .olstimg img{
     width: 100px;
 }
@@ -162,3 +167,5 @@ a{
 /*serolst*/
 
 
+#smile{display: lex;flex-direction: row;width: 350px;}
+.rtr{position: relative;top: 2px}
