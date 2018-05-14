@@ -317,7 +317,7 @@
                 <img src="images/testi.jpg">
             </div>
             <div class="tsi-para">
-                <p>I tried the website list of online money making, I found all the website are good. TO be honest i got the hope that i could make some money on  the internet</p>
+                <p>1I tried the website list of online money making, I found all the website are good. TO be honest i got the hope that i could make some money on  the internet</p>
             </div>
             <div class="tsti-lne"></div>
             <div class="tsti-nme"><p>Alex-wins</p></div>
@@ -335,7 +335,7 @@
                 <img src="images/testi.jpg">
             </div>
             <div class="tsi-para">
-                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
+                <p>2when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
             </div>
             <div class="tsti-lne"></div>
             <div class="tsti-nme"><p>Alex-wins</p></div>
@@ -353,7 +353,7 @@
                <img src="images/testi.jpg">
             </div>
             <div class="tsi-para">
-                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
+                <p>3when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged </p>
             </div>
             <div class="tsti-lne"></div>
             <div class="tsti-nme"><p>Alex-wins</p></div>
@@ -371,7 +371,7 @@
                <img src="images/testi.jpg">
             </div>
             <div class="tsi-para">
-                <p>Marsala is 'ONE STOP SHOP' for all event-needs.
+                <p>4Marsala is 'ONE STOP SHOP' for all event-needs.
                 At Marsala we strive to be the most reliable At Marsala we strive to be the most reliable </p>
             </div>
             <div class="tsti-lne"></div>

@@ -132,7 +132,6 @@ function form1(e){
         
     }
     if(e == 1){
-        
         document.getElementsByTagName("form")[0].setAttribute("action", "frm_onlinemoney.php");
     }
     

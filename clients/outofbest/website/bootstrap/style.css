@@ -993,7 +993,7 @@ body.fullpage{
 	4. Info Section Styles
 -------------------------------------------------------------------*/
 #info{
-    background-color: #acde61;
+    background-color: #7cd3ce;
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
@@ -1060,6 +1060,7 @@ a.white-green-shadow-button:focus{
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 60px;
+    text-transform: capitalize;
 }
 #features .mfeature-box{
     border-radius: 10px;
@@ -1482,9 +1483,10 @@ a.light-blue-button:focus{
     margin-bottom: 60px;
     position: relative;
     z-index: 10;
+    text-transform: capitalize;
 }
 #apps .row-title:before {
-    content: attr(title);
+    content: "Technology We Use";
     position: absolute;
     left: 40%;
     top: -65px;
@@ -1744,6 +1746,7 @@ a.light-blue-button:focus{
     margin-bottom: 60px;
     position: relative;
     z-index: 10;
+    text-transform: capitalize;
 }
 #more-features .row-title:before {
     content: attr(title);

@@ -93,6 +93,26 @@
 .ish-widget-element {
     margin-bottom: 10px !important;
 }
+.ish-txt-color17 {
+
+    color: #1cbbe3;
+
+}
+/*#content .ish-social-box {
+
+    margin-top: 0px !important;
+
+}*/
+#content .ish-social-box {
+
+    margin-top: 50px;
+
+}
+.cnnt h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
 /*.ish-decor-bottom {
     background-image:url(images/testi.jpg);
 }*/

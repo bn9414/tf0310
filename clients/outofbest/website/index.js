@@ -90,7 +90,45 @@ function testi(ts){
         tsval4.style.display="block";
         tsval1.style.display="none";
     }
+    setTimeout(testi,2000);
 }
 testi(1);
 /*testi*/
 /*testi*/
+ var ban = document.getElementsByClassName('test-vl');
+var doty = document.getElementsByClassName('dot');
+var j =0;
+
+ function incre(k){
+     j = j + k;
+     if(j == -1){
+         j = ban.length-1;
+     }
+     if(j == ban.length){
+         j=0;
+     }
+    scrollImg(j);
+ }
+function scrollImg(z){
+    ban[0].style.display="none";
+    ban[1].style.display="none";
+    ban[2].style.display="none";
+    ban[3].style.display="none";
+    ban[z].style.display="block";
+    
+    doty[0].style.background="#454545";
+    doty[0].style.border="1px solid #454545";
+     doty[1].style.background="#454545";
+    doty[1].style.border="1px solid #454545";   
+    doty[2].style.background="#454545";
+    doty[2].style.border="1px solid #454545";
+    doty[3].style.background="#454545";
+    doty[3].style.border="1px solid #454545";
+    
+    doty[z].style.background="#da5050";
+    doty[z].style.border="1px solid #da5050";
+    
+    
+}
+scrollImg(0);
+var xset= setInterval(function(){incre(1);},3000);
