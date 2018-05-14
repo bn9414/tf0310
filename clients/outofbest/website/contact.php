@@ -125,14 +125,14 @@
 							</form>-->
 
 							<!-- Menu: Social icons -->
-							<!--<div class="ish-social-box ish-widget-element ish-row">
+							<div class="ish-social-box ish-widget-element ish-row">
 								<span class="ish-col-xs-4 ish-twitter"><a href="#"><i class="ish-icon-twitter"></i></a></span>
 								<span class="ish-col-xs-4 ish-behance"><a href="#"><i class="ish-icon-behance"></i></a></span>
 								<span class="ish-col-xs-4 ish-dribbble"><a href="#"><i class="ish-icon-dribbble"></i></a></span>
 								<span class="ish-col-xs-4 ish-instagram"><a href="#"><i class="ish-icon-instagram"></i></a></span>
 								<span class="ish-col-xs-4 ish-gplus"><a href="#"><i class="ish-icon-gplus"></i></a></span>
 								<span class="ish-col-xs-4 ish-facebook"><a href="#"><i class="ish-icon-facebook"></i></a></span>
-							</div>-->
+							</div>
 
 							<!-- Menu: About Template -->
 							<!--<div class="ish-widget-element">
@@ -168,19 +168,15 @@
 									<div class="ish-contact-info-box">
 										<div class="ish-row">
 											<div class="ish-contact-info-text ish-col-xs-12 ish-col-md-9 ish-txt-align-right ish-txt-color14 xtxcl">
-												Feel free to contact me if you find something interesting here to discuss. I’m usually available from 5am till 3pm.
+												Feel free to contact me if you find something interesting here to discuss. I’m usually available from 5am-8am and 8pm-11pm.
 											</div>
 										</div>
 										<div class="ish-row">
 											<div class="ish-contact-info-text ish-txt-align-right ish-col-xs-12 ish-col-sm-10 ish-col-md-8">
 
-												India<br />
-												Chrompet (Marbella)<br />
-												chennai 62
-
-												ten<br />
-												mount road<br />
-												chennai-24
+												Lakshmipuram<br />
+												Chrompet <br />
+												chennai 42
 
 											</div>
 											<div class="ish-contact-info-icon ish-col-xs-12 ish-col-sm-2 ish-first-xs ish-last-sm ish-txt-color14">
@@ -200,9 +196,9 @@
 										<div class="ish-row">
 											<div class="ish-contact-info-text ish-txt-align-right ish-col-xs-12 ish-col-sm-10 ish-col-md-8">
 
-												info@outofbest.com
+												contact@outofbest.com
 
-												demo@gmail.com
+												
 
 											</div>
 											<div class="ish-contact-info-icon ish-col-xs-12 ish-col-sm-2 ish-first-xs ish-last-sm ish-txt-color14">
@@ -223,10 +219,10 @@
 												<input type="email" name="email" id="ish-cf-email" class="required" placeholder="Email" />
 											</p>
 											<p>
-												<input type="url" name="web" id="ish-cf-web" class="" placeholder="Web" />
+												<input type="url" name="tel" id="ish-cf-web" class="" placeholder="Phone number" />
 											</p>
 											<p>
-												<textarea name="text" id="ish-cf-message" class="required" placeholder="Message"></textarea>
+												<textarea name="text" id="ish-cf-message" class="required" placeholder="Text briefly about your project or message"></textarea>
 											</p>
 											<p>
 												<input type="hidden" name="action" value="contactForm" />
@@ -237,7 +233,9 @@
 									</div>
 								</div>
 							</div>
-
+                            <div class="cnnt">
+                            <h2>Connect With Us!</h2>
+                            </div>
 							<div class="ish-social-box ish-row ish-center-xs">
 								<span class="ish-col-xs-4 ish-col-sm-1 ish-sc-element ish-sc-icon ish-icon-medium ish-twitter"><a href="#"><i class="ish-icon-twitter"></i></a></span>
 								<span class="ish-col-xs-4 ish-col-sm-1 ish-sc-element ish-sc-icon ish-icon-medium ish-behance"><a href="#"><i class="ish-icon-behance"></i></a></span>

@@ -24,7 +24,7 @@
 <link rel=stylesheet type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     </head>
-<body class="page-template-home ish-content-overlay-medium ish-blurred ish-color17">
+<body class="page-template-home ish-content-overlay-medium ish-blurred ish-color6">
 <div class="ish-blurred-overlay" style="display: none;"></div>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>

@@ -26,7 +26,7 @@
 <link rel=stylesheet type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     </head>
-<body class="page-template-portfolio ish-content-overlay-large ish-blurred ish-color14 ish-no-blur">
+<body class="page-template-portfolio ish-content-overlay-large ish-blurred ish-color5 ish-no-blur">
     <div class="ish-blurred-overlay" style="display: none;"></div>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -204,7 +204,7 @@ We have couple of reasons, but we wanna tell you one things.
             <div class="col-md-12">
                 <div class="info-text">Every element in the business should give profit. The website is one of the major part of the business, so we have deeper understanding on your business and develop  the website that increases your business success rate.</div>
                 
-                <a href="#" class="white-green-shadow-button">Our services</a>
+                <!--<a href="#" class="white-green-shadow-button">Our services</a>-->
             </div>
         </div>
     </div>
@@ -225,7 +225,7 @@ We have couple of reasons, but we wanna tell you one things.
                         <div class="icon-bg"><img src="images/clouds-light.png" alt="" /></div>
                         <i class="fa fa-star"></i>
                     </div>
-                    <div class="mfeature-title">Website design</div>
+                    <div class="mfeature-title">Website Design</div>
                     <div class="mfeature-details">We design the website with one thing in mind which the design should be artistic</div>
                 </div>
             </div>
@@ -235,7 +235,7 @@ We have couple of reasons, but we wanna tell you one things.
                         <div class="icon-bg"><img src="images/clouds-light.png" alt="" /></div>
                         <i class="fa fa-ticket"></i>
                     </div>
-                    <div class="mfeature-title">website development</div>
+                    <div class="mfeature-title">Website Development</div>
                     <div class="mfeature-details">We are good at doing the custom web application that solves the user problem. We make the development process in very precious manner so that it will be reliabel and secure</div>
                 </div>
             </div>
@@ -245,14 +245,14 @@ We have couple of reasons, but we wanna tell you one things.
                         <div class="icon-bg"><img src="images/clouds-light.png" alt="" /></div>
                         <i class="fa fa-comments-o"></i>
                     </div>
-                    <div class="mfeature-title">Website maintenance</div>
+                    <div class="mfeature-title">Website Maintenance</div>
                     <div class="mfeature-details">We do not just end our connection with you once the website has been delivered. we travel with you through out your journey</div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <a class="light-blue-button" href="#">About us</a>
+                <a class="light-blue-button" href="contact.php">Contact us</a>
             </div>
         </div>    
     </div>
@@ -285,6 +285,22 @@ We have couple of reasons, but we wanna tell you one things.
                         <div class="app-icon-holder app-icon-holder4" data-id="4">
                             <div class="app-icon"><img src="service/images/magento.png" alt="magento"></div>
                             <div class="app-title">Magento</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder4" data-id="4">
+                            <div class="app-icon"><img src="service/images/html.png" alt="magento"></div>
+                            <div class="app-title">HTML5</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder4" data-id="4">
+                            <div class="app-icon"><img src="service/images/css.png" alt="magento"></div>
+                            <div class="app-title">CSS</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder4" data-id="4">
+                            <div class="app-icon"><img src="service/images/code.png" alt="magento"></div>
+                            <div class="app-title">Code Igniter</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder4" data-id="4">
+                            <div class="app-icon"><img src="service/images/presta.png" alt="magento"></div>
+                            <div class="app-title">Presta Shop</div>
                         </div>
                     </div>
                   <!--  <div class="apps-details-holder">
