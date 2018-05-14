@@ -61,7 +61,7 @@
 
 					<div class="site-branding">
 						<h1 class="site-title">Top <span>10</span><br> </h1>
-						<h2 class="site-subtitle"> <span>E-commerse websites</span> for <span>You</span>!</h2>
+						<h2 class="site-subtitle"> <span>Money making</span> websites <span>!</span></h2>
 				<!--		<p class="site-description"><span>You don't believe?</span></p>-->
 					</div><!-- .site-branding -->
 				</div>
@@ -933,55 +933,35 @@ if ($result->num_rows > 0) {
     
     <!--lst-->
     <!--footer-->
-    <footer id="colophon" class="site-footer">
+    <?php
+        $servername = "localhost";
+$username = "tenfirqd_testp";
+$password = "B123123b";
+$dbname ="tenfirqd_test";    
+        
 
-		<!-- FOOTER WIDGETS GO HERE -->
-		<div class="ish-decor-container">
-			<div class="ish-decor-top ish-theme-rotate ish-bg-color2"></div>
-		</div>
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
 
-		<div class="ish-container-fluid ish-bg-color2">
-			<div class="ish-container-inner">
-				<div class="ish-row">
+  
+      $sql = "SELECT  footer FROM common";
+$result = $conn->query($sql);
 
-					<div class="ish-footer ish-col-xs-offset-1 ish-col-xs-10">
-
-						<div class="ish-widget-element">
-							<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
-						</div>
-
-						<!--<div class="ish-widget-element">
-							<div class="ish-tagline-widget ish-txt-color3">Unique Portfolio</div>
-						</div>-->
-
-						<div class="ish-social-box ish-widget-element ish-row ish-center-xs">
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-twitter"><a href="#"><i class="ish-icon-twitter"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-behance"><a href="#"><i class="ish-icon-behance"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-dribbble"><a href="#"><i class="ish-icon-dribbble"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-instagram"><a href="#"><i class="ish-icon-instagram"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus"><a href="#"><i class="ish-icon-gplus"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook"><a href="#"><i class="ish-icon-facebook"></i></a></span>
-						</div>
-
-						<!--<div class="site-info ish-legals ish-widget-element">
-						<a href="#" class="ish-underline">Qusq</a> Theme
-						<span class="ish-separator">~</span>
-						Proudly powered by <a href="https://wordpress.org/" target="_blank" class="ish-underline">WordPress</a>
-						<span class="ish-separator">~</span>
-						Created by <a href="http://ishyoboy.com" target="_blank" class="ish-underline">IshYoBoy.com</a>
-					</div>
--->
-					</div>
-
-					<div class="ish-back-to-top ish-widget-element ish-col-xs-1">
-						<a href="#page" class="ish-txt-color3"><span>Back to Top</span><i class="ish-icon-right-small"></i></a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-	</footer><!-- #colophon -->
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz1= array();
+    while($row1 = $result->fetch_assoc()) {
+        $rowz1 =$row1;
+      }   } 
+    
+    echo $rowz1[footer];
+    
+   
+    ?><!-- #colophon -->
     </div>
     <!--1-->
     

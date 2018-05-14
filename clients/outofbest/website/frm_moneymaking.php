@@ -49,6 +49,7 @@ if ($conn->connect_error) {
 		
       
 // sql to create table
+/*
 $sql = "CREATE TABLE moneymake (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
 tit VARCHAR(100) NOT NULL,
@@ -73,6 +74,7 @@ VALUES (' ', ' ', ' ','','')";
     for($i=0;$i<10;$i++){
     $conn->query($sql1);}
   
+*/
     
 /*    echo "New record created successfully";
 } else {

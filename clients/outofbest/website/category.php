@@ -154,155 +154,135 @@
 	</header><!-- #masthead -->
  <!--category-->
      <div class="ser-cont">
-    <a href="#"><div class="ser1"><img src="category/vectors/Shopping%20Cart.svg">
+    <a href="list.php"><div class="ser1"><img src="category/vectors/Shopping%20Cart.svg">
          <p>Shopping Websites</p></div></a>
          
-       <a href="#"> <div class="ser1"><img src="category/vectors/Money%20I.svg">
+       <a href="lst_moneymaking.php"> <div class="ser1"><img src="category/vectors/Money%20I.svg">
            <p>Online Money Making</p></div></a>
          
-     <a href="#">   <div class="ser1"><img src="category/vectors/Bar%20Code.svg">
+     <a href="lst_moviebook.php">   <div class="ser1"><img src="category/vectors/Bar%20Code.svg">
          <p>Movie Booking</p></div></a>
          
-       <a href="#"> <div class="ser1"><img src="category/vectors/search.svg">
+       <a href="lst_jobsearch.php"> <div class="ser1"><img src="category/vectors/search.svg">
            <p>Job Searching </p></div></a>
          
-       <a href="#"> <div class="ser1"><img src="category/vectors/Delivery%20Truck.svg">
+       <a href="lst_travelbook.php"> <div class="ser1"><img src="category/vectors/Delivery%20Truck.svg">
            <p>Travel Booking Websites | <br/>Hotel Booking Websites</p></div></a>
          
-       <a href="#"> <div class="ser1"><img src="category/vectors/Secure%20Card.svg">
+       <a href="lst_webhost.php"> <div class="ser1"><img src="category/vectors/Secure%20Card.svg">
            <p>Web Hosting</p></div></a>
          
-       <a href="#"> <div class="ser1"><img src="category/vectors/Fast%20Food.svg">
+       <a href="lst_onlinefood.php"> <div class="ser1"><img src="category/vectors/Fast%20Food.svg">
            <p>Online Food Ordering </p></div></a>
          
-       <a href="#"> <div class="ser1"><img src="category/vectors/books.svg">
+       <a href="lst_onlineeducation.php"> <div class="ser1"><img src="category/vectors/books.svg">
            <p>Online Education </p></div></a>
          
-        <a href="#"><div class="ser1"><img src="category/vectors/newspaper.svg">
+        <a href="lst_newschannel.php"><div class="ser1"><img src="category/vectors/newspaper.svg">
             <p>News Channels</p></div></a>
          
-       <a href="#"> <div class="ser1"><img src="category/vectors/compass.svg">
+       <a href="lst_logomakers.php"> <div class="ser1"><img src="category/vectors/compass.svg">
            <p>Online Logo Makers</p></div></a>
          
-     <a href="#">   <div class="ser1"><img src="category/vectors/New%20Tag.svg">
+     <a href="lst_coupon.php">   <div class="ser1"><img src="category/vectors/New%20Tag.svg">
          <p>Coupon Websites</p></div></a>
          
-        <a href="#"><div class="ser1"><img src="category/vectors/astrologer.svg">
+        <a href="lst_domainname.php"><div class="ser1"><img src="category/vectors/astrologer.svg">
             <p>Domain Name Registrars</p></div></a>
          
-      <a href="#">  <div class="ser1"><img src="category/vectors/Shop.svg">
+      <a href="lst_internationalreal.php">  <div class="ser1"><img src="category/vectors/Shop.svg">
           <p>International Real-Estate</p></div></a>
          
-       <a href="#"> <div class="ser1"><img src="category/vectors/catering.svg">
+         <a href="lst_freelancing.php"> <div class="ser1"><img src="category/vectors/catering.svg">
+           <p>Freelancing </p></div></a>
+         
+       <a href="lst_currentaffairs.php"> <div class="ser1"><img src="category/vectors/catering.svg">
            <p>Current Affairs </p></div></a>
          
-       <a href="#"> <div class="ser1"><img src="category/vectors/wedding%20venue.svg">
+       <a href="lst_onlinemusic.php"> <div class="ser1"><img src="category/vectors/wedding%20venue.svg">
            <p> Online Music</p></div></a>
          
-        <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <a href="lst_sports.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
             <p>Sports Websites</p></div></a>
          
-        <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <a href="lst_matrimonial.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
             <p>Matrimonial Websites</p></div></a>
          
-         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+         <a href="lst_dating.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Dating Websites</p></div></a>
          
-        <a href="#"> <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <a href="lst_kids.php"> <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
             <p>Kids Websites</p></div></a>
          
-        <a href="#"> <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <a href="lst_onlinefurniture.php"> <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
             <p>Online Furniture eCommerce</p></div></a>
          
-         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+         <a href="lst_realestate.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Real Estate websites in india</p></div></a>
          
-        <a href="#"> <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+        <a href="lst_secondhand.php"> <div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
             <p>Second Hand Buying and Selling Websites</p></div></a>
          
-         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+         <a href="lst_socialmedia.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p> Social Media Websites</p></div></a>
          
-         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+         <a href="lst_technologynews.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Technology News </p></div></a>
          
-          <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+          <a href="lst_stockbroker.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Stock Brokers in India  </p></div></a>
          
-          <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+          <a href="lst_homeservice.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Home Service  </p></div></a>
          
-         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+         <a href="lst_businessconsulting.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Business Consulting Companies in India </p></div></a>
          
-         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
-             <p>Horoscope/Astrology </p></div></a>
+         <a href="lst_horoscope.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+             <p>Horoscope / Astrology </p></div></a>
          
-         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+         <a href="lst_government.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Government Websites  </p></div></a>
          
-         <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+         <a href="lst_lifeinsurance.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Life Insurance companies in India  </p></div></a>
          
-      <a href="#"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
+      <a href="lst_healthinsurance.php"><div class="ser1"><img src="category/vectors/wedding%20photographers.svg">
              <p>Health Insurance Companies in India  </p></div></a>
          
          
     </div>
  <!--category-->
     <!--footer-->
-    <footer id="colophon" class="site-footer">
+    <?php
+        $servername = "localhost";
+$username = "tenfirqd_testp";
+$password = "B123123b";
+$dbname ="tenfirqd_test";    
+        
 
-		<!-- FOOTER WIDGETS GO HERE -->
-		<div class="ish-decor-container">
-			<div class="ish-decor-top ish-theme-rotate ish-bg-color2"></div>
-		</div>
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
 
-		<div class="ish-container-fluid ish-bg-color2">
-			<div class="ish-container-inner">
-				<div class="ish-row">
+  
+      $sql = "SELECT  footer FROM common";
+$result = $conn->query($sql);
 
-					<div class="ish-footer ish-col-xs-offset-1 ish-col-xs-10">
-
-						<div class="ish-widget-element">
-							<a href="index.php"><img src="images/logo1.svg" class="ish-logo-widget" alt="QUSQ logo" /></a>
-						</div>
-
-						<!--<div class="ish-widget-element">
-							<div class="ish-tagline-widget ish-txt-color3">Unique Portfolio</div>
-						</div>-->
-
-						<div class="ish-social-box ish-widget-element ish-row ish-center-xs">
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-twitter"><a href="#"><i class="ish-icon-twitter"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-behance"><a href="#"><i class="ish-icon-behance"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-dribbble"><a href="#"><i class="ish-icon-dribbble"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-instagram"><a href="#"><i class="ish-icon-instagram"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus"><a href="#"><i class="ish-icon-gplus"></i></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook"><a href="#"><i class="ish-icon-facebook"></i></a></span>
-						</div>
-                        <div class="ish-social-box ish-widget-element ish-row ish-center-xs">
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-twitter wdd"><a href="index.php"><span>Home</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-behance wdd"><a href="service.php"><span>Service</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-dribbble wdd"><a href="quotes.php"><span>Quotes</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-instagram wdd"><a href="category.php"><span>TopTen</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-gplus wdd"><a href="about.php"><span>About</span></a></span>
-							<span class="ish-col-xs-4 ish-col-sm-1 ish-facebook wdd"><a href="contact.php"><span>Contact</span></a></span>
-						</div>
-
-						<div class="site-info ish-legals ish-widget-element">
-						<a  class="">@2018 Out Of Best.All rights are reserved.</a> 
-					</div>
-					</div>
-
-					<div class="ish-back-to-top ish-widget-element ish-col-xs-1">
-						<a href="#page" class="ish-txt-color3"><span>Back to Top</span><i class="ish-icon-right-small"></i></a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-	</footer><!-- #colophon -->
+if ($result->num_rows > 0) {
+    // output data of each row
+    $rowz1= array();
+    while($row1 = $result->fetch_assoc()) {
+        $rowz1 =$row1;
+      }   } 
+    
+    echo $rowz1[footer];
+    
+   
+    ?><!-- #colophon -->
     </div>
     <!--1-->
     
