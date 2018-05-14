@@ -239,7 +239,7 @@ background-position:-00px;}
     opacity: 1;
 }
 .hil{
-    background-image: url(images/hillw.svg);
+    background-image: url(images/overw.svg);
     display: block;
     position: relative;
     margin-left: auto;
@@ -251,9 +251,9 @@ background-position:-00px;}
     background-repeat: no-repeat;
     background-size: contain;transition: 0.5s; transition: top 1s, opacity 1s;
 }
-.hil1{ background-image: url(images/hillc.svg);}
+.hil1{ background-image: url(images/overc.svg);}
 .wid{  position: relative;
-    background: url(images/wildw.svg);
+    background: url(images/processw.svg);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -264,9 +264,9 @@ background-position:-00px;}
     background-repeat: no-repeat;
     background-size: contain; transition: top 1s, opacity 1s;
 }
-.wid1{background-image: url(images/wildc.svg);}
+.wid1{background-image: url(images/processc.svg);}
 .templ{  position: relative;
-    background: url(images/templew.svg);
+    background: url(images/trophyw.svg);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -277,9 +277,9 @@ background-position:-00px;}
     background-repeat: no-repeat;
     background-size: contain; transition: top 1s, opacity 1s;
 }
-.templ1{background-image: url(images/templec.svg);}
+.templ1{background-image: url(images/trophyc.svg);}
 .hony{  position: relative;
-    background: url(images/honeyw.svg);
+    background: url(images/schedule.svg);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -292,7 +292,7 @@ background-position:-00px;}
     transition: top 1s, opacity 1s;top: 100px;
 }
 .hony1{
-   background-image: url(images/honeyc.svg); 
+   background-image: url(images/schedulec.svg)  ; 
 }
 
 @media screen and (min-width:700px){
@@ -302,10 +302,10 @@ background-position:-00px;}
     
       .hony{opacity: 0;top: -70px;}
     .fligt-con{
-        overflow: hidden;
+        /*overflow: hidden;*/
     }
     .fligt-con img{position: relative;transition: 1s;animation-timing-function: ease-in-out;
-        animation: flg 3s;
+        /*animation: flg 3s;*/
     }
     @keyframes flg{
         0%{width: 120%;opacity:0;left: -70px;}
@@ -1165,3 +1165,68 @@ input[type=date]::-webkit-datetime-edit-year-field {
     }
 }
 /*meet with us*/
+
+
+
+
+.fligt-con{
+    width: 260px;
+    margin: auto;
+    /*border:5px solid #ffffff;*/
+    position: relative;
+    order: -1;
+    margin-top: 80px;
+}
+.fligt-con .flimg{
+    width: 100%;
+    vertical-align: middle
+    
+}
+.sec-flimg{
+        position: absolute;
+        border:5px solid #ffffff;
+        width: 150px;
+        top: 100px;
+        right: 0;
+    }
+    .sec-flimg img{
+        width: 100%;
+    }
+
+@media (min-width:600px){
+    
+  
+    
+    .fligt-con{
+    width: 400px;
+    margin: auto;
+    /*border:10px solid #ffffff;*/
+        position: relative;
+}
+.fligt-con .flimg{
+    width: 100%;
+    vertical-align: middle;
+    
+}
+    .sec-flimg{
+        position: absolute;
+        border:10px solid #f6f8f9;
+        width: 250px;
+        top: 150px;
+        right: 0;
+    }
+    .sec-flimg img{
+        width: 100%;
+    }
+    
+}
+.txt-gala{margin-top: 100px}
+@media (min-width:800px){
+    
+    .fligt-con{order: 0;}
+    
+    
+}
+.mnhd{
+    margin-bottom: 20px;
+}

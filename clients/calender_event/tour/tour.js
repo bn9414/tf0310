@@ -44,7 +44,7 @@ function scrollani() {
     }
     
         if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        hil[0].style.top="-20px";
+        hil[0].style.top="0px";
         hil[0].style.opacity="1";
         
          wid[0].style.opacity="1";
@@ -255,105 +255,3 @@ function gallery(g){
 }
 gallery(1);
 
-var ban11 = document.getElementsByClassName('fligt-con1');
-
-var l =0;
-
- function incre1(m){
-     l = l + m;
-    if(l == -1){
-         l = ban11.length-1;
-     }
-     if(l == ban11.length){
-         l=0;
-     }
-    scrollImg1(l);
- }
-function scrollImg1(k){
-    ban11[0].style.display="none";
-    ban11[1].style.display="none";
-    ban11[2].style.display="none";
-    ban11[k].style.display="block";
-}
-scrollImg1(0);
-var xset1= setInterval(function(){incre1(1);},2200);
-
-
-
-
-
-
-
-
-
-
- var ban12 = document.getElementsByClassName('fligt-con2');
-
-var j =0;
-
- function incre2(k){
-     j = j + k;
-     if(j == ban12.length){
-         j=0;
-     }
-    scrollImg(j);
- }
-function scrollImg(z){
-    ban12[0].style.display="none";
-    ban12[1].style.display="none";
-    ban12[2].style.display="none";
-    ban12[z].style.display="block";
-}
-
-var xset2= setInterval(function(){incre2(1);},2200);
-
-
-
- var ban13 = document.getElementsByClassName('fligt-con3');
-
-var c =0;
-
- function incre3(d){
-     c = c + d;
-    /*if(c == -1){
-         c = ban13.length-1;
-     }*/
-     if(c == ban13.length){
-         c=0;
-     }
-    scrollImg3(c);
- }
-function scrollImg3(f){
-    ban13[0].style.display="none";
-    ban13[1].style.display="none";
-    ban13[2].style.display="none";
-    ban13[f].style.display="block";
-}
-
-var xset3= setInterval(function(){incre3(1);},2200);
-
-
-
-
- var ban14 = document.getElementsByClassName('fligt-con4');
-
-var o =0;
-
- function incre4(p){
-     o = o + p;
-    /*if(o == -1){
-         o = ban14.length-1;
-     }*/
-     if(o == ban14.length){
-         o=0;
-     }
-    scrollImg4(o);
- }
-function scrollImg4(q){
-    ban14[0].style.display="none";
-    ban14[1].style.display="none";
-    ban14[2].style.display="none";
-    ban14[q].style.display="block";
-}
-
-var xset4= setInterval(function(){incre4(1);},2200);
