@@ -219,10 +219,10 @@
 												<input type="email" name="email" id="ish-cf-email" class="required" placeholder="Email" />
 											</p>
 											<p>
-												<input type="url" name="web" id="ish-cf-web" class="" placeholder="Web" />
+												<input type="url" name="tel" id="ish-cf-web" class="" placeholder="Phone number" />
 											</p>
 											<p>
-												<textarea name="text" id="ish-cf-message" class="required" placeholder="Message"></textarea>
+												<textarea name="text" id="ish-cf-message" class="required" placeholder="Text briefly about your project or message"></textarea>
 											</p>
 											<p>
 												<input type="hidden" name="action" value="contactForm" />
