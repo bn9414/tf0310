@@ -174,9 +174,11 @@ textarea::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', san
     font-size: 17px;
     font-weight: 400;
 }
-#cletf10{
-   width: 100%; 
-}
+
+   #cletf10{
+    width: 95%;
+} 
+
 
 
 
