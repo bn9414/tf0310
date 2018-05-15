@@ -96,10 +96,10 @@ textarea:focus, input:focus,select:focus{
 .fields{ width: 100%; display: flex; justify-content: center; flex-direction: column;   height: auto;}
 
 
-#cletf1, #cletf2,#cletf9, #cletf3,#cletf8,#cletf4,#cletf6,#cletf10{display: flex; justify-content: center; align-items: center; width: 90%; margin: auto;margin: 10px;}
+#cletf1, #cletf2, #cletf3,#cletf4{display: flex; justify-content: center; align-items: center; width: 90%; margin: auto;margin: 10px;}
 #clet5 { width: 90%; height: 200px;display: flex; justify-content: center; align-items: center;position: relative;left: 10px;border: 1px solid rgba(33,147,168,0);}
 
-#cletf1 input, #cletf2 input,#cletf9 input, #cletf3 input,#cletf8 input,#cletf4 select,#cletf10 select, #cletf5 textarea{ width: 95%; height: auto; padding: 13px 0px; padding-left: 45px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 18px; color: #2B2D42;border: 1px solid rgba(37,196,133,0);
+#cletf1 input, #cletf2 input, #cletf3 input,#cletf4 input, #cletf5 textarea{ width: 95%; height: auto; padding: 13px 0px; padding-left: 45px;  border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); font-size: 18px; color: #2B2D42;border: 1px solid rgba(37,196,133,0);
 transition: width 0.3s, box-shadow 0.3s,border 0.5s;
 }
 input::placeholder{color: #717171; font-size: 18px;padding-left: 0px; }
@@ -114,23 +114,18 @@ textarea::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', san
 /* inter */
 #cletf1 input{background-image: url(images/user.svg);background-size: 35px;}
 #cletf2 input{background-image: url(images/phone.svg);background-size: 35px;}
-#cletf9 input{background-image: url(images/age.svg);background-size: 35px;}
 #cletf3 input{background-image: url(images/email.svg);background-size: 35px;}
-#cletf8 input{background-image: url(images/standard.svg)    ;background-size: 35px;}
-#cletf4 select{background-image: url(images/gender.svg);background-size: 35px;}
-#cletf10 select{background-image: url(images/sports.svg);background-size: 35px;}
+#cletf4 input{background-image: url(images/org.svg);background-size: 35px;}
 #clet5 textarea{background-image: url(images/com24.png); background-position: 3px 65px; padding-left: 10px; }
 
 /* inter */
 #cletf1 input:focus{border: 1px solid rgba(33,147,168,1);}
 #cletf2 input:focus{border: 1px solid rgba(33,147,168,1);}
-#cletf9 input:focus{border: 1px solid rgba(33,147,168,1);}
+#cletf2 input:focus{border: 1px solid rgba(33,147,168,1);}
 #cletf3 input:focus{border: 1px solid rgba(33,147,168,1);}
-#cletf8 input:focus{border: 1px solid rgba(33,147,168,1);}
 
 
-#cletf4 select:focus{border: 1px solid rgba(33,147,168,1);}
-#cletf10 select:focus{border: 1px solid rgba(33,147,168,1);}
+#cletf4 input:focus{border: 1px solid rgba(33,147,168,1);}
 #cletf5 input:focus{border: 1px solid rgba(33,147,168,1);}
 
 #cletf6{  display: flex; justify-content: center; align-items: center;}
@@ -163,23 +158,6 @@ textarea::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', san
 }
 
 
-#cletf4 select{
-    width:100%;
-    color: #717171;
-    font-size: 17px;
-    font-weight: 400;
-}
-#cletf10 select{
-    /*width:100%;*/
-    color: #717171;
-    font-size: 17px;
-    font-weight: 400;
-}
-
-   #cletf10{
-    width: 95%;
-} 
-
 
 
 
@@ -194,11 +172,7 @@ textarea::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', san
     
     
 }
-@media(max-width:900px){
-    #cletf10 {
-    width: 92%;
-}
-}
+
 
 @media screen and (min-width:900px){
     .cont_con{width: 90%;margin: auto;position: relative;top: -50px;box-shadow: 5px -7px 50px 0px rgba(20, 20, 20, 0.2);}
@@ -207,7 +181,7 @@ textarea::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', san
     .set3{flex-direction: column;justify-content: center;align-items: center;}
     #clet5{margin-bottom: 20px;margin-top: 20px;width: 100%;left: 0px;}
     #cletf6{width: 140px;}
-    .con1{width:50% ;/*height: auto;*/}
+    .con1{width:50% ;height: auto;}
     .con2{width:50%; ;}
     
 }
@@ -228,11 +202,4 @@ textarea::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', san
     .con1{width: 35%}
     .con2{width: 65%;}
     
-}
-
-.conbg img{
-    left: 0
-}
-.contact{
-    margin: 0;
 }

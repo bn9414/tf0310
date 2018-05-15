@@ -471,6 +471,7 @@ background-position:-00px;}
 }
 .ser-ss strong{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     
 }
 .main-lne{
@@ -533,11 +534,11 @@ background-size: contain;
    background-image: url(images/trainw.svg); 
     
 }
-.ic1:hover{
+.ser-ss:hover .ic1{
    background-image: url(images/planew.svg); 
     
 }
-.ic2:hover{
+.ser-ss:hover .ic2{
    background-image: url(images/hotelw.svg); 
     
 }
@@ -560,7 +561,9 @@ background-size: contain;
     background: #d01818;
 }
 
-
+.ser-ss:hover .ic {
+    background-image: url(images/trainw.svg);
+}
 
 .ser-contn{
         display: flex;
@@ -1262,3 +1265,19 @@ input[type=date]::-webkit-datetime-edit-year-field {
 .sec-flimg{
     display: none !important;
 }
+/*table*/
+.coniner {
+    width: 80%;
+    margin: auto;
+}
+
+.tbhd{
+    background: #454545;
+    
+}
+.tbhd tr th{
+    color: #fcfcfc;
+    padding: 20px;
+    
+}
+/*table*/
