@@ -156,12 +156,12 @@
    /* top: -63px;*/
         transition: width 1s;
         animation-name: imgani;
-        animation-duration: 3s;
+        animation-duration: 4s;
         animation-fill-mode: forwards;
 }
     @keyframes imgani{
     
-    from {width:150%;}
+    from {width:160%;}
     to {width: 140%;}
     
     
