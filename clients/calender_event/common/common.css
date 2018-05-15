@@ -142,7 +142,7 @@ body.home  .dmn1 span{width: 60px;}
 .l2{transform: rotate(15deg);}
 .l3{transform: rotate(15deg);bottom: 9px;}*/
 
-.main_menu{display: none;}
+.main_menu{display: block;}
 #inlogo{position: absolute; left:2%;top: -10px }
 #inlogo_m{border: 1px olid black; width: ; height: 55px; margin: auto; display: block; padding-top: 10px; box-sizing: content-box;  }
 

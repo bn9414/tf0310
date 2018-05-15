@@ -60,8 +60,8 @@ if(a==2){n=1;}
         d.className='line l3 lopen3';
         e.style.display='block';
 
-
-         setTimeout(function(){prod_menu.style.display="none"; main_menu.style.display='block';  },420); 
+main_menu.style.display='block'; 
+         /*setTimeout(function(){prod_menu.style.display="none"; main_menu.style.display='block';  },420); */
          
        
 
@@ -102,7 +102,7 @@ function test1(){
 
 a.addEventListener('click', function(){test(3);}, false );
 menu3.addEventListener('click', test1, false );
-phead.addEventListener('click', function(){test(2);}, false );
+/*phead.addEventListener('click', function(){test(2);}, false );*/
 
 
 
