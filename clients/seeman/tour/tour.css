@@ -1,5 +1,7 @@
 /*fst-ban*/
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .slide{width: 100%; height: 450px;background-image: url(images/cricket.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1279,5 +1281,29 @@ input[type=date]::-webkit-datetime-edit-year-field {
     color: #fcfcfc;
     padding: 20px;
     
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
 }
 /*table*/
