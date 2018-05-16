@@ -303,7 +303,7 @@
 </div>
     <!--features-->
     <!--testimonials-->
-    <div class="testi-mn">
+    <div class="testi-mn" id="mm">
         <div class="test-con">
             <div class="test-vl" id="tsval-1">
                 <div class="quimg">
@@ -389,6 +389,8 @@
     
     </div>
     <!--testimonials-->
+    
+    
     <!--footer-->
     <?php
         $servername = "localhost";
@@ -417,15 +419,17 @@ if ($result->num_rows > 0) {
     
     echo $rowz1[footer];
     
-   
+  
     ?><!-- #colophon -->
     </div>
     <!--1-->
-    
+
     <!--footer-->
     
 <!--footer-->
  <script src="main/main.js" type="text/javascript"></script>
+ <script src="common/note.js" type="text/javascript"></script>
+ 
  <script src="index.js" type="text/javascript"></script>
  <script src="bootstrap/js/jquery.min.js" type="text/javascript"></script>
  <script src="main/vendor/AnimOnScroll.js" type="text/javascript"></script>

@@ -230,4 +230,69 @@ p{
 }
 /*e:header design*/
 
+/*ingomsg*/
+.infomsg{
+    position: static;
+    z-index: 100;
+    border: 1px olid;
+   /* width:30%;*/
+    padding: 20px;
+   /* box-shadow: 0 0 10px #ddd;*/
+    transition: box-shadow 1s;
+    animation: sha 1s ;
+    left:-25px;
+    bottom:-10px;
+}
+/*@keyframes sha{
+    0%{box-shadow: 0;opacity: 0;}
+    100%{box-shadow: 0 0 10px #ddd;opacity: 1;}
+}*/
+.infomsg h4{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fcfcfc;
+    margin: 0
+    
+}
+.infomsg p{
+    /*padding: 0px 10px;*/
+     color: #a8a8a8;
+    width: 60%;
+    margin: auto;
+}
+.infomsg h3{
+    font-size: 16px;
+    font-weight: 600;
+   margin: 0;
+     color: #a8a8a8;
+}
+
+/*@media(max-width:1000px){
+    .infomsg {
+    position: static;
+    z-index: 100;
+    border: 1px olid;
+    width: 70%;
+    padding: 20px;
+    
+    animation: sha 1s;
+    left: -25px;
+    bottom: -10px;
+    margin: auto;
+}
+    .infomsg h3{
+        font-size: 15px;
+       
+    }
+}
+@media(max-width:500px){
+    .infomsg{
+        position: relative;
+        left: -10px;
+        width: 340px;
+    }
+}*/
+/*ingomsg*/
+
 /*footer end*/
