@@ -60,7 +60,7 @@ textarea:focus, input:focus,select:focus{
 }
 
 .con2{width: 98%; height: auto;background-color: #fcfcfc;border: 1px olid;padding-top: 10px;}
-.swit{display: flex;justify-content: center;align-items: center;}
+.swit{display: none;justify-content: center;align-items: center;}
 .swit1{width: 70px;height: 70px;display: flex;flex-direction: column;justify-content: space-between;align-items: center; transition: filter 0.5s;color: red;margin: 0px 5px;cursor: pointer;
   
 }

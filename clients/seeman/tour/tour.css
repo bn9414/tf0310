@@ -84,7 +84,7 @@ background-position:-00px;}
 .slidehd{margin: 0px;font-size: 30px; color: white;text-align: center;padding-top: 160px;width: 80%;margin: auto;}
 
 @media screen and (min-width:700px){
-    .slidehd{width: 450px;font-size: 40px;padding-top: 100px;}
+    .slidehd{width: 600px;font-size: 40px;padding-top: 100px;}
     .slidehd span{color: #fcfcfc;font-size: 25px;}
 }
 
@@ -509,7 +509,7 @@ background-position:-00px;}
     line-height: 25px;
 }
 .icon-ser{
-  display: block;
+  display: none;
     margin-left: auto;
     margin-right: auto;
     padding:10px;
@@ -521,7 +521,7 @@ background-position:-00px;}
 background-size: contain;
 }
 @media screen and (min-width:700px){
-    .ser-ss{position: relative;top: 100px;opacity: 0;transition:opacity 1s,top 1s,background 0.5s;}
+    .ser-ss{position: relative;top: 100px;opacity: 1;transition:opacity 1s,top 1s,background 0.5s;}
     
 }
 .ic1{ background-image: url(images/planec.svg);}
