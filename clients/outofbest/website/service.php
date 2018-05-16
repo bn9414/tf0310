@@ -91,7 +91,7 @@
 										<a href="service.php"><span>Service</span></a>
 									</li>
 									<li class="">
-										<a href="quotes.php"><span>Quotes</span></a>
+										<a href="status.php"><span>Status</span></a>
 										<!--<ul>
 											<li><a href="blog.html"><span>2 Columns Layout</span></a></li>
 											<li><a href="blog-classic.html"><span>Classic Layout</span></a></li>
@@ -263,7 +263,7 @@ We have couple of reasons, but we wanna tell you one things.
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="row-title" title="One-Click Install">+ The best technology on the website, we use.</div>
+                <div class="row-title" title="One-Click Install">+ The Best Technology We Use.</div>
             </div>
         </div>
         <div class="row">
@@ -301,6 +301,22 @@ We have couple of reasons, but we wanna tell you one things.
                         <div class="app-icon-holder app-icon-holder4" data-id="4">
                             <div class="app-icon"><img src="service/images/presta.png" alt="magento"></div>
                             <div class="app-title">Presta Shop</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder4" data-id="4">
+                            <div class="app-icon"><img src="service/images/jasc.png" alt="magento"></div>
+                            <div class="app-title">JavaScript</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder4" data-id="4">
+                            <div class="app-icon"><img src="service/images/java1.png" alt="magento"></div>
+                            <div class="app-title">Java</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder4" data-id="4">
+                            <div class="app-icon"><img src="service/images/dotnet.svg" alt="magento"></div>
+                            <div class="app-title">DotNet</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder4" data-id="4">
+                            <div class="app-icon"><img src="service/images/python.svg" alt="magento"></div>
+                            <div class="app-title">Python</div>
                         </div>
                     </div>
                   <!--  <div class="apps-details-holder">

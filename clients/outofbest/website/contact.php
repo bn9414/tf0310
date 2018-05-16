@@ -81,13 +81,13 @@
 
 							<!-- Menu: Main Navigation -->
 									<nav id="site-navigation" class="main-navigation ish-widget-element">
-								<ul>
+			                         <ul>
 									<li class="ish-active-item"><a href="index.php"><span>Home</span></a></li>
 									<li class="">
 										<a href="service.php"><span>Service</span></a>
 									</li>
 									<li class="">
-										<a href="quotes.php"><span>Quotes</span></a>
+										<a href="status.php"><span>Status</span></a>
 										<!--<ul>
 											<li><a href="blog.html"><span>2 Columns Layout</span></a></li>
 											<li><a href="blog-classic.html"><span>Classic Layout</span></a></li>
@@ -176,7 +176,7 @@
 
 												Lakshmipuram<br />
 												Chrompet <br />
-												chennai 42
+												chennai 44
 
 											</div>
 											<div class="ish-contact-info-icon ish-col-xs-12 ish-col-sm-2 ish-first-xs ish-last-sm ish-txt-color14">
@@ -219,7 +219,7 @@
 												<input type="email" name="email" id="ish-cf-email" class="required" placeholder="Email" />
 											</p>
 											<p>
-												<input type="url" name="tel" id="ish-cf-web" class="" placeholder="Phone number" />
+												<input type="tel" name="tel" id="ish-cf-web" class="" placeholder="Phone number*" />
 											</p>
 											<p>
 												<textarea name="text" id="ish-cf-message" class="required" placeholder="Text briefly about your project or message"></textarea>

@@ -90,7 +90,7 @@
 										<a href="service.php"><span>Service</span></a>
 									</li>
 									<li class="">
-										<a href="quotes.php"><span>Quotes</span></a>
+										<a href="status.php"><span>Status</span></a>
 										<!--<ul>
 											<li><a href="blog.html"><span>2 Columns Layout</span></a></li>
 											<li><a href="blog-classic.html"><span>Classic Layout</span></a></li>

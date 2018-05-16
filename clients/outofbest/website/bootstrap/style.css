@@ -1130,17 +1130,28 @@ a.white-green-shadow-button:focus{
 
 a.light-blue-button{
     display: inline-block;
-    color: #0f9aee;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: #ecf8ff;
-    padding: 10px 16px;
-    border-radius: 6px;
-    text-decoration: none;
-    margin-top: 50px;
-    -webkit-transition: all 0.3s ease 0.0s;
-    -moz-transition: all 0.3s ease 0.0s;
-    transition: all 0.3s ease 0.0s;
+
+color: #fcfcfcfc;
+
+font-size: 14px;
+
+font-weight: 700;
+
+background-color: #7cd3ce;
+
+padding: 10px 16px;
+
+border-radius: 6px;
+
+text-decoration: none;
+
+margin-top: 50px;
+
+-webkit-transition: all 0.3s ease 0.0s;
+
+-moz-transition: all 0.3s ease 0.0s;
+
+transition: all 0.3s ease 0.0s;
 }
 a.light-blue-button:hover,
 a.light-blue-button:focus{
@@ -1501,7 +1512,7 @@ a.light-blue-button:focus{
 }
 #apps .apps-holder .apps-links-holder{
     display: inline-block;
-    width: 50%;
+    width: 70%;
 }
 #apps .apps-holder .apps-details-holder{
     display: inline-block;
@@ -1509,7 +1520,7 @@ a.light-blue-button:focus{
 }
 #apps .apps-holder .app-icon-holder{
     display: inline-block;
-    width: 24%;
+    width: 18%;
     cursor: pointer;
     margin-bottom: 9px;
 }
@@ -1791,6 +1802,7 @@ a.light-blue-button:focus{
     color: #34a8ff;
     margin-bottom: 10px;
     position: relative;
+    text-transform: capitalize;
 }
 #more-features .mfeature-box .mfeature-details {
     font-size: 16px;
