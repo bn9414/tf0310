@@ -46,7 +46,7 @@ window.onscroll = function() {scrollani()};
 
 function scrollani() {
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        for(i=0;i<3;i++){
+        for(i=0;i<6;i++){
     ser[i].style.top="0px";
         ser[i].style.opacity="1";}
       
