@@ -1,1 +1,2 @@
 [0517/034910.240:ERROR:http_transport_win.cc(273)] WinHttpSendRequest: The server name or address could not be resolved (0x2ee7)
+[0517/094001.987:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
