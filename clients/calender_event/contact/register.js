@@ -32,9 +32,9 @@ function grey(n){
     switp[n].style.color="#2193A8";
 }
 grey(0);
-swit1[0].addEventListener('click',function(){grey(0);chng(0);},false);
+swit1[0].addEventListener('click',function(){grey(0);/*chng(0);*/},false);
 swit1[1].addEventListener('click',function(){grey(1);chng(1);},false);
-swit1[2].addEventListener('click',function(){grey(2);chng(2)},false);
+swit1[2].addEventListener('click',function(){grey(2);/*chng(2)*/},false);
 /*swit1[3].addEventListener('click',function(){grey(3);},false);*/
 
 function chng(g){
