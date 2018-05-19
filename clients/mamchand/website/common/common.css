@@ -55,7 +55,7 @@ body.home  .dmn1 span{width: 60px;}
     .lft-prt img{
         width: 20px;
             position: relative;
-    top: 4px;
+    /*top: 4px;*/
             
     }
     .rgt-prt a,.lft-prt a{
@@ -235,7 +235,7 @@ body.home  .dmn1 span{width: 60px;}
 /* end:p_menu */
     .dmenu_con,.menuarray{display: flex;justify-content: center;align-items: center;border: 1px olid}
     .dmenu_con{justify-content: space-between}
-    .dmenu{border: 1px olid black;  height:auto;margin: auto 5px;font-size: 15px;position: relative;display: flex;justify-content: center;flex-direction: column;border: 1px olid black}
+    .dmenu{border: 1px olid black;  height:auto;margin: auto 5px;font-size: 15px;position: relative;display: flex;justify-content: center;flex-direction: column;border: 1px olid black;    padding-top: 10px;}
     
       .dmenu span{border-bottom: solid 2px #0964a0;width: 0px;margin: auto;transition: width 0.5s;display: ;}
     .dmn1{width: 40px;}
