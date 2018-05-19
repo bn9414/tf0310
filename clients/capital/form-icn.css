@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+input:focus {
+    outline: none;
+}
+.flx{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.col5{
+     width: 50%;
+}
+.bck-col{
+background:rgb(69, 69, 69);
+    
+    display: flex;
+    flex-direction: column;
+}
+.bck-col h1{
+    text-align: center;
+    color: #fff;
+   /*margin: 0;
+    padding: 0;*/
+    margin-top: 1em;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.bck-img{
+    position: relative;
+}
+.bck-img img {
+    width: 100%;
+    vertical-align: middle;
+}
+/*.bck-img::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+   background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}*/
+.circle{
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.circle .in-cir{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: #fff;
+    display: block;
+   margin-left: auto;
+    margin-right: auto;
+   
+}
+.bck-img{
+    background: url('images/one.jpg');
+    background-size: cover;
+    background-position:center;
+    
+}
+.con-cir{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+    width:50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+     padding-top: 30px;
+}
+.main-div.yr-d {
+    margin-top:30px;
+}
+.con-cir h3{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.frm-det input::placeholder {
+    color: #fff;
+}
+.circle .in-cir {
+    margin-bottom: 10px;
+}
+.hed-imd h1{
+    text-align: center;
+   margin-top: 1em;
+    color: #fff;
+    font-size: 23px;
+}
+.main-div{
+    padding: 10px;
+    
+    padding: 10px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.yr-det h2{
+    color:#fff;
+    margin-bottom: 10px;
+        font-size: 23px;
+}
+.frm-det{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.frm-det input{
+        background: none;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    width: 30%;
+    margin: 0px;
+    display: block;
+    color: #fff;
+    font-size: 15px;
+}
+input::placeholder{
+    color: #fff;
+}
+.hide h2{
+    visibility: hidden;
+}
+
+.sepr-inp input{
+    border: 2px solid;
+    width: 35%;
+     background: none;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    margin: 0px;
+    display: block;
+}
+
+ .btn{
+       background: rgb(33, 147, 168);
+    border-color: rgb(33, 147, 168);
+    border: 0;
+   padding: 10px 60px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+     
+}
+.sepr-inp{justify-content: space-between;align-items:center;}
+/*.sepr-inp input{
+    border:2px olid;
+}*/
+.yr-det.mnth-div {
+    margin-top: 7em;
+}
+.yr-det {
+    margin-top: 1em;
+}
+.in-cir img{
+    width: 40%;
+    vertical-align: middle;
+    /*border: 2px solid;*/
+    display: block;
+    position: relative;
+    left: 28%;
+    top: 30%;
+}
+img.mny {
+    width: 70%;
+    left: 15%;
+    top: 14%;
+}
+/*.mny{
+    width: 60%;
+}*/
+@media only screen and (max-width:767px){
+    .flx {
+    flex-direction: column;
+}
+    .bck-col h1 {
+    padding: 2px;
+}
+    .circle {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .con-cir {
+    width: 100%;
+    }
+    .yr-det.mnth-div {
+    margin-top: 0em;
+}
+    .main-div{
+        margin-bottom: 0;
+    }
+    .col5{
+        width: 100%;
+    }
+    .frm-det {
+    flex-direction: column;
+}
+    .frm-det input{
+        width: 100%;
+        margin-bottom: 40px;
+
+    }
+    .btn{
+        margin-top: 1em;
+    }
+    .bck-col{
+        border-right: none;
+    }
+}
+@media only screen and (min-width:768px){
+    .sepr-inp input {
+    width: 61%;
+    }
+    .btn{padding: 7px 28px;}
+}
+.ex_sub{position: relative;left: -30px}
+
+@media only screen and (max-width:500px)
+{
+   .ex_sub{position: relative;left: -10px} 
+    
+}

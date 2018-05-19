@@ -501,7 +501,7 @@ background-size: contain;
 .ic2{ background-image: url(images/tour.svg);}
 .ic3{ background-image: url(images/bus.svg);}
 .ic4{ background-image: url(images/airport.svg);}
-
+/*.fullhide{display: none*/;}
 .icon-ser img{
     width: 60px;
 }
@@ -557,7 +557,7 @@ background-size: contain;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: stretch;
+        align-items: stretch;justify-content: center;
          }
     .ser-contn a{
         display: block;
