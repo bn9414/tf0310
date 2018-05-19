@@ -495,6 +495,8 @@ flex-direction: row;
     height: 80px;
     background-repeat: no-repeat;
 background-size: contain;
+    position: relative;
+  
 }
 
 .ic1{ background-image: url(images/employee.svg);}
@@ -591,6 +593,18 @@ background-size: contain;
     }
     .ser-mnhd p{
         color:#fcfcfc;
+    }
+}
+@media(min-width:800px){
+    .ser-contn{
+        top: -80px;
+    opacity: 0;
+        transition: top 1s;
+      
+    }
+    @keyframes an{
+        0%{top:-80px;opacity: 0;}
+       100%{top:0px;opacity: 1;}
     }
 }
 /*newser*/
@@ -775,10 +789,13 @@ display: flex;}
         display: none;
     }
      .sml-img{
-    position: absolute;
-    top: 50%;
-    left: 56%;
-    
+   position: absolute;
+    top: 40%;
+    left: 150px;
+    right: 20px;
+    opacity: 0;
+    border: 1px olid;
+    transition: opacity 1s,right 1s;
 }
      .sml-img img {
     border: 5px solid #fcfcfc;
@@ -834,11 +851,13 @@ display: flex;}
     
     
     .img-bor .main-img {
-    vertical-align: middle;
+        vertical-align: middle;
     position: relative;
-    top: 40px;
-    left: -55px;
+    top: 0px;
+    left: -0px;
     width: 250px;
+    opacity: 0;
+    transition: 1s;
 }
 }
 

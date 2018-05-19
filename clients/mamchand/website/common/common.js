@@ -1,3 +1,8 @@
+$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+
 var n =true;
 var a =document.getElementById('nav_line');
 
