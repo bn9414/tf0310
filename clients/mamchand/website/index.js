@@ -84,3 +84,36 @@ function scrollImg(e){
 }
 
 */
+
+var h = parseInt(window.innerHeight);
+        var w = parseInt(window.innerWidth);
+window.onscroll = function() {tabsanim()};
+
+
+var smlimg = document.getElementsByClassName("sml-img");
+
+var mainimg = document.getElementsByClassName("main-img")
+var sercontn = document.getElementsByClassName("ser-contn")
+
+function tabsanim() {
+    if(w>= 700){
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+
+        smlimg[0].style.right="-20px";
+        smlimg[0].style.opacity="1";
+       
+        
+        mainimg[0].style.top="30px"; mainimg[0].style.left="-50px";
+        mainimg[0].style.opacity="1";
+      
+    }
+         if (document.body.scrollTop >= 1100 || document.documentElement.scrollTop >= 1100) {
+
+       sercontn[0].style.top="0px";
+       sercontn[0].style.opacity="1";
+       sercontn[0].style.animation="an 1s";
+             
+      
+    }
+    }
+}

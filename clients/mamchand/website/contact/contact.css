@@ -35,7 +35,7 @@ textarea:focus, input:focus,select:focus{
 }
 @media screen and (min-width:1200px){
     .conbg h1{top: 290px}
-    .conbg p{top: 330px;}
+    .conbg p{top: 350px;}
     
 }
 

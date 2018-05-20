@@ -10,8 +10,8 @@ dot2.addEventListener("click",function(){
 function slde(a){
     console.log(a);
     if(a == 1){
-        dot1.style.background="#da5050";
-        dot1.style.border="1px solid #da5050";
+        dot1.style.background="#ffcc33";
+        dot1.style.border="1px solid #ffcc33";
         
         dot2.style.background="#454545 ";
         dot2.style.border="1px solid #454545";
@@ -22,8 +22,8 @@ function slde(a){
         
     }
     else if(a == 2){
-        dot2.style.background="#da5050";
-        dot2.style.border="1px solid #da5050";
+        dot2.style.background="#ffcc33";
+        dot2.style.border="1px solid #ffcc33";
         
         dot1.style.background="#454545";
         dot1.style.border="1px solid #454545";
@@ -47,8 +47,8 @@ dot4.addEventListener("click",function(){
 function slde1(b){
    
     if(b == 1){
-        dot3.style.background="#da5050";
-        dot3.style.border="1px solid #da5050";
+        dot3.style.background="#ffcc33";
+        dot3.style.border="1px solid #ffcc33";
         
         dot4.style.background="#454545 ";
         dot4.style.border="1px solid #454545";
@@ -59,8 +59,8 @@ function slde1(b){
         
     }
     else if(b == 2){
-        dot4.style.background="#da5050";
-        dot4.style.border="1px solid #da5050";
+        dot4.style.background="#ffcc33";
+        dot4.style.border="1px solid #ffcc33";
         
         dot3.style.background="#454545";
         dot3.style.border="1px solid #454545";
@@ -85,8 +85,8 @@ dot6.addEventListener("click",function(){
 function slde2(c){
    
     if(c == 1){
-        dot5.style.background="#da5050";
-        dot5.style.border="1px solid #da5050";
+        dot5.style.background="#ffcc33";
+        dot5.style.border="1px solid #ffcc33";
         
         dot6.style.background="#454545 ";
         dot6.style.border="1px solid #454545";
@@ -97,8 +97,8 @@ function slde2(c){
         
     }
     else if(c == 2){
-        dot6.style.background="#da5050";
-        dot6.style.border="1px solid #da5050";
+        dot6.style.background="#ffcc33";
+        dot6.style.border="1px solid #ffcc33";
         
         dot5.style.background="#454545";
         dot5.style.border="1px solid #454545";
@@ -121,8 +121,8 @@ dot8.addEventListener("click",function(){
 function slde3(d){
    
     if(d == 1){
-        dot7.style.background="#da5050";
-        dot7.style.border="1px solid #da5050";
+        dot7.style.background="#ffcc33";
+        dot7.style.border="1px solid #ffcc33";
         
         dot8.style.background="#454545 ";
         dot8.style.border="1px solid #454545";
@@ -133,8 +133,8 @@ function slde3(d){
         
     }
     else if(d == 2){
-        dot8.style.background="#da5050";
-        dot8.style.border="1px solid #da5050";
+        dot8.style.background="#ffcc33";
+        dot8.style.border="1px solid #ffcc33";
         
         dot7.style.background="#454545";
         dot7.style.border="1px solid #454545";
@@ -157,8 +157,8 @@ dot10.addEventListener("click",function(){
 function slde4(e){
    
     if(e == 1){
-        dot9.style.background="#da5050";
-        dot9.style.border="1px solid #da5050";
+        dot9.style.background="#ffcc33";
+        dot9.style.border="1px solid #ffcc33";
         
         dot10.style.background="#454545 ";
         dot10.style.border="1px solid #454545";
@@ -169,8 +169,8 @@ function slde4(e){
         
     }
     else if(e == 2){
-        dot10.style.background="#da5050";
-        dot10.style.border="1px solid #da5050";
+        dot10.style.background="#ffcc33";
+        dot10.style.border="1px solid #ffcc33";
         
         dot9.style.background="#454545";
         dot9.style.border="1px solid #454545";
@@ -180,6 +180,187 @@ function slde4(e){
     }
 }
 slde4(1);
+
+var dot11 = document.getElementById("dot11");
+var dot12 = document.getElementById("dot12");
+
+dot11.addEventListener("click",function(){
+                      slde5(1);},false);
+
+dot12.addEventListener("click",function(){
+                      slde5(2);},false);
+
+function slde5(f){
+   
+    if(f == 1){
+        dot11.style.background="#ffcc33";
+        dot11.style.border="1px solid #ffcc33";
+        
+        dot12.style.background="#454545 ";
+        dot12.style.border="1px solid #454545";
+        
+        var img6 = document.getElementsByClassName('img6');
+        img6[0].style.display="none";
+        img6[1].style.display="block";
+        
+    }
+    else if(f == 2){
+        dot12.style.background="#ffcc33";
+        dot12.style.border="1px solid #ffcc33";
+        
+        dot11.style.background="#454545";
+        dot11.style.border="1px solid #454545";
+         var img65 = document.getElementsByClassName('img6');
+        img65[0].style.display="block";
+        img65[1].style.display="none";
+    }
+}
+slde5(1);
+
+var dot13 = document.getElementById("dot13");
+var dot14 = document.getElementById("dot14");
+
+dot13.addEventListener("click",function(){
+                      slde6(1);},false);
+
+dot14.addEventListener("click",function(){
+                      slde6(2);},false);
+
+function slde6(g){
+   
+    if(g == 1){
+        dot13.style.background="#ffcc33";
+        dot13.style.border="1px solid #ffcc33";
+        
+        dot14.style.background="#454545 ";
+        dot14.style.border="1px solid #454545";
+        
+        var img7 = document.getElementsByClassName('img7');
+        img7[0].style.display="none";
+        img7[1].style.display="block";
+        
+    }
+    else if(g == 2){
+        dot14.style.background="#ffcc33";
+        dot14.style.border="1px solid #ffcc33";
+        
+        dot13.style.background="#454545";
+        dot13.style.border="1px solid #454545";
+         var img75 = document.getElementsByClassName('img7');
+        img75[0].style.display="block";
+        img75[1].style.display="none";
+    }
+}
+slde6(1);
+
+var dot15 = document.getElementById("dot15");
+var dot16 = document.getElementById("dot16");
+
+dot15.addEventListener("click",function(){
+                      slde7(1);},false);
+
+dot16.addEventListener("click",function(){
+                      slde7(2);},false);
+
+function slde7(g){
+   
+    if(g == 1){
+        dot15.style.background="#ffcc33";
+        dot15.style.border="1px solid #ffcc33";
+        
+        dot16.style.background="#454545 ";
+        dot16.style.border="1px solid #454545";
+        
+        var img8 = document.getElementsByClassName('img8');
+        img8[0].style.display="none";
+        img8[1].style.display="block";
+        
+    }
+    else if(g == 2){
+        dot16.style.background="#ffcc33";
+        dot16.style.border="1px solid #ffcc33";
+        
+        dot15.style.background="#454545";
+        dot15.style.border="1px solid #454545";
+         var img85 = document.getElementsByClassName('img8');
+        img85[0].style.display="block";
+        img85[1].style.display="none";
+    }
+}
+slde7(1);
+
+var dot17 = document.getElementById("dot17");
+var dot18 = document.getElementById("dot18");
+
+dot17.addEventListener("click",function(){
+                      slde8(1);},false);
+
+dot18.addEventListener("click",function(){
+                      slde8(2);},false);
+
+function slde8(g){
+   
+    if(g == 1){
+        dot17.style.background="#ffcc33";
+        dot17.style.border="1px solid #ffcc33";
+        
+        dot18.style.background="#454545 ";
+        dot18.style.border="1px solid #454545";
+        
+        var img9 = document.getElementsByClassName('img9');
+        img9[0].style.display="none";
+        img9[1].style.display="block";
+        
+    }
+    else if(g == 2){
+        dot18.style.background="#ffcc33";
+        dot18.style.border="1px solid #ffcc33";
+        
+        dot17.style.background="#454545";
+        dot17.style.border="1px solid #454545";
+         var img95 = document.getElementsByClassName('img9');
+        img95[0].style.display="block";
+        img95[1].style.display="none";
+    }
+}
+slde8(1);
+
+var dot19 = document.getElementById("dot19");
+var dot20 = document.getElementById("dot20");
+
+dot19.addEventListener("click",function(){
+                      slde9(1);},false);
+
+dot20.addEventListener("click",function(){
+                      slde9(2);},false);
+
+function slde9(g){
+   
+    if(g == 1){
+        dot19.style.background="#ffcc33";
+        dot19.style.border="1px solid #ffcc33";
+        
+        dot20.style.background="#454545 ";
+        dot20.style.border="1px solid #454545";
+        
+        var img10 = document.getElementsByClassName('img10');
+        img10[0].style.display="none";
+        img10[1].style.display="block";
+        
+    }
+    else if(g == 2){
+        dot20.style.background="#ffcc33";
+        dot20.style.border="1px solid #ffcc33";
+        
+        dot19.style.background="#454545";
+        dot19.style.border="1px solid #454545";
+        
+         var img105 = document.getElementsByClassName('img10');
+        img105[0].style.display="block";
+        img105[1].style.display="none";
+    }
+}
+slde9(1);
 
 var manage = document.getElementsByClassName('manage');
 var man1 = document.getElementById('man1');
@@ -212,11 +393,18 @@ var actab = document.getElementsByClassName('actab');
 
 function clcky(g){
     if(g == 1){
+        
         manage[0].style.display="flex";
         manage[1].style.display="flex";
         manage[2].style.display="flex";
         manage[3].style.display="flex";
         manage[4].style.display="flex";
+        manage[5].style.display="flex";
+        manage[6].style.display="flex";
+        manage[7].style.display="flex";
+        manage[8].style.display="flex";
+        manage[9].style.display="flex";
+        
         
         actab[0].style.opacity="1";
         actab[1].style.opacity="0";
@@ -226,11 +414,18 @@ function clcky(g){
         
     }
     if(g == 2){
-        manage[0].style.display="flex";
-        manage[1].style.display="none";
+        
+        manage[0].style.display="none";
+        manage[1].style.display="flex";
         manage[2].style.display="flex";
-        manage[3].style.display="none";
-        manage[4].style.display="none";
+        manage[3].style.display="flex";
+        manage[4].style.display="flex";
+        manage[5].style.display="flex";
+        manage[6].style.display="flex";
+        manage[7].style.display="flex";
+        manage[8].style.display="flex";
+        manage[9].style.display="none";
+        
         
         actab[0].style.opacity="0";
         actab[1].style.opacity="1";
@@ -240,11 +435,16 @@ function clcky(g){
         
     }
     if(g == 3){
-        manage[0].style.display="none";
-        manage[1].style.display="flex";
+         manage[0].style.display="none";
+        manage[1].style.display="none";
         manage[2].style.display="none";
         manage[3].style.display="none";
         manage[4].style.display="none";
+        manage[5].style.display="none";
+        manage[6].style.display="none";
+        manage[7].style.display="none";
+        manage[8].style.display="none";
+        manage[9].style.display="flex";
         
         actab[0].style.opacity="0";
         actab[1].style.opacity="0";
@@ -254,11 +454,16 @@ function clcky(g){
         
     }
     if(g == 4){
-        manage[0].style.display="none";
+         manage[0].style.display="flex";
         manage[1].style.display="none";
-        manage[2].style.display="flex";
-        manage[3].style.display="flex";
+        manage[2].style.display="none";
+        manage[3].style.display="none";
         manage[4].style.display="none";
+        manage[5].style.display="none";
+        manage[6].style.display="none";
+        manage[7].style.display="none";
+        manage[8].style.display="none";
+        manage[9].style.display="none";
         
         actab[0].style.opacity="0";
         actab[1].style.opacity="0";
