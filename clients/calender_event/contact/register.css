@@ -114,9 +114,11 @@ textarea::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', san
 /* inter */
 #cletf1 input{background-image: url(images/user.svg);background-size: 35px;}
 #cletf2 input{background-image: url(images/phone.svg);background-size: 35px;}
+.ckk input{background-image: url(images/contact.svg)!important;background-size: 35px;}
 #cletf9 input{background-image: url(images/age.svg);background-size: 35px;}
 #cletf3 input{background-image: url(images/email.svg);background-size: 35px;}
 #cletf8 input{background-image: url(images/standard.svg)    ;background-size: 35px;}
+.bkk input{background-image: url(images/hse.svg) !important;background-size: 35px;}
 #cletf4 select{background-image: url(images/gender.svg);background-size: 35px;}
 #cletf10 select{background-image: url(images/sports.svg);background-size: 35px;}
 #clet5 textarea{background-image: url(images/com24.png); background-position: 3px 65px; padding-left: 10px; }
