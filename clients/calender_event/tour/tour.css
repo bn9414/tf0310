@@ -6,13 +6,13 @@
     background-position:-500px;
 }
 
-.slide1{width: 100%; height: 450px;background-image: url(images/mixed.jpg);
+.slide1{width: 100%; height: 450px;background-image: url(images/mixed1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:-500px;
 }
 
-.slide2{width: 100%; height: 450px;background-image: url(images/throwballfeat.jpg);
+.slide2{width: 100%; height: 450px;background-image: url(images/throwballfeat1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:-500px;
@@ -28,11 +28,11 @@ border: 3px olid black;overflow: hidden;margin-bottom: 50px;top:100px;opacity: 0
     background-position:-50px !important;
 }
 .sec11{
-    background-image: url(images/mixed1.jpg);
+    background-image: url(images/mixed.jpg);
     background-position: -150px !important;
 }
 .sec12{
-    background-image: url(images/throwballfeat1.jpg);
+    background-image: url(images/throwballfeat.jpg);
      background-position:0px !important;
 }
 .sec2 p{padding-right: 10px;}
