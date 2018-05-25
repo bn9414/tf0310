@@ -1425,8 +1425,8 @@ display: flex;}
     text-align: left;
     font-size: 15px;
         line-height:25px;
-            display: flex;
-    flex-direction: column;
+            /*display: flex;
+    flex-direction: column;*/
 }
     .wrk{
         display: block;
@@ -1520,7 +1520,7 @@ display: flex;}
 }
 
     .yr-cnt p{
-        margin-left: 20px;
+        /*margin-left: 20px;*/
     }
     .snce {
     position: relative;
