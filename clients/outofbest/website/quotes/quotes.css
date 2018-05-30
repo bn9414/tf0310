@@ -1421,3 +1421,14 @@ top: 180px;
 }
     }
 
+#clet23.date_frm .textbox-n {
+    padding-left: 10px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 4px 15px;
+}
+
+input::placeholder{
+    color: #2B2D42 !important;
+}

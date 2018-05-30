@@ -294,7 +294,7 @@
                     <h1 class="frm-tit">Drop your detials, we get back to you.</h1>              <!--frm1-end-->                    <div class="frm-con">						<div class="frm">							<input type="text" name="name" value="" placeholder="Name" class="usernme">						</div>						<div class="frm">							<div id="clet23" class="date_frm"><!--<input type="date" name="date" placeholder="date of birth" ><input  placeholder=""  type="date" name="date">-->							<input type="text" name="whom" value="" placeholder="Dedicated to whom" class="usernme">							</div>							<!--<input type="date" name="date" placeholder="Date of birth" >-->						</div>                    </div> 
                     <!--frm1-end-->
                     <!--frm2-->
-                    <div class="frm-con">						<div class="frm">							<input type="email" name="Email Id" value="" placeholder="Email Id" class="usernme">						</div>						<div id="cletf2">							<input type="text" name="place" value="" placeholder="Place" class="usernme">						</div>                    </div>
+                    <div class="frm-con">						<div class="frm">							<input type="email" name="Email Id" value="" placeholder="Email Id" class="usernme">						</div>						<div id="cletf2">							<input placeholder="" class="textbox-n username" type="date" onfocus="(this.type='date')" onblur="(this.type='date');(this.placeholder='')" id="date" name="date" value="date">						</div>                    </div>
                     <!--frm2 end-->
                         <!--frm3-->                   
                     <!--frm3 end-->
