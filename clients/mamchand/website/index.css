@@ -489,7 +489,7 @@ flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     padding:10px;
-   background-image: url(images/rac.svg);
+   background-image: url(images/buildup.svg);
     transition:background 1s;
     width: 80px;
     height: 80px;
@@ -499,10 +499,12 @@ background-size: contain;
   
 }
 
-.ic1{ background-image: url(images/employee.svg);}
-.ic2{ background-image: url(images/tour.svg);}
-.ic3{ background-image: url(images/bus.svg);}
-.ic4{ background-image: url(images/airport.svg);}
+.ic1{ background-image: url(images/combuildup.svg);}
+.ic2{ background-image: url(images/templeup.svg);}
+.ic3{ background-image: url(images/buildshift.svg);}
+/*
+.ic4{ background-image: url(images/buildshift.svg);}
+*/
 /*.fullhide{display: none*/;}
 .icon-ser img{
     width: 60px;
@@ -526,22 +528,22 @@ background-size: contain;
     background: #d01818;
 }
 .ser-ss:hover .icon-ser{
-    background-image: url('images/racw.svg');
+    background-image: url('images/buildupw.svg');
 
     }
 
 .ser-ss:hover .ic1{
-    background-image: url('images/employeew.svg');
+    background-image: url('images/combuildupw.svg');
 
     }
 
 .ser-ss:hover .ic2{
-    background-image: url('images/tourw.svg');
+    background-image: url('images/templeupw.svg');
 
     }
 
 .ser-ss:hover .ic3{
-    background-image: url('images/busw.svg');
+    background-image: url('images/buildshiftw.svg');
 
     }
 .ser-ss:hover .ic4{

@@ -273,8 +273,8 @@ body.home  .dmn1 span{width: 60px;}
 }
 @media screen and (min-width:930px){
   
-    #inlogo{top: -2px }
-#inlogo_m{width: 60px;height: 60px; padding-top: 0px;padding-left: 10px;}
+    #inlogo{top: -8px }
+#inlogo_m{width: auto;height: 65px; padding-top: 0px;padding-left: 10px;pos}
     #nav_line{ top:16px}
     .dmenu p{font-size: 16px;font-weight: 600;}
     .dmenu img{top: 18px;left: 85%;}
@@ -307,7 +307,7 @@ body.home  .dmn1 span{width: 60px;}
 
 
 .footer{width: 100%; height: auto; background-color:#fcfcfc;;overflow: hidden;padding-bottom: 3px;box-shadow: 0px 0px 15px 1px hsla(0, 0%, 0%, 0.1); }
-.foot1 img{width: 70px;margin: auto;border: 1px olid}
+.foot1 img{width: auto;margin: auto;border: 1px olid;height: 70px;}
 .footer p{color: #454545;text-align: center;font-size: 15px;width: 100%;padding: 0px 0px;}
 .foot_con{display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 7px;padding-bottom: 0px; border: 1px olid black}
 .foot1{border: 1px olid;display: flex;flex-direction: column;justify-content: center;align-items: center;}
