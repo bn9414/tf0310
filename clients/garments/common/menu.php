@@ -4,7 +4,7 @@
     <div class="top-nav">
         <div class="lft-prt">
             <a href="#"><img src="common/images/phone.svg">044 45525454</a>
-            <a href="#"><img src="common/images/envp.svg"> sales@melvinlogistics.com</a>
+            <a href="#"><img src="common/images/envp.svg"> info@garments.com</a>
         </div>
         <div class="rgt-prt">
             <a href="https://www.facebook.com/Melvin-Logistics-2075156859427659/"><img src="common/images/fac.svg"></a>
@@ -22,57 +22,57 @@
       <div class="weblinks">
           
          <a class="aclr" href="index.php">HOME </a>
-        <a class="aclr" href="about.php">ABOUT</a>
-          <div class="posv">
-        <div class="houpsc aclr" href="upsc.php">UPSC
+        <a class="aclr" href="pattern.php">PATTERN MAKING</a>
+          <div class="posv"style="display:none;">
+        <div class="houpsc aclr" href="#">UPSC
             </div>
-              <div class="hovmnu">
+              <div class="hovmnu" >
         <a class="btmbr" href="#">About </a>
-        <a class="btmbr" href="course.php">Course Offered</a>
+        <a class="btmbr" href="#">Course Offered</a>
         <a class="btmbr" href="#">Batch Timing </a>
         <a href="#">Fee Structure</a>
       </div>
         </div>
-           <div class="posv">
-        <div class="houpsc1  aclr" href="thpc.php">TNPC
+           <div class="posv"style="display:none;">
+        <div class="houpsc1  aclr" href="#">TNPC
             </div>
-              <div class="hovmnu1 ">
+              <div class="hovmnu1 " style="display:none;">
         <a class="btmbr" href="#">About </a>
-        <a class="btmbr" href="course.php">Course Offered</a>
+        <a class="btmbr" href="#">Course Offered</a>
         <a class="btmbr" href="#">Batch Timing </a>
         <a href="#">Fee Structure</a>
       </div>
         </div>
        <!-- <a class="aclr" href="#">TNPC</a>-->
-        <a  class="aclr" href="current.php">CURRENT AFFAIRS</a>
-        <a class="aclr" href="contact.php">CONTACT US</a>
+        <a  class="aclr" href="#" style="display:none;">CURRENT AFFAIRS</a>
+        <a class="aclr" href="contact.php" >CONTACT US</a>
       </div>
       
       
       
       <div class="moblinks">
-        <a class="mnnnu" href="index.php">HOME </a>
-        <a class="mnnnu" href="about.php">ABOUT</a>
-        <div class="mnnnu ace"  href="upsc.php">UPSC <i id="mmn" class="fa fa-chevron-down dwn dwn1" aria-hidden="true"></i>
+        <a class="mnnnu" href="#">HOME </a>
+        <a class="mnnnu" href="#">PATTERN MAKING</a>
+        <div class="mnnnu ace" style="display:none;" href="#">UPSC <i id="mmn" class="fa fa-chevron-down dwn dwn1" aria-hidden="true"></i>
         
           </div>
-          <div class="emew">
+          <div class="emew" style="display:none;">
            <a class="drp" href="#">About</a>
-          <a  class="drp" href="course.php">Course Offered</a>
+          <a  class="drp" href="#">Course Offered</a>
                <a  class="drp" href="#">Batch Timing</a>
               <a  class="drp" href="#">Fee Structure</a>
           </div>
-          <div class="mnnnu ace"  href="thpc.php">TNPC <i id="mmn1" class="fa fa-chevron-down dwn dwn1" aria-hidden="true"></i>
+          <div class="mnnnu ace" style="display:none;" href="#">TNPC <i id="mmn1" class="fa fa-chevron-down dwn dwn1" aria-hidden="true"></i>
         
           </div>
-          <div class="emew1">
+          <div class="emew1" style="display:none;">
            <a class="drp" href="#">About</a>
-          <a  class="drp" href="course.php">Course Offered</a>
+          <a  class="drp" href="#">Course Offered</a>
                <a  class="drp" href="#">Batch Timing</a>
               <a  class="drp" href="#">Fee Structure</a>
           </div>
-        <a class="mnnnu" href="current.php">CURRENT AFFAIRS</a>
-        <a  class="mnnnu" href="contact.php">CONTACT US</a>
+        <a class="mnnnu" href="#" style="display:none;">CURRENT AFFAIRS</a>
+        <a  class="mnnnu" href="#">CONTACT US</a>
       </div>
       
       

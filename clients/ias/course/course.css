@@ -1,0 +1,25 @@
+.imghold img{
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}
+.tabactive{
+    display: flex;
+}
+
+
+
+.tabs-con {
+    width: 20%;
+}
+a.drpa {
+        display: flex;
+    border-right: 5px solid grey;
+    padding: 10px;
+}
+.tabactive {
+    border-right: 5px solid green !important;
+  color:green;
+}

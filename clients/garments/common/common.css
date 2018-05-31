@@ -184,12 +184,13 @@ img.brimg {
     background: #ddd;
     border-bottom: 1px solid;
     position: relative;
+    
 }
 .moblinks{
     position: absolute;
     width: 100%;
 display: none;
-    z-index: -1;
+    z-index: 1;
 }
 .emew,.emew1{
     position: relative;
@@ -214,7 +215,7 @@ display: none;
 /*dropdown*/
 @media(min-width:600px){
     .lobrand{
-        width:40%;
+        width:70%;
     }
     .moblinks{
         display: none
@@ -224,7 +225,7 @@ display: none;
         line-height: 100px;
     }
     .weblinks {
-  width: 60%;
+  width: 30%;
     justify-content: space-between;
     display: flex;
 }
@@ -285,13 +286,12 @@ img.brimg {
 
 
 
-
 /*  ----------------- start:footer section------------------*/
     
 
 
 .footer{width: 100%; height: auto; background-color:#fcfcfc;;overflow: hidden;padding-bottom: 3px; }
-.foot1 img{width: 220px;margin: auto;border: 1px olid}
+.foot1 img{width: 70px;margin: auto;border: 1px olid}
 .footer p{color: #454545;text-align: center;font-size: 15px;width: 100%;padding: 0px 0px;}
 .foot_con{display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 7px;padding-bottom: 0px; border: 1px olid black}
 .foot1{border: 1px olid;display: flex;flex-direction: column;justify-content: center;align-items: center;}

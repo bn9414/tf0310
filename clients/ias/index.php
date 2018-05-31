@@ -18,6 +18,8 @@
     <div class="imghold">
     <img src="images/abt%20img.jpg">
     </div>
+
+    <?php include 'footer.php';?>
 </body>
     
     <script type="text/javascript" src="common/common.js"></script>
