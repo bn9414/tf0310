@@ -1,0 +1,113 @@
+[20-Jun-2018 04:48:56 Etc/GMT] PHP Notice:  Undefined variable: db in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 8
+[20-Jun-2018 04:48:56 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 8
+[20-Jun-2018 04:48:56 Etc/GMT] PHP Notice:  Undefined variable: db in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 9
+[20-Jun-2018 04:48:56 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 9
+[20-Jun-2018 04:48:56 Etc/GMT] PHP Notice:  Undefined variable: db in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 12
+[20-Jun-2018 04:48:56 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 12
+[20-Jun-2018 04:48:56 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 13
+[20-Jun-2018 04:48:56 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 16
+[20-Jun-2018 04:50:57 Etc/GMT] PHP Notice:  Undefined variable: db in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 8
+[20-Jun-2018 04:50:57 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 8
+[20-Jun-2018 04:50:57 Etc/GMT] PHP Notice:  Undefined variable: db in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 9
+[20-Jun-2018 04:50:57 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 9
+[20-Jun-2018 04:50:57 Etc/GMT] PHP Notice:  Undefined variable: db in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 14
+[20-Jun-2018 04:50:57 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 14
+[20-Jun-2018 04:50:57 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 15
+[20-Jun-2018 04:50:57 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 18
+[20-Jun-2018 04:51:10 Etc/GMT] PHP Notice:  Undefined variable: db in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 8
+[20-Jun-2018 04:51:10 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 8
+[20-Jun-2018 04:51:10 Etc/GMT] PHP Notice:  Undefined variable: db in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 9
+[20-Jun-2018 04:51:10 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 9
+[20-Jun-2018 04:51:10 Etc/GMT] PHP Notice:  Undefined variable: db in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 14
+[20-Jun-2018 04:51:10 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 14
+[20-Jun-2018 04:51:10 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 15
+[20-Jun-2018 04:51:10 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 18
+[20-Jun-2018 04:57:20 Etc/GMT] PHP Notice:  Undefined index: active in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 15
+[20-Jun-2018 04:57:20 Etc/GMT] PHP Notice:  Undefined index: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 25
+[20-Jun-2018 04:57:20 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 60
+[20-Jun-2018 04:57:20 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 61
+[20-Jun-2018 04:57:20 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 62
+[20-Jun-2018 04:57:20 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 63
+[20-Jun-2018 05:00:08 Etc/GMT] PHP Notice:  Undefined index: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 25
+[20-Jun-2018 05:00:08 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 60
+[20-Jun-2018 05:00:08 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 61
+[20-Jun-2018 05:00:08 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 62
+[20-Jun-2018 05:00:08 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 63
+[20-Jun-2018 05:08:28 Etc/GMT] PHP Notice:  Undefined index: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 25
+[20-Jun-2018 05:08:28 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 64
+[20-Jun-2018 05:08:28 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 65
+[20-Jun-2018 05:08:28 Etc/GMT] PHP Notice:  Undefined variable: year in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 66
+[20-Jun-2018 05:08:28 Etc/GMT] PHP Notice:  Undefined variable: month in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 67
+[20-Jun-2018 05:08:28 Etc/GMT] PHP Notice:  Undefined variable: description in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 68
+[20-Jun-2018 05:08:28 Etc/GMT] PHP Notice:  Undefined variable: previewlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 69
+[20-Jun-2018 05:08:28 Etc/GMT] PHP Notice:  Undefined variable: paynowlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 70
+[20-Jun-2018 05:08:28 Etc/GMT] PHP Notice:  Undefined variable: pages in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 71
+[20-Jun-2018 05:09:39 Etc/GMT] PHP Notice:  Undefined index: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 25
+[20-Jun-2018 05:09:39 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 64
+[20-Jun-2018 05:09:39 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 65
+[20-Jun-2018 05:09:39 Etc/GMT] PHP Notice:  Undefined variable: year in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 66
+[20-Jun-2018 05:09:39 Etc/GMT] PHP Notice:  Undefined variable: month in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 67
+[20-Jun-2018 05:09:39 Etc/GMT] PHP Notice:  Undefined variable: description in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 68
+[20-Jun-2018 05:09:39 Etc/GMT] PHP Notice:  Undefined variable: previewlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 69
+[20-Jun-2018 05:09:39 Etc/GMT] PHP Notice:  Undefined variable: paynowlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 70
+[20-Jun-2018 05:09:39 Etc/GMT] PHP Notice:  Undefined variable: pages in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 71
+[20-Jun-2018 05:11:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 25
+[20-Jun-2018 05:11:52 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 70
+[20-Jun-2018 05:11:52 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 71
+[20-Jun-2018 05:11:52 Etc/GMT] PHP Notice:  Undefined variable: year in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 72
+[20-Jun-2018 05:11:52 Etc/GMT] PHP Notice:  Undefined variable: month in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 73
+[20-Jun-2018 05:11:52 Etc/GMT] PHP Notice:  Undefined variable: description in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 74
+[20-Jun-2018 05:11:52 Etc/GMT] PHP Notice:  Undefined variable: previewlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 75
+[20-Jun-2018 05:11:52 Etc/GMT] PHP Notice:  Undefined variable: paynowlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 76
+[20-Jun-2018 05:11:52 Etc/GMT] PHP Notice:  Undefined variable: pages in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 77
+[20-Jun-2018 05:13:10 Etc/GMT] PHP Notice:  Undefined index: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 25
+[20-Jun-2018 05:13:10 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 70
+[20-Jun-2018 05:13:10 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 71
+[20-Jun-2018 05:13:10 Etc/GMT] PHP Notice:  Undefined variable: year in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 72
+[20-Jun-2018 05:13:10 Etc/GMT] PHP Notice:  Undefined variable: month in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 73
+[20-Jun-2018 05:13:10 Etc/GMT] PHP Notice:  Undefined variable: description in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 74
+[20-Jun-2018 05:13:10 Etc/GMT] PHP Notice:  Undefined variable: previewlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 75
+[20-Jun-2018 05:13:10 Etc/GMT] PHP Notice:  Undefined variable: paynowlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 76
+[20-Jun-2018 05:13:10 Etc/GMT] PHP Notice:  Undefined variable: pages in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 77
+[20-Jun-2018 05:17:16 Etc/GMT] PHP Notice:  Undefined index: active in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/login.php on line 15
+[20-Jun-2018 05:17:16 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 54
+[20-Jun-2018 05:17:16 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 55
+[20-Jun-2018 05:17:16 Etc/GMT] PHP Notice:  Undefined variable: year in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 56
+[20-Jun-2018 05:17:16 Etc/GMT] PHP Notice:  Undefined variable: month in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 57
+[20-Jun-2018 05:17:16 Etc/GMT] PHP Notice:  Undefined variable: description in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 58
+[20-Jun-2018 05:17:16 Etc/GMT] PHP Notice:  Undefined variable: previewlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 59
+[20-Jun-2018 05:17:16 Etc/GMT] PHP Notice:  Undefined variable: paynowlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 60
+[20-Jun-2018 05:17:16 Etc/GMT] PHP Notice:  Undefined variable: pages in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 61
+[20-Jun-2018 05:20:34 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/insert.php on line 9
+[20-Jun-2018 05:38:59 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 56
+[20-Jun-2018 05:38:59 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 57
+[20-Jun-2018 05:38:59 Etc/GMT] PHP Notice:  Undefined variable: year in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 58
+[20-Jun-2018 05:38:59 Etc/GMT] PHP Notice:  Undefined variable: month in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 59
+[20-Jun-2018 05:38:59 Etc/GMT] PHP Notice:  Undefined variable: description in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 60
+[20-Jun-2018 05:38:59 Etc/GMT] PHP Notice:  Undefined variable: previewlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 61
+[20-Jun-2018 05:38:59 Etc/GMT] PHP Notice:  Undefined variable: paynowlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 62
+[20-Jun-2018 05:38:59 Etc/GMT] PHP Notice:  Undefined variable: pages in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 63
+[20-Jun-2018 06:35:20 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 73
+[20-Jun-2018 06:35:20 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 74
+[20-Jun-2018 06:35:20 Etc/GMT] PHP Notice:  Undefined variable: year in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 75
+[20-Jun-2018 06:35:20 Etc/GMT] PHP Notice:  Undefined variable: month in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 93
+[20-Jun-2018 06:35:20 Etc/GMT] PHP Notice:  Undefined variable: description in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 94
+[20-Jun-2018 06:35:20 Etc/GMT] PHP Notice:  Undefined variable: previewlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 95
+[20-Jun-2018 06:35:20 Etc/GMT] PHP Notice:  Undefined variable: paynowlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 96
+[20-Jun-2018 06:35:20 Etc/GMT] PHP Notice:  Undefined variable: pages in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 97
+[20-Jun-2018 06:39:41 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 73
+[20-Jun-2018 06:39:41 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 74
+[20-Jun-2018 06:39:41 Etc/GMT] PHP Notice:  Undefined variable: year in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 75
+[20-Jun-2018 06:39:41 Etc/GMT] PHP Notice:  Undefined variable: month in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 93
+[20-Jun-2018 06:39:41 Etc/GMT] PHP Notice:  Undefined variable: description in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 94
+[20-Jun-2018 06:39:41 Etc/GMT] PHP Notice:  Undefined variable: previewlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 95
+[20-Jun-2018 06:39:41 Etc/GMT] PHP Notice:  Undefined variable: paynowlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 96
+[20-Jun-2018 06:39:41 Etc/GMT] PHP Notice:  Undefined variable: pages in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 97
+[20-Jun-2018 06:59:41 Etc/GMT] PHP Notice:  Undefined variable: id in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 73
+[20-Jun-2018 06:59:41 Etc/GMT] PHP Notice:  Undefined variable: name in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 74
+[20-Jun-2018 06:59:41 Etc/GMT] PHP Notice:  Undefined variable: year in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 75
+[20-Jun-2018 06:59:41 Etc/GMT] PHP Notice:  Undefined variable: month in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 93
+[20-Jun-2018 06:59:41 Etc/GMT] PHP Notice:  Undefined variable: description in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 94
+[20-Jun-2018 06:59:41 Etc/GMT] PHP Notice:  Undefined variable: previewlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 95
+[20-Jun-2018 06:59:41 Etc/GMT] PHP Notice:  Undefined variable: paynowlink in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 96
+[20-Jun-2018 06:59:41 Etc/GMT] PHP Notice:  Undefined variable: pages in /home/tenfirqd/public_html/THEEMPOWERACADEMY.IN/admin/file.php on line 97

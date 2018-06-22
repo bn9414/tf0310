@@ -1,0 +1,245 @@
+.imghold {
+    background-image: url(../abtservice/images/tnpcbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+.imtxt.parallax--box * {
+    color: #fff;
+    margin: 0;
+}
+.imtxt p{
+    font-size: 18px;
+}
+.imtxt h2{
+    font-size: 70px;
+}
+button.btn-bl {
+    padding: 10px 20px;
+    background: #3892d0;
+    border: 0;
+display: none;
+}
+@media(min-width:1000px){
+ .imtxt.parallax--box {
+   /* position: absolute;
+    left: 100px;
+   transform: translateY(50%);
+     transform: translateX(-50%);
+     left: 50%;
+     top: 20%;*/
+         position: absolute;
+    left: 100px;
+    transform: translate(50%,50%);
+}
+    .imghold {
+    background-image: url(images/tnpcbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    color: #fff;
+     background-repeat: no-repeat;
+}
+    /*.imtxt.parallax--box p {
+    transform: translateY(50%);
+    left: 100px;
+         position: absolute;
+            line-height: 50px;
+}*/
+}
+
+@media (min-width:60rem) {
+	.imghold {
+		height: 40vh;
+/*	padding-top: 35vh;*/
+	}
+}
+
+
+.hide{
+    display: none;
+}
+.tabactive{
+    display: flex;
+}
+
+
+.fullytab {
+    padding: 0px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.tabs-con {
+    width:300px;
+    border: 1px olid;
+    background: #3892d0;
+    color: #fff;
+    position: relative;
+    top: -50px;
+    /*padding: 20px 0px;*/
+    box-shadow: 15px 20px 50px 0px rgba(20, 20, 20, 0.2);
+height: 1000px;
+}
+a.drpa {
+      
+    display: flex;
+    border-right: 5px olid grey;
+    padding: 10px 10px;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+a.drpa p{
+    color:#fff;
+}
+.tabactive {
+    /*border-right: 5px solid green !important;
+  color:green;*/
+    background: #fff;
+   /* transition-delay: 1s;*/
+}
+.drpa.tabactive p{
+    color:#3892d0;
+}
+
+.odr{
+    background: url(images/course.svg);
+    
+    padding: 10px;
+    transition: background 1s;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.odr3{
+    background: url(images/time.svg);
+       padding: 10px;
+    transition: background 1s;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+.odr4{
+    background: url(images/fee.svg);
+       padding: 10px;
+    transition: background 1s;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+.odr5{
+    background: url(images/anal.svg);
+       padding: 10px;
+    transition: background 1s;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    
+.actim{
+    background: url(images/aboutc.svg);
+    background-size: contain;
+    transition: background 1s;
+}
+.paraabt{
+    width: 60%;
+    margin: 0 auto;
+        padding: 0px 30px;
+}
+@media (max-width:600px){
+    .tabs-con {
+        display: none;
+    }
+    .paraabt {
+    width: 100%;
+    }
+}
+@media (max-width:1000px){
+    .fullytab {
+    padding: 0px 10px;
+    }
+}
+
+.abtcnt{
+        border-left: 3px solid #3892d0;
+    height: auto;
+    padding: 20px 30px;
+}
+
+.titt h1{
+    border: 1px olid;
+    margin: 0;
+    font-size: 20px;
+        font-weight: 400;
+}
+.titt{
+    position: relative;
+    padding: 10px 0;
+}
+.cir{
+        position: absolute;
+    border: 1px solid #3892d0 ;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    left: -48px;
+    background: #fff;
+    padding: 5px;
+}
+.cir .fa{
+    color: #454545;
+}
+.cir.tabactive1{
+     background: #3892d0;
+}
+.cir.tabactive1 .eee{
+    background:#fff;
+}
+
+
+.plscon{
+  position: absolute;
+    border: 1px olid;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,50%);
+     transition: all 1s;
+}
+.plls{
+    width: 4px;
+    height: 15px;
+    position: absolute;
+    background: #454545;
+    left: 50%;
+    transform: translate(-50%,50%);
+    top: 0%;
+}
+.plls1{
+    width: 15px;
+    height: 4px;
+    position: absolute;
+    background: #454545;
+    left: 50%;
+    transform: translate(-50%,50%);
+    top: 10px;
+}
+.pillmin{
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.ppll1{
+    transition: 1s;
+}

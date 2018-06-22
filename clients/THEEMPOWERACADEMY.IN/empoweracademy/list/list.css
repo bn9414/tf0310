@@ -1,0 +1,284 @@
+.imghold {
+    background-image: url(images/list.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+.imtxt.parallax--box * {
+    color: #fff;
+    margin: 0;
+}
+.imtxt p{
+    font-size: 18px;
+}
+.imtxt h2{
+    font-size: 40px;
+}
+button.btn-bl {
+    padding: 10px 20px;
+    background: #3892d0;
+    border: 0;
+}
+@media(min-width:1000px){
+ .imtxt.parallax--box {
+    position: absolute;
+    left: 100px;
+   transform: translateY(50%);
+     transform: translateX(-50%);
+     left: 50%;
+     top: 30%;text-align: center;
+}
+    
+    .imghold {
+    background-image: url(images/list.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    color: #fff;
+     background-repeat: no-repeat;
+}
+    /*.imtxt.parallax--box p {
+    transform: translateY(50%);
+    left: 100px;
+         position: absolute;
+            line-height: 50px;
+}*/
+}
+
+@media (min-width:60rem) {
+	.imghold {
+		height: 30vh;
+/*	padding-top: 35vh;*/
+	}
+}
+
+
+
+/*serolst*/
+.olist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.2);
+    padding: 15px
+}
+.rateng p{
+        color: #d7d7d7;
+        position: relative
+    }
+    .rateng p .fa{
+        font-size: 35px;
+        color:#F8981F; 
+    }
+.hedimg{
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid;*/
+    justify-content: center;
+   /*align-items: center;*/
+    /*border: 1px solid;*/
+}
+.olsthd {
+    transform: rotate(-90deg);
+}
+.olsthd h1{
+    font-size: 30px;
+    color: #d7d7d7;
+    border-bottom: 10px solid #d7d7d7;
+    position: relative;
+    top: 10px;width: 80px; height: auto;
+
+}
+.olstimg{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0px 10px;
+}
+.olstimg img{
+    width:100px;
+}
+.olstpara{
+    border-left: 0px solid #d7d7d7;
+    padding: 0px 10px;
+}
+.olstpara p{
+    font-size: 15px;
+    
+   /* padding: 0px 10px;*/
+}
+.rtr{
+        color: #454545;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    font-size: 18px;
+}
+.btn-vist {
+    border: 0px;
+    width: 90px;
+    /*margin: auto;*/
+    padding: 10px;
+    color: #fcfcfc;
+    font-size: 16px;
+    background-color: #F8981F;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.btn-vist p{
+    color: #fcfcfc;position: relative;left: 10px;
+}
+.btn-vist a{
+    color:#fff;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.btn-vist .fa{
+    color: #fcfcfc;
+}
+.olstpara h1{
+        font-size:20px;
+    font-weight: 600;
+    }
+
+@media(min-width:700px){
+    .olstpara{
+    border-left: 10px solid #d7d7d7;
+        padding: 0;
+}
+    .olstpara h1{
+        font-size: 25px;
+    font-weight: 600;
+    }
+    .olist{
+   display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.2);;
+    padding: 30px;
+    justify-content: center;
+}
+    .hedimg{
+        align-items: center;
+    }
+    .olstpara{
+    width: 90%;
+    text-align: justify;
+        padding: 0px 40px
+}
+    .olsthd h1{
+    font-size: 30px;
+        position: relative;
+       /* top: -30px;*/
+}
+    .rateng p{
+        color: #d7d7d7;
+        position: relative
+    }
+    .rateng p .fa{
+        font-size: 35px;
+        color:#F8981F; 
+    }
+}
+@media(min-width:900px){
+    .olstpara{
+    width: 700px;
+    text-align: justify;
+}
+    .olstpara p{
+        font-size: 15px
+    }
+    .olist{
+        width: 90%;
+        margin: 20px auto;
+        margin-bottom: 25px;
+    }
+    
+    .btn-vist{
+        width: 90px;
+    }
+    .btn-vist span{position: relative;left: 10px;}
+   
+   
+    .olstimg img{
+    width: 100px;
+}
+    .olstimg{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0px 10px;
+}
+    .olsthd h1{
+    font-size: 30px;
+}
+}
+@media(min-width:1000px){
+    .btn-vist{
+        width: 90px;
+    }
+}
+/*serolst*/
+
+
+#smile{display: lex;flex-direction: row;width: 350px;}
+.rtr{position: relative;top: 2px}
+
+
+.bck-btn {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+    margin: 10px;
+    z-index:99;
+}
+
+button.bbnn {
+    color: #fcfcfc;
+    background: #4be5c3;
+    border-width: 0;
+    padding: 10px 20px;
+}
+
+.bck-btn:hover button.bbnn .fa{
+    position:relative;
+    left:-10px;
+    transition:left 1s;
+    animation:arr 1s;
+}
+
+.bck-btn:hover button.bbnn{
+     background: #4be5c3;
+     animation:bc 2s;
+     transition:background 3s ease-in-out;
+}
+@keyframes arr{
+    0%{opacity:0;left:0px;}
+    100%{opacity:1;left:-10px;}
+}
+
+@keyframes bc{
+    0%{opacity:1;background:#4be5c3;}
+    50%{background:#4be5c3;}
+    75%{background:#f3317a;}
+    100%{opacity:1;background:#f3317a;}
+}
+
+
+#smile img {
+    width: 35px;
+    vertical-align: middle;
+}
+
+.btn-grpp{
+    display: flex;
+    flex-direction: column;
+}
