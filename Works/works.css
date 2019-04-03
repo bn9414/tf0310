@@ -245,3 +245,79 @@ body{font-family: 'Ubuntu', sans-serif;}
 .portm.dgsdg .portm1 {
     padding-top: 0;
 }
+
+
+@media(max-width:750px){
+    .dsac #style-2{
+        display: block !important;
+    }
+    div#style-2 {
+    display: none;
+}
+    .portm div{
+        width:100%;
+    }
+    .sm1 .portm1 {
+        background-image: url(images/mobile/ababeel.jpg);
+        width:100%;
+    }
+     .sm2 .portm1 {
+        background-image: url(images/mobile/bookdoula.png);
+        width:100%;
+    }
+      .sm3 .portm1 {
+        background-image: url(images/mobile/CA.png);
+        width:100%;
+    }
+      .sm4 .portm1 {
+        background-image: url(images/mobile/chineshlasers.png);
+        width:100%;
+    }
+      .sm5 .portm1 {
+        background-image: url(images/mobile/dressland.png);
+        width:100%;
+    }
+      .sm6 .portm1 {
+        background-image: url(images/h2h.png);
+        width:100%;
+    }
+      .sm7 .portm1 {
+        background-image: url(images/mobile/kfg.png);
+        width:100%;
+    }
+      .sm8 .portm1 {
+        background-image: url(images/mobile/mamchand.png);
+        width:100%;
+    }
+      .sm9 .portm1 {
+        background-image: url(images/mobile/melvin.png);
+        width:100%;
+    }
+      .sm10 .portm1 {
+        background-image: url(images/mobile/outofbest.png);
+        width:100%;
+    }
+      .sm11 .portm1 {
+        background-image: url(images/mobile/portfolio.png);
+        width:100%;
+    }
+      .sm12 .portm1 {
+        background-image: url(images/mobile/royalcloset.png);
+        width:100%;
+    }
+      .sm13 .portm1 {
+        background-image: url(images/mobile/svrtrends.png);
+        width:100%;
+    }
+      .sm14 .portm1 {
+        background-image: url(images/mobile/truefish.png);
+        width:100%;
+    }
+     .dsac .scrollbar{
+        background-image: url(images/p1mob.jpg);
+        width:100%;
+    }
+    .portml{
+        width: 90%;
+    }
+}
